@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Caching;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using EgBL;
+
+public partial class WebPages_Admin_EgAddNewOffice : System.Web.UI.Page
+{
+    EgAddNewOfficeBL objEgAddNewOfficeBL;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if ((Session["UserID"] == null) || Session["UserID"].ToString() == "")
+        {
+            Response.Redirect("~\\logout.aspx");
+        }
+    }
+    protected void btnshow_Click(object sender, EventArgs e)
+    {
+        objEgAddNewOfficeBL = new EgAddNewOfficeBL();
+        objEgAddNewOfficeBL.OfficeId = Convert.ToInt32(txtofficeid.Text);
+        if (objEgAddNewOfficeBL.CheckOfficeId() == 1)
+        {
+            lblmsg.Text = "OfficeId is mapped already";
+            lblmsg.Visible = true;
+            TreasuryServ.WebService1 objServ = new TreasuryServ.WebService1();
+            string[] str = objServ.getOfficeIdDetails(Convert.ToInt32(txtofficeid.Text)).Split('|');
+            
+            Fieldset1.Visible = true;
+            lblOffice.Text = str[1].ToString().Split('=').Last().ToString();
+            lblTreas.Text = str[2].ToString().Split('=').Last().ToString();
+            lblDDO.Text = str[3].ToString().Split('=').Last().ToString();
+            lblFromdate.Text = str[4].ToString().Split('=').Last().ToString();
+        }
+        else
+        {
+            lblmsg.Visible = false;
+            TreasuryServ.WebService1 objServ = new TreasuryServ.WebService1();
+            string[] result = objServ.getOfficeIdDetails(Convert.ToInt32(txtofficeid.Text)).Split('|');
+
+        }
+    }
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        objEgAddNewOfficeBL = new EgAddNewOfficeBL();
+        objEgAddNewOfficeBL.OfficeId = Convert.ToInt32(txtofficeid.Text);
+        objEgAddNewOfficeBL.OfficeName = lblOffice.Text.Trim();
+        objEgAddNewOfficeBL.TreasuryCode = lblTreas.Text.Trim();
+        objEgAddNewOfficeBL.DDOcode = Convert.ToInt32(lblDDO.Text);
+        objEgAddNewOfficeBL.FromDate = Convert.ToDateTime(lblFromdate.Text);
+        //objEgAddNewOfficeBL.InsertOfficeDetail();
+    }
+}

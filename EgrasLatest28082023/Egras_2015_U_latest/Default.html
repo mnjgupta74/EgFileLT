@@ -1,0 +1,596 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script type="text/javascript" src="https://egras.rajasthan.gov.in/js/jquery-3.6.0.min.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        #Panel1 {
+            margin-top: 50px;
+        }
+    </style>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            line-height: 1.70;
+            font-family: Verdana,Calibri;
+            font-size: 13px;
+        }
+
+        .login {
+            background-color: transparent;
+        }
+
+        .fcolor {
+            color: #339933 !important;
+        }
+
+        .floatleft {
+            float: left;
+        }
+
+        .floatright {
+            float: right;
+        }
+
+        .form-control, .input-group-addon, .btn {
+            border-radius: 0px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .modal-dialog {
+            width: 750px;
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" type="image/x-icon" href="App_Themes/images/HeaderNewColor.gif" />
+    <link href="CSS/css.css" rel="stylesheet" type="text/css" />
+    <link href="js/SweetAlert/sweetalert.css" rel="stylesheet" />
+    <script src="js/SweetAlert/sweetalert.min.js"></script>
+    <link href="js/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .sweet-alert h2 {
+            color: #89b95e;
+            font-size: x-large;
+        }
+
+        .sweet-alert {
+            left: 45%;
+        }
+
+            .sweet-alert p {
+                text-align: center !important;
+                color: #4086ef;
+                font-weight: bold;
+                font-size: x-large;
+            }
+
+            .sweet-alert button {
+                background-color: #759d49 !important;
+                width: 655px;
+            }
+    </style>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            line-height: 1.70;
+            font-family: Verdana,Calibri;
+            font-size: 13px;
+        }
+
+        .login {
+            background-color: transparent;
+        }
+
+        .fcolor {
+            color: #339933 !important;
+        }
+
+        .floatleft {
+            float: left;
+        }
+
+        .floatright {
+            float: right;
+        }
+
+        .form-control, .input-group-addon, .btn {
+            border-radius: 0px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .modal-dialog {
+            width: 750px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <script type="text/javascript" language="javascript">
+        function myAlert() {
+           
+            swal({
+                title: 'We are Now',
+                text: 'https://egras.rajasthan.gov.in',
+                button: "Close",
+            },
+            function (isConfirm) {
+                window.location.href = 'https://egras.rajasthan.gov.in';
+            });
+        }
+        //$(window).load(function () {
+        //    swal("Welcome!", "Welcome to the site!", "success");
+        //});
+        //Swal.fire({ icon: 'success', title: 'Oops...', text: 'Something went wrong!', footer: '<a href>Why do I have this issue?</a>' })
+        function Clear() {
+            document.getElementById('txtUserName').value = "";
+            document.getElementById('txtPassword').value = "";
+            document.getElementById('inpHide').value = "";
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        idleTime = 0;
+        $(document).ready(function () {
+
+            //Increment the idle time counter every minute.
+            var idleInterval = setInterval("timerIncrement()", 20000); // 1 minute
+
+
+            //Zero the idle timer on mouse movement.
+            $(this).mousemove(function (e) {
+                idleTime = 0;
+            });
+            $(this).keypress(function (e) {
+                idleTime = 0;
+            });
+        })
+        function timerIncrement() {
+            idleTime = idleTime + 1;
+            if (idleTime > 3) { // 20 minutes
+                window.location.reload();
+            }
+        }
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        window.onload = function () { PopUpDetecter(), cmdButton1_Clicked(); }
+        function PopUpDetecter() {
+            if (document.URL == "http://localhost:49264/Server - Server/Default.aspx") {
+                if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                    var popup = window.open('blank.htm', 'popup', "width=1,height=1,toolbar=no, top=3000px,left=3000,menubar=no,scrollbars=no,resizable=0");
+                    if (!popup) {
+                        alert('Popup blocker detected.' + "\n" + 'Please unblock it for better experience');
+                        alert('To unblock PopUp follow steps :' + "\n" + 'Go to Tools' + "\n" + 'Click on Options' + "\n" + 'Click on Content' + "\n" + 'Now Uncheck "Block pop-up windows"');
+                        return false;
+                    }
+                    else {
+                        popup.close();
+                        return true;
+                    }
+                }
+                else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                    var w = window.open('blank.htm', 'popup', "width=1,height=1,toolbar=no, top=3000px,left=3000,menubar=no,scrollbars=no,resizable=0");
+                    var mybrsAgent = navigator.userAgent.toLowerCase();
+                    var mybrsAgent = navigator.userAgent.toLowerCase();
+                    if (w) {
+                        if ((mybrsAgent.search(/chrome\//) != -1)) {
+                            w.onload = function () {
+                                setTimeout(function () {
+                                    if (w.screenX === 0) {
+                                        returnCromeValue(false);
+                                    } else {
+                                        w.close();
+                                        returnCromeValue(true);
+                                    }
+                                }, 0);
+                            };
+                        }
+                    }
+                    var allowed = "Blocked";
+                    function returnCromeValue(arg) {
+                        if (arg == true) {
+                            return true;
+                        }
+                        else {
+                            allowed = "Popup blocker detected." + "\n" + "Please unblock it for better experience ";
+                            alert(allowed);
+                            alert('To unblock PopUp follow steps :' + "\n" + 'Go to Settings' + "\n" + 'Click on "Show Advanced settings" link' + "\n" + 'Click on Privacy' + "\n" + 'Click on content settings' + "\n" + 'In Pop-ups section check "Allow all sites to show pop-ups"');
+                        }
+                        return allowed;
+                    }
+                }
+                else if (/IE[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+                    var popup = window.open('blank.htm', 'popup', "width=1,height=1,toolbar=no, top=3000px,left=3000,menubar=no,scrollbars=no,resizable=0");
+                    if (!popup) {
+                        alert('Popup blocker detected.' + "\n" + 'Please unblock it for better experience ');
+                        alert('To unblock PopUp follow steps :' + "\n" + 'Go to Tools' + "\n" + 'Click on Internet Options' + "\n" + 'Click on Privacy' + "\n" + 'In Pop-Up Blocker section Uncheck "Turn on Pop-up Blocker"');
+                        return false;
+                    }
+                    else {
+                        popup.close();
+                        return true;
+                    }
+                }
+
+                else {
+                    alert(navigator.appName);
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $('#Popup').click(function () {
+                var newwindow = window.open($(this).prop('href'), '', 'height=800,width=800');
+                if (window.focus) {
+                    newwindow.focus();
+                }
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+
+            var x = (screen.width * 66) / 100;
+            var x1 = (screen.width * 22) / 100;
+            var x2 = (screen.width * 45) / 100;
+            var x3 = (screen.width * 15) / 100;
+            $('#lnkUserManual').hover(function (e) {
+                $("#divUserManual").slideDown();
+                $('#divUserManual').offset({ left: x3 });
+                $('#divUserManual').width(300).height(110);
+            }, function () {
+                $('#divUserManual').fadeOut(10000);
+            });
+            $('#lblBestView').hover(function (e) {
+                $("#DivOpenBestView").slideDown();
+                $('#DivOpenBestView').offset({ left: x1 });
+                $('#DivOpenBestView').width(300).height(110);
+            }, function () {
+                $('#DivOpenBestView').slideUp();
+            });
+            $('#lblcircular').hover(function () {
+                $("#DivCircular").slideDown(
+                function () {
+                    $('#DivCircular').mouseenter(function () { $(this).stop(); }).mouseleave(function () { $("#DivCircular").slideUp(); });
+                });
+                $('#DivCircular').offset({ left: x2 });
+                $('#DivCircular').width(300).height(110);
+            }, function () { $("#DivCircular").slideUp(); });
+        });
+
+    </script>
+
+
+
+    <noscript>
+        <div style="font-size: 25px; top: 0px; left: 0px; color: White; width: 100%; height: 100%; position: absolute; background-color: #000000; vertical-align: middle; padding-top: 300px; text-align: center; z-index: 1005;">
+            Javascript is disabled in Your Browser.
+            <br />
+            Please Enable browser javascript first for Best Use of this Website.
+            <br />
+            To enable javascript plz refer this Link &nbsp; <a href="../EnableJavascript.htm"
+                                                               style="color: Red">Enable Javascript !</a>
+        </div>
+    </noscript>
+</head>
+<body class="center" onload="myAlert()">
+    <div id="div1" class="container">
+        <div>
+            <img name="Grass" src="App_Themes/images/HeaderNewColor.gif" alt="Grass" align="left"
+                 width="100%" style="height: fit-content" />
+        </div>
+        <nav class="navbar navbar-default " style="margin-top: 80px; border-radius: 0px; background-color: #FFF">
+            <div class=" container-fluid"=container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand fcolor" href="#">eGRAS</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav col-md-11">
+                        <li class="dropdown col-md-2">
+                            <a href="#" class="dropdown-toggle fcolor" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UserManual <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a target="_blank" href="UserManual/eGRAS.pdf">English Version</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a target="_blank" href="UserManual/e-GRAS Manual Hindi.pdf">Hindi Version</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown col-md-2">
+                            <a href="#" class="dropdown-toggle fcolor" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Best View <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Site is Best Viewed in :</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Internet Explorer Versions &nbsp; IE8 , IE9</a></li>
+                                <li><a href="#">Firefox Version &nbsp;19.0.2</a></li>
+
+                                <li><a href="#">Chrome Version &nbsp;&nbsp; 25.0.1364.160 m</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="col-md-2"><a href="FAQ.htm" class="fcolor ">FAQ</a></li>
+                        <li class="col-md-2"><a href="EgCircularPdf.aspx" class="fcolor">Circular</a></li>
+                        <li class="col-md-2"><a href="NodalDetails.aspx" class="fcolor">Nodal Officer</a></li>
+                        <li class="col-md-2"><a href="ContactUs.aspx" class="fcolor">Contact Us</a></li>
+                    </ul>
+                </div>-->
+                <!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="col-md-12" style="height: 40px;"></div>
+        <div class="col-md-12" style="padding-left: 0px; padding-right: 0px; line-height: 1.75">
+            <div style="float: left; padding-left: 5px; padding-right: 0px; padding-top: 5px;" class="col-md-8 col-sm-6 col-xs-12">
+                <div class='brd1 shadow login' id='div3' style="color: Black; padding-bottom: 5px; min-height: 375px; overflow: auto; top: 0px; z-index: 40;">
+                    <center>
+                        <h3 style="color: #009900;">
+                            <u>About e-GRAS</u>
+                        </h3>
+                    </center>
+                    <p style="padding-left: 5px; margin-right: 0px; text-align: left; /*background-image: url('Image/imagesCAKCNEEP.jpg'); */ text-decoration: blink; background-repeat: no-repeat;">
+                        Online Government Receipts Accounting System (e-GRAS) is an e-Governance Initiative
+                        of Government of Rajasthan under Mission Mode Project category and is part of Integrated
+                        Financial Management System. e-GRAS facilitates collection of tax/non tax revenue
+                        in both the mode online as well as manual.
+                        <br />
+                        Limited access account with User Name "guest" and Password "guest" For Non-Registered User.
+                    </p>
+
+
+                    <img src="Image/new.gif" />
+                    <u style="color: #3CB371; font-weight: bold; text-decoration: underline blink; /*background-color: #CCFF99; */">eGRAS facilitates payments through Cards and Netbanking with 35+ Banks: </u>
+                    <br />
+                    <div class="col-md-12">
+                        <div class="panel col-md-12" style="text-align: left; border-radius: 0px; margin-bottom: 0px; background-color: azure; padding: 5px;">
+                            <ul>
+
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/SBI.png" />&nbsp; State Bank of India
+                                    </li>
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/Canra.png" />&nbsp; Canara Bank
+                                    </li>
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/BOB.png" />&nbsp; Bank of Baroda
+                                    </li>
+                                </div>
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/IDBI.png" />&nbsp; IDBI Bank
+                                    </li>
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/PNB.png" />&nbsp; Punjab National Bank
+                                    </li>
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/CBI.png" />&nbsp; Central Bank of India
+                                    </li>
+                                </div>
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/OBC.png" />&nbsp; Oriental Bank of Commerce
+                                    </li>
+                                    <li>
+
+                                        <img src="Image/EpayBanksLogo/Union1.png" />&nbsp; Union Bank
+                                    </li>
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/boi.png" />&nbsp; Bank Of India
+                                    </li>
+                                    <!--<li>
+                                        Payment Gateway and <a href="#" data-toggle="modal" data-target="#exampleModal" style="color: red">More....</a>
+                                    </li>-->
+                                </div>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-12" style="text-align: left; padding: 5px;">
+                            <u style="color: #3CB371; font-weight: bold; text-decoration: underline blink;">Any Branch Banking:</u>
+                        </div>
+                        <div class="panel col-md-12" style="text-align: left; border-radius: 0px; margin-bottom: 0px; background-color: azure; padding: 5px;">
+                            <ul>
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/SBI.png" />&nbsp; State Bank of India
+                                    </li>
+                                </div>
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/PNB.png" />&nbsp; Punjab National Bank
+                                    </li>
+                                </div>
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                    <li>
+                                        <img src="Image/EpayBanksLogo/CBI.png" />&nbsp; Central Bank of India
+                                    </li>
+                                </div>
+                                <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <br />
+
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header" style="height: 35px">
+                            <h5 class="modal-title col-xs-11" id="exampleModalLabel" style="text-align: center; font-weight: 600; color: #004F00;">Associated Banks</h5>
+                            <button type="button" class="close col-xs-1" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="headingcls"><u>SBI - ePay</u></h4>
+                            <div id="PAYuBanks" class="row" style="color: #2874f0">
+                                <div class="col-md-4 col-sm-6" style="padding-right: 0px;">
+                                    <li>Allahabad Bank - Retail</li>
+                                    <li>Andhra Bank</li>
+                                    <li>Bank of Maharashtra</li>
+                                    <li>Catholic Syrian Bank</li>
+                                    <li>City Union Bank</li>
+                                    <li>DCB Bank Personal</li>
+                                    <li>Dena Bank</li>
+                                    <li>Dhanlaxmi Bank-Corporate</li>
+                                    <li>Dhanlaxmi Bank-Retail</li>
+                                    <li>Federal Bank</li>
+                                    <li>HDFC Retail Bank</li>
+                                    <li>ICICI Bank - Retail</li>
+
+
+                                </div>
+
+                                <div class="col-md-4 col-sm-6" style="padding-right: 0px;">
+                                    <li>IDBI Bank</li>
+                                    <li>Indian Bank</li>
+                                    <li>IndusInd Bank</li>
+                                    <li>Jammu and Kashmir Bank</li>
+                                    <li>Janata Sahakari Bank Ltd. Pune</li>
+                                    <li>Karnataka Bank Ltd</li>
+                                    <li>Karur Vysya Bank</li>
+                                    <li>Kotak Mahindra Bank</li>
+                                    <li>Lakshmi Vilas Bank</li>
+                                    <li>Mehsana Urban Co. Op. Bank Ltd</li>
+                                    <li>PMC Bank Ltd</li>
+
+
+                                </div>
+                                <div class="col-md-4 col-sm-6" style="padding-right: 0px;">
+                                    <li>Punjab and Sind Bank</li>
+                                    <li>SVC - Retail</li>
+                                    <li>Saraswat Bank</li>
+                                    <li>South Indian Bank</li>
+                                    <li>Syndicate Bank</li>
+                                    <li>Tamilnad Mercantile Bank</li>
+                                    <li>UCO Bank</li>
+                                    <li>Union Bank Of India</li>
+                                    <li>United Bank of India</li>
+                                    <li>Vijaya Bank</li>
+                                    <li>YES Bank</li>
+                                </div>
+
+                            </div>
+                            <%--<hr />--%>
+                            <h4 class="headingcls"><u>PNB Gateway</u></h4>
+                            <div id="EPayBanks" class="row" style="color: #2874f0">
+                                <div class="col-md-4 col-sm-6" style="padding-right: 0px;">
+                                    <li>Airtel Payments Bank       </li>
+                                    <li>Andhra Bank                </li>
+                                    <li>AXIS Bank                  </li>
+                                    <li>Bank of India              </li>
+                                    <li>Bank of Maharashtra        </li>
+                                    <li>Canara Bank                </li>
+                                    <li>Catholic Syrian Bank       </li>
+                                    <li>Central Bank Of India      </li>
+                                    <li>Citibank Netbanking        </li>
+                                    <li>City Union Bank            </li>
+                                    <li>Corporation Bank           </li>
+                                    <li>Cosmos Bank                </li>
+                                    <li>DCB Bank                   </li>
+                                    <li>Dena Bank                  </li>
+                                    <li>Deutsche Bank              </li>
+                                    <li>Dhanlaxmi Bank             </li>
+                                    <li>Federal Bank                                </li>
+
+
+                                </div>
+                                <div class="col-md-4 col-sm-6" style="padding-right: 0px;">
+                                    <li>HDFC Bank                                   </li>
+                                    <li>ICICI Netbanking                            </li>
+                                    <li>IDBI Bank IDFC Netbanking                   </li>
+                                    <li>IDFC Netbanking                             </li>
+                                    <li>Indian Bank                                 </li>
+                                    <li>Indian Overseas Bank                        </li>
+                                    <li>IndusInd Bank                               </li>
+                                    <li>Jammu and Kashmir Bank                      </li>
+                                    <li>Janata Sahakari Bank Pune                   </li>
+                                    <li>Karnataka Bank                              </li>
+                                    <li>Karur Vysya - Corporate          </li>
+                                    <li>Karur Vysya - Retail             </li>
+                                    <li>Kotak Mahindra Bank                         </li>
+                                    <li>Lakshmi Vilas Bank - Retail      </li>
+                                    <li>Lakshmi Vilas Bank - Corporate   </li>
+                                    <li>Oriental Bank of Commerce                      </li>
+                                    <li>PMC Bank Limited   </li>
+                                </div>
+                                <div class="col-md-4 col-sm-6" style="padding-right: 0px;">
+
+                                    <li>Punjab National Bank - Retail              </li>
+                                    <li>Punjab National Bank - Corporate           </li>
+                                    <li>Punjab And Sind Bank                               </li>
+                                    <li>Saraswat Bank                                      </li>
+                                    <li>SVC Bank Ltd.              </li>
+                                    <li>South Indian Bank                                  </li>
+                                    <li>State Bank of India                                </li>
+                                    <li>Syndicate Bank                                     </li>
+                                    <li>Tamilnad Mercantile Bank                           </li>
+                                    <li>The Bharat Co-op. Bank Ltd                         </li>
+                                    <li>The Nainital Bank                                  </li>
+                                    <li>UCO Bank                                           </li>
+                                    <li>Union Bank - Corporate                  </li>
+                                    <li>Union Bank - Retail                     </li>
+                                    <li>United Bank Of India                               </li>
+                                    <li>Vijaya Bank                                        </li>
+                                    <li>Yes Bank                                           </li>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer" style="margin-top: 0px; padding: 6px 20px 6px">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="height: auto">Close</button>
+                            <%--<button type="button" class="btn btn-primary" style="height:auto">Save changes</button>--%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="float: right; padding-left: 5px; padding-right: 0px; padding-top: 5px;" class="col-md-4 col-sm-6  col-xs-12">
+                <div class='brd1 shadow login' id='div2' style="min-height: 375px; z-index: 10; overflow: auto;">
+                    <center style="padding-top: 100px;">
+                        <h4 style="text-align: center">
+                            <span style="text-align:center;color:darkgreen"> We are Now</span>
+                            <a href="https://egras.rajasthan.gov.in" style="text-decoration:underline;">https://egras.rajasthan.gov.in</a>
+                        </h4>
+                        <a href="https://egras.rajasthan.gov.in" style="text-decoration:underline;font-size: x-large;color: green;">Continue..</a>
+
+                    </center>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <div Style="padding-top: 3px;text-align:Center;font:bold;color:#008000">
+            <span>|| Application Designed,Developed &amp; hosted by</span>
+            <a href="http://www.nic.in" Target="_blank" NavigateUrl="Http://www.nic.in">National Informatics Centre" </a><span>
+                . Contents provided by Finance Department Govt.
+                of Rajasthan ||
+            </span>
+        </div>
+    </div>
+</body>
+</html>

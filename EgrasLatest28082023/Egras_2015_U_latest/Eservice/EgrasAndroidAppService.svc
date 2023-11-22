@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="EgrasAndroidAppService" CodeBehind="~/App_Code/EgrasAndroidAppService.cs" %>

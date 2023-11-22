@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20310834</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>3</Amount>
+<Bankcode>9950001</Bankcode>
+<BankRefNo>IKCNRBPG2710202300000020</BankRefNo>
+<CIN>BLDK2031083427102023</CIN>
+<Paiddate>30-10-2023 01:21:32</Paiddate>
+<Debitbank>CNRB</Debitbank>
+<Debitbankref>USBI0000717458</Debitbankref>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20310835</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>3</Amount>
+<Bankcode>9950001</Bankcode>
+<BankRefNo>IKCNRBPG2710202300000021</BankRefNo>
+<CIN>BLDK2031083527102023</CIN>
+<Paiddate>30-10-2023 01:21:32</Paiddate>
+<Debitbank>CNRB</Debitbank>
+<Debitbankref>USBI0000717461</Debitbankref>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20310836</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>3</Amount>
+<Bankcode>9950001</Bankcode>
+<BankRefNo>CNRBPG2710202300000022</BankRefNo>
+<CIN>BLDK2031083627102023</CIN>
+<Paiddate>30-10-2023 01:21:32</Paiddate>
+<Debitbank>CNRB</Debitbank>
+<Debitbankref>UHMP0000717466</Debitbankref>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20310837</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>3</Amount>
+<Bankcode>9950001</Bankcode>
+<BankRefNo>CNRBPG2710202300000023</BankRefNo>
+<CIN>BLDK2031083727102023</CIN>
+<Paiddate>30-10-2023 01:21:32</Paiddate>
+<Debitbank>CNRB</Debitbank>
+<Debitbankref>UHMP0000717468</Debitbankref>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20310841</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>3</Amount>
+<Bankcode>9950001</Bankcode>
+<BankRefNo>CNRBPG2710202300000027</BankRefNo>
+<CIN>BLDK2031084127102023</CIN>
+<Paiddate>30-10-2023 01:21:32</Paiddate>
+<Debitbank>CNRB</Debitbank>
+<Debitbankref>UHD50000717478</Debitbankref>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20310842</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>3</Amount>
+<Bankcode>9950001</Bankcode>
+<BankRefNo>CNRBPG2710202300000028</BankRefNo>
+<CIN>BLDK2031084227102023</CIN>
+<Paiddate>30-10-2023 01:21:32</Paiddate>
+<Debitbank>CNRB</Debitbank>
+<Debitbankref>UHD50000717481</Debitbankref>
+</Detail>
+
+
+<Signature>
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<DigestValue>72OYn3vYdqwmknV4ePu566Jvt08ESF9Lqi0TBRCH4vg=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>N1kxqMsqwOnNxLBXAy9AMKCGEnt9WnFH16jsN1F70wU/MT3NEUvntChLpGhQiX60aFuYO4GVvegeEttrZfkzXiYce1uUA0SG0sSRNBBKjYyDxNZdUkWARQUfGjTLnneFT9FQT3kJ5ycPpUhTflBGAJ3uYw62qm3wmGc37AThVH4342NFLCQEAD2N8CULPW++F7RroBxnE/dQJW1qsKutefnZB8MgvvhOeieYD/zMoSAi1Ms1ImSxi2SHICLAy2G9G08hJZWDpFFiwKglACaCp+/iXm/IfbVkjU3LAZdJ/aOhRdM0LKSGp+Tm3sGle5/iIGZvdH4Z79jFPrUFrC8mhw==</SignatureValue>
+</Signature>
+</Root>

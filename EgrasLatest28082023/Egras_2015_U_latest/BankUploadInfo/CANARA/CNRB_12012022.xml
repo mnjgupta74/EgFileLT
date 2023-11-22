@@ -1,0 +1,4783 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Detail>
+    <HeadAcc>0030-01-102-02-00</HeadAcc>
+    <GRN>57609498</GRN>
+    <RemitterName>BANTY AND KAPIL</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451237</BankRefNo>
+    <CIN>CNRB5760949812012022</CIN>
+    <paiddate>2022/01/12 14:05:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609632</GRN>
+    <RemitterName>SATVEER</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451239</BankRefNo>
+    <CIN>CNRB5760963212012022</CIN>
+    <paiddate>2022/01/12 14:06:11</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609978</GRN>
+    <RemitterName>MAN SINGH RAJPOOT</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451247</BankRefNo>
+    <CIN>CNRB5760997812012022</CIN>
+    <paiddate>2022/01/12 14:09:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610423</GRN>
+    <RemitterName>VIKRAM</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451250</BankRefNo>
+    <CIN>CNRB5761042312012022</CIN>
+    <paiddate>2022/01/12 14:14:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610475</GRN>
+    <RemitterName>UNNAS</RemitterName>
+    <Amount>950</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451252</BankRefNo>
+    <CIN>CNRB5761047512012022</CIN>
+    <paiddate>2022/01/12 14:14:44</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57610955</GRN>
+    <RemitterName>SAYED TOSIF ALI</RemitterName>
+    <Amount>1311</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451260</BankRefNo>
+    <CIN>CNRB5761095512012022</CIN>
+    <paiddate>2022/01/12 14:19:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57611263</GRN>
+    <RemitterName>Sub.registrar k.patan</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451262</BankRefNo>
+    <CIN>CNRB5761126312012022</CIN>
+    <paiddate>2022/01/12 14:22:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57611923</GRN>
+    <RemitterName>Adv. Sunil Kumar Vaishnav</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451269</BankRefNo>
+    <CIN>CNRB5761192312012022</CIN>
+    <paiddate>2022/01/12 14:28:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616400</GRN>
+    <RemitterName>ANIL BARANDA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451308</BankRefNo>
+    <CIN>CNRB5761640012012022</CIN>
+    <paiddate>2022/01/12 15:12:36</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616617</GRN>
+    <RemitterName>WRISH AHMED</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451312</BankRefNo>
+    <CIN>CNRB5761661712012022</CIN>
+    <paiddate>2022/01/12 15:14:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616616</GRN>
+    <RemitterName>SONU SHARMA</RemitterName>
+    <Amount>860</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451313</BankRefNo>
+    <CIN>CNRB5761661612012022</CIN>
+    <paiddate>2022/01/12 15:14:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57616644</GRN>
+    <RemitterName>SUNDER LAL BISHNOI</RemitterName>
+    <Amount>35859</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451315</BankRefNo>
+    <CIN>CNRB5761664412012022</CIN>
+    <paiddate>2022/01/12 15:14:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57618459</GRN>
+    <RemitterName>Govind Prasad Gupta</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451334</BankRefNo>
+    <CIN>CNRB5761845912012022</CIN>
+    <paiddate>2022/01/12 15:34:44</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57619484</GRN>
+    <RemitterName>YOGENDRA SINGH SHAKTAWAT</RemitterName>
+    <Amount>4200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451343</BankRefNo>
+    <CIN>CNRB5761948412012022</CIN>
+    <paiddate>2022/01/12 15:46:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57627319</GRN>
+    <RemitterName>NARAYAN DAS DAGA</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451443</BankRefNo>
+    <CIN>CNRB5762731912012022</CIN>
+    <paiddate>2022/01/12 17:54:36</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57627520</GRN>
+    <RemitterName>SUMIT</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451444</BankRefNo>
+    <CIN>CNRB5762752012012022</CIN>
+    <paiddate>2022/01/12 17:59:44</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57627740</GRN>
+    <RemitterName>BUDHURAM</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451446</BankRefNo>
+    <CIN>CNRB5762774012012022</CIN>
+    <paiddate>2022/01/12 18:06:09</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57627979</GRN>
+    <RemitterName>RJGA</RemitterName>
+    <Amount>3400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451448</BankRefNo>
+    <CIN>CNRB5762797912012022</CIN>
+    <paiddate>2022/01/12 18:12:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57628215</GRN>
+    <RemitterName>SURENDERKUMAR</RemitterName>
+    <Amount>1500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451449</BankRefNo>
+    <CIN>CNRB5762821512012022</CIN>
+    <paiddate>2022/01/12 18:19:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57628810</GRN>
+    <RemitterName>VeerVikram Vyas</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451454</BankRefNo>
+    <CIN>CNRB5762881012012022</CIN>
+    <paiddate>2022/01/12 18:38:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57586178</GRN>
+    <RemitterName>Ghanshyam Gupta</RemitterName>
+    <Amount>20</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450934</BankRefNo>
+    <CIN>CNRB5758617812012022</CIN>
+    <paiddate>2022/01/12 09:01:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57592455</GRN>
+    <RemitterName>MOHAMMED RAFIK</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451002</BankRefNo>
+    <CIN>CNRB5759245512012022</CIN>
+    <paiddate>2022/01/12 11:27:40</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592828</GRN>
+    <RemitterName>BABU LAL SAINI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451008</BankRefNo>
+    <CIN>CNRB5759282812012022</CIN>
+    <paiddate>2022/01/12 11:31:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57593716</GRN>
+    <RemitterName>BANWARI LAL SO PEMA RAM</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451022</BankRefNo>
+    <CIN>CNRB5759371612012022</CIN>
+    <paiddate>2022/01/12 11:40:32</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57593816</GRN>
+    <RemitterName>MOH. SAJID</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451024</BankRefNo>
+    <CIN>CNRB5759381612012022</CIN>
+    <paiddate>2022/01/12 11:41:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57594721</GRN>
+    <RemitterName>SHIVRAJ SINGH</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451029</BankRefNo>
+    <CIN>CNRB5759472112012022</CIN>
+    <paiddate>2022/01/12 11:50:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57594928</GRN>
+    <RemitterName>VAJIB</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451031</BankRefNo>
+    <CIN>CNRB5759492812012022</CIN>
+    <paiddate>2022/01/12 11:52:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57594931</GRN>
+    <RemitterName>Kamala Devi</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451032</BankRefNo>
+    <CIN>CNRB5759493112012022</CIN>
+    <paiddate>2022/01/12 11:52:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57594967</GRN>
+    <RemitterName>HITENDRA KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451033</BankRefNo>
+    <CIN>CNRB5759496712012022</CIN>
+    <paiddate>2022/01/12 11:52:40</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57595079</GRN>
+    <RemitterName>PBHG</RemitterName>
+    <Amount>5000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451034</BankRefNo>
+    <CIN>CNRB5759507912012022</CIN>
+    <paiddate>2022/01/12 11:54:11</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595149</GRN>
+    <RemitterName>JUBER KHAN</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451035</BankRefNo>
+    <CIN>CNRB5759514912012022</CIN>
+    <paiddate>2022/01/12 11:54:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595217</GRN>
+    <RemitterName>PRADYUMNA KUMAR SWAIN</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451037</BankRefNo>
+    <CIN>CNRB5759521712012022</CIN>
+    <paiddate>2022/01/12 11:55:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57595526</GRN>
+    <RemitterName>SHAMIM</RemitterName>
+    <Amount>7839</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451042</BankRefNo>
+    <CIN>CNRB5759552612012022</CIN>
+    <paiddate>2022/01/12 11:58:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595593</GRN>
+    <RemitterName>KAILASH CHANDRA CHHIPA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451044</BankRefNo>
+    <CIN>CNRB5759559312012022</CIN>
+    <paiddate>2022/01/12 11:58:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57595606</GRN>
+    <RemitterName>bheraram</RemitterName>
+    <Amount>630</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451045</BankRefNo>
+    <CIN>CNRB5759560612012022</CIN>
+    <paiddate>2022/01/12 11:58:53</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57595826</GRN>
+    <RemitterName>LAXMAN SINGH</RemitterName>
+    <Amount>543</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451048</BankRefNo>
+    <CIN>CNRB5759582612012022</CIN>
+    <paiddate>2022/01/12 12:00:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595963</GRN>
+    <RemitterName>PANKAJ</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451050</BankRefNo>
+    <CIN>CNRB5759596312012022</CIN>
+    <paiddate>2022/01/12 12:02:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-02</HeadAcc>
+    <GRN>57596703</GRN>
+    <RemitterName>PS UDAIPURWATI</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451057</BankRefNo>
+    <CIN>CNRB5759670312012022</CIN>
+    <paiddate>2022/01/12 12:07:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597420</GRN>
+    <RemitterName>VIRMA RAM</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451070</BankRefNo>
+    <CIN>CNRB5759742012012022</CIN>
+    <paiddate>2022/01/12 12:13:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57597540</GRN>
+    <RemitterName>SHREENATH MINES</RemitterName>
+    <Amount>1500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451073</BankRefNo>
+    <CIN>CNRB5759754012012022</CIN>
+    <paiddate>2022/01/12 12:15:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597972</GRN>
+    <RemitterName>BRAJ KISHOR SHARMA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451076</BankRefNo>
+    <CIN>CNRB5759797212012022</CIN>
+    <paiddate>2022/01/12 12:18:20</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57598122</GRN>
+    <RemitterName>IMDAD ALI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451078</BankRefNo>
+    <CIN>CNRB5759812212012022</CIN>
+    <paiddate>2022/01/12 12:19:50</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57598410</GRN>
+    <RemitterName>RAJAN SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451080</BankRefNo>
+    <CIN>CNRB5759841012012022</CIN>
+    <paiddate>2022/01/12 12:22:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57598570</GRN>
+    <RemitterName>JESA RAM</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451081</BankRefNo>
+    <CIN>CNRB5759857012012022</CIN>
+    <paiddate>2022/01/12 12:24:09</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57598791</GRN>
+    <RemitterName>MEENA KANWAR</RemitterName>
+    <Amount>727</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451082</BankRefNo>
+    <CIN>CNRB5759879112012022</CIN>
+    <paiddate>2022/01/12 12:26:00</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599087</GRN>
+    <RemitterName>PRADEEP</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451090</BankRefNo>
+    <CIN>CNRB5759908712012022</CIN>
+    <paiddate>2022/01/12 12:28:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599161</GRN>
+    <RemitterName>SHANKAR LAL YADAV</RemitterName>
+    <Amount>850</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451092</BankRefNo>
+    <CIN>CNRB5759916112012022</CIN>
+    <paiddate>2022/01/12 12:30:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57599736</GRN>
+    <RemitterName>VIKRAM SINGH</RemitterName>
+    <Amount>11366</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451101</BankRefNo>
+    <CIN>CNRB5759973612012022</CIN>
+    <paiddate>2022/01/12 12:34:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57599759</GRN>
+    <RemitterName>MOHD JAHANGIR</RemitterName>
+    <Amount>170</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451102</BankRefNo>
+    <CIN>CNRB5759975912012022</CIN>
+    <paiddate>2022/01/12 12:34:53</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599782</GRN>
+    <RemitterName>KALU RAM YADAV</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451103</BankRefNo>
+    <CIN>CNRB5759978212012022</CIN>
+    <paiddate>2022/01/12 12:35:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57600907</GRN>
+    <RemitterName>SAHABU</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451114</BankRefNo>
+    <CIN>CNRB5760090712012022</CIN>
+    <paiddate>2022/01/12 12:45:17</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601538</GRN>
+    <RemitterName>PREM JI PRAJAPAT</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451120</BankRefNo>
+    <CIN>CNRB5760153812012022</CIN>
+    <paiddate>2022/01/12 12:50:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-02</HeadAcc>
+    <GRN>57601719</GRN>
+    <RemitterName>SUSHILKUMARSHRIVASTAV</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451123</BankRefNo>
+    <CIN>CNRB5760171912012022</CIN>
+    <paiddate>2022/01/12 12:52:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601785</GRN>
+    <RemitterName>ABHISHEK JAJORIYA</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451124</BankRefNo>
+    <CIN>CNRB5760178512012022</CIN>
+    <paiddate>2022/01/12 12:53:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601815</GRN>
+    <RemitterName>RAHUL KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451125</BankRefNo>
+    <CIN>CNRB5760181512012022</CIN>
+    <paiddate>2022/01/12 12:53:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57620440</GRN>
+    <RemitterName>MASROOR  KHAN</RemitterName>
+    <Amount>8445</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451356</BankRefNo>
+    <CIN>CNRB5762044012012022</CIN>
+    <paiddate>2022/01/12 15:59:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57604369</GRN>
+    <RemitterName>shabbir</RemitterName>
+    <Amount>630</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451155</BankRefNo>
+    <CIN>CNRB5760436912012022</CIN>
+    <paiddate>2022/01/12 13:15:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57604422</GRN>
+    <RemitterName>Shrichand Jain</RemitterName>
+    <Amount>50000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451157</BankRefNo>
+    <CIN>CNRB5760442212012022</CIN>
+    <paiddate>2022/01/12 13:16:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57604748</GRN>
+    <RemitterName>Adv. Sunil Kumar Vaishnav</RemitterName>
+    <Amount>50</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451163</BankRefNo>
+    <CIN>CNRB5760474812012022</CIN>
+    <paiddate>2022/01/12 13:19:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57605675</GRN>
+    <RemitterName>bc kataria</RemitterName>
+    <Amount>20</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451188</BankRefNo>
+    <CIN>CNRB5760567512012022</CIN>
+    <paiddate>2022/01/12 13:28:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605982</GRN>
+    <RemitterName>MANOJ KUMAR SAINI</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451193</BankRefNo>
+    <CIN>CNRB5760598212012022</CIN>
+    <paiddate>2022/01/12 13:30:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606529</GRN>
+    <RemitterName>KASAMDIN</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451201</BankRefNo>
+    <CIN>CNRB5760652912012022</CIN>
+    <paiddate>2022/01/12 13:35:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57607210</GRN>
+    <RemitterName>RAJEDNRA PRASAD</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451209</BankRefNo>
+    <CIN>CNRB5760721012012022</CIN>
+    <paiddate>2022/01/12 13:41:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57607207</GRN>
+    <RemitterName>MOHAMMAD ALI CHANDEL</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451210</BankRefNo>
+    <CIN>CNRB5760720712012022</CIN>
+    <paiddate>2022/01/12 13:41:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608006</GRN>
+    <RemitterName>SARJEET SINGH</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451218</BankRefNo>
+    <CIN>CNRB5760800612012022</CIN>
+    <paiddate>2022/01/12 13:49:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57608246</GRN>
+    <RemitterName>LAKHAN VAISHNAV</RemitterName>
+    <Amount>587</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451222</BankRefNo>
+    <CIN>CNRB5760824612012022</CIN>
+    <paiddate>2022/01/12 13:51:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608321</GRN>
+    <RemitterName>MOHIT</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451223</BankRefNo>
+    <CIN>CNRB5760832112012022</CIN>
+    <paiddate>2022/01/12 13:52:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57608701</GRN>
+    <RemitterName>ANIL DAMOR</RemitterName>
+    <Amount>1302</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451228</BankRefNo>
+    <CIN>CNRB5760870112012022</CIN>
+    <paiddate>2022/01/12 13:57:02</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609135</GRN>
+    <RemitterName>DHURU RAM</RemitterName>
+    <Amount>700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451232</BankRefNo>
+    <CIN>CNRB5760913512012022</CIN>
+    <paiddate>2022/01/12 14:01:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57609559</GRN>
+    <RemitterName>Sub.registrar k.patan</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451241</BankRefNo>
+    <CIN>CNRB5760955912012022</CIN>
+    <paiddate>2022/01/12 14:06:56</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57609907</GRN>
+    <RemitterName>DINESH KUMAR</RemitterName>
+    <Amount>743</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451244</BankRefNo>
+    <CIN>CNRB5760990712012022</CIN>
+    <paiddate>2022/01/12 14:08:47</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610755</GRN>
+    <RemitterName>RAM BABU</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451255</BankRefNo>
+    <CIN>CNRB5761075512012022</CIN>
+    <paiddate>2022/01/12 14:17:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57617212</GRN>
+    <RemitterName>SANDEEP KUMAR</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451322</BankRefNo>
+    <CIN>CNRB5761721212012022</CIN>
+    <paiddate>2022/01/12 15:21:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57620732</GRN>
+    <RemitterName>JASRAJ SONI</RemitterName>
+    <Amount>7911</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451367</BankRefNo>
+    <CIN>CNRB5762073212012022</CIN>
+    <paiddate>2022/01/12 16:03:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620914</GRN>
+    <RemitterName>KANA RAM MOURYA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451372</BankRefNo>
+    <CIN>CNRB5762091412012022</CIN>
+    <paiddate>2022/01/12 16:05:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57621533</GRN>
+    <RemitterName>ANOJ KUMAR KUSHWAHA</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451381</BankRefNo>
+    <CIN>CNRB5762153312012022</CIN>
+    <paiddate>2022/01/12 16:14:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57621719</GRN>
+    <RemitterName>VIKASH ENTT UDHYAG PARTNER JAIDEV SHARMA</RemitterName>
+    <Amount>7728</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451385</BankRefNo>
+    <CIN>CNRB5762171912012022</CIN>
+    <paiddate>2022/01/12 16:17:09</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57621799</GRN>
+    <RemitterName>TAHIR KHAN</RemitterName>
+    <Amount>21797</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451387</BankRefNo>
+    <CIN>CNRB5762179912012022</CIN>
+    <paiddate>2022/01/12 16:18:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57622775</GRN>
+    <RemitterName>YOGESH SAINI</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451401</BankRefNo>
+    <CIN>CNRB5762277512012022</CIN>
+    <paiddate>2022/01/12 16:32:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595863</GRN>
+    <RemitterName>VIKRAM SINGH MEENA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451049</BankRefNo>
+    <CIN>CNRB5759586312012022</CIN>
+    <paiddate>2022/01/12 12:01:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608007</GRN>
+    <RemitterName>RAJENDRA KUMAR YADAV</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451217</BankRefNo>
+    <CIN>CNRB5760800712012022</CIN>
+    <paiddate>2022/01/12 13:49:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608886</GRN>
+    <RemitterName>NAMAN KALAL</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451229</BankRefNo>
+    <CIN>CNRB5760888612012022</CIN>
+    <paiddate>2022/01/12 13:59:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609573</GRN>
+    <RemitterName>MUNSARIF</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451238</BankRefNo>
+    <CIN>CNRB5760957312012022</CIN>
+    <paiddate>2022/01/12 14:05:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57609941</GRN>
+    <RemitterName>VISHNU RAM</RemitterName>
+    <Amount>2200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451245</BankRefNo>
+    <CIN>CNRB5760994112012022</CIN>
+    <paiddate>2022/01/12 14:09:09</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609979</GRN>
+    <RemitterName>JAHID</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451246</BankRefNo>
+    <CIN>CNRB5760997912012022</CIN>
+    <paiddate>2022/01/12 14:09:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57610217</GRN>
+    <RemitterName>AMJAD KHAN</RemitterName>
+    <Amount>5050</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451249</BankRefNo>
+    <CIN>CNRB5761021712012022</CIN>
+    <paiddate>2022/01/12 14:12:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610414</GRN>
+    <RemitterName>MOHAMMED HASIM SHEKH</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451251</BankRefNo>
+    <CIN>CNRB5761041412012022</CIN>
+    <paiddate>2022/01/12 14:14:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610563</GRN>
+    <RemitterName>HANIF KHAN</RemitterName>
+    <Amount>300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451254</BankRefNo>
+    <CIN>CNRB5761056312012022</CIN>
+    <paiddate>2022/01/12 14:15:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610873</GRN>
+    <RemitterName>DEEPAK</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451258</BankRefNo>
+    <CIN>CNRB5761087312012022</CIN>
+    <paiddate>2022/01/12 14:18:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610904</GRN>
+    <RemitterName>SEEMA BAI</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451259</BankRefNo>
+    <CIN>CNRB5761090412012022</CIN>
+    <paiddate>2022/01/12 14:18:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57611348</GRN>
+    <RemitterName>JASKARAN SINGH</RemitterName>
+    <Amount>1500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451263</BankRefNo>
+    <CIN>CNRB5761134812012022</CIN>
+    <paiddate>2022/01/12 14:22:56</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57611358</GRN>
+    <RemitterName>ANURAG JANA</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451264</BankRefNo>
+    <CIN>CNRB5761135812012022</CIN>
+    <paiddate>2022/01/12 14:23:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57584041</GRN>
+    <RemitterName>praveen devpura</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450908</BankRefNo>
+    <CIN>CNRB5758404111012022</CIN>
+    <paiddate>2022/01/11 20:30:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57614422</GRN>
+    <RemitterName>MOHAMMAD SHAJAD</RemitterName>
+    <Amount>1700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451296</BankRefNo>
+    <CIN>CNRB5761442212012022</CIN>
+    <paiddate>2022/01/12 14:54:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57615983</GRN>
+    <RemitterName>Champa lal Bhati</RemitterName>
+    <Amount>10000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451304</BankRefNo>
+    <CIN>CNRB5761598312012022</CIN>
+    <paiddate>2022/01/12 15:09:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57617805</GRN>
+    <RemitterName>AARIF KHAN</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451329</BankRefNo>
+    <CIN>CNRB5761780512012022</CIN>
+    <paiddate>2022/01/12 15:27:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57618054</GRN>
+    <RemitterName>Govind Prasad Gupta</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451330</BankRefNo>
+    <CIN>CNRB5761805412012022</CIN>
+    <paiddate>2022/01/12 15:30:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57618751</GRN>
+    <RemitterName>HASINA WO SAJID KHOKHR</RemitterName>
+    <Amount>1</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451337</BankRefNo>
+    <CIN>CNRB5761875112012022</CIN>
+    <paiddate>2022/01/12 15:38:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0040-00-111-01-00</HeadAcc>
+    <GRN>57619656</GRN>
+    <RemitterName>ANIL ENTERPRISES</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451346</BankRefNo>
+    <CIN>CNRB5761965612012022</CIN>
+    <paiddate>2022/01/12 15:48:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57619894</GRN>
+    <RemitterName>CHINMAY KASHYAP</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451349</BankRefNo>
+    <CIN>CNRB5761989412012022</CIN>
+    <paiddate>2022/01/12 15:52:00</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-10-01</HeadAcc>
+    <GRN>57619974</GRN>
+    <RemitterName>HAZI KIFAYAT ALI</RemitterName>
+    <Amount>638</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451352</BankRefNo>
+    <CIN>CNRB5761997412012022</CIN>
+    <paiddate>2022/01/12 15:53:12</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620474</GRN>
+    <RemitterName>RINKU KUMAR</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451360</BankRefNo>
+    <CIN>CNRB5762047412012022</CIN>
+    <paiddate>2022/01/12 15:59:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620477</GRN>
+    <RemitterName>AHMAD KHAN</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451361</BankRefNo>
+    <CIN>CNRB5762047712012022</CIN>
+    <paiddate>2022/01/12 15:59:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>1475-00-106-00-00</HeadAcc>
+    <GRN>57620538</GRN>
+    <RemitterName>JC BROTHERS</RemitterName>
+    <Amount>2000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451362</BankRefNo>
+    <CIN>CNRB5762053812012022</CIN>
+    <paiddate>2022/01/12 16:00:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57620672</GRN>
+    <RemitterName>PRAVEEN BHAVSAR</RemitterName>
+    <Amount>8766</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451364</BankRefNo>
+    <CIN>CNRB5762067212012022</CIN>
+    <paiddate>2022/01/12 16:02:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620829</GRN>
+    <RemitterName>HARISH</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451370</BankRefNo>
+    <CIN>CNRB5762082912012022</CIN>
+    <paiddate>2022/01/12 16:04:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57621264</GRN>
+    <RemitterName>SAIKUL</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451380</BankRefNo>
+    <CIN>CNRB5762126412012022</CIN>
+    <paiddate>2022/01/12 16:10:47</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57629460</GRN>
+    <RemitterName>Norang Lal</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451460</BankRefNo>
+    <CIN>CNRB5762946012012022</CIN>
+    <paiddate>2022/01/12 19:03:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57629984</GRN>
+    <RemitterName>JAHIR ABBAS</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451466</BankRefNo>
+    <CIN>CNRB5762998412012022</CIN>
+    <paiddate>2022/01/12 19:38:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57630013</GRN>
+    <RemitterName>IRSAD</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451467</BankRefNo>
+    <CIN>CNRB5763001312012022</CIN>
+    <paiddate>2022/01/12 19:41:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57604932</GRN>
+    <RemitterName>bc kataria</RemitterName>
+    <Amount>15</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451168</BankRefNo>
+    <CIN>CNRB5760493212012022</CIN>
+    <paiddate>2022/01/12 13:20:56</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57605071</GRN>
+    <RemitterName>BHAGIRATH GODARA</RemitterName>
+    <Amount>552</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451172</BankRefNo>
+    <CIN>CNRB5760507112012022</CIN>
+    <paiddate>2022/01/12 13:22:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57605078</GRN>
+    <RemitterName>TULSI BAI</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451173</BankRefNo>
+    <CIN>CNRB5760507812012022</CIN>
+    <paiddate>2022/01/12 13:22:09</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8342-00-120-68-00</HeadAcc>
+    <GRN>57605402</GRN>
+    <RemitterName>ShrichandJain</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451180</BankRefNo>
+    <CIN>CNRB5760540212012022</CIN>
+    <paiddate>2022/01/12 13:25:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605588</GRN>
+    <RemitterName>SUBHASH CHAND</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451184</BankRefNo>
+    <CIN>CNRB5760558812012022</CIN>
+    <paiddate>2022/01/12 13:27:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605582</GRN>
+    <RemitterName>SUSHIL KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451185</BankRefNo>
+    <CIN>CNRB5760558212012022</CIN>
+    <paiddate>2022/01/12 13:27:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57606822</GRN>
+    <RemitterName>JAMSHED</RemitterName>
+    <Amount>53705</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451204</BankRefNo>
+    <CIN>CNRB5760682212012022</CIN>
+    <paiddate>2022/01/12 13:38:32</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608110</GRN>
+    <RemitterName>GAUTAM MISHRA</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451221</BankRefNo>
+    <CIN>CNRB5760811012012022</CIN>
+    <paiddate>2022/01/12 13:50:36</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57612684</GRN>
+    <RemitterName>PRAYAG RAJ</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451277</BankRefNo>
+    <CIN>CNRB5761268412012022</CIN>
+    <paiddate>2022/01/12 14:36:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57612948</GRN>
+    <RemitterName>ASHOK KUMAR TYAGI</RemitterName>
+    <Amount>572</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451278</BankRefNo>
+    <CIN>CNRB5761294812012022</CIN>
+    <paiddate>2022/01/12 14:39:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57614749</GRN>
+    <RemitterName>REKHA</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451297</BankRefNo>
+    <CIN>CNRB5761474912012022</CIN>
+    <paiddate>2022/01/12 14:57:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57615008</GRN>
+    <RemitterName>KRISHAN CHANDER</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451299</BankRefNo>
+    <CIN>CNRB5761500812012022</CIN>
+    <paiddate>2022/01/12 15:00:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616532</GRN>
+    <RemitterName>PUNJI  LAL DAMOR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451311</BankRefNo>
+    <CIN>CNRB5761653212012022</CIN>
+    <paiddate>2022/01/12 15:13:53</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616920</GRN>
+    <RemitterName>MUSTAKIM</RemitterName>
+    <Amount>1510</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451319</BankRefNo>
+    <CIN>CNRB5761692012012022</CIN>
+    <paiddate>2022/01/12 15:17:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57617446</GRN>
+    <RemitterName>NARESH</RemitterName>
+    <Amount>1</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451327</BankRefNo>
+    <CIN>CNRB5761744612012022</CIN>
+    <paiddate>2022/01/12 15:23:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57621575</GRN>
+    <RemitterName>SANJAY KUMAR YADAV</RemitterName>
+    <Amount>894</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451384</BankRefNo>
+    <CIN>CNRB5762157512012022</CIN>
+    <paiddate>2022/01/12 16:15:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57622099</GRN>
+    <RemitterName>DEEPAK</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451391</BankRefNo>
+    <CIN>CNRB5762209912012022</CIN>
+    <paiddate>2022/01/12 16:22:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57622222</GRN>
+    <RemitterName>RJGB</RemitterName>
+    <Amount>2000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451394</BankRefNo>
+    <CIN>CNRB5762222212012022</CIN>
+    <paiddate>2022/01/12 16:24:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57622294</GRN>
+    <RemitterName>LAKSHAY GARG</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451395</BankRefNo>
+    <CIN>CNRB5762229412012022</CIN>
+    <paiddate>2022/01/12 16:25:04</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57622489</GRN>
+    <RemitterName>DILBAG SINGH</RemitterName>
+    <Amount>2700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451396</BankRefNo>
+    <CIN>CNRB5762248912012022</CIN>
+    <paiddate>2022/01/12 16:27:56</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57622718</GRN>
+    <RemitterName>VIKASH SHARMA</RemitterName>
+    <Amount>15380</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451399</BankRefNo>
+    <CIN>CNRB5762271812012022</CIN>
+    <paiddate>2022/01/12 16:31:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57623032</GRN>
+    <RemitterName>JAN MOHD.</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451402</BankRefNo>
+    <CIN>CNRB5762303212012022</CIN>
+    <paiddate>2022/01/12 16:36:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57623061</GRN>
+    <RemitterName>ISRAR KHAN PATHAN</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451403</BankRefNo>
+    <CIN>CNRB5762306112012022</CIN>
+    <paiddate>2022/01/12 16:36:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57624884</GRN>
+    <RemitterName>MUSTAKIM</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451424</BankRefNo>
+    <CIN>CNRB5762488412012022</CIN>
+    <paiddate>2022/01/12 17:04:37</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57624889</GRN>
+    <RemitterName>MANOJ SUNDRAWAT</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451425</BankRefNo>
+    <CIN>CNRB5762488912012022</CIN>
+    <paiddate>2022/01/12 17:04:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57625647</GRN>
+    <RemitterName>ARUN KOCHETA</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451430</BankRefNo>
+    <CIN>CNRB5762564712012022</CIN>
+    <paiddate>2022/01/12 17:18:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57625698</GRN>
+    <RemitterName>BALRAJ SINGH</RemitterName>
+    <Amount>950</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451431</BankRefNo>
+    <CIN>CNRB5762569812012022</CIN>
+    <paiddate>2022/01/12 17:19:50</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57594736</GRN>
+    <RemitterName>BANWARI LAL SO PEMA RAM</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451030</BankRefNo>
+    <CIN>CNRB5759473612012022</CIN>
+    <paiddate>2022/01/12 11:50:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57595434</GRN>
+    <RemitterName>ROSHAN LAL YOGI</RemitterName>
+    <Amount>20030</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451039</BankRefNo>
+    <CIN>CNRB5759543412012022</CIN>
+    <paiddate>2022/01/12 11:57:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595447</GRN>
+    <RemitterName>JAYPAL SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451040</BankRefNo>
+    <CIN>CNRB5759544712012022</CIN>
+    <paiddate>2022/01/12 11:57:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595496</GRN>
+    <RemitterName>RAHUL KUMAR MEENA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451041</BankRefNo>
+    <CIN>CNRB5759549612012022</CIN>
+    <paiddate>2022/01/12 11:57:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57595596</GRN>
+    <RemitterName>M</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451046</BankRefNo>
+    <CIN>CNRB5759559612012022</CIN>
+    <paiddate>2022/01/12 11:59:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595733</GRN>
+    <RemitterName>AJIT</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451047</BankRefNo>
+    <CIN>CNRB5759573312012022</CIN>
+    <paiddate>2022/01/12 12:00:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57596622</GRN>
+    <RemitterName>SANTOSH BAI</RemitterName>
+    <Amount>749</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451054</BankRefNo>
+    <CIN>CNRB5759662212012022</CIN>
+    <paiddate>2022/01/12 12:06:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57596677</GRN>
+    <RemitterName>OMPRAKASH GUPTA</RemitterName>
+    <Amount>44627</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451055</BankRefNo>
+    <CIN>CNRB5759667712012022</CIN>
+    <paiddate>2022/01/12 12:07:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597492</GRN>
+    <RemitterName>ADITYA SHARMA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451071</BankRefNo>
+    <CIN>CNRB5759749212012022</CIN>
+    <paiddate>2022/01/12 12:14:20</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597609</GRN>
+    <RemitterName>IDRISH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451074</BankRefNo>
+    <CIN>CNRB5759760912012022</CIN>
+    <paiddate>2022/01/12 12:15:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613547</GRN>
+    <RemitterName>SHYAMAL KUMAR PAUL</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451288</BankRefNo>
+    <CIN>CNRB5761354712012022</CIN>
+    <paiddate>2022/01/12 14:45:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613966</GRN>
+    <RemitterName>DINESH DAMOR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451294</BankRefNo>
+    <CIN>CNRB5761396612012022</CIN>
+    <paiddate>2022/01/12 14:49:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57626650</GRN>
+    <RemitterName>ARASAD KHAN</RemitterName>
+    <Amount>14468</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451437</BankRefNo>
+    <CIN>CNRB5762665012012022</CIN>
+    <paiddate>2022/01/12 17:39:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57583733</GRN>
+    <RemitterName>MANJU DEVI PANWAR</RemitterName>
+    <Amount>16731</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450905</BankRefNo>
+    <CIN>024053945090511012022</CIN>
+    <paiddate>2022/01/11 20:01:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57583741</GRN>
+    <RemitterName>RAJESH KUMAR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450906</BankRefNo>
+    <CIN>024053945090611012022</CIN>
+    <paiddate>2022/01/11 20:02:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57584081</GRN>
+    <RemitterName>praveen devpura</RemitterName>
+    <Amount>700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450909</BankRefNo>
+    <CIN>CNRB5758408111012022</CIN>
+    <paiddate>2022/01/11 20:33:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57584400</GRN>
+    <RemitterName>PRATHAMKUMARVERMA</RemitterName>
+    <Amount>2000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450914</BankRefNo>
+    <CIN>CNRB5758440011012022</CIN>
+    <paiddate>2022/01/11 21:07:56</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57590074</GRN>
+    <RemitterName>KASAM KHAN</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450967</BankRefNo>
+    <CIN>CNRB5759007412012022</CIN>
+    <paiddate>2022/01/12 10:58:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57590097</GRN>
+    <RemitterName>MUKESH CHANDRA KUMAWAT</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450968</BankRefNo>
+    <CIN>CNRB5759009712012022</CIN>
+    <paiddate>2022/01/12 10:58:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57590147</GRN>
+    <RemitterName>MUSTKIM</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450969</BankRefNo>
+    <CIN>CNRB5759014712012022</CIN>
+    <paiddate>2022/01/12 10:59:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57590541</GRN>
+    <RemitterName>ADV ARJUN SINGH</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450973</BankRefNo>
+    <CIN>CNRB5759054112012022</CIN>
+    <paiddate>2022/01/12 11:04:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-01-102-02-00</HeadAcc>
+    <GRN>57590745</GRN>
+    <RemitterName>MUKESH KUMAR</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450975</BankRefNo>
+    <CIN>CNRB5759074512012022</CIN>
+    <paiddate>2022/01/12 11:06:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57591051</GRN>
+    <RemitterName>DEEPESH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450978</BankRefNo>
+    <CIN>CNRB5759105112012022</CIN>
+    <paiddate>2022/01/12 11:10:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57591102</GRN>
+    <RemitterName>POOJA RAJPUT</RemitterName>
+    <Amount>900</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450979</BankRefNo>
+    <CIN>CNRB5759110212012022</CIN>
+    <paiddate>2022/01/12 11:11:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57592162</GRN>
+    <RemitterName>BAL CHAND PATWA</RemitterName>
+    <Amount>867</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450999</BankRefNo>
+    <CIN>CNRB5759216212012022</CIN>
+    <paiddate>2022/01/12 11:24:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592494</GRN>
+    <RemitterName>VISNU KUMAR</RemitterName>
+    <Amount>1500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451003</BankRefNo>
+    <CIN>CNRB5759249412012022</CIN>
+    <paiddate>2022/01/12 11:28:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57592645</GRN>
+    <RemitterName>SR DEVEGARH SEVENTILAL</RemitterName>
+    <Amount>8300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451004</BankRefNo>
+    <CIN>CNRB5759264512012022</CIN>
+    <paiddate>2022/01/12 11:29:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57600824</GRN>
+    <RemitterName>RAHISH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451111</BankRefNo>
+    <CIN>CNRB5760082412012022</CIN>
+    <paiddate>2022/01/12 12:44:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601355</GRN>
+    <RemitterName>DEV KARAN SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451118</BankRefNo>
+    <CIN>CNRB5760135512012022</CIN>
+    <paiddate>2022/01/12 12:49:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601393</GRN>
+    <RemitterName>DINESH KUMAR SAINI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451119</BankRefNo>
+    <CIN>CNRB5760139312012022</CIN>
+    <paiddate>2022/01/12 12:49:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602828</GRN>
+    <RemitterName>HAMMI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451135</BankRefNo>
+    <CIN>CNRB5760282812012022</CIN>
+    <paiddate>2022/01/12 13:02:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57603214</GRN>
+    <RemitterName>VIKRAM SINGH MUNJAL ADVOCATE</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451141</BankRefNo>
+    <CIN>CNRB5760321412012022</CIN>
+    <paiddate>2022/01/12 13:05:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57603315</GRN>
+    <RemitterName>KEHAR SINGH</RemitterName>
+    <Amount>310</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451142</BankRefNo>
+    <CIN>CNRB5760331512012022</CIN>
+    <paiddate>2022/01/12 13:06:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57603294</GRN>
+    <RemitterName>RAMESH CHAND SONI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451143</BankRefNo>
+    <CIN>CNRB5760329412012022</CIN>
+    <paiddate>2022/01/12 13:06:37</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57603359</GRN>
+    <RemitterName>NAVIN KUMAR YADAV</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451144</BankRefNo>
+    <CIN>CNRB5760335912012022</CIN>
+    <paiddate>2022/01/12 13:06:53</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57603425</GRN>
+    <RemitterName>RAM LAKHAN MEENA</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451146</BankRefNo>
+    <CIN>CNRB5760342512012022</CIN>
+    <paiddate>2022/01/12 13:07:47</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604158</GRN>
+    <RemitterName>SAKIR KHAN</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451152</BankRefNo>
+    <CIN>CNRB5760415812012022</CIN>
+    <paiddate>2022/01/12 13:13:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604191</GRN>
+    <RemitterName>KRISHAN SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451153</BankRefNo>
+    <CIN>CNRB5760419112012022</CIN>
+    <paiddate>2022/01/12 13:14:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604258</GRN>
+    <RemitterName>DHARMENDRA KUMAR</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451154</BankRefNo>
+    <CIN>CNRB5760425812012022</CIN>
+    <paiddate>2022/01/12 13:14:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57605041</GRN>
+    <RemitterName>Adv. Sunil Kumar Vaishnav</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451171</BankRefNo>
+    <CIN>CNRB5760504112012022</CIN>
+    <paiddate>2022/01/12 13:21:49</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605130</GRN>
+    <RemitterName>MURLI SHANKAR CHAUBISA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451174</BankRefNo>
+    <CIN>CNRB5760513012012022</CIN>
+    <paiddate>2022/01/12 13:22:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57605145</GRN>
+    <RemitterName>ShrichandJain</RemitterName>
+    <Amount>5000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451175</BankRefNo>
+    <CIN>CNRB5760514512012022</CIN>
+    <paiddate>2022/01/12 13:23:02</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605386</GRN>
+    <RemitterName>DASHRATH KUMAR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451179</BankRefNo>
+    <CIN>CNRB5760538612012022</CIN>
+    <paiddate>2022/01/12 13:25:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605466</GRN>
+    <RemitterName>HEMENDRA KUMAWAT</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451182</BankRefNo>
+    <CIN>CNRB5760546612012022</CIN>
+    <paiddate>2022/01/12 13:26:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605591</GRN>
+    <RemitterName>KRISHAN KUMAR</RemitterName>
+    <Amount>1500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451186</BankRefNo>
+    <CIN>CNRB5760559112012022</CIN>
+    <paiddate>2022/01/12 13:27:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606094</GRN>
+    <RemitterName>NOOR DEEN</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451195</BankRefNo>
+    <CIN>CNRB5760609412012022</CIN>
+    <paiddate>2022/01/12 13:31:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606145</GRN>
+    <RemitterName>JITENDRA PATIDAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451196</BankRefNo>
+    <CIN>CNRB5760614512012022</CIN>
+    <paiddate>2022/01/12 13:32:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57606245</GRN>
+    <RemitterName>Teja Ram So Bodu Ram Balai</RemitterName>
+    <Amount>5094</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451197</BankRefNo>
+    <CIN>CNRB5760624512012022</CIN>
+    <paiddate>2022/01/12 13:33:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606727</GRN>
+    <RemitterName>KACHRU LAL PATEL</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451202</BankRefNo>
+    <CIN>CNRB5760672712012022</CIN>
+    <paiddate>2022/01/12 13:37:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606826</GRN>
+    <RemitterName>UMESH KUMAR SHARMA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451203</BankRefNo>
+    <CIN>CNRB5760682612012022</CIN>
+    <paiddate>2022/01/12 13:38:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606943</GRN>
+    <RemitterName>RAMESH KHANT</RemitterName>
+    <Amount>300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451206</BankRefNo>
+    <CIN>CNRB5760694312012022</CIN>
+    <paiddate>2022/01/12 13:39:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57607774</GRN>
+    <RemitterName>DHANNU KHAN</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451215</BankRefNo>
+    <CIN>CNRB5760777412012022</CIN>
+    <paiddate>2022/01/12 13:47:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57610082</GRN>
+    <RemitterName>GANESH LAL</RemitterName>
+    <Amount>5175</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451248</BankRefNo>
+    <CIN>CNRB5761008212012022</CIN>
+    <paiddate>2022/01/12 14:11:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57611255</GRN>
+    <RemitterName>VEDANSHI ARORA</RemitterName>
+    <Amount>900</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451261</BankRefNo>
+    <CIN>CNRB5761125512012022</CIN>
+    <paiddate>2022/01/12 14:21:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57611769</GRN>
+    <RemitterName>RAJENDRA KUMAR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451265</BankRefNo>
+    <CIN>CNRB5761176912012022</CIN>
+    <paiddate>2022/01/12 14:26:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57611761</GRN>
+    <RemitterName>GURUVAR GLOBAL MINERALS</RemitterName>
+    <Amount>9000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451266</BankRefNo>
+    <CIN>CNRB5761176112012022</CIN>
+    <paiddate>2022/01/12 14:27:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57613074</GRN>
+    <RemitterName>BHANWAR SINGH</RemitterName>
+    <Amount>1450</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451280</BankRefNo>
+    <CIN>CNRB5761307412012022</CIN>
+    <paiddate>2022/01/12 14:40:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613082</GRN>
+    <RemitterName>SAJID</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451281</BankRefNo>
+    <CIN>CNRB5761308212012022</CIN>
+    <paiddate>2022/01/12 14:40:12</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613154</GRN>
+    <RemitterName>TARA CHAND CHOUDHARY</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451283</BankRefNo>
+    <CIN>CNRB5761315412012022</CIN>
+    <paiddate>2022/01/12 14:40:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57613151</GRN>
+    <RemitterName>MAUSAM KHAN</RemitterName>
+    <Amount>7538</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451284</BankRefNo>
+    <CIN>CNRB5761315112012022</CIN>
+    <paiddate>2022/01/12 14:41:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-10-01</HeadAcc>
+    <GRN>57613173</GRN>
+    <RemitterName>ROHTASH</RemitterName>
+    <Amount>425</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451285</BankRefNo>
+    <CIN>CNRB5761317312012022</CIN>
+    <paiddate>2022/01/12 14:41:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57615299</GRN>
+    <RemitterName>RAM SWROOP</RemitterName>
+    <Amount>2200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451302</BankRefNo>
+    <CIN>CNRB5761529912012022</CIN>
+    <paiddate>2022/01/12 15:03:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616435</GRN>
+    <RemitterName>BADRI LAL NAGAR</RemitterName>
+    <Amount>4700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451310</BankRefNo>
+    <CIN>CNRB5761643512012022</CIN>
+    <paiddate>2022/01/12 15:12:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616735</GRN>
+    <RemitterName>IKABAL</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451317</BankRefNo>
+    <CIN>CNRB5761673512012022</CIN>
+    <paiddate>2022/01/12 15:16:00</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57617010</GRN>
+    <RemitterName>MOHAMMED JUNAID</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451320</BankRefNo>
+    <CIN>CNRB5761701012012022</CIN>
+    <paiddate>2022/01/12 15:19:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57617462</GRN>
+    <RemitterName>PAPPU</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451328</BankRefNo>
+    <CIN>CNRB5761746212012022</CIN>
+    <paiddate>2022/01/12 15:24:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57618908</GRN>
+    <RemitterName>Sub.registrar k.patan</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451340</BankRefNo>
+    <CIN>CNRB5761890812012022</CIN>
+    <paiddate>2022/01/12 15:40:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57619150</GRN>
+    <RemitterName>RBMiningandCompany</RemitterName>
+    <Amount>100000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451341</BankRefNo>
+    <CIN>CNRB5761915012012022</CIN>
+    <paiddate>2022/01/12 15:42:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57623480</GRN>
+    <RemitterName>UNIVERSAL METALLICS PVT. LTD.</RemitterName>
+    <Amount>950</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451413</BankRefNo>
+    <CIN>CNRB5762348012012022</CIN>
+    <paiddate>2022/01/12 16:43:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57623902</GRN>
+    <RemitterName>MAINUDIN</RemitterName>
+    <Amount>8050</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451418</BankRefNo>
+    <CIN>CNRB5762390212012022</CIN>
+    <paiddate>2022/01/12 16:49:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57624053</GRN>
+    <RemitterName>JASA RAM</RemitterName>
+    <Amount>70304</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451419</BankRefNo>
+    <CIN>CNRB5762405312012022</CIN>
+    <paiddate>2022/01/12 16:51:47</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57625535</GRN>
+    <RemitterName>PPAP AUTOMOTIVE LTD</RemitterName>
+    <Amount>510</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451429</BankRefNo>
+    <CIN>CNRB5762553512012022</CIN>
+    <paiddate>2022/01/12 17:16:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57626254</GRN>
+    <RemitterName>SANDEEP YADAV</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451434</BankRefNo>
+    <CIN>CNRB5762625412012022</CIN>
+    <paiddate>2022/01/12 17:31:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57626697</GRN>
+    <RemitterName>JAIDEV SINGH PADIHAR</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451438</BankRefNo>
+    <CIN>CNRB5762669712012022</CIN>
+    <paiddate>2022/01/12 17:40:40</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57627109</GRN>
+    <RemitterName>BIMLA CHOUDHARY</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451441</BankRefNo>
+    <CIN>CNRB5762710912012022</CIN>
+    <paiddate>2022/01/12 17:49:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57628756</GRN>
+    <RemitterName>BACHANA RAM</RemitterName>
+    <Amount>11000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451453</BankRefNo>
+    <CIN>CNRB5762875612012022</CIN>
+    <paiddate>2022/01/12 18:36:53</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57629091</GRN>
+    <RemitterName>BACHANARAM</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451457</BankRefNo>
+    <CIN>CNRB5762909112012022</CIN>
+    <paiddate>2022/01/12 18:48:42</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57629204</GRN>
+    <RemitterName>RAJESH</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451458</BankRefNo>
+    <CIN>CNRB5762920412012022</CIN>
+    <paiddate>2022/01/12 18:53:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57629558</GRN>
+    <RemitterName>BACHANA RAM</RemitterName>
+    <Amount>11000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451461</BankRefNo>
+    <CIN>CNRB5762955812012022</CIN>
+    <paiddate>2022/01/12 19:09:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57630168</GRN>
+    <RemitterName>MUSTAK KHAN</RemitterName>
+    <Amount>4225</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451469</BankRefNo>
+    <CIN>CNRB5763016812012022</CIN>
+    <paiddate>2022/01/12 19:50:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57585877</GRN>
+    <RemitterName>Pradeep Mudgal</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450926</BankRefNo>
+    <CIN>CNRB5758587712012022</CIN>
+    <paiddate>2022/01/12 08:35:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57585912</GRN>
+    <RemitterName>Sudhir kumar</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450927</BankRefNo>
+    <CIN>CNRB5758591212012022</CIN>
+    <paiddate>2022/01/12 08:39:02</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57585947</GRN>
+    <RemitterName>SHRI KRISHANA TOUR TRAVELS</RemitterName>
+    <Amount>170</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450928</BankRefNo>
+    <CIN>CNRB5758594712012022</CIN>
+    <paiddate>2022/01/12 08:41:53</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57586689</GRN>
+    <RemitterName>ROHAN GUPTA</RemitterName>
+    <Amount>20</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450936</BankRefNo>
+    <CIN>CNRB5758668912012022</CIN>
+    <paiddate>2022/01/12 09:37:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57587700</GRN>
+    <RemitterName>SHAFIK AHAMAD</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450938</BankRefNo>
+    <CIN>CNRB5758770012012022</CIN>
+    <paiddate>2022/01/12 10:14:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588285</GRN>
+    <RemitterName>JUBER KHAN</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450947</BankRefNo>
+    <CIN>CNRB5758828512012022</CIN>
+    <paiddate>2022/01/12 10:28:11</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588336</GRN>
+    <RemitterName>SHUBHAM JAIN</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450948</BankRefNo>
+    <CIN>CNRB5758833612012022</CIN>
+    <paiddate>2022/01/12 10:29:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588495</GRN>
+    <RemitterName>NITYA NAND OJHA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450949</BankRefNo>
+    <CIN>CNRB5758849512012022</CIN>
+    <paiddate>2022/01/12 10:32:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588682</GRN>
+    <RemitterName>JASWANT SINGH</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450951</BankRefNo>
+    <CIN>CNRB5758868212012022</CIN>
+    <paiddate>2022/01/12 10:36:04</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-02</HeadAcc>
+    <GRN>57588871</GRN>
+    <RemitterName>AGMINESANDMINERALS</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450953</BankRefNo>
+    <CIN>CNRB5758887112012022</CIN>
+    <paiddate>2022/01/12 10:40:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588929</GRN>
+    <RemitterName>SINGHRAJ</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450954</BankRefNo>
+    <CIN>CNRB5758892912012022</CIN>
+    <paiddate>2022/01/12 10:40:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57591271</GRN>
+    <RemitterName>HTSHAR</RemitterName>
+    <Amount>15</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450981</BankRefNo>
+    <CIN>CNRB5759127112012022</CIN>
+    <paiddate>2022/01/12 11:13:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57591815</GRN>
+    <RemitterName>RAM BABU</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450991</BankRefNo>
+    <CIN>CNRB5759181512012022</CIN>
+    <paiddate>2022/01/12 11:20:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57591889</GRN>
+    <RemitterName>ARSAD</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450992</BankRefNo>
+    <CIN>CNRB5759188912012022</CIN>
+    <paiddate>2022/01/12 11:21:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57591884</GRN>
+    <RemitterName>DR AJEET SINGH SHEKHAWAT ADV</RemitterName>
+    <Amount>50</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450993</BankRefNo>
+    <CIN>CNRB5759188412012022</CIN>
+    <paiddate>2022/01/12 11:21:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57592094</GRN>
+    <RemitterName>OMPRAKASH SIDH</RemitterName>
+    <Amount>8661</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450998</BankRefNo>
+    <CIN>CNRB5759209412012022</CIN>
+    <paiddate>2022/01/12 11:23:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592272</GRN>
+    <RemitterName>IRSAD</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451000</BankRefNo>
+    <CIN>CNRB5759227212012022</CIN>
+    <paiddate>2022/01/12 11:25:32</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592406</GRN>
+    <RemitterName>RAM NIWASH BISHNOI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451001</BankRefNo>
+    <CIN>CNRB5759240612012022</CIN>
+    <paiddate>2022/01/12 11:27:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57594280</GRN>
+    <RemitterName>BIRENDRA SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451025</BankRefNo>
+    <CIN>CNRB5759428012012022</CIN>
+    <paiddate>2022/01/12 11:46:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57594583</GRN>
+    <RemitterName>BAJRANG YADAV</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451027</BankRefNo>
+    <CIN>CNRB5759458312012022</CIN>
+    <paiddate>2022/01/12 11:48:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602105</GRN>
+    <RemitterName>PUSHKAR KUMAR MEENA</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451130</BankRefNo>
+    <CIN>CNRB5760210512012022</CIN>
+    <paiddate>2022/01/12 12:56:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57604832</GRN>
+    <RemitterName>RAJ KUMAR</RemitterName>
+    <Amount>2800</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451166</BankRefNo>
+    <CIN>CNRB5760483212012022</CIN>
+    <paiddate>2022/01/12 13:19:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57604835</GRN>
+    <RemitterName>KALURAM BUNKAR</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451167</BankRefNo>
+    <CIN>CNRB5760483512012022</CIN>
+    <paiddate>2022/01/12 13:20:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57608443</GRN>
+    <RemitterName>SHARWAN KUMAR</RemitterName>
+    <Amount>4200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451225</BankRefNo>
+    <CIN>CNRB5760844312012022</CIN>
+    <paiddate>2022/01/12 13:54:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57609123</GRN>
+    <RemitterName>RAM CHAND</RemitterName>
+    <Amount>4400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451231</BankRefNo>
+    <CIN>CNRB5760912312012022</CIN>
+    <paiddate>2022/01/12 14:01:17</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613065</GRN>
+    <RemitterName>RAMESH KUMAR GARASIYA</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451279</BankRefNo>
+    <CIN>CNRB5761306512012022</CIN>
+    <paiddate>2022/01/12 14:40:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57613135</GRN>
+    <RemitterName>sub registrar K Patan</RemitterName>
+    <Amount>800</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451282</BankRefNo>
+    <CIN>CNRB5761313512012022</CIN>
+    <paiddate>2022/01/12 14:40:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613360</GRN>
+    <RemitterName>PRAKASH CHANDRA KOTED</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451286</BankRefNo>
+    <CIN>CNRB5761336012012022</CIN>
+    <paiddate>2022/01/12 14:42:50</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613512</GRN>
+    <RemitterName>ASHOK</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451287</BankRefNo>
+    <CIN>CNRB5761351212012022</CIN>
+    <paiddate>2022/01/12 14:44:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57613914</GRN>
+    <RemitterName>ASHOK KUMAR TYAGI</RemitterName>
+    <Amount>2288</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451293</BankRefNo>
+    <CIN>CNRB5761391412012022</CIN>
+    <paiddate>2022/01/12 14:49:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57614000</GRN>
+    <RemitterName>MAHENDRA SAINI</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451295</BankRefNo>
+    <CIN>CNRB5761400012012022</CIN>
+    <paiddate>2022/01/12 14:49:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57614906</GRN>
+    <RemitterName>VAJID</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451298</BankRefNo>
+    <CIN>CNRB5761490612012022</CIN>
+    <paiddate>2022/01/12 14:59:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57615233</GRN>
+    <RemitterName>PARAMJEET SINGH CHAUHAN</RemitterName>
+    <Amount>300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451301</BankRefNo>
+    <CIN>CNRB5761523312012022</CIN>
+    <paiddate>2022/01/12 15:02:32</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57615917</GRN>
+    <RemitterName>DEVILAL ROAT</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451303</BankRefNo>
+    <CIN>CNRB5761591712012022</CIN>
+    <paiddate>2022/01/12 15:08:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57586082</GRN>
+    <RemitterName>SUB REGISTRARKAPREN</RemitterName>
+    <Amount>432</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450931</BankRefNo>
+    <CIN>CNRB5758608212012022</CIN>
+    <paiddate>2022/01/12 08:53:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57598002</GRN>
+    <RemitterName>RODI LAL</RemitterName>
+    <Amount>56524</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451077</BankRefNo>
+    <CIN>CNRB5759800212012022</CIN>
+    <paiddate>2022/01/12 12:18:44</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601680</GRN>
+    <RemitterName>HEERA LAL SADHU</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451121</BankRefNo>
+    <CIN>CNRB5760168012012022</CIN>
+    <paiddate>2022/01/12 12:52:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57602712</GRN>
+    <RemitterName>Karan  Singh Shekhawat So Bhawar Singh</RemitterName>
+    <Amount>6650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451133</BankRefNo>
+    <CIN>CNRB5760271212012022</CIN>
+    <paiddate>2022/01/12 13:01:49</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602805</GRN>
+    <RemitterName>RAJESH KUMAR</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451134</BankRefNo>
+    <CIN>CNRB5760280512012022</CIN>
+    <paiddate>2022/01/12 13:02:02</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602844</GRN>
+    <RemitterName>BAKHTAWAR SINGH</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451136</BankRefNo>
+    <CIN>CNRB5760284412012022</CIN>
+    <paiddate>2022/01/12 13:02:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602887</GRN>
+    <RemitterName>HARI KISHAN</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451137</BankRefNo>
+    <CIN>CNRB5760288712012022</CIN>
+    <paiddate>2022/01/12 13:02:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57603407</GRN>
+    <RemitterName>RAGHUVEER</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451145</BankRefNo>
+    <CIN>CNRB5760340712012022</CIN>
+    <paiddate>2022/01/12 13:07:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604419</GRN>
+    <RemitterName>MANPREET SINGH</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451156</BankRefNo>
+    <CIN>CNRB5760441912012022</CIN>
+    <paiddate>2022/01/12 13:16:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57604684</GRN>
+    <RemitterName>NANURAM MALIWAD</RemitterName>
+    <Amount>12942</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451159</BankRefNo>
+    <CIN>CNRB5760468412012022</CIN>
+    <paiddate>2022/01/12 13:18:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57604707</GRN>
+    <RemitterName>shabbir</RemitterName>
+    <Amount>630</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451162</BankRefNo>
+    <CIN>CNRB5760470712012022</CIN>
+    <paiddate>2022/01/12 13:19:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616111</GRN>
+    <RemitterName>JAHID</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451306</BankRefNo>
+    <CIN>CNRB5761611112012022</CIN>
+    <paiddate>2022/01/12 15:09:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616628</GRN>
+    <RemitterName>KAVYA KANSARA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451314</BankRefNo>
+    <CIN>CNRB5761662812012022</CIN>
+    <paiddate>2022/01/12 15:14:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616672</GRN>
+    <RemitterName>RAJ KUMAR YADAV</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451316</BankRefNo>
+    <CIN>CNRB5761667212012022</CIN>
+    <paiddate>2022/01/12 15:15:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57616794</GRN>
+    <RemitterName>MOHAMMED DANISH QURESHI</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451318</BankRefNo>
+    <CIN>CNRB5761679412012022</CIN>
+    <paiddate>2022/01/12 15:16:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57624533</GRN>
+    <RemitterName>RAJESH KUMAR</RemitterName>
+    <Amount>22000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451422</BankRefNo>
+    <CIN>CNRB5762453312012022</CIN>
+    <paiddate>2022/01/12 16:59:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599601</GRN>
+    <RemitterName>NARESH SHARMA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451098</BankRefNo>
+    <CIN>CNRB5759960112012022</CIN>
+    <paiddate>2022/01/12 12:33:36</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599631</GRN>
+    <RemitterName>NASIR KHAN</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451099</BankRefNo>
+    <CIN>CNRB5759963112012022</CIN>
+    <paiddate>2022/01/12 12:33:42</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599835</GRN>
+    <RemitterName>VISHAL DARJI</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451104</BankRefNo>
+    <CIN>CNRB5759983512012022</CIN>
+    <paiddate>2022/01/12 12:35:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599981</GRN>
+    <RemitterName>GOPI CHAND</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451106</BankRefNo>
+    <CIN>CNRB5759998112012022</CIN>
+    <paiddate>2022/01/12 12:36:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57600680</GRN>
+    <RemitterName>SAJJAN SINGH</RemitterName>
+    <Amount>4099</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451109</BankRefNo>
+    <CIN>CNRB5760068012012022</CIN>
+    <paiddate>2022/01/12 12:43:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57600899</GRN>
+    <RemitterName>GOVIND PRAJAPAT</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451113</BankRefNo>
+    <CIN>CNRB5760089912012022</CIN>
+    <paiddate>2022/01/12 12:45:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57601068</GRN>
+    <RemitterName>HEMANT PANWAR</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451117</BankRefNo>
+    <CIN>CNRB5760106812012022</CIN>
+    <paiddate>2022/01/12 12:46:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604011</GRN>
+    <RemitterName>DHEERAJ YADAY</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451149</BankRefNo>
+    <CIN>CNRB5760401112012022</CIN>
+    <paiddate>2022/01/12 13:12:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604118</GRN>
+    <RemitterName>KAMALESH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451150</BankRefNo>
+    <CIN>CNRB5760411812012022</CIN>
+    <paiddate>2022/01/12 13:13:25</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57604121</GRN>
+    <RemitterName>satnam</RemitterName>
+    <Amount>630</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451151</BankRefNo>
+    <CIN>CNRB5760412112012022</CIN>
+    <paiddate>2022/01/12 13:13:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604654</GRN>
+    <RemitterName>VIKKI KUMAR</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451158</BankRefNo>
+    <CIN>CNRB5760465412012022</CIN>
+    <paiddate>2022/01/12 13:18:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604749</GRN>
+    <RemitterName>RAJ KUMAR RATHI</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451161</BankRefNo>
+    <CIN>CNRB5760474912012022</CIN>
+    <paiddate>2022/01/12 13:19:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604791</GRN>
+    <RemitterName>ANIL CHOUDHARY</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451164</BankRefNo>
+    <CIN>CNRB5760479112012022</CIN>
+    <paiddate>2022/01/12 13:19:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57604975</GRN>
+    <RemitterName>RAFEEK</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451169</BankRefNo>
+    <CIN>CNRB5760497512012022</CIN>
+    <paiddate>2022/01/12 13:21:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605223</GRN>
+    <RemitterName>SUKHRAM</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451176</BankRefNo>
+    <CIN>CNRB5760522312012022</CIN>
+    <paiddate>2022/01/12 13:23:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605227</GRN>
+    <RemitterName>NISAR</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451177</BankRefNo>
+    <CIN>CNRB5760522712012022</CIN>
+    <paiddate>2022/01/12 13:23:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605303</GRN>
+    <RemitterName>SURESH GAVARIYA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451178</BankRefNo>
+    <CIN>CNRB5760530312012022</CIN>
+    <paiddate>2022/01/12 13:24:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605433</GRN>
+    <RemitterName>BHEEMSEN</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451181</BankRefNo>
+    <CIN>CNRB5760543312012022</CIN>
+    <paiddate>2022/01/12 13:25:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605473</GRN>
+    <RemitterName>SUKH LAL ROAT</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451183</BankRefNo>
+    <CIN>CNRB5760547312012022</CIN>
+    <paiddate>2022/01/12 13:26:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605745</GRN>
+    <RemitterName>BHAVESH PATIDAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451189</BankRefNo>
+    <CIN>CNRB5760574512012022</CIN>
+    <paiddate>2022/01/12 13:28:42</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605816</GRN>
+    <RemitterName>PRABHU LAL TAILOR</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451190</BankRefNo>
+    <CIN>CNRB5760581612012022</CIN>
+    <paiddate>2022/01/12 13:29:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57605919</GRN>
+    <RemitterName>ROYAL KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451191</BankRefNo>
+    <CIN>CNRB5760591912012022</CIN>
+    <paiddate>2022/01/12 13:30:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606275</GRN>
+    <RemitterName>TALIM</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451198</BankRefNo>
+    <CIN>CNRB5760627512012022</CIN>
+    <paiddate>2022/01/12 13:33:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606386</GRN>
+    <RemitterName>AKASH RAVAL</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451199</BankRefNo>
+    <CIN>CNRB5760638612012022</CIN>
+    <paiddate>2022/01/12 13:34:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57606507</GRN>
+    <RemitterName>MOTA RAM</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451200</BankRefNo>
+    <CIN>CNRB5760650712012022</CIN>
+    <paiddate>2022/01/12 13:35:25</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57607057</GRN>
+    <RemitterName>KEZIA REJI</RemitterName>
+    <Amount>900</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451207</BankRefNo>
+    <CIN>CNRB5760705712012022</CIN>
+    <paiddate>2022/01/12 13:40:36</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57607142</GRN>
+    <RemitterName>VINOD</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451208</BankRefNo>
+    <CIN>CNRB5760714212012022</CIN>
+    <paiddate>2022/01/12 13:41:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57621233</GRN>
+    <RemitterName>DEEPAK KUMAR SHARMA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451379</BankRefNo>
+    <CIN>CNRB5762123312012022</CIN>
+    <paiddate>2022/01/12 16:10:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57621544</GRN>
+    <RemitterName>YOGESH KUMAR YADAV</RemitterName>
+    <Amount>21790</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451383</BankRefNo>
+    <CIN>CNRB5762154412012022</CIN>
+    <paiddate>2022/01/12 16:14:50</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57607340</GRN>
+    <RemitterName>DEVILAL AHARI</RemitterName>
+    <Amount>1024</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451211</BankRefNo>
+    <CIN>CNRB5760734012012022</CIN>
+    <paiddate>2022/01/12 13:43:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57607679</GRN>
+    <RemitterName>MONU TRAVELS</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451212</BankRefNo>
+    <CIN>CNRB5760767912012022</CIN>
+    <paiddate>2022/01/12 13:46:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-108-00-00</HeadAcc>
+    <GRN>57607670</GRN>
+    <RemitterName>JAI MA KARNI CONSTRUCTION COMP MANOHARSINGH</RemitterName>
+    <Amount>31424</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451213</BankRefNo>
+    <CIN>CNRB5760767012012022</CIN>
+    <paiddate>2022/01/12 13:46:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57607728</GRN>
+    <RemitterName>vinod kumar</RemitterName>
+    <Amount>5425</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451214</BankRefNo>
+    <CIN>CNRB5760772812012022</CIN>
+    <paiddate>2022/01/12 13:47:02</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608603</GRN>
+    <RemitterName>LESH KUMAR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451226</BankRefNo>
+    <CIN>CNRB5760860312012022</CIN>
+    <paiddate>2022/01/12 13:56:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57608628</GRN>
+    <RemitterName>ALAM</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451227</BankRefNo>
+    <CIN>CNRB5760862812012022</CIN>
+    <paiddate>2022/01/12 13:56:20</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609017</GRN>
+    <RemitterName>KAMAL YADAV</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451230</BankRefNo>
+    <CIN>CNRB5760901712012022</CIN>
+    <paiddate>2022/01/12 14:00:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609168</GRN>
+    <RemitterName>INDER CHAND ACHARYA ...</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451233</BankRefNo>
+    <CIN>CNRB5760916812012022</CIN>
+    <paiddate>2022/01/12 14:01:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609276</GRN>
+    <RemitterName>SUBEEN</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451234</BankRefNo>
+    <CIN>CNRB5760927612012022</CIN>
+    <paiddate>2022/01/12 14:02:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609286</GRN>
+    <RemitterName>RAJENDRA KUMAR SHARMA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451235</BankRefNo>
+    <CIN>CNRB5760928612012022</CIN>
+    <paiddate>2022/01/12 14:02:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57609404</GRN>
+    <RemitterName>NARESH KUMAR</RemitterName>
+    <Amount>50273</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451236</BankRefNo>
+    <CIN>CNRB5760940412012022</CIN>
+    <paiddate>2022/01/12 14:03:50</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57609649</GRN>
+    <RemitterName>GOPAL LAL MEENA SO HARIKISHAN MEENA</RemitterName>
+    <Amount>5479</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451240</BankRefNo>
+    <CIN>CNRB5760964912012022</CIN>
+    <paiddate>2022/01/12 14:06:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57609844</GRN>
+    <RemitterName>SAMAYDEEN</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451243</BankRefNo>
+    <CIN>CNRB5760984412012022</CIN>
+    <paiddate>2022/01/12 14:08:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57617318</GRN>
+    <RemitterName>SAMBHU SINGH CHOUHAN</RemitterName>
+    <Amount>84083</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451324</BankRefNo>
+    <CIN>CNRB5761731812012022</CIN>
+    <paiddate>2022/01/12 15:22:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57617313</GRN>
+    <RemitterName>HASINA WO SAJID KHOKHR</RemitterName>
+    <Amount>3331</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451325</BankRefNo>
+    <CIN>CNRB5761731312012022</CIN>
+    <paiddate>2022/01/12 15:22:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57618686</GRN>
+    <RemitterName>RAHUL</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451335</BankRefNo>
+    <CIN>CNRB5761868612012022</CIN>
+    <paiddate>2022/01/12 15:37:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57618712</GRN>
+    <RemitterName>MAHESHWAR PRASAD</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451336</BankRefNo>
+    <CIN>CNRB5761871212012022</CIN>
+    <paiddate>2022/01/12 15:37:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57618884</GRN>
+    <RemitterName>RB Mining and Company</RemitterName>
+    <Amount>190000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451338</BankRefNo>
+    <CIN>CNRB5761888412012022</CIN>
+    <paiddate>2022/01/12 15:39:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57618915</GRN>
+    <RemitterName>HAFIJA</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451339</BankRefNo>
+    <CIN>CNRB5761891512012022</CIN>
+    <paiddate>2022/01/12 15:40:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57586036</GRN>
+    <RemitterName>ANOOP YADAV</RemitterName>
+    <Amount>170</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450929</BankRefNo>
+    <CIN>CNRB5758603612012022</CIN>
+    <paiddate>2022/01/12 08:50:22</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57586126</GRN>
+    <RemitterName>GHANSHYAM GUPTA</RemitterName>
+    <Amount>20</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450932</BankRefNo>
+    <CIN>CNRB5758612612012022</CIN>
+    <paiddate>2022/01/12 08:57:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57586136</GRN>
+    <RemitterName>Pradeep Mudgal</RemitterName>
+    <Amount>5</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450933</BankRefNo>
+    <CIN>CNRB5758613612012022</CIN>
+    <paiddate>2022/01/12 08:58:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57586460</GRN>
+    <RemitterName>DESHRAJ MEENA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450935</BankRefNo>
+    <CIN>CNRB5758646012012022</CIN>
+    <paiddate>2022/01/12 09:23:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57591266</GRN>
+    <RemitterName>NITESH KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450982</BankRefNo>
+    <CIN>CNRB5759126612012022</CIN>
+    <paiddate>2022/01/12 11:13:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-01-102-02-00</HeadAcc>
+    <GRN>57591332</GRN>
+    <RemitterName>MUKESH KUMAR</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450983</BankRefNo>
+    <CIN>CNRB5759133212012022</CIN>
+    <paiddate>2022/01/12 11:14:12</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57591480</GRN>
+    <RemitterName>fjdyj</RemitterName>
+    <Amount>15</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450984</BankRefNo>
+    <CIN>CNRB5759148012012022</CIN>
+    <paiddate>2022/01/12 11:15:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57591739</GRN>
+    <RemitterName>MOHAMMED RAFIK</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450990</BankRefNo>
+    <CIN>CNRB5759173912012022</CIN>
+    <paiddate>2022/01/12 11:20:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57591974</GRN>
+    <RemitterName>BANWARI LAL SO PEMA RAM</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450994</BankRefNo>
+    <CIN>CNRB5759197412012022</CIN>
+    <paiddate>2022/01/12 11:22:12</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592001</GRN>
+    <RemitterName>JAHUL KHAN</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450995</BankRefNo>
+    <CIN>CNRB5759200112012022</CIN>
+    <paiddate>2022/01/12 11:22:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57592029</GRN>
+    <RemitterName>SHIVDAN SINGH</RemitterName>
+    <Amount>5600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450997</BankRefNo>
+    <CIN>CNRB5759202912012022</CIN>
+    <paiddate>2022/01/12 11:23:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592962</GRN>
+    <RemitterName>HEM RAJ</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451012</BankRefNo>
+    <CIN>CNRB5759296212012022</CIN>
+    <paiddate>2022/01/12 11:33:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57613589</GRN>
+    <RemitterName>SURAJ SONI</RemitterName>
+    <Amount>3141</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451289</BankRefNo>
+    <CIN>CNRB5761358912012022</CIN>
+    <paiddate>2022/01/12 14:45:36</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57613587</GRN>
+    <RemitterName>HRW</RemitterName>
+    <Amount>15377</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451290</BankRefNo>
+    <CIN>CNRB5761358712012022</CIN>
+    <paiddate>2022/01/12 14:45:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613649</GRN>
+    <RemitterName>GANESH LAL DAMOR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451291</BankRefNo>
+    <CIN>CNRB5761364912012022</CIN>
+    <paiddate>2022/01/12 14:46:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57613778</GRN>
+    <RemitterName>AMBESH KUMAR BHATT</RemitterName>
+    <Amount>300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451292</BankRefNo>
+    <CIN>CNRB5761377812012022</CIN>
+    <paiddate>2022/01/12 14:47:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57615107</GRN>
+    <RemitterName>NOMITA SHARMA</RemitterName>
+    <Amount>900</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451300</BankRefNo>
+    <CIN>CNRB5761510712012022</CIN>
+    <paiddate>2022/01/12 15:01:20</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57617216</GRN>
+    <RemitterName>TOFIQ</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451321</BankRefNo>
+    <CIN>CNRB5761721612012022</CIN>
+    <paiddate>2022/01/12 15:21:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57617248</GRN>
+    <RemitterName>ANSAR</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451323</BankRefNo>
+    <CIN>CNRB5761724812012022</CIN>
+    <paiddate>2022/01/12 15:21:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57618149</GRN>
+    <RemitterName>PRABULAL</RemitterName>
+    <Amount>630</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451331</BankRefNo>
+    <CIN>CNRB5761814912012022</CIN>
+    <paiddate>2022/01/12 15:31:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57618163</GRN>
+    <RemitterName>PANKAJ</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451332</BankRefNo>
+    <CIN>CNRB5761816312012022</CIN>
+    <paiddate>2022/01/12 15:31:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57618345</GRN>
+    <RemitterName>MITTHAN LAL YADAV</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451333</BankRefNo>
+    <CIN>CNRB5761834512012022</CIN>
+    <paiddate>2022/01/12 15:33:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57619577</GRN>
+    <RemitterName>REKHA KANWAR</RemitterName>
+    <Amount>1725</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451345</BankRefNo>
+    <CIN>CNRB5761957712012022</CIN>
+    <paiddate>2022/01/12 15:47:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8342-00-120-68-00</HeadAcc>
+    <GRN>57619731</GRN>
+    <RemitterName>RBMiningandCompany</RemitterName>
+    <Amount>20000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451347</BankRefNo>
+    <CIN>CNRB5761973112012022</CIN>
+    <paiddate>2022/01/12 15:50:09</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620452</GRN>
+    <RemitterName>PHOOL SINGH</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451357</BankRefNo>
+    <CIN>CNRB5762045212012022</CIN>
+    <paiddate>2022/01/12 15:59:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620466</GRN>
+    <RemitterName>VIKASH SARAN</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451358</BankRefNo>
+    <CIN>CNRB5762046612012022</CIN>
+    <paiddate>2022/01/12 15:59:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620552</GRN>
+    <RemitterName>SOM NATH</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451363</BankRefNo>
+    <CIN>CNRB5762055212012022</CIN>
+    <paiddate>2022/01/12 16:00:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57621006</GRN>
+    <RemitterName>CITY MOTORS</RemitterName>
+    <Amount>10173</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451374</BankRefNo>
+    <CIN>CNRB5762100612012022</CIN>
+    <paiddate>2022/01/12 16:06:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57621910</GRN>
+    <RemitterName>DSTERTERT</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451389</BankRefNo>
+    <CIN>CNRB5762191012012022</CIN>
+    <paiddate>2022/01/12 16:19:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57625988</GRN>
+    <RemitterName>ANUPAM NAGAR</RemitterName>
+    <Amount>2000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451432</BankRefNo>
+    <CIN>CNRB5762598812012022</CIN>
+    <paiddate>2022/01/12 17:26:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57626508</GRN>
+    <RemitterName>SUDESH JOSHI</RemitterName>
+    <Amount>2000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451435</BankRefNo>
+    <CIN>CNRB5762650812012022</CIN>
+    <paiddate>2022/01/12 17:36:51</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57627226</GRN>
+    <RemitterName>AVTAR SINGH</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451442</BankRefNo>
+    <CIN>CNRB5762722612012022</CIN>
+    <paiddate>2022/01/12 17:52:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57627524</GRN>
+    <RemitterName>SHANTI BUS SERVICE</RemitterName>
+    <Amount>4649</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451445</BankRefNo>
+    <CIN>CNRB5762752412012022</CIN>
+    <paiddate>2022/01/12 18:00:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57627859</GRN>
+    <RemitterName>BUDHRAM</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451447</BankRefNo>
+    <CIN>CNRB5762785912012022</CIN>
+    <paiddate>2022/01/12 18:09:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57585325</GRN>
+    <RemitterName>praveen devpura</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450922</BankRefNo>
+    <CIN>CNRB5758532512012022</CIN>
+    <paiddate>2022/01/12 05:51:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57585330</GRN>
+    <RemitterName>praveen devpura</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450924</BankRefNo>
+    <CIN>CNRB5758533012012022</CIN>
+    <paiddate>2022/01/12 05:55:02</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57585341</GRN>
+    <RemitterName>praveen devpura</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450925</BankRefNo>
+    <CIN>CNRB5758534112012022</CIN>
+    <paiddate>2022/01/12 06:09:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588555</GRN>
+    <RemitterName>GOPAL SINGH</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450950</BankRefNo>
+    <CIN>CNRB5758855512012022</CIN>
+    <paiddate>2022/01/12 10:33:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588937</GRN>
+    <RemitterName>SALIM</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450955</BankRefNo>
+    <CIN>CNRB5758893712012022</CIN>
+    <paiddate>2022/01/12 10:40:47</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57589060</GRN>
+    <RemitterName>DHIRAJ SINGH</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450957</BankRefNo>
+    <CIN>CNRB5758906012012022</CIN>
+    <paiddate>2022/01/12 10:42:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57588749</GRN>
+    <RemitterName>GOPAL SHARMA</RemitterName>
+    <Amount>29620</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450958</BankRefNo>
+    <CIN>CNRB5758874912012022</CIN>
+    <paiddate>2022/01/12 10:43:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57589520</GRN>
+    <RemitterName>NIRDESH KUMAR</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450961</BankRefNo>
+    <CIN>CNRB5758952012012022</CIN>
+    <paiddate>2022/01/12 10:49:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57589527</GRN>
+    <RemitterName>DHARMENDRA SINGH</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450962</BankRefNo>
+    <CIN>CNRB5758952712012022</CIN>
+    <paiddate>2022/01/12 10:50:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57589989</GRN>
+    <RemitterName>Pradeep Mudgal</RemitterName>
+    <Amount>5</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450966</BankRefNo>
+    <CIN>CNRB5758998912012022</CIN>
+    <paiddate>2022/01/12 10:57:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57590378</GRN>
+    <RemitterName>BALWANT SINGH</RemitterName>
+    <Amount>28605</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450971</BankRefNo>
+    <CIN>CNRB5759037812012022</CIN>
+    <paiddate>2022/01/12 11:02:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57590692</GRN>
+    <RemitterName>VIRENDRA  BENIWAL</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450974</BankRefNo>
+    <CIN>CNRB5759069212012022</CIN>
+    <paiddate>2022/01/12 11:06:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57591597</GRN>
+    <RemitterName>MANAK CHAND SHARMA</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450986</BankRefNo>
+    <CIN>CNRB5759159712012022</CIN>
+    <paiddate>2022/01/12 11:17:15</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592656</GRN>
+    <RemitterName>MAHESH KUMAR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451005</BankRefNo>
+    <CIN>CNRB5759265612012022</CIN>
+    <paiddate>2022/01/12 11:29:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592939</GRN>
+    <RemitterName>MANISHA KUMARI MEENA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451010</BankRefNo>
+    <CIN>CNRB5759293912012022</CIN>
+    <paiddate>2022/01/12 11:32:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592988</GRN>
+    <RemitterName>SONALI MITTAL</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451013</BankRefNo>
+    <CIN>CNRB5759298812012022</CIN>
+    <paiddate>2022/01/12 11:33:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57593066</GRN>
+    <RemitterName>RUPESH</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451014</BankRefNo>
+    <CIN>CNRB5759306612012022</CIN>
+    <paiddate>2022/01/12 11:34:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57593059</GRN>
+    <RemitterName>PAWAN</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451015</BankRefNo>
+    <CIN>CNRB5759305912012022</CIN>
+    <paiddate>2022/01/12 11:34:37</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57593108</GRN>
+    <RemitterName>Sukh Devi</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451016</BankRefNo>
+    <CIN>CNRB5759310812012022</CIN>
+    <paiddate>2022/01/12 11:35:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57593812</GRN>
+    <RemitterName>GAJENDRA MEENA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451023</BankRefNo>
+    <CIN>CNRB5759381212012022</CIN>
+    <paiddate>2022/01/12 11:41:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57594565</GRN>
+    <RemitterName>PRAHLAD RAM</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451026</BankRefNo>
+    <CIN>CNRB5759456512012022</CIN>
+    <paiddate>2022/01/12 11:48:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595186</GRN>
+    <RemitterName>BHARAT SAINI</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451036</BankRefNo>
+    <CIN>CNRB5759518612012022</CIN>
+    <paiddate>2022/01/12 11:54:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57595401</GRN>
+    <RemitterName>FARUKH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451038</BankRefNo>
+    <CIN>CNRB5759540112012022</CIN>
+    <paiddate>2022/01/12 11:56:44</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57595572</GRN>
+    <RemitterName>LEELA MERITYA</RemitterName>
+    <Amount>700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451043</BankRefNo>
+    <CIN>CNRB5759557212012022</CIN>
+    <paiddate>2022/01/12 11:58:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57619520</GRN>
+    <RemitterName>SURESH KUMAR YADAV</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451344</BankRefNo>
+    <CIN>CNRB5761952012012022</CIN>
+    <paiddate>2022/01/12 15:46:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57619774</GRN>
+    <RemitterName>KULDEEP SHARMA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451348</BankRefNo>
+    <CIN>CNRB5761977412012022</CIN>
+    <paiddate>2022/01/12 15:50:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620306</GRN>
+    <RemitterName>RAMAN KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451355</BankRefNo>
+    <CIN>CNRB5762030612012022</CIN>
+    <paiddate>2022/01/12 15:57:30</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57620713</GRN>
+    <RemitterName>JITENDRA SANKLECHA</RemitterName>
+    <Amount>44795</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451366</BankRefNo>
+    <CIN>CNRB5762071312012022</CIN>
+    <paiddate>2022/01/12 16:03:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57621135</GRN>
+    <RemitterName>CITY MOTORS</RemitterName>
+    <Amount>7156</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451377</BankRefNo>
+    <CIN>CNRB5762113512012022</CIN>
+    <paiddate>2022/01/12 16:08:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57621141</GRN>
+    <RemitterName>Mukesh Kumar Meena So Babu Lal Meena</RemitterName>
+    <Amount>300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451378</BankRefNo>
+    <CIN>CNRB5762114112012022</CIN>
+    <paiddate>2022/01/12 16:08:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57623229</GRN>
+    <RemitterName>SABIR KHAN</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451407</BankRefNo>
+    <CIN>CNRB5762322912012022</CIN>
+    <paiddate>2022/01/12 16:39:25</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57623249</GRN>
+    <RemitterName>SUNIL NAYAK</RemitterName>
+    <Amount>34554</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451408</BankRefNo>
+    <CIN>CNRB5762324912012022</CIN>
+    <paiddate>2022/01/12 16:40:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57623441</GRN>
+    <RemitterName>RSEB</RemitterName>
+    <Amount>700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451410</BankRefNo>
+    <CIN>CNRB5762344112012022</CIN>
+    <paiddate>2022/01/12 16:42:37</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57623466</GRN>
+    <RemitterName>NASIM BANO</RemitterName>
+    <Amount>7066</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451411</BankRefNo>
+    <CIN>CNRB5762346612012022</CIN>
+    <paiddate>2022/01/12 16:42:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57623631</GRN>
+    <RemitterName>HARISHCHANDRA JANGIR</RemitterName>
+    <Amount>7482</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451415</BankRefNo>
+    <CIN>CNRB5762363112012022</CIN>
+    <paiddate>2022/01/12 16:45:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57624306</GRN>
+    <RemitterName>SOFIYA</RemitterName>
+    <Amount>3200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451420</BankRefNo>
+    <CIN>CNRB5762430612012022</CIN>
+    <paiddate>2022/01/12 16:55:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592734</GRN>
+    <RemitterName>BALJEET CHOUDHARY</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451006</BankRefNo>
+    <CIN>CNRB5759273412012022</CIN>
+    <paiddate>2022/01/12 11:30:54</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57592751</GRN>
+    <RemitterName>SARAJ MOHAMMAD</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451007</BankRefNo>
+    <CIN>CNRB5759275112012022</CIN>
+    <paiddate>2022/01/12 11:31:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57592826</GRN>
+    <RemitterName>HRY</RemitterName>
+    <Amount>1050</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451009</BankRefNo>
+    <CIN>CNRB5759282612012022</CIN>
+    <paiddate>2022/01/12 11:31:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57593209</GRN>
+    <RemitterName>HUKAM SINGH</RemitterName>
+    <Amount>18510</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451017</BankRefNo>
+    <CIN>CNRB5759320912012022</CIN>
+    <paiddate>2022/01/12 11:35:29</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57593456</GRN>
+    <RemitterName>RANJEET</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451020</BankRefNo>
+    <CIN>CNRB5759345612012022</CIN>
+    <paiddate>2022/01/12 11:38:04</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0040-00-111-01-00</HeadAcc>
+    <GRN>57596525</GRN>
+    <RemitterName>HIROHAMA INDIA PRIVATE LIMITED</RemitterName>
+    <Amount>21241</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451051</BankRefNo>
+    <CIN>CNRB5759652512012022</CIN>
+    <paiddate>2022/01/12 12:06:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57596584</GRN>
+    <RemitterName>BABU LAL PARGI</RemitterName>
+    <Amount>13500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451052</BankRefNo>
+    <CIN>CNRB5759658412012022</CIN>
+    <paiddate>2022/01/12 12:06:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57596627</GRN>
+    <RemitterName>DINESH ...</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451053</BankRefNo>
+    <CIN>CNRB5759662712012022</CIN>
+    <paiddate>2022/01/12 12:06:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57596663</GRN>
+    <RemitterName>MANOHAR LAL</RemitterName>
+    <Amount>33551</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451056</BankRefNo>
+    <CIN>CNRB5759666312012022</CIN>
+    <paiddate>2022/01/12 12:07:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57596953</GRN>
+    <RemitterName>KARAN SINGH</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451058</BankRefNo>
+    <CIN>CNRB5759695312012022</CIN>
+    <paiddate>2022/01/12 12:09:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57596965</GRN>
+    <RemitterName>AJMAL KHAN</RemitterName>
+    <Amount>4300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451059</BankRefNo>
+    <CIN>CNRB5759696512012022</CIN>
+    <paiddate>2022/01/12 12:09:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-02</HeadAcc>
+    <GRN>57597004</GRN>
+    <RemitterName>PS UDAIPURWATI</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451060</BankRefNo>
+    <CIN>CNRB5759700412012022</CIN>
+    <paiddate>2022/01/12 12:09:49</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597026</GRN>
+    <RemitterName>AMJAD KHAN</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451061</BankRefNo>
+    <CIN>CNRB5759702612012022</CIN>
+    <paiddate>2022/01/12 12:09:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597012</GRN>
+    <RemitterName>RAJ KUMAR</RemitterName>
+    <Amount>1200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451062</BankRefNo>
+    <CIN>CNRB5759701212012022</CIN>
+    <paiddate>2022/01/12 12:10:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597238</GRN>
+    <RemitterName>RANJEET SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451065</BankRefNo>
+    <CIN>CNRB5759723812012022</CIN>
+    <paiddate>2022/01/12 12:11:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597267</GRN>
+    <RemitterName>VISHNU SINGH</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451066</BankRefNo>
+    <CIN>CNRB5759726712012022</CIN>
+    <paiddate>2022/01/12 12:11:52</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57597389</GRN>
+    <RemitterName>MADHUSUDAN CARGO CARRIER</RemitterName>
+    <Amount>4200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451069</BankRefNo>
+    <CIN>CNRB5759738912012022</CIN>
+    <paiddate>2022/01/12 12:13:04</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57597695</GRN>
+    <RemitterName>M</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451075</BankRefNo>
+    <CIN>CNRB5759769512012022</CIN>
+    <paiddate>2022/01/12 12:16:12</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57598387</GRN>
+    <RemitterName>ANIL KUMAR DAMOR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451079</BankRefNo>
+    <CIN>CNRB5759838712012022</CIN>
+    <paiddate>2022/01/12 12:22:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57598863</GRN>
+    <RemitterName>UNIVERSAL METALLIC PVT. LTD.</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451084</BankRefNo>
+    <CIN>CNRB5759886312012022</CIN>
+    <paiddate>2022/01/12 12:26:34</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57584299</GRN>
+    <RemitterName>Pradeep Mudgal</RemitterName>
+    <Amount>550</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450910</BankRefNo>
+    <CIN>CNRB5758429911012022</CIN>
+    <paiddate>2022/01/11 20:58:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57584379</GRN>
+    <RemitterName>Pradeep Mudgal</RemitterName>
+    <Amount>550</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450913</BankRefNo>
+    <CIN>CNRB5758437911012022</CIN>
+    <paiddate>2022/01/11 21:05:38</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57584940</GRN>
+    <RemitterName>AG Mines and Minerals</RemitterName>
+    <Amount>21214</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450920</BankRefNo>
+    <CIN>CNRB5758494011012022</CIN>
+    <paiddate>2022/01/11 22:29:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57585076</GRN>
+    <RemitterName>Sudhir kumar</RemitterName>
+    <Amount>650</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036211012022450921</BankRefNo>
+    <CIN>CNRB5758507611012022</CIN>
+    <paiddate>2022/01/11 23:01:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588859</GRN>
+    <RemitterName>PUSHPENDER SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450952</BankRefNo>
+    <CIN>CNRB5758885912012022</CIN>
+    <paiddate>2022/01/12 10:39:18</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57589186</GRN>
+    <RemitterName>RAM KUMAR</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450959</BankRefNo>
+    <CIN>CNRB5758918612012022</CIN>
+    <paiddate>2022/01/12 10:44:56</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-10-01</HeadAcc>
+    <GRN>57589944</GRN>
+    <RemitterName>BHADUR</RemitterName>
+    <Amount>638</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450965</BankRefNo>
+    <CIN>CNRB5758994412012022</CIN>
+    <paiddate>2022/01/12 10:56:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57590521</GRN>
+    <RemitterName>DEEPAK BATHEJA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450972</BankRefNo>
+    <CIN>CNRB5759052112012022</CIN>
+    <paiddate>2022/01/12 11:03:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57590912</GRN>
+    <RemitterName>ANUP SHARMA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450976</BankRefNo>
+    <CIN>CNRB5759091212012022</CIN>
+    <paiddate>2022/01/12 11:08:48</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57590894</GRN>
+    <RemitterName>Pradeep Mudgal</RemitterName>
+    <Amount>5</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450977</BankRefNo>
+    <CIN>CNRB5759089412012022</CIN>
+    <paiddate>2022/01/12 11:08:50</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57591180</GRN>
+    <RemitterName>praveen devpura</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450980</BankRefNo>
+    <CIN>CNRB5759118012012022</CIN>
+    <paiddate>2022/01/12 11:12:05</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57591615</GRN>
+    <RemitterName>HUKAM SINGH</RemitterName>
+    <Amount>18510</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450987</BankRefNo>
+    <CIN>CNRB5759161512012022</CIN>
+    <paiddate>2022/01/12 11:17:37</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57592965</GRN>
+    <RemitterName>SR DEVEGARH SEVENTILAL</RemitterName>
+    <Amount>8300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451011</BankRefNo>
+    <CIN>CNRB5759296512012022</CIN>
+    <paiddate>2022/01/12 11:33:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57593300</GRN>
+    <RemitterName>ANUJ KUMAR SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451018</BankRefNo>
+    <CIN>CNRB5759330012012022</CIN>
+    <paiddate>2022/01/12 11:36:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57593508</GRN>
+    <RemitterName>KAILASH SHARMA</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451021</BankRefNo>
+    <CIN>CNRB5759350812012022</CIN>
+    <paiddate>2022/01/12 11:38:40</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599376</GRN>
+    <RemitterName>SANDEEP SINGH</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451093</BankRefNo>
+    <CIN>CNRB5759937612012022</CIN>
+    <paiddate>2022/01/12 12:31:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57599477</GRN>
+    <RemitterName>sub registrar Kapren</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451094</BankRefNo>
+    <CIN>CNRB5759947712012022</CIN>
+    <paiddate>2022/01/12 12:32:23</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57599488</GRN>
+    <RemitterName>Mukesh</RemitterName>
+    <Amount>10</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451095</BankRefNo>
+    <CIN>CNRB5759948812012022</CIN>
+    <paiddate>2022/01/12 12:32:31</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57599523</GRN>
+    <RemitterName>NITESH KUMAR</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451096</BankRefNo>
+    <CIN>CNRB5759952312012022</CIN>
+    <paiddate>2022/01/12 12:33:04</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57599698</GRN>
+    <RemitterName>Santara Devi</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451100</BankRefNo>
+    <CIN>CNRB5759969812012022</CIN>
+    <paiddate>2022/01/12 12:34:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57600995</GRN>
+    <RemitterName>SHARUKH KHAN</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451116</BankRefNo>
+    <CIN>CNRB5760099512012022</CIN>
+    <paiddate>2022/01/12 12:45:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57601690</GRN>
+    <RemitterName>DHADA RAM MEENA</RemitterName>
+    <Amount>18826</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451122</BankRefNo>
+    <CIN>CNRB5760169012012022</CIN>
+    <paiddate>2022/01/12 12:52:25</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602474</GRN>
+    <RemitterName>SURESH KUMAR</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451131</BankRefNo>
+    <CIN>CNRB5760247412012022</CIN>
+    <paiddate>2022/01/12 12:59:33</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57602494</GRN>
+    <RemitterName>JAMSHED</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451132</BankRefNo>
+    <CIN>CNRB5760249412012022</CIN>
+    <paiddate>2022/01/12 12:59:40</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-09-01</HeadAcc>
+    <GRN>57602906</GRN>
+    <RemitterName>STC TOUR TRAVELS PVT LTD</RemitterName>
+    <Amount>170</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451138</BankRefNo>
+    <CIN>CNRB5760290612012022</CIN>
+    <paiddate>2022/01/12 13:03:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57602987</GRN>
+    <RemitterName>JASWANT</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451139</BankRefNo>
+    <CIN>CNRB5760298712012022</CIN>
+    <paiddate>2022/01/12 13:03:39</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57603167</GRN>
+    <RemitterName>PRAMOD CHANDRA BHATT</RemitterName>
+    <Amount>1200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451140</BankRefNo>
+    <CIN>CNRB5760316712012022</CIN>
+    <paiddate>2022/01/12 13:05:19</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57603655</GRN>
+    <RemitterName>IPPI KHAN</RemitterName>
+    <Amount>1204</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451147</BankRefNo>
+    <CIN>CNRB5760365512012022</CIN>
+    <paiddate>2022/01/12 13:09:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57603981</GRN>
+    <RemitterName>MAJID</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451148</BankRefNo>
+    <CIN>CNRB5760398112012022</CIN>
+    <paiddate>2022/01/12 13:12:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57621011</GRN>
+    <RemitterName>MANISH KUMAR</RemitterName>
+    <Amount>3000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451375</BankRefNo>
+    <CIN>CNRB5762101112012022</CIN>
+    <paiddate>2022/01/12 16:06:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57627026</GRN>
+    <RemitterName>DHARMENDRA MEENA</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451439</BankRefNo>
+    <CIN>CNRB5762702612012022</CIN>
+    <paiddate>2022/01/12 17:47:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57629677</GRN>
+    <RemitterName>BACHANARAM</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451462</BankRefNo>
+    <CIN>CNRB5762967712012022</CIN>
+    <paiddate>2022/01/12 19:17:42</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8443-00-106-00-00</HeadAcc>
+    <GRN>57629753</GRN>
+    <RemitterName>KanhaiyaLalSharma</RemitterName>
+    <Amount>2000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451464</BankRefNo>
+    <CIN>CNRB5762975312012022</CIN>
+    <paiddate>2022/01/12 19:22:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-11-01</HeadAcc>
+    <GRN>57589655</GRN>
+    <RemitterName>RUKMUDEEN</RemitterName>
+    <Amount>5000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450963</BankRefNo>
+    <CIN>CNRB5758965512012022</CIN>
+    <paiddate>2022/01/12 10:52:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57589858</GRN>
+    <RemitterName>SALLI KHAN</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450964</BankRefNo>
+    <CIN>CNRB5758985812012022</CIN>
+    <paiddate>2022/01/12 10:54:59</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57610794</GRN>
+    <RemitterName>INAM</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451256</BankRefNo>
+    <CIN>CNRB5761079412012022</CIN>
+    <paiddate>2022/01/12 14:17:47</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57621890</GRN>
+    <RemitterName>YASHWANT SAIN</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451388</BankRefNo>
+    <CIN>CNRB5762189012012022</CIN>
+    <paiddate>2022/01/12 16:19:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57622750</GRN>
+    <RemitterName>FAKIRA RAM</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451400</BankRefNo>
+    <CIN>CNRB5762275012012022</CIN>
+    <paiddate>2022/01/12 16:31:41</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-02-00</HeadAcc>
+    <GRN>57623082</GRN>
+    <RemitterName>Ramesh Kumar</RemitterName>
+    <Amount>6435</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451404</BankRefNo>
+    <CIN>CNRB5762308212012022</CIN>
+    <paiddate>2022/01/12 16:37:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57623080</GRN>
+    <RemitterName>VANJARA RAMCHANDRABHAI</RemitterName>
+    <Amount>13500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451405</BankRefNo>
+    <CIN>CNRB5762308012012022</CIN>
+    <paiddate>2022/01/12 16:37:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57612022</GRN>
+    <RemitterName>SUKHVEER</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451270</BankRefNo>
+    <CIN>CNRB5761202212012022</CIN>
+    <paiddate>2022/01/12 14:29:44</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57612065</GRN>
+    <RemitterName>SAIF ALI KHAN</RemitterName>
+    <Amount>1700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451271</BankRefNo>
+    <CIN>CNRB5761206512012022</CIN>
+    <paiddate>2022/01/12 14:30:11</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57612300</GRN>
+    <RemitterName>MELA SINGH</RemitterName>
+    <Amount>1063</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451273</BankRefNo>
+    <CIN>CNRB5761230012012022</CIN>
+    <paiddate>2022/01/12 14:32:32</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57612405</GRN>
+    <RemitterName>VIKASH DANKA</RemitterName>
+    <Amount>200</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451274</BankRefNo>
+    <CIN>CNRB5761240512012022</CIN>
+    <paiddate>2022/01/12 14:33:37</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0029-00-800-12-00</HeadAcc>
+    <GRN>57591676</GRN>
+    <RemitterName>DSDFSDF</RemitterName>
+    <Amount>15</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450988</BankRefNo>
+    <CIN>CNRB5759167612012022</CIN>
+    <paiddate>2022/01/12 11:18:16</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57591693</GRN>
+    <RemitterName>LAXMAN RAM</RemitterName>
+    <Amount>22166</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450989</BankRefNo>
+    <CIN>CNRB5759169312012022</CIN>
+    <paiddate>2022/01/12 11:18:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-02-800-01-00</HeadAcc>
+    <GRN>57622485</GRN>
+    <RemitterName>PURUSHOTTAM SO SHIBBU RAM</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451397</BankRefNo>
+    <CIN>CNRB5762248512012022</CIN>
+    <paiddate>2022/01/12 16:27:57</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57625018</GRN>
+    <RemitterName>SUBHASH</RemitterName>
+    <Amount>2800</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451426</BankRefNo>
+    <CIN>CNRB5762501812012022</CIN>
+    <paiddate>2022/01/12 17:07:08</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>8342-00-120-68-00</HeadAcc>
+    <GRN>57625388</GRN>
+    <RemitterName>VIKASH ENTT UDHYOG PARTNER JAIDEV SHARMA</RemitterName>
+    <Amount>1546</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451428</BankRefNo>
+    <CIN>CNRB5762538812012022</CIN>
+    <paiddate>2022/01/12 17:14:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57626040</GRN>
+    <RemitterName>VELA JI</RemitterName>
+    <Amount>21417</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451433</BankRefNo>
+    <CIN>CNRB5762604012012022</CIN>
+    <paiddate>2022/01/12 17:26:40</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57626602</GRN>
+    <RemitterName>SANWAR MAL JAT</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451436</BankRefNo>
+    <CIN>CNRB5762660212012022</CIN>
+    <paiddate>2022/01/12 17:38:35</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57587685</GRN>
+    <RemitterName>SHYAMAL SAMANTA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450937</BankRefNo>
+    <CIN>CNRB5758768512012022</CIN>
+    <paiddate>2022/01/12 10:14:13</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597213</GRN>
+    <RemitterName>DAYANAND</RemitterName>
+    <Amount>150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451064</BankRefNo>
+    <CIN>CNRB5759721312012022</CIN>
+    <paiddate>2022/01/12 12:11:28</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597312</GRN>
+    <RemitterName>SARWAN SINGH</RemitterName>
+    <Amount>850</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451067</BankRefNo>
+    <CIN>CNRB5759731212012022</CIN>
+    <paiddate>2022/01/12 12:12:21</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57597322</GRN>
+    <RemitterName>KRISHAN KUMAR</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451068</BankRefNo>
+    <CIN>CNRB5759732212012022</CIN>
+    <paiddate>2022/01/12 12:12:25</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57597558</GRN>
+    <RemitterName>GOUTAM SINGH RATHORE</RemitterName>
+    <Amount>8359</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451072</BankRefNo>
+    <CIN>CNRB5759755812012022</CIN>
+    <paiddate>2022/01/12 12:14:46</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57600346</GRN>
+    <RemitterName>SAIMAL</RemitterName>
+    <Amount>500</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451107</BankRefNo>
+    <CIN>CNRB5760034612012022</CIN>
+    <paiddate>2022/01/12 12:40:43</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-03</HeadAcc>
+    <GRN>57619955</GRN>
+    <RemitterName>POOJA TRAVELS</RemitterName>
+    <Amount>1700</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451351</BankRefNo>
+    <CIN>CNRB5761995512012022</CIN>
+    <paiddate>2022/01/12 15:52:55</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620240</GRN>
+    <RemitterName>FARUKH KHAN</RemitterName>
+    <Amount>1300</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451354</BankRefNo>
+    <CIN>CNRB5762024012012022</CIN>
+    <paiddate>2022/01/12 15:56:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620678</GRN>
+    <RemitterName>MURLI DHAR SAINI</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451365</BankRefNo>
+    <CIN>CNRB5762067812012022</CIN>
+    <paiddate>2022/01/12 16:02:24</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57620794</GRN>
+    <RemitterName>ARSAD</RemitterName>
+    <Amount>1150</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451368</BankRefNo>
+    <CIN>CNRB5762079412012022</CIN>
+    <paiddate>2022/01/12 16:04:00</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57620810</GRN>
+    <RemitterName>Adv. Sunil Kumar Vaishnav</RemitterName>
+    <Amount>100</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451369</BankRefNo>
+    <CIN>CNRB5762081012012022</CIN>
+    <paiddate>2022/01/12 16:04:14</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57620867</GRN>
+    <RemitterName>GOTAM PARMAR</RemitterName>
+    <Amount>6409</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451371</BankRefNo>
+    <CIN>CNRB5762086712012022</CIN>
+    <paiddate>2022/01/12 16:05:07</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57622132</GRN>
+    <RemitterName>VIKASH ENTT UDHYAG PARTNER JAIDEV SHARMA</RemitterName>
+    <Amount>77280</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451392</BankRefNo>
+    <CIN>CNRB5762213212012022</CIN>
+    <paiddate>2022/01/12 16:22:58</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57622176</GRN>
+    <RemitterName>Govind Prasad Gupta</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451393</BankRefNo>
+    <CIN>CNRB5762217612012022</CIN>
+    <paiddate>2022/01/12 16:23:27</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57622493</GRN>
+    <RemitterName>AKHILESH PARTAP SINGH RATHORE</RemitterName>
+    <Amount>8898</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451398</BankRefNo>
+    <CIN>CNRB5762249312012022</CIN>
+    <paiddate>2022/01/12 16:28:06</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0853-00-102-01-01</HeadAcc>
+    <GRN>57630173</GRN>
+    <RemitterName>PRATHAM KUMAR VERMA</RemitterName>
+    <Amount>13000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022451470</BankRefNo>
+    <CIN>CNRB5763017312012022</CIN>
+    <paiddate>2022/01/12 19:51:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57587771</GRN>
+    <RemitterName>DEPENDAR BENIWAL</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450941</BankRefNo>
+    <CIN>CNRB5758777112012022</CIN>
+    <paiddate>2022/01/12 10:16:45</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57587884</GRN>
+    <RemitterName>SUBHASH CHAND</RemitterName>
+    <Amount>350</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450942</BankRefNo>
+    <CIN>CNRB5758788412012022</CIN>
+    <paiddate>2022/01/12 10:19:26</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0030-03-800-01-00</HeadAcc>
+    <GRN>57587952</GRN>
+    <RemitterName>VEENA DEVI</RemitterName>
+    <Amount>600</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450943</BankRefNo>
+    <CIN>CNRB5758795212012022</CIN>
+    <paiddate>2022/01/12 10:21:10</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-08-01</HeadAcc>
+    <GRN>57587996</GRN>
+    <RemitterName>MAMTA SHARMA</RemitterName>
+    <Amount>7586</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450944</BankRefNo>
+    <CIN>CNRB5758799612012022</CIN>
+    <paiddate>2022/01/12 10:22:01</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57587992</GRN>
+    <RemitterName>HUKAM CHAND</RemitterName>
+    <Amount>400</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450945</BankRefNo>
+    <CIN>CNRB5758799212012022</CIN>
+    <paiddate>2022/01/12 10:22:03</paiddate>
+  </Detail>
+  <Detail>
+    <HeadAcc>0041-00-102-12-00</HeadAcc>
+    <GRN>57588044</GRN>
+    <RemitterName>VINAY OJHA</RemitterName>
+    <Amount>1000</Amount>
+    <Bankcode>0240539</Bankcode>
+    <BankRefNo>036212012022450946</BankRefNo>
+    <CIN>CNRB5758804412012022</CIN>
+    <paiddate>2022/01/12 10:23:16</paiddate>
+  </Detail>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GMNy9zfLIlVjbkmJykilCAficsk=</DigestValue></Reference></SignedInfo><SignatureValue>Yr3uXWzXkMniH70tB/MwOuxHPyBarwjhSqaplC4QJKz9nFRoQvffhvLR6eVNHwaODe6e93oFXRrwRxt2wygrPvkX8H5yTyf4cVQF0InAdCi9nfqzb3fg1l11r3o0EQUPYx92i16BEvfcmYKoE/vrlOCgtQpG/EF7nXhjpnGxG8w8U846jZ7xfi/vSvKCLQlKTi2i9sR3rlslzrfr/kfitWrzBIrIPkKMaUiphKpybHKdHq3rfRcmRoUNpJIPo5uNKiiM6y88HpHgybihRcsdN9FkJ/Rlp3MB9IbHfW6nlzVxdiNxY7OGhUOHZGyBSiV0S1XcFB2m32aOatHjZSGp6A==</SignatureValue></Signature></Root>

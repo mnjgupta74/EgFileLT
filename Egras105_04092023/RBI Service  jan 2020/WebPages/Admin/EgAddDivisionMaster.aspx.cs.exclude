@@ -1,0 +1,230 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using EgBL;
+using System.Data.SqlClient;
+using System.Data;
+
+public partial class WebPages_Admin_EgAddDivisionMaster : System.Web.UI.Page
+{
+    egAddDivisionBL ObjDivision;
+    //string res = "";
+    //string res1 = "";
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        
+        if (!IsPostBack)
+        {
+            ObjDivision = new egAddDivisionBL();
+            ObjDivision.FillTreasury(drpTreasury);
+            ObjDivision.GetDepartmentListForOfficeMap(drpDepartment);
+           
+            EgBankSoftCopyBL objEgBankSoftCopyBL = new EgBankSoftCopyBL();
+            objEgBankSoftCopyBL.UserId = Convert.ToInt32(Session["UserID"]);
+            drpTreasury.SelectedValue = objEgBankSoftCopyBL.GetBSRCode().Trim();
+            drpTreasury.Enabled = false;
+        }
+    }
+    protected void drpDepartment_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        ObjDivision = new egAddDivisionBL();
+        ObjDivision.TreasuryCode = drpTreasury.SelectedValue;
+        ObjDivision.DeptCode = Convert.ToInt32(drpDepartment.SelectedValue);
+        ObjDivision.GetDivisionList(drpdivision);
+        DataTable dt1 = ObjDivision.GetOfficeList();
+        DataTable dt2 = new DataTable();
+        dt2.Columns.Add("OfficeId");
+        dt2.Columns.Add("code");
+        //DataTable dt3 = new DataTable();
+        //dt3.Columns.Add("OfficeId");
+        //dt3.Columns.Add("code");
+        //chk.DataSource = dt1;
+        //chk.DataTextField = "OfficeId";
+        //chk.DataValueField = "OfficeId";
+        //chk.DataBind();
+        //var str = "";
+        List<DataTable> Tables = new List<DataTable>();
+        IEnumerable<DataRow> data = (from c in dt1.AsEnumerable()
+                    where c.Field<int>("code") > 0
+                    select 
+                    c );
+        IEnumerable<DataRow> data1 = (from c in dt1.AsEnumerable()
+                                     where c.Field<int>("code") == 0
+                                     select
+                                     c);
+        if (data.Count() > 0)
+        {
+            dt2 = data.CopyToDataTable();
+
+        }
+      
+        if (dt2.Rows.Count > 0)
+        {
+            chksel.DataSource = dt2;
+            chksel.DataTextField = "OfficeId";
+            chksel.DataValueField = "OfficeId";
+            chksel.DataBind();
+            for (int i=0 ; i<dt2.Rows.Count; i++)
+            {
+              chksel.Items[i].Selected = true;
+            }
+            chksel.Visible = true;
+            PanelSelected.Visible = true;
+            lblofc.Visible = true;
+            dt2.Clear();
+        }
+        if (data1.Count() > 0)
+        {
+            dt2 = data1.CopyToDataTable();
+        }
+        if (dt2.Rows.Count > 0)
+        {
+            chkRemove.DataSource = dt2;
+            chkRemove.DataTextField = "OfficeId";
+            chkRemove.DataValueField = "OfficeId";
+            chkRemove.DataBind();
+            chkRemove.Visible = true;
+            PanelRemove.Visible = true;
+            lbldivis.Visible = true;
+            dt2.Clear();
+        }
+
+        //for (int i = 0; i < chk.Items.Count; i++)
+        //{
+        //    if (chk.Items[i].Selected == true)
+        //    {
+        //        string[] OfficeCode = chk.Items[i].Text.ToString().Split('-');
+        //    }
+        //}
+
+        System.Data.DataTable dt = ObjDivision.GetSubDivisionofficeList();
+
+    }
+
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        if (Convert.ToInt16(drpdivision.SelectedValue) > 0)
+        {
+            string message = string.Empty;
+
+            DataTable SelectedOfficeList = new DataTable();
+            SelectedOfficeList.Columns.Add("OfficeId");
+          
+            DataTable RemoveOfficeList = new DataTable();
+            RemoveOfficeList.Columns.Add("OfficeId");
+
+            ObjDivision = new egAddDivisionBL();
+            ObjDivision.TreasuryCode = drpTreasury.SelectedValue.ToString();
+            ObjDivision.DivisionCode = drpdivision.SelectedValue.ToString();
+            ObjDivision.DeptCode = Convert.ToInt32(drpDepartment.SelectedValue);
+            string[] drp = drpdivision.SelectedItem.Text.ToString().Split('|');
+            ObjDivision.DivisionName = drp[1].ToString();
+            ObjDivision.AgOfficeId = drp[3].ToString();
+
+            // remove Item
+            foreach (ListItem li in chksel.Items)
+            {
+                if (!li.Selected)
+                {
+                    DataRow drremoveofc = RemoveOfficeList.NewRow();
+                    string[] A = li.Value.Split('-');
+                    drremoveofc[0] = A[0].ToString();
+                    RemoveOfficeList.Rows.Add(drremoveofc);
+                }
+            }
+
+
+          
+            //for (int i = 0; i < lstSelected.Items.Count; i++)
+            //{
+            //    string[] A = lstSelected.Items[i].Text.Split('-');
+            
+            //    //RemoveOfficeList = RemoveOfficeList + "," + A[0].ToString();
+            //}
+
+            // New Selected item
+
+            foreach (ListItem li in chkRemove.Items)
+            {
+                if (li.Selected)
+                {
+                    DataRow drremoveofc = SelectedOfficeList.NewRow();
+                    string[] A = li.Value.Split('-');
+                    drremoveofc[0] = A[0].ToString();
+                    SelectedOfficeList.Rows.Add(drremoveofc);
+                }
+            }
+            //for (int i = 0; i < lstRemove.Items.Count; i++)
+            //{
+            //    string[] A = lstRemove.Items[i].Text.Split('-');
+          
+            //    //SelectedOfficeList =SelectedOfficeList + "," + A[0].ToString();
+            //}
+
+            ObjDivision.SelectOfficeList = SelectedOfficeList;
+            ObjDivision.RemoveOfficeList = RemoveOfficeList;
+            int output = ObjDivision.InsertNewDivision();
+            if (output > 0)
+            {
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "MSG", "alert('Record Update Successfully')", true);
+                drpdivision.Items.Clear();
+                lstRemove.Items.Clear();
+                lstSelected.Items.Clear();
+                lstSelected.Visible = false;
+                lstRemove.Visible = false;
+                lblrem.Visible = false;
+                lblsel.Visible = false;
+
+                PanelSelected.Visible = false;
+                PanelRemove.Visible = false;
+                lblofc.Visible = false;
+                lbldivis.Visible = false;
+                //drpTreasury.SelectedValue = "0";
+                drpDepartment.SelectedValue = "0";
+            }
+            else
+            {
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "MSG", "alert('Record Not Saved')", true);
+
+            }
+        }
+        else
+        {
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "MSG", "alert('Select division code')", true);
+
+        }
+
+    }
+
+    protected void chksel_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        lstSelected.Items.Clear();
+        foreach (ListItem li in chksel.Items)
+        {
+            if (!li.Selected)
+            {
+                lstSelected.Items.Add(li.Text);
+            }
+        }
+        lstSelected.Visible = true;
+        lblrem.Visible = true;
+    }
+    protected void chkRemove_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        lstRemove.Items.Clear();
+        foreach (ListItem li in chkRemove.Items)
+        {
+            if (li.Selected)
+            {
+                lstRemove.Items.Add(li.Text);
+            }
+        }
+        lstRemove.Visible = true;
+        lblsel.Visible = true;
+    }
+}

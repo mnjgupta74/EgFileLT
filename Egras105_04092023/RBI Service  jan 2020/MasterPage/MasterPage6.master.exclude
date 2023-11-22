@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage6.master.cs"
+    Inherits="masterpage_MasterPage6" %>
+
+<%@ Register Src="~/UserControls/HorizontalMenu.ascx" TagName="HMenu" TagPrefix="ucl" %>
+<%@ Register Src="~/UserControls/VerticalMenu.ascx" TagName="VMenu" TagPrefix="ucl" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../style.css" rel="Stylesheet" />
+    <link href="../styleGreen.css" rel="Stylesheet" type="text/css" />
+    <link href="../css/ControlStyle.css" rel="Stylesheet" type="text/css" />
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #E5F0E7; height: 500px;">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <%--  <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </ajaxToolkit:ToolkitScriptManager>--%>
+    <div>
+        <div class="BackgroundGradient">
+        </div>
+        <div class="BodyContent">
+            <div class="BorderBorder">
+                <div class="BorderBL" style="top: 750px;">
+                    <div>
+                    </div>
+                </div>
+                <div class="BorderBR">
+                    <div>
+                    </div>
+                </div>
+                <div class="BorderR">
+                    <div>
+                    </div>
+                </div>
+                <div class="BorderB">
+                    <div>
+                    </div>
+                </div>
+                <div class="BorderL">
+                </div>
+                <div class="BorderC">
+                </div>
+                <div>
+                    <div class="Header" style="height: 150px;">
+                        <%--<div class="HeaderTitle">
+                            <h1>
+                                <a href="#">Department Of Rajasthan</a></h1>
+                            <h2>
+                                Integrated Financial Management System</h2>
+                        </div>--%>
+                    </div>
+                    <%-- <div class="Menu">
+                        <ul>
+                            <li><a href="#" class="ActiveMenuButton"><span>Home</span></a></li>|<li><a href="#"
+                                class="MenuButton"><span>Categories</span></a></li>|<li><a href="#" class="MenuButton">
+                                    <span>Archive</span></a></li>|<li><a href="#" class="MenuButton"><span>About</span></a></li></ul>
+                    </div>--%>
+                    <div>
+                        <table align="center" id="MasterTable" cellspacing="0" cellpadding="0">
+                            <%--<tr>
+                                <td align="right" valign="middle">
+                                    <ucl:hmenu id="hmenu1" runat="server" onload="hmenu1_Load" />
+                                </td>
+                            </tr>--%>
+                            <tr valign="top">
+                                <td valign="top" style="margin-left: 40px;">
+                                    <ucl:VMenu ID="vmenu1" runat="server" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="Columns">
+                        <div class="MainColumn">
+                            <%--     <div class="Article">--%>
+                            <%--      <fieldset id="fieldamount" class="fieldset" runat="server">--%>
+                            <%--  <div style="height: 600px; width: 965px;">--%><%--For IE  --%>
+                            <div class="FirstDiv">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                            <%-- </fieldset>--%>
+                            <%-- </div>--%>
+                            <%--  </div>--%>
+                        </div>
+                    </div>
+                    <div class="Footer">
+                        NIC ,Jaipur
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

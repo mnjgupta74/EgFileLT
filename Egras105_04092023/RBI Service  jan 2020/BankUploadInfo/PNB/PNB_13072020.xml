@@ -1,0 +1,26 @@
+<Root>
+  <Detail>
+    <HeadAcc>0041-00-102-07-05</HeadAcc>
+    <GRN>36834689</GRN>
+    <RemitterName>MOHAN LAL</RemitterName>
+    <Amount>350.00</Amount>
+    <Bankcode>0304017</Bankcode>
+    <BankRefNo>199940508</BankRefNo>
+    <CIN>030401700031313012020</CIN>
+    <paiddate>2020/01/13 13:11:45</paiddate>
+  </Detail>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>BmynKQFF8Qrmu/8XxDcLpyycXUU=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>WNL0eQ80kLf/15C2S1Mi8ZE1DLbSiN+q4O4+A6ZL9w03bWk/kayIPn3qgdh6IQ8ZfoQs5ZakL5i7YYpGZ9A3lBsZn+gDuNMeb4hBwRAfV4DJXdScqbmsERLZMmQqc/p4v3BNkFqELpgLr5e/7EMcPfVMGlvmkdpsdFe4TsgTLOWv99T/Re6J8em3DZRCileZusWbHm/NefKIHHurAZiydf18wOzrJDwIkyruK/6AFIqaChbjgMQLEe4SQ4WtkPl/HdMg5PoqlywhxlI1qaw6vRfrvsT6N9ksyrKRtbJh3PV+cNJ6/jC5/wuTQFFX4hp4rXEXa703shWCbCgP4KWcaw==</SignatureValue>
+  </Signature>
+</Root>

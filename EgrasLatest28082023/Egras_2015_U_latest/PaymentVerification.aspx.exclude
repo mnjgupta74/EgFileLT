@@ -1,0 +1,39 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Paymentverification.aspx.cs" Inherits="Paymentverification" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<head runat="server">
+    <script type="text/javascript" src="https://egras.rajasthan.gov.in/js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="CSS/bootstrap.css" rel="stylesheet" />
+
+    <title>Egras.rajasthan.gov.in</title>
+    <style type="text/css">
+        .style2 {
+            height: 84px;
+            width: 839px;
+        }
+
+        .style3 {
+            width: 839px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .login {
+            border: 2px solid #999999 !important;
+        }
+
+        table #grdCircular {
+            border: 0 !important;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+    </form>
+</body>
+</html>

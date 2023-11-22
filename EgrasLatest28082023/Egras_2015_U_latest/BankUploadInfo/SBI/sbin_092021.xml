@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Detail>
+    <Bankcode>0006326</Bankcode>
+     <Amount>1.00</Amount>
+     <paiddate>20210301</paiddate>
+   </Detail>
+<Detail>
+    <Bankcode>0006326</Bankcode>
+     <Amount>2.00</Amount>
+     <paiddate>20210301</paiddate>
+   </Detail>
+
+</Root>

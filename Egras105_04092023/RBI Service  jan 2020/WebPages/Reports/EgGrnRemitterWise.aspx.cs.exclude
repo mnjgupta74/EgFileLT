@@ -1,0 +1,77 @@
+﻿using System;
+using System.Web.UI.WebControls;
+using EgBL;
+using System.Data;
+using System.Web.UI;
+public partial class WebPages_Reports_EgGrnRemitterWise : System.Web.UI.Page
+{
+    DataTable dt = new DataTable();
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if ((Session["UserId"] == null) || Session["UserId"].ToString() == "")
+        {
+            Response.Redirect("~\\LoginAgain.aspx");
+        }
+    }
+    protected void btnshow_Click(object sender, EventArgs e)
+    {
+        BindGrid();
+       
+       // dt = (DataTable)((DataSet)GrdRemitter.DataSource).Tables[0];
+        if (dt.Rows.Count > 0)
+        {
+            double SumEAmount = Convert.ToDouble(dt.Compute("Sum(Amount)", ""));
+            if (SumEAmount != 0)
+            {
+                ImageButton1.Visible = true;
+                divTotalAmount.Visible = true;
+                lblTotalAmount.Text = "Total Amount :-" + SumEAmount.ToString("0.00");
+            }
+        }
+        else
+        {
+            ImageButton1.Visible = false;
+            divTotalAmount.Visible = false;
+        }
+    }
+    public void BindGrid()
+    {
+        EgGrnAmountDetailRptBL objEgGrnAmountDetailRptBL = new EgGrnAmountDetailRptBL();
+        string[] revdateFrom, revdateTo;
+        revdateFrom = txtFromDate.Text.Trim().Split('/');
+        objEgGrnAmountDetailRptBL.Fromdate = Convert.ToDateTime(revdateFrom[2] + "/" + revdateFrom[1] + "/" + revdateFrom[0]);
+        revdateTo = txtToDate.Text.Trim().Split('/');
+        objEgGrnAmountDetailRptBL.Todate = Convert.ToDateTime(revdateTo[2] + "/" + revdateTo[1] + "/" + revdateTo[0]);
+        objEgGrnAmountDetailRptBL.RemitterName = txtremitter.Text.Trim();
+
+        dt  = objEgGrnAmountDetailRptBL.BindRemitterDetails();
+        GrdRemitter.DataSource = dt;
+        GrdRemitter.DataBind();
+        dt.Dispose();
+
+    }
+    protected void grdGrn_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        BindGrid();
+        GrdRemitter.PageIndex = e.NewPageIndex;
+        GrdRemitter.DataBind();
+    }
+    protected void grdGrn_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        EgEncryptDecrypt ObjEncryptDecrypt = new EgEncryptDecrypt();
+        if (e.CommandName == "grnbind")
+        {
+            LinkButton lb = (LinkButton)e.CommandSource;
+            int grn = Convert.ToInt32(lb.Text);
+
+            string strURLWithData = ObjEncryptDecrypt.Encrypt(string.Format("GRN={0}&userId={1}&usertype={2}&Dept={3}", lb.Text, Session["UserId"].ToString(), Session["UserType"].ToString(), "1"));
+
+            string script = "window.open('../EgDefaceDetailNew.aspx?" + strURLWithData + "','window','Height=600px,width=1020px,left=152,top=120,resizable=no,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=No');";
+
+
+
+            ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "PopupScript", script, true);
+
+        }
+    }
+}

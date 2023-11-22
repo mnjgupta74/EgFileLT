@@ -1,0 +1,119 @@
+﻿/*--------------------------------- Outer Grid CSS STARTS------------------------------------------------------------------*/
+/*Grid View Outer*/
+/* css for grid */
+.grid
+{
+width:98%;
+border:1px solid #0000;   
+padding:6px 10px;
+text-align:center;
+margin:0px auto;
+}
+
+/*Inner Grid*/
+.grid table
+{
+width:98%;
+border:1px solid #0000;   
+padding:6px 10px;
+text-align:center;
+}
+
+/*grid header*/
+.gridheader
+{
+    background:#353535 url(../images/grid-th-bg.gif) repeat-x left;
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:6px 20px; 
+    color:#FFFFFF;
+    height:25px;
+}
+/*grid footer*/
+.gridfooter
+{
+    background:#353535 url(../images/grid-th-bg.gif) repeat-x left;
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:0px; 
+    color:#FFFFFF;
+}
+
+/*grid row style*/
+.gridrow
+{
+    font:10px Verdana, Arial, Helvetica,sans-serif;
+    font-weight:bold;
+    padding:6px 20px;
+    color:#006A9D;
+    height:25px;
+}
+
+/*grid alternate row*/
+.gridalternaterow
+{
+   font:10px Verdana, Arial, Helvetica,sans-serif;
+    font-weight:bold;
+    padding:6px 20px;
+    color:#406B9F;
+    background:#AAAAAA;
+    height:25px;
+}
+/*--------------------------------- Outer Grid CSS END------------------------------------------------------------------*/
+
+/*--------------------------------- Inner Grid CSS STARTS------------------------------------------------------------------*/
+/*Inherited Grid ie. grid inside grid*/
+.innergridheader
+{
+    background:#39a8e9 url(../images/innergridheader.gif) repeat-x left;
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:6px 20px; 
+    color:#FFFFFF;
+}
+/*-------------------------------------Inner Grid CSS END-------------------------------------------------------------*/
+/*-------------------------------------Detail CSS START-------------------------------------------------------------*/
+.view
+{
+width:98%;
+border:1px solid #0000;   
+padding:6px 10px;
+text-align:left;
+}
+
+/*grid header*/
+.viewheader
+{
+    background:#353535 url(../images/grid-th-bg.gif) repeat-x left;
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:6px 20px; 
+    color:#FFFFFF;
+    width:120px;
+}
+
+/*grid row style*/
+.viewrow
+{
+    font:10px Verdana, Arial, Helvetica,sans-serif;
+    font-weight:bold;
+    padding:6px 20px;
+    color:#006A9D;
+}
+
+/*------------------------------------------Popup Grid Style-------------------------------------*/
+.gridPopup
+{
+   
+border:1px solid #0000;   
+padding:6px 10px;
+text-align:center; 
+}
+.gridheaderpopup
+{
+    background:#353535 url(../images/grid-th-bg.gif) repeat-x left;
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:6px 20px; 
+    color:#FFFFFF;
+}

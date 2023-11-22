@@ -1,0 +1,112 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage/MasterPage5.master" AutoEventWireup="true" CodeFile="Eg45AChallan.aspx.cs" Inherits="WebPages_Reports_Eg45AChallan" Title="Untitled Page" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolKit" %>
+<%@ Register Assembly="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304"
+    Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+  <script src="../../js/Control.js" language="javascript" type="text/javascript"></script>
+
+ <script type="text/javascript">
+        function NumberOnly(evt) {
+            if (!(evt.keyCode == 46 || (evt.keyCode >= 48 && evt.keyCode <= 57))) return false;
+            var parts = evt.srcElement.value.split('.');
+            if (parts.length > 3) return false;
+
+            if (evt.keyCode == 46) return (parts.length == 1);
+
+            if (parts[0].length >= 14) return false;
+
+            if (parts.length == 3 && parts[1].length >= 3) return false;
+        }
+    </script>
+
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1"
+        DisplayAfter="0">
+        <ProgressTemplate>
+            <asp:Panel ID="pnlBackGround" runat="server" CssClass="popup-div-background">
+                <div id="divFeedback" runat="server" class="popup-div-front">
+                    <br />
+                    <br />
+                    <br />
+                    <img src="../../App_Themes/images/progress.gif" />
+                    <br />
+                    <br />
+                    The request is being processed. Please wait...<br />
+                    This window will disappear when the process is finished.
+                </div>
+            </asp:Panel>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <table style="width: 80%" align="center">
+                <tr>
+                    <td colspan="6" style="text-align: center; height: 35px" valign="top">
+                        <asp:Label ID="Labelheader" runat="server" Text="Challan Report (45-A)" Font-Bold="True"
+                            ForeColor="#009900" Style="text-decoration: underline;"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>From Date:</b>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtFromDate" runat="server" Width="150px" onkeypress="Javascript:return NumberOnly(event)"
+                         onchange="javascript:return dateValidation(this,ctl00_ContentPlaceHolder1_txtToDate)"></asp:TextBox>
+                        <ajaxToolKit:CalendarExtender ID="calDate" runat="server" PopupButtonID="txtFromDate"
+                            Format="dd/MM/yyyy" TargetControlID="txtFromDate">
+                        </ajaxToolKit:CalendarExtender>
+                        <asp:RequiredFieldValidator ID="req2" runat="server" ControlToValidate="txtFromDate"
+                            SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <b>To Date:</b>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtToDate" runat="server" Width="150px" onkeypress="Javascript:return NumberOnly(event)"
+                        onchange="javascript:return dateValidation1(this,ctl00_ContentPlaceHolder1_txtFromDate)"></asp:TextBox>
+                        <ajaxToolKit:CalendarExtender ID="CalendarExtender1" runat="server" PopupButtonID="txtToDate"
+                            Format="dd/MM/yyyy" TargetControlID="txtToDate">
+                        </ajaxToolKit:CalendarExtender>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtToDate"
+                            SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <b>Select Bank:</b>
+                    </td>
+                    <td>
+                        <asp:DropDownList ID="ddlbankname" runat="server" Width="180px" CssClass="borderRadius inputDesign">
+                        </asp:DropDownList>
+                        <asp:RequiredFieldValidator ID="req3" runat="server" ControlToValidate="ddlbankname"
+                            SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de" InitialValue="0"></asp:RequiredFieldValidator>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="5">
+                        <asp:Button ID="btnshow" runat="server" Text="Show" ValidationGroup="de" OnClick="btnshow_Click" />
+                    </td>
+                </tr>
+                
+                    <td align="right" colspan="6">
+                        <asp:Button ID="btnPrint" runat="server" Text="Print" Visible="false" ValidationGroup="de" OnClick="btnPrint_Click" />
+                    </td>
+               
+                <tr>
+                    <td colspan="6">
+                        <center>
+                            <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" Visible="false" />
+                        </center>
+                    </td>
+                </tr>
+                
+            </table>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>
+

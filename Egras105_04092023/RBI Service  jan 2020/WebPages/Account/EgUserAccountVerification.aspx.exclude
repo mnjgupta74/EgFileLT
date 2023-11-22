@@ -1,0 +1,253 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/MasterPage4.master"
+    AutoEventWireup="true" CodeFile="EgUserAccountVerification.aspx.cs" Inherits="WebPages_Account_EgUserAccountVerification" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <script src="../../md5.js" type="text/javascript" language="javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+
+        function CheckPasswordPolicy() {
+            window.showModalDialog("EgfrmPasswordPolicy.aspx", "Null", "dialogWidth:400px; dialogHeight:200px; scroll:no; center:yes");
+        }
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function isStrongPassword() {
+
+
+            var control = document.getElementById("<%=txtNewPassword.ClientID%>");
+
+
+            var myString = control.value;
+            var Stringlen = myString.length;
+
+            var ValidateDigits = /[^0-9]/g;
+            var ValidateSpChar = /[a-zA-Z0-9]/g;
+            var ValidateChar = /[^A-Z]/g;
+
+
+            var digitString = myString.replace(ValidateDigits, "");
+            var specialString = myString.replace(ValidateSpChar, "");
+            var charString = myString.replace(ValidateChar, "");
+
+
+
+
+            if (Stringlen < 6) {
+
+                alert("Passwords must be at least 6 characters");
+
+                control.value = "";
+
+                control.focus();
+                return false;
+            }
+            if (Stringlen > 20) {
+                alert("Passwords must be  20 characters");
+                control.value = "";
+                control.focus();
+                return false;
+            }
+            if (specialString < 1) {
+
+                alert("Passwords must include at least 1 special (#,@,&,$ etc) characters");
+
+                control.value = "";
+
+                control.focus();
+                return false;
+            }
+            if (digitString < 1) {
+                alert("Passwords must include at least 1 numeric characters");
+                control.value = "";
+
+                control.focus();
+                return false;
+            }
+            if (charString < 1) {
+
+                alert("Passwords must include at least 1 Capital characters");
+                control.value = "";
+
+                control.focus();
+                return false;
+            }
+
+
+
+            var newpassword = document.getElementById("<%=txtNewPassword.ClientID %>").value;
+
+            document.getElementById("<%=txtNewPassword.ClientID %>").value = hex_md5(newpassword);
+
+            var cnfpassword = document.getElementById("<%=txtCnfPassword.ClientID %>").value;
+            document.getElementById("<%=txtCnfPassword.ClientID %>").value = hex_md5(cnfpassword);
+
+            return true;
+        } 
+    </script>
+
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <div style="border: 1px solid green; height: 500px;">
+                <table align="center" width="90%">
+                    <tr align="right">
+                        <td align="left">
+                            <asp:Label ID="lblLoginId" runat="server" Font-Bold="true" ForeColor="BlueViolet"></asp:Label>
+                        </td>
+                        <td align="right">
+                            <asp:LinkButton ID="lnkBack" Text="Go Back" runat="server" OnClick="lnkBack_Click"></asp:LinkButton>
+                        </td>
+                    </tr>
+                </table>
+                <%--     <div id="divsecQuestion" runat="server">
+                    <table align="center" width="90%">
+                        <tr>
+                            <td>
+                                <asp:Label ID="Label1" runat="server" Text="Your Securty Question :-"></asp:Label>
+                            </td>
+                            <td>
+                                <asp:DropDownList ID="ddlsecQuestion" runat="server">
+                                </asp:DropDownList>
+                                <asp:RequiredFieldValidator ID="rfvddlsecQuestion" runat="server" ControlToValidate="ddlsecQuestion"
+                                    Text="*" ErrorMessage="Select your Security Question " ValidationGroup="de" InitialValue="0"
+                                    ForeColor="Red"></asp:RequiredFieldValidator>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:Label ID="Label2" runat="server" Text=" Answer :-"></asp:Label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txtsecAnswer" runat="server"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="rfvSecAnswer" runat="server" ControlToValidate="txtsecAnswer"
+                                    Text="*" ErrorMessage="Enter Your Security Answer" ValidationGroup="de" ForeColor="Red"></asp:RequiredFieldValidator>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <asp:Button ID="BtnVerified" runat="server" OnClick="BtnVerified_Click" Text="Click for Reset Password"
+                                    ValidationGroup="de" Style="background-color: Blue; color: white" />
+                                &nbsp;&nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                </div>--%>
+                <div>
+                    <fieldset runat="server" id="lstrecord" style="width: 700px; margin-left: 150px;
+                        margin-right: 150px; margin-top: 50px;">
+                        <legend style="color: #336699; font-weight: bold">Please Verify Your Details</legend>
+                        <table width="100%">
+                            <tr>
+                                <td colspan="2" align="right">
+                                    <span style="color: Red; font-family: Arial CE; font-size: 10px;">* Mobile Number Should
+                                        be Valid for Change Password</span>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b><span style="color: #336699; font-family: Arial CE; font-size: 13px;">Full Name :-</span></b>&nbsp;
+                                </td>
+                                <td>
+                                    <asp:Label ID="lblName" runat="server" Text="FullName" Enabled="false" ForeColor="#336699"
+                                        Font-Bold="true"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b><span style="color: #336699; font-family: Arial CE; font-size: 13px;">Mobile Number:-</span></b>&nbsp;
+                                </td>
+                                <td>
+                                    <asp:Label ID="lblMobile" runat="server" Text="Mobile" Enabled="false" ForeColor="#336699"
+                                        Font-Bold="true"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="right">
+                                    <img src="../../Image/icon-mobile.gif" style="width: 19px; margin-top: 9px" />&nbsp;&nbsp;
+                                    <span style="font-family: Arial CE; font-size: 13px; font-family: Calibri;">code for
+                                        reset password.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Button ID="btnverify" runat="server" Text="Continue" OnClick="btnverify_Click" />
+                                    <asp:Button ID="Cancelbtn" runat="server" Text="Cancel" OnClick="Cancelbtn_Click" />
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset runat="server" id="FieldsetCode" style="width: 700px; margin-left: 150px;
+                        margin-right: 150px; margin-top: 50px;" visible="false">
+                        <legend style="color: #336699; font-weight: bold">Check Your Phone</legend>
+                        <table width="100%">
+                            <tr>
+                                <td align="center" style="height: 35px">
+                                    <span style="color: #336699; font-family: Arial CE; font-size: 13px; font-family: Calibri;">
+                                        we sent you a confirmation code. Enter it below to continue to reset your password.</span>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <asp:TextBox ID="txtcode" runat="server" Width="150px" Height="35px" TextMode="Password"
+                                        MaxLength="8"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="height: 35px">
+                                    <asp:LinkButton ID="lknResendCode" runat="server" Text="Resend me code Again." OnClick="lknResendCode_Click"></asp:LinkButton>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Button ID="btnmobilecode" runat="server" Text="Continue" OnClick="btnmobilecode_Click" />
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+                <div id="divchangePass" runat="server" visible="false">
+                    <fieldset runat="server" id="Fieldset1" style="width: 700px; margin-left: 150px;
+                        margin-right: 150px; margin-top: 50px;">
+                        <legend style="color: #336699; font-weight: bold">Change Password</legend>
+                        <table align="center" width="100%">
+                            <tr>
+                                <td style="height: 35px;">
+                                    <b><span style="color: #336699; font-family: Arial CE; font-size: 13px;">New Password
+                                        :-</span></b>&nbsp;
+                                </td>
+                                <td>
+                                    <asp:TextBox ID="txtNewPassword" runat="server" TextMode="Password" AutoComplete="Off" />
+                                    <asp:RequiredFieldValidator ID="rfvNew" ControlToValidate="txtNewPassword" ErrorMessage="New Password is required"
+                                        SetFocusOnError="true" ValidationGroup="vldg" ForeColor="Red" Display="None"
+                                        runat="server" />
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <asp:LinkButton ID="lnkPassword" runat="server" Text=" Password Policy (?)" ForeColor="Maroon"
+                                        OnClientClick="Javascript:CheckPasswordPolicy()"></asp:LinkButton>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 35px;">
+                                    <b><span style="color: #336699; font-family: Arial CE; font-size: 13px;">Confirm New
+                                        Password:-</span></b>&nbsp;
+                                </td>
+                                <td>
+                                    <asp:TextBox ID="txtCnfPassword" runat="server" TextMode="Password" AutoComplete="Off" />
+                                    <asp:CompareValidator ID="rfvCnf" ControlToValidate="txtCnfPassword" CssClass="XMMessage"
+                                        ErrorMessage="New password and confirm password Should be same." SetFocusOnError="true"
+                                        ValidationGroup="vldg" ControlToCompare="txtNewPassword" runat="server"></asp:CompareValidator>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <asp:Button ID="btnReSetPass" runat="server" Text="Reset Password" OnClick="btnReSetPass_Click"
+                                        OnClientClick="isStrongPassword();" ValidationGroup="vldg" />
+                                    <%-- <asp:Button ID="btnReset" runat="server" Text="Reset" OnClick="btnReset_Click" Style="background-color: Blue;
+                                        color: white" />--%>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+            </div>
+            <div>
+            </div>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>

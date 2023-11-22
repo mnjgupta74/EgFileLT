@@ -1,0 +1,23 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/MasterPage4.master" AutoEventWireup="true" CodeFile="UPIPayment.aspx.cs" Inherits="WebPages_UPIPayment" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <table>
+        <tr>
+            <td style="width: 50%;">
+                <asp:RadioButtonList ID="rblPayTm" runat="server" RepeatDirection="Horizontal">
+                    <asp:ListItem Value="1" Selected="True">QRCode</asp:ListItem>
+                    <asp:ListItem Value="2">UPIId</asp:ListItem>
+                </asp:RadioButtonList>
+
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%;">
+                <asp:TextBox ID="txtUpi" runat="server" CssClass="borderRadius inputDesign"></asp:TextBox>
+                <asp:Button runat="server" ID="btnsuccess" Text="success" BackColor="Green" ForeColor="Aqua" Font-Bold="true"
+                    OnClick="btnsuccess_Click" Height="49px" Width="83px" />
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+

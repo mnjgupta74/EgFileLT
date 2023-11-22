@@ -1,0 +1,216 @@
+html, html a
+{
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body
+{
+	font-family: 'Open Sans' , sans-serif;
+	background: #e2e2e2;
+}
+
+#plans, #plans ul, #plans ul li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#DataListstyle:after
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#DataListstyle
+{
+	zoom: 1;
+}
+
+#DataListstyle
+{
+	max-width: 69em;
+	margin: 0 auto;
+}
+
+#DataListstyle #plans .plan
+{
+	background: #fff;
+	float: left;
+	width: 100%;
+	text-align: left;
+	border-radius: 5px;
+	margin: 0 0 20px 0;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.planContainer .title h2
+{
+	font-size: 2.125em;
+	text-align:center;
+	font-weight: 300;
+	color: #3e4f6a;
+	margin: 0;
+	padding: .6em 0;
+}
+
+.planContainer .title h2.bestPlanTitle
+{
+	background: #3e4f6a;
+	background: -webkit-linear-gradient(top, #475975, #364761);
+	background: -moz-linear-gradient(top, #475975, #364761);
+	background: -o-linear-gradient(top, #475975, #364761);
+	background: -ms-linear-gradient(top, #475975, #364761);
+	background: linear-gradient(top, #475975, #364761);
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+}
+
+
+.planContainer .DataList p
+{
+	background: #3e4f6a;
+	background: -webkit-linear-gradient(top, #475975, #364761);
+	background: -moz-linear-gradient(top, #475975, #364761);
+	background: -o-linear-gradient(top, #475975, #364761);
+	background: -ms-linear-gradient(top, #475975, #364761);
+	background: linear-gradient(top, #475975, #364761);
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	height: 2.6em;
+	line-height: 2.6em;
+	margin: 0 0 1em;
+}
+
+.planContainer .DataList p.bestPlanPrice
+{
+	background: #f7814d;
+}
+
+.planContainer .DataList p span
+{
+	color: #8394ae;
+}
+
+.planContainer .options
+{
+	margin-top: 10em;
+}
+
+.planContainer .options li
+{
+	font-weight: 700;
+	color: #364762;
+	line-height: 2.5;
+}
+
+.planContainer .options li span
+{
+	font-weight: 400;
+	color: Black;
+}
+
+
+
+#credits
+{
+	text-align: center;
+	font-size: .8em;
+	font-style: italic;
+	color: #777;
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px)
+{
+
+	#DataListstyle #plans .plan
+	{
+		width: 49%;
+		margin: 0 2% 20px 0;
+	}
+
+	#DataListstyle #plans > li:nth-child(2n)
+	{
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+
+	#DataListstyle #plans .plan
+	{
+		width: 49%;
+		margin: 0 2% 20px 0;
+	}
+
+	#DataListstyle #plans > li:nth-child(2n)
+	{
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (min-width: 1025px)
+{
+
+	#DataListstyle
+	{
+		margin: .50em auto;
+	}
+
+	#DataListstyle #plans .plan
+	{
+		
+		margin: 0 1.33% 20px 0;
+		-webkit-transition: all .25s;
+		-moz-transition: all .25s;
+		-ms-transition: all .25s;
+		-o-transition: all .25s;
+		transition: all .25s;
+	}
+
+	#DataListstyle #plans > li:last-child
+	{
+		margin-right: 0;
+	}
+
+	#DataListstyle #plans .plan:hover
+	{
+		-webkit-transform: scale(1.04);
+		-moz-transform: scale(1.04);
+		-ms-transform: scale(1.04);
+		-o-transform: scale(1.04);
+		transform: scale(1.04);
+		background-color: #DBF2FF;
+	}
+
+	.planContainer .button a
+	{
+		-webkit-transition: all .25s;
+		-moz-transition: all .25s;
+		-ms-transition: all .25s;
+		-o-transition: all .25s;
+		transition: all .25s;
+	}
+
+	.planContainer .button a:hover
+	{
+		background: #3e4f6a;
+		color: #fff;
+	}
+
+	.planContainer .button a.bestPlanButton:hover
+	{
+		background: #ff9c70;
+		border: 2px solid #ff9c70;
+	}
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BANK_Reconciliation>
+<Detail>
+<HeadAcc>0202-00-102-00-20</HeadAcc>
+<GRN>34555158</GRN>
+<RemitterName>Egras1 TestUser1</RemitterName>
+<Amount>13.00</Amount>
+<Bankcode>9910001</Bankcode>
+<BankRefNo>403993715518495885</BankRefNo>
+<CIN>100013310000824102018</CIN>
+<paiddate>2021/06/17 11:15:42</paiddate>
+<debitbank>CC</debitbank>
+<debitbankref>931025</debitbankref>
+</Detail>
+
+
+<Detail>
+<HeadAcc>0202-00-102-00-20</HeadAcc>
+<GRN>34555159</GRN>
+<RemitterName>Egras1 TestUser1</RemitterName>
+<Amount>11.00</Amount>
+<Bankcode>9910001</Bankcode>
+<BankRefNo>403993715518495885</BankRefNo>
+<CIN>100013310000824102019</CIN>
+<paiddate>2021/06/17 11:16:42</paiddate>
+<debitbank>CC</debitbank>
+<debitbankref>931025</debitbankref>
+</Detail>
+
+</BANK_Reconciliation>
+ 

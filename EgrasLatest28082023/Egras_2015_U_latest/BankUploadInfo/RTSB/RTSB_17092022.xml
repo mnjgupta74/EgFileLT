@@ -1,0 +1,2511 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66669836</GRN>
+		<RemitterName>DELHI GUJARAT FLEET CARRIER PV</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273047668</BankRefNo>
+		<CIN>SBIN6666983616092022</CIN>
+		<paiddate>2022/09/16 21:09:54</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153055238</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66669984</GRN>
+		<RemitterName>JASPAL SINGH</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273116062</BankRefNo>
+		<CIN>SBIN6666998416092022</CIN>
+		<paiddate>2022/09/16 21:32:42</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>225921088516</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66670259</GRN>
+		<RemitterName>GOVIND LAL</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273212854</BankRefNo>
+		<CIN>SBIN6667025916092022</CIN>
+		<paiddate>2022/09/16 22:19:44</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153145484</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66670384</GRN>
+		<RemitterName>MS VBTI LOGISTICS PVT LTD</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273242382</BankRefNo>
+		<CIN>SBIN6667038416092022</CIN>
+		<paiddate>2022/09/16 22:44:45</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>225922167259</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671047</GRN>
+		<RemitterName>RAJPUT SUBABHAI</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273366338</BankRefNo>
+		<CIN>SBIN6667104717092022</CIN>
+		<paiddate>2022/09/17 07:36:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226007237568</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671063</GRN>
+		<RemitterName>JOGINDER</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273369123</BankRefNo>
+		<CIN>SBIN6667106317092022</CIN>
+		<paiddate>2022/09/17 07:41:06</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226007239667</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671082</GRN>
+		<RemitterName>PREM KUMAR</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273372410</BankRefNo>
+		<CIN>SBIN6667108217092022</CIN>
+		<paiddate>2022/09/17 07:46:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153242178</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671097</GRN>
+		<RemitterName>RAHUL</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273373949</BankRefNo>
+		<CIN>SBIN6667109717092022</CIN>
+		<paiddate>2022/09/17 07:49:21</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153243452</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671289</GRN>
+		<RemitterName>DELHI BARODA ROAD CARRIERS PVT</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273397739</BankRefNo>
+		<CIN>SBIN6667128917092022</CIN>
+		<paiddate>2022/09/17 08:21:37</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226008261178</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671419</GRN>
+		<RemitterName>BALWINDER SINGH</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273416577</BankRefNo>
+		<CIN>SBIN6667141917092022</CIN>
+		<paiddate>2022/09/17 08:41:44</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153274839</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671495</GRN>
+		<RemitterName>PRAVEENKUMAR</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273425522</BankRefNo>
+		<CIN>SBIN6667149517092022</CIN>
+		<paiddate>2022/09/17 08:50:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226008281328</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671680</GRN>
+		<RemitterName>MAHIPAL CHOUDHARY</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273447218</BankRefNo>
+		<CIN>SBIN6667168017092022</CIN>
+		<paiddate>2022/09/17 09:09:20</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009297551</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671731</GRN>
+		<RemitterName>RAJESH BALASARA</RemitterName>
+		<Amount>10000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273452696</BankRefNo>
+		<CIN>SBIN6667173117092022</CIN>
+		<paiddate>2022/09/17 09:13:47</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153301787</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671792</GRN>
+		<RemitterName>MISHRI LAL</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273460248</BankRefNo>
+		<CIN>SBIN6667179217092022</CIN>
+		<paiddate>2022/09/17 09:19:45</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009307763</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672499</GRN>
+		<RemitterName>KALU RAM</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13024138000071</BankRefNo>
+		<CIN>SBIN6667249917092022</CIN>
+		<paiddate>2022/09/17 10:04:10</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226059694018</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672516</GRN>
+		<RemitterName>GUMANMAL JAT</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273525892</BankRefNo>
+		<CIN>SBIN6667251617092022</CIN>
+		<paiddate>2022/09/17 10:05:22</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010362670</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672671</GRN>
+		<RemitterName>SHREE RAMESHWAR LOGISTICS</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273538751</BankRefNo>
+		<CIN>SBIN6667267117092022</CIN>
+		<paiddate>2022/09/17 10:13:05</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010373881</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673026</GRN>
+		<RemitterName>HARI RAM YADAV</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273567894</BankRefNo>
+		<CIN>SBIN6667302617092022</CIN>
+		<paiddate>2022/09/17 10:29:26</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010399895</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673148</GRN>
+		<RemitterName>HARI OM YADAV</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273579217</BankRefNo>
+		<CIN>SBIN6667314817092022</CIN>
+		<paiddate>2022/09/17 10:35:25</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010409768</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673215</GRN>
+		<RemitterName>PRATAAP SNACKS LIMITED</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273584560</BankRefNo>
+		<CIN>SBIN6667321517092022</CIN>
+		<paiddate>2022/09/17 10:38:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010414360</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673684</GRN>
+		<RemitterName>VIDYANAND RIJHKANT MISHRA</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273624246</BankRefNo>
+		<CIN>SBIN6667368417092022</CIN>
+		<paiddate>2022/09/17 10:57:11</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153447722</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673940</GRN>
+		<RemitterName>INDIAN VEHICLE CARRIER PVT LTD</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273643757</BankRefNo>
+		<CIN>SBIN6667394017092022</CIN>
+		<paiddate>2022/09/17 11:06:16</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153465098</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674042</GRN>
+		<RemitterName>MUKESH JAT</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273653342</BankRefNo>
+		<CIN>SBIN6667404217092022</CIN>
+		<paiddate>2022/09/17 11:09:53</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011472214</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675695</GRN>
+		<RemitterName>ANKIT JAIN</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273831793</BankRefNo>
+		<CIN>SBIN6667569517092022</CIN>
+		<paiddate>2022/09/17 12:13:18</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153604090</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675868</GRN>
+		<RemitterName>DATTA BHAUSAHEB GADAKH</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273850667</BankRefNo>
+		<CIN>SBIN6667586817092022</CIN>
+		<paiddate>2022/09/17 12:19:06</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012616756</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678924</GRN>
+		<RemitterName>SATNAM SINGH</RemitterName>
+		<Amount>10000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274274508</BankRefNo>
+		<CIN>SBIN6667892417092022</CIN>
+		<paiddate>2022/09/17 14:18:04</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014830058</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66679305</GRN>
+		<RemitterName>RAM SWAROOP</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274327624</BankRefNo>
+		<CIN>SBIN6667930517092022</CIN>
+		<paiddate>2022/09/17 14:33:05</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014852241</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680251</GRN>
+		<RemitterName>HITESHBHAI SAVDASBHAI KHUNTI</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274487201</BankRefNo>
+		<CIN>SBIN6668025117092022</CIN>
+		<paiddate>2022/09/17 15:18:05</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015919111</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681379</GRN>
+		<RemitterName>PRAKASH YADAV</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274664972</BankRefNo>
+		<CIN>SBIN6668137917092022</CIN>
+		<paiddate>2022/09/17 16:06:36</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153999372</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681411</GRN>
+		<RemitterName>MR NIJAMUDDIN KHAN</RemitterName>
+		<Amount>10000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274669208</BankRefNo>
+		<CIN>SBIN6668141117092022</CIN>
+		<paiddate>2022/09/17 16:07:44</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016001420</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681968</GRN>
+		<RemitterName>DINESH KUMAR</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274777542</BankRefNo>
+		<CIN>SBIN6668196817092022</CIN>
+		<paiddate>2022/09/17 16:35:44</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016055763</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683237</GRN>
+		<RemitterName>B M ROADLINES PVT LTD</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275052152</BankRefNo>
+		<CIN>SBIN6668323717092022</CIN>
+		<paiddate>2022/09/17 17:43:23</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154206091</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683567</GRN>
+		<RemitterName>R SAI LOGISTICS INDIA PVT LTD</RemitterName>
+		<Amount>5000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275132716</BankRefNo>
+		<CIN>SBIN6668356717092022</CIN>
+		<paiddate>2022/09/17 18:01:23</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018249834</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683702</GRN>
+		<RemitterName>KHETA RAM</RemitterName>
+		<Amount>2000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275170655</BankRefNo>
+		<CIN>SBIN6668370217092022</CIN>
+		<paiddate>2022/09/17 18:09:36</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154269656</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684234</GRN>
+		<RemitterName>ASHOKI DEVI</RemitterName>
+		<Amount>1500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275338673</BankRefNo>
+		<CIN>SBIN6668423417092022</CIN>
+		<paiddate>2022/09/17 18:44:09</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018354117</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66669220</GRN>
+		<RemitterName>DAVILAL</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4272800077</BankRefNo>
+		<CIN>SBIN6666922016092022</CIN>
+		<paiddate>2022/09/16 20:03:16</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>225920937164</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66669272</GRN>
+		<RemitterName>OMESH NAGAR</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4272817416</BankRefNo>
+		<CIN>SBIN6666927216092022</CIN>
+		<paiddate>2022/09/16 20:07:33</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>225920945634</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66669342</GRN>
+		<RemitterName>AJAY PAREEK</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025806000041</BankRefNo>
+		<CIN>SBIN6666934216092022</CIN>
+		<paiddate>2022/09/16 20:12:38</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>225935085364</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66669788</GRN>
+		<RemitterName>SHIV KANT</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273021919</BankRefNo>
+		<CIN>SBIN6666978816092022</CIN>
+		<paiddate>2022/09/16 21:02:01</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>225921042485</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671060</GRN>
+		<RemitterName>AYUSH VERMA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273368912</BankRefNo>
+		<CIN>SBIN6667106017092022</CIN>
+		<paiddate>2022/09/17 07:40:41</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226007239513</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671576</GRN>
+		<RemitterName>BHUDEV SINGH SHEKHAWAT</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273435008</BankRefNo>
+		<CIN>SBIN6667157617092022</CIN>
+		<paiddate>2022/09/17 08:58:54</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226008288423</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671842</GRN>
+		<RemitterName>AJAZ AHMAD HAJAM</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273464967</BankRefNo>
+		<CIN>SBIN6667184217092022</CIN>
+		<paiddate>2022/09/17 09:23:27</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153311519</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671863</GRN>
+		<RemitterName>AU SMALL FINANCE BANK LTD</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273467607</BankRefNo>
+		<CIN>SBIN6667186317092022</CIN>
+		<paiddate>2022/09/17 09:25:28</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009313568</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671899</GRN>
+		<RemitterName>HARSH PAL KHERA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273471783</BankRefNo>
+		<CIN>SBIN6667189917092022</CIN>
+		<paiddate>2022/09/17 09:28:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153316904</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671910</GRN>
+		<RemitterName>SAGAR MAL</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025302000041</BankRefNo>
+		<CIN>SBIN6667191017092022</CIN>
+		<paiddate>2022/09/17 09:29:24</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226098378931</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671913</GRN>
+		<RemitterName>RAKESH JANGID</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025410000005</BankRefNo>
+		<CIN>SBIN6667191317092022</CIN>
+		<paiddate>2022/09/17 09:29:30</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226033352524</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66671976</GRN>
+		<RemitterName>ANIL SAINI</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273479427</BankRefNo>
+		<CIN>SBIN6667197617092022</CIN>
+		<paiddate>2022/09/17 09:34:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153323121</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672011</GRN>
+		<RemitterName>SUDHA PRADEEP</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273482454</BankRefNo>
+		<CIN>SBIN6667201117092022</CIN>
+		<paiddate>2022/09/17 09:36:20</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009325549</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672067</GRN>
+		<RemitterName>MAHESH KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273488306</BankRefNo>
+		<CIN>SBIN6667206717092022</CIN>
+		<paiddate>2022/09/17 09:40:30</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009330362</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672101</GRN>
+		<RemitterName>SAFFIRE CROP SCIENCE PVT LTD</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273491162</BankRefNo>
+		<CIN>SBIN6667210117092022</CIN>
+		<paiddate>2022/09/17 09:42:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009332841</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672115</GRN>
+		<RemitterName>PHOOL BANO</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273492998</BankRefNo>
+		<CIN>SBIN6667211517092022</CIN>
+		<paiddate>2022/09/17 09:43:46</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009334263</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672185</GRN>
+		<RemitterName>MUKESH KUMAR MANDAWARIYA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273498596</BankRefNo>
+		<CIN>SBIN6667218517092022</CIN>
+		<paiddate>2022/09/17 09:47:37</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009339121</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672319</GRN>
+		<RemitterName>PRAVEEN TRIVEDI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273509821</BankRefNo>
+		<CIN>SBIN6667231917092022</CIN>
+		<paiddate>2022/09/17 09:55:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009348742</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672346</GRN>
+		<RemitterName>MANISH KUMAR SHARMA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273511922</BankRefNo>
+		<CIN>SBIN6667234617092022</CIN>
+		<paiddate>2022/09/17 09:56:33</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226009350626</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672503</GRN>
+		<RemitterName>NIRMAL ACHARYA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273524775</BankRefNo>
+		<CIN>SBIN6667250317092022</CIN>
+		<paiddate>2022/09/17 10:04:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010361735</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672548</GRN>
+		<RemitterName>TUSHAR BHATT</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273528781</BankRefNo>
+		<CIN>SBIN6667254817092022</CIN>
+		<paiddate>2022/09/17 10:07:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010365204</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672606</GRN>
+		<RemitterName>HARDEVA RAM</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026538000009</BankRefNo>
+		<CIN>SBIN6667260617092022</CIN>
+		<paiddate>2022/09/17 10:09:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226054506659</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672625</GRN>
+		<RemitterName>RAJESH KUMAR SHARMA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273534745</BankRefNo>
+		<CIN>SBIN6667262517092022</CIN>
+		<paiddate>2022/09/17 10:10:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010370407</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672658</GRN>
+		<RemitterName>SANTOSH DEVI</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026536000010</BankRefNo>
+		<CIN>SBIN6667265817092022</CIN>
+		<paiddate>2022/09/17 10:12:14</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226055027748</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672672</GRN>
+		<RemitterName>SOHEL</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273538694</BankRefNo>
+		<CIN>SBIN6667267217092022</CIN>
+		<paiddate>2022/09/17 10:13:03</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010373830</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672698</GRN>
+		<RemitterName>SHAITAN MEENA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273541507</BankRefNo>
+		<CIN>SBIN6667269817092022</CIN>
+		<paiddate>2022/09/17 10:14:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010376313</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672726</GRN>
+		<RemitterName>KUNIKA SHARMA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273542837</BankRefNo>
+		<CIN>SBIN6667272617092022</CIN>
+		<paiddate>2022/09/17 10:15:28</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153377444</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672737</GRN>
+		<RemitterName>RAVI OJHA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273543436</BankRefNo>
+		<CIN>SBIN6667273717092022</CIN>
+		<paiddate>2022/09/17 10:15:49</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153377983</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672795</GRN>
+		<RemitterName>PHOOL KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273547868</BankRefNo>
+		<CIN>SBIN6667279517092022</CIN>
+		<paiddate>2022/09/17 10:18:18</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153381828</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672877</GRN>
+		<RemitterName>VIJAY KUMAR BANSAL</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273554531</BankRefNo>
+		<CIN>SBIN6667287717092022</CIN>
+		<paiddate>2022/09/17 10:22:06</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010387918</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66672989</GRN>
+		<RemitterName>AMIT KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13005439000055</BankRefNo>
+		<CIN>SBIN6667298917092022</CIN>
+		<paiddate>2022/09/17 10:27:30</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226059730479</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673008</GRN>
+		<RemitterName>SHWETA RAWAT</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273566098</BankRefNo>
+		<CIN>SBIN6667300817092022</CIN>
+		<paiddate>2022/09/17 10:28:27</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010398223</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673122</GRN>
+		<RemitterName>MRHEMANT YOGI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273576590</BankRefNo>
+		<CIN>SBIN6667312217092022</CIN>
+		<paiddate>2022/09/17 10:34:03</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010407496</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673129</GRN>
+		<RemitterName>ORIX AUTO INFRASTRUCURE SER LT</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273577906</BankRefNo>
+		<CIN>SBIN6667312917092022</CIN>
+		<paiddate>2022/09/17 10:34:44</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010408634</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673134</GRN>
+		<RemitterName>SUNITA THAKUR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273578043</BankRefNo>
+		<CIN>SBIN6667313417092022</CIN>
+		<paiddate>2022/09/17 10:34:48</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010408759</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673182</GRN>
+		<RemitterName>ASHOK KUMAR YADAV</RemitterName>
+		<Amount>400.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13005438000071</BankRefNo>
+		<CIN>SBIN6667318217092022</CIN>
+		<paiddate>2022/09/17 10:36:11</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226021761273</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673269</GRN>
+		<RemitterName>VIJAY PRAKASH SHARMA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273589134</BankRefNo>
+		<CIN>SBIN6667326917092022</CIN>
+		<paiddate>2022/09/17 10:40:28</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010418341</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673284</GRN>
+		<RemitterName>MR SAJID KHAN</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025362000027</BankRefNo>
+		<CIN>SBIN6667328417092022</CIN>
+		<paiddate>2022/09/17 10:40:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226052960159</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673378</GRN>
+		<RemitterName>VEENA RANI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273597660</BankRefNo>
+		<CIN>SBIN6667337817092022</CIN>
+		<paiddate>2022/09/17 10:44:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010425534</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673409</GRN>
+		<RemitterName>RENU BUDHIMANIA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273600571</BankRefNo>
+		<CIN>SBIN6667340917092022</CIN>
+		<paiddate>2022/09/17 10:46:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010428063</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673473</GRN>
+		<RemitterName>VIJAY</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273605582</BankRefNo>
+		<CIN>SBIN6667347317092022</CIN>
+		<paiddate>2022/09/17 10:48:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010432297</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673478</GRN>
+		<RemitterName>ASHOK KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273606049</BankRefNo>
+		<CIN>SBIN6667347817092022</CIN>
+		<paiddate>2022/09/17 10:48:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010432662</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673479</GRN>
+		<RemitterName>Durga Prasad Paliwal</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273606431</BankRefNo>
+		<CIN>SBIN6667347917092022</CIN>
+		<paiddate>2022/09/17 10:48:53</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010432981</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673504</GRN>
+		<RemitterName>RANAJIT SINGH</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273608310</BankRefNo>
+		<CIN>SBIN6667350417092022</CIN>
+		<paiddate>2022/09/17 10:49:48</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010434553</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673505</GRN>
+		<RemitterName>BHAVESH SHARMA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273608339</BankRefNo>
+		<CIN>SBIN6667350517092022</CIN>
+		<paiddate>2022/09/17 10:49:49</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010434580</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673516</GRN>
+		<RemitterName>OMPRAKASH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273609018</BankRefNo>
+		<CIN>SBIN6667351617092022</CIN>
+		<paiddate>2022/09/17 10:50:08</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010435153</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673519</GRN>
+		<RemitterName>SATYENDRA SINGH</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273609217</BankRefNo>
+		<CIN>SBIN6667351917092022</CIN>
+		<paiddate>2022/09/17 10:50:14</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010435294</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673636</GRN>
+		<RemitterName>ASHISH CHATURVEDI</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025624000053</BankRefNo>
+		<CIN>SBIN6667363617092022</CIN>
+		<paiddate>2022/09/17 10:55:22</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014241579</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673656</GRN>
+		<RemitterName>KALU RAM GURJAR</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273621988</BankRefNo>
+		<CIN>SBIN6667365617092022</CIN>
+		<paiddate>2022/09/17 10:56:09</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010445821</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673677</GRN>
+		<RemitterName>ANSHU MAHESHWARI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273622925</BankRefNo>
+		<CIN>SBIN6667367717092022</CIN>
+		<paiddate>2022/09/17 10:56:35</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010446597</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673699</GRN>
+		<RemitterName>GENA RAM</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273625073</BankRefNo>
+		<CIN>SBIN6667369917092022</CIN>
+		<paiddate>2022/09/17 10:57:34</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226010448389</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673791</GRN>
+		<RemitterName>RAMKESH SAINI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273631940</BankRefNo>
+		<CIN>SBIN6667379117092022</CIN>
+		<paiddate>2022/09/17 11:00:58</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011454811</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673792</GRN>
+		<RemitterName>ECOWRAP IMPACT PRIVATE LIMITED</RemitterName>
+		<Amount>400.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273631815</BankRefNo>
+		<CIN>SBIN6667379217092022</CIN>
+		<paiddate>2022/09/17 11:00:54</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011454686</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673883</GRN>
+		<RemitterName>RUCHIKA SALUJA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025410000006</BankRefNo>
+		<CIN>SBIN6667388317092022</CIN>
+		<paiddate>2022/09/17 11:04:10</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226078240448</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673898</GRN>
+		<RemitterName>CHAVDA CHETANABEN</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273639968</BankRefNo>
+		<CIN>SBIN6667389817092022</CIN>
+		<paiddate>2022/09/17 11:04:47</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153462294</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673905</GRN>
+		<RemitterName>DIVYA RANI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025230000084</BankRefNo>
+		<CIN>SBIN6667390517092022</CIN>
+		<paiddate>2022/09/17 11:04:47</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226063702893</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673952</GRN>
+		<RemitterName>ISHWAR DAS</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025376000057</BankRefNo>
+		<CIN>SBIN6667395217092022</CIN>
+		<paiddate>2022/09/17 11:06:35</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226072409698</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66673969</GRN>
+		<RemitterName>REKHA GUPTA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273646542</BankRefNo>
+		<CIN>SBIN6667396917092022</CIN>
+		<paiddate>2022/09/17 11:07:23</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153467313</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674004</GRN>
+		<RemitterName>KARAM CHAND</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026012000016</BankRefNo>
+		<CIN>SBIN6667400417092022</CIN>
+		<paiddate>2022/09/17 11:08:23</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226058987968</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674063</GRN>
+		<RemitterName>LUTFAK ALI</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273657077</BankRefNo>
+		<CIN>SBIN6667406317092022</CIN>
+		<paiddate>2022/09/17 11:11:13</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011474838</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674087</GRN>
+		<RemitterName>IMZAD ANSARI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273658585</BankRefNo>
+		<CIN>SBIN6667408717092022</CIN>
+		<paiddate>2022/09/17 11:11:45</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011475928</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674125</GRN>
+		<RemitterName>PIYUSH KUMAR</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273662752</BankRefNo>
+		<CIN>SBIN6667412517092022</CIN>
+		<paiddate>2022/09/17 11:13:13</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153478951</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674224</GRN>
+		<RemitterName>BRIJ MOHAN SHARMA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273672771</BankRefNo>
+		<CIN>SBIN6667422417092022</CIN>
+		<paiddate>2022/09/17 11:17:13</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153486824</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674254</GRN>
+		<RemitterName>ZAVIR HASAN</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273675610</BankRefNo>
+		<CIN>SBIN6667425417092022</CIN>
+		<paiddate>2022/09/17 11:18:24</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011489134</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674479</GRN>
+		<RemitterName>PRASOON HADA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026063000026</BankRefNo>
+		<CIN>SBIN6667447917092022</CIN>
+		<paiddate>2022/09/17 11:26:48</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226040177495</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674692</GRN>
+		<RemitterName>GOVIND</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273718208</BankRefNo>
+		<CIN>SBIN6667469217092022</CIN>
+		<paiddate>2022/09/17 11:34:50</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153522489</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66674816</GRN>
+		<RemitterName>SUHASISH MOHANTY</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273731797</BankRefNo>
+		<CIN>SBIN6667481617092022</CIN>
+		<paiddate>2022/09/17 11:39:50</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153532738</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675036</GRN>
+		<RemitterName>MOHAN RAM</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273757558</BankRefNo>
+		<CIN>SBIN6667503617092022</CIN>
+		<paiddate>2022/09/17 11:48:54</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226011551800</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675119</GRN>
+		<RemitterName>SANDEEP KAPOOR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273766647</BankRefNo>
+		<CIN>SBIN6667511917092022</CIN>
+		<paiddate>2022/09/17 11:52:02</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153558520</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675288</GRN>
+		<RemitterName>SUNIL DEVI</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026898000004</BankRefNo>
+		<CIN>SBIN6667528817092022</CIN>
+		<paiddate>2022/09/17 11:57:45</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226022374760</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675365</GRN>
+		<RemitterName>NAVEEN RAJ DHOBI</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273792846</BankRefNo>
+		<CIN>SBIN6667536517092022</CIN>
+		<paiddate>2022/09/17 12:00:50</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012577263</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675444</GRN>
+		<RemitterName>NALIN SAINI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273801627</BankRefNo>
+		<CIN>SBIN6667544417092022</CIN>
+		<paiddate>2022/09/17 12:03:42</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012583308</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675523</GRN>
+		<RemitterName>PREM CHAND MEENA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273811354</BankRefNo>
+		<CIN>SBIN6667552317092022</CIN>
+		<paiddate>2022/09/17 12:06:49</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012590138</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675800</GRN>
+		<RemitterName>Bhaskar Sharma</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273842661</BankRefNo>
+		<CIN>SBIN6667580017092022</CIN>
+		<paiddate>2022/09/17 12:16:38</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012611435</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675815</GRN>
+		<RemitterName>AJEET KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273844834</BankRefNo>
+		<CIN>SBIN6667581517092022</CIN>
+		<paiddate>2022/09/17 12:17:18</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012612848</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675851</GRN>
+		<RemitterName>KALYAN VIJAYRAO DHOMASE</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273848730</BankRefNo>
+		<CIN>SBIN6667585117092022</CIN>
+		<paiddate>2022/09/17 12:18:32</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012615451</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675903</GRN>
+		<RemitterName>LOKESH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273856023</BankRefNo>
+		<CIN>SBIN6667590317092022</CIN>
+		<paiddate>2022/09/17 12:20:44</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153620475</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675928</GRN>
+		<RemitterName>MUKESH KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273860528</BankRefNo>
+		<CIN>SBIN6667592817092022</CIN>
+		<paiddate>2022/09/17 12:22:07</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012623531</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66675931</GRN>
+		<RemitterName>BHUPENDRA KUMAR SHARMA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273860760</BankRefNo>
+		<CIN>SBIN6667593117092022</CIN>
+		<paiddate>2022/09/17 12:22:11</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153623697</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676141</GRN>
+		<RemitterName>SACHIN MEENA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13005438000073</BankRefNo>
+		<CIN>SBIN6667614117092022</CIN>
+		<paiddate>2022/09/17 12:29:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226029558900</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676335</GRN>
+		<RemitterName>ANAGHA ANANT SHINDE</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273905468</BankRefNo>
+		<CIN>SBIN6667633517092022</CIN>
+		<paiddate>2022/09/17 12:35:29</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012652815</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676479</GRN>
+		<RemitterName>KARAN KUMAR PAHILAJ</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273922919</BankRefNo>
+		<CIN>SBIN6667647917092022</CIN>
+		<paiddate>2022/09/17 12:40:39</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012663644</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676530</GRN>
+		<RemitterName>RAVI KANT VAGADI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273929342</BankRefNo>
+		<CIN>SBIN6667653017092022</CIN>
+		<paiddate>2022/09/17 12:42:29</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012667535</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676721</GRN>
+		<RemitterName>ASHOK SAINI</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025410000007</BankRefNo>
+		<CIN>SBIN6667672117092022</CIN>
+		<paiddate>2022/09/17 12:48:22</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226021272012</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676781</GRN>
+		<RemitterName>ADITYA VARDHAN SINGH SHEKHAWAT</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273959713</BankRefNo>
+		<CIN>SBIN6667678117092022</CIN>
+		<paiddate>2022/09/17 12:51:15</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012685546</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676787</GRN>
+		<RemitterName>Prince Gautam</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273959950</BankRefNo>
+		<CIN>SBIN6667678717092022</CIN>
+		<paiddate>2022/09/17 12:51:19</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012685691</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676897</GRN>
+		<RemitterName>RAMESHCAND</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4273975347</BankRefNo>
+		<CIN>SBIN6667689717092022</CIN>
+		<paiddate>2022/09/17 12:55:43</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226012694344</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66676898</GRN>
+		<RemitterName>SUNIL KUMAR YADAV</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026068000056</BankRefNo>
+		<CIN>SBIN6667689817092022</CIN>
+		<paiddate>2022/09/17 12:55:26</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226021729169</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677059</GRN>
+		<RemitterName>SHALINI SHARMA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274000723</BankRefNo>
+		<CIN>SBIN6667705917092022</CIN>
+		<paiddate>2022/09/17 13:02:51</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153707877</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677138</GRN>
+		<RemitterName>KULDEEP SINGH RANA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025410000008</BankRefNo>
+		<CIN>SBIN6667713817092022</CIN>
+		<paiddate>2022/09/17 13:05:57</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226098975765</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677246</GRN>
+		<RemitterName>ANKIT SHEKHAR SINGH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274029907</BankRefNo>
+		<CIN>SBIN6667724617092022</CIN>
+		<paiddate>2022/09/17 13:10:52</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226013723641</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677287</GRN>
+		<RemitterName>MANMOHAN SINGH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274036136</BankRefNo>
+		<CIN>SBIN6667728717092022</CIN>
+		<paiddate>2022/09/17 13:12:26</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226013726260</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677369</GRN>
+		<RemitterName>MANISH SEN</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026039000218</BankRefNo>
+		<CIN>SBIN6667736917092022</CIN>
+		<paiddate>2022/09/17 13:15:17</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226044858233</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677594</GRN>
+		<RemitterName>Izhaan Abdulkarim Chogule</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274080041</BankRefNo>
+		<CIN>SBIN6667759417092022</CIN>
+		<paiddate>2022/09/17 13:23:49</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226013746191</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66677938</GRN>
+		<RemitterName>SANJAY KUMAR  SHARMA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026039000219</BankRefNo>
+		<CIN>SBIN6667793817092022</CIN>
+		<paiddate>2022/09/17 13:36:32</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226024556845</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678174</GRN>
+		<RemitterName>PUSHPINDER SINGH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274162433</BankRefNo>
+		<CIN>SBIN6667817417092022</CIN>
+		<paiddate>2022/09/17 13:46:21</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226013782571</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678547</GRN>
+		<RemitterName>BALMUKUND GURJAR</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026039000220</BankRefNo>
+		<CIN>SBIN6667854717092022</CIN>
+		<paiddate>2022/09/17 14:01:49</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226096110568</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678592</GRN>
+		<RemitterName>TILOK RAV</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274225281</BankRefNo>
+		<CIN>SBIN6667859217092022</CIN>
+		<paiddate>2022/09/17 14:04:04</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014809591</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678700</GRN>
+		<RemitterName>HARSH KUMAR</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274240176</BankRefNo>
+		<CIN>SBIN6667870017092022</CIN>
+		<paiddate>2022/09/17 14:08:18</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153815886</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678752</GRN>
+		<RemitterName>MOUKTIK PAUL</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274247372</BankRefNo>
+		<CIN>SBIN6667875217092022</CIN>
+		<paiddate>2022/09/17 14:10:21</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014818956</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678804</GRN>
+		<RemitterName>KUBER SINGH ADHIKARI</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274255289</BankRefNo>
+		<CIN>SBIN6667880417092022</CIN>
+		<paiddate>2022/09/17 14:12:37</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014822197</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66678869</GRN>
+		<RemitterName>PADMANAVSINH U JADEJA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274266299</BankRefNo>
+		<CIN>SBIN6667886917092022</CIN>
+		<paiddate>2022/09/17 14:15:46</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226014826734</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66679088</GRN>
+		<RemitterName>BHAARGAV NATH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274297443</BankRefNo>
+		<CIN>SBIN6667908817092022</CIN>
+		<paiddate>2022/09/17 14:24:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153839611</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66679362</GRN>
+		<RemitterName>DHEERAJ SAXENA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274335699</BankRefNo>
+		<CIN>SBIN6667936217092022</CIN>
+		<paiddate>2022/09/17 14:35:22</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153855570</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66679899</GRN>
+		<RemitterName>GARGI SHARMA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274429570</BankRefNo>
+		<CIN>SBIN6667989917092022</CIN>
+		<paiddate>2022/09/17 15:01:56</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153894736</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680034</GRN>
+		<RemitterName>MS YESH ENTERPRIESES</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274453330</BankRefNo>
+		<CIN>SBIN6668003417092022</CIN>
+		<paiddate>2022/09/17 15:08:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153904678</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680107</GRN>
+		<RemitterName>TARAN S SALARIA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274466128</BankRefNo>
+		<CIN>SBIN6668010717092022</CIN>
+		<paiddate>2022/09/17 15:12:09</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015910027</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680166</GRN>
+		<RemitterName>ANKUR SAXENA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274472628</BankRefNo>
+		<CIN>SBIN6668016617092022</CIN>
+		<paiddate>2022/09/17 15:13:59</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004153912849</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680464</GRN>
+		<RemitterName>KETAN SACHDEVA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274519187</BankRefNo>
+		<CIN>SBIN6668046417092022</CIN>
+		<paiddate>2022/09/17 15:27:00</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015932985</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680706</GRN>
+		<RemitterName>AURANG JEB</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274554429</BankRefNo>
+		<CIN>SBIN6668070617092022</CIN>
+		<paiddate>2022/09/17 15:36:45</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015948453</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66680798</GRN>
+		<RemitterName>JAI SINGH</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274569496</BankRefNo>
+		<CIN>SBIN6668079817092022</CIN>
+		<paiddate>2022/09/17 15:40:56</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015955359</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681039</GRN>
+		<RemitterName>DESHRAJ BAKOLIYA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274610195</BankRefNo>
+		<CIN>SBIN6668103917092022</CIN>
+		<paiddate>2022/09/17 15:51:58</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015973837</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681192</GRN>
+		<RemitterName>RUCHI MATHUR</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274633408</BankRefNo>
+		<CIN>SBIN6668119217092022</CIN>
+		<paiddate>2022/09/17 15:58:12</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015984647</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681204</GRN>
+		<RemitterName>VIKAS ANAND</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274634561</BankRefNo>
+		<CIN>SBIN6668120417092022</CIN>
+		<paiddate>2022/09/17 15:58:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226015985196</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681277</GRN>
+		<RemitterName>KAMESHWAR PRASAD</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026519000064</BankRefNo>
+		<CIN>SBIN6668127717092022</CIN>
+		<paiddate>2022/09/17 16:01:54</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226029863956</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681346</GRN>
+		<RemitterName>GURDEEP SINGH BAANSAL</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274659691</BankRefNo>
+		<CIN>SBIN6668134617092022</CIN>
+		<paiddate>2022/09/17 16:05:14</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016996922</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681470</GRN>
+		<RemitterName>SUNITA RAWAT</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274678815</BankRefNo>
+		<CIN>SBIN6668147017092022</CIN>
+		<paiddate>2022/09/17 16:10:15</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154006038</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681482</GRN>
+		<RemitterName>KINA ENGINEERSCONTRACTORS PL</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274682154</BankRefNo>
+		<CIN>SBIN6668148217092022</CIN>
+		<paiddate>2022/09/17 16:11:05</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016007600</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681514</GRN>
+		<RemitterName>VINAY BHADUKA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026519000065</BankRefNo>
+		<CIN>SBIN6668151417092022</CIN>
+		<paiddate>2022/09/17 16:11:35</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226021515543</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681568</GRN>
+		<RemitterName>ARJIT SHARMA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274696027</BankRefNo>
+		<CIN>SBIN6668156817092022</CIN>
+		<paiddate>2022/09/17 16:14:42</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016014368</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681634</GRN>
+		<RemitterName>NARVATBHAI RATHVA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026519000066</BankRefNo>
+		<CIN>SBIN6668163417092022</CIN>
+		<paiddate>2022/09/17 16:17:13</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226023434134</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681842</GRN>
+		<RemitterName>BRIJRAJ MEENA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274752342</BankRefNo>
+		<CIN>SBIN6668184217092022</CIN>
+		<paiddate>2022/09/17 16:29:19</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016042633</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681920</GRN>
+		<RemitterName>THAWAR DAS YADAV</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274767415</BankRefNo>
+		<CIN>SBIN6668192017092022</CIN>
+		<paiddate>2022/09/17 16:33:10</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016050537</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681934</GRN>
+		<RemitterName>MAHESH SHARMA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274770685</BankRefNo>
+		<CIN>SBIN6668193417092022</CIN>
+		<paiddate>2022/09/17 16:34:01</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154052247</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681974</GRN>
+		<RemitterName>JASWANT SINGH</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274779584</BankRefNo>
+		<CIN>SBIN6668197417092022</CIN>
+		<paiddate>2022/09/17 16:36:16</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016056865</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66681990</GRN>
+		<RemitterName>PRASHANT SHARMA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274781550</BankRefNo>
+		<CIN>SBIN6668199017092022</CIN>
+		<paiddate>2022/09/17 16:36:40</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154057905</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682079</GRN>
+		<RemitterName>CHARANJEEV SINGH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274799927</BankRefNo>
+		<CIN>SBIN6668207917092022</CIN>
+		<paiddate>2022/09/17 16:41:32</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016067675</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682321</GRN>
+		<RemitterName>RATAN LAL SAINI</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274851385</BankRefNo>
+		<CIN>SBIN6668232117092022</CIN>
+		<paiddate>2022/09/17 16:54:36</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016095395</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682362</GRN>
+		<RemitterName>KISHAN DEV</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274857726</BankRefNo>
+		<CIN>SBIN6668236217092022</CIN>
+		<paiddate>2022/09/17 16:56:15</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154098813</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682367</GRN>
+		<RemitterName>KAILASH SORROT</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274859071</BankRefNo>
+		<CIN>SBIN6668236717092022</CIN>
+		<paiddate>2022/09/17 16:56:34</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016099575</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682374</GRN>
+		<RemitterName>RAJESH TAPARIA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026570000143</BankRefNo>
+		<CIN>SBIN6668237417092022</CIN>
+		<paiddate>2022/09/17 16:56:24</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226038144374</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682384</GRN>
+		<RemitterName>VIKASH JANGID</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274860664</BankRefNo>
+		<CIN>SBIN6668238417092022</CIN>
+		<paiddate>2022/09/17 16:56:59</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226016100492</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682700</GRN>
+		<RemitterName>MOTOCRUIZER TECH INDIA PVT LTD</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274925200</BankRefNo>
+		<CIN>SBIN6668270017092022</CIN>
+		<paiddate>2022/09/17 17:13:15</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017136196</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682757</GRN>
+		<RemitterName>MS MOHIT POLYTECH PVT LTD</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274937585</BankRefNo>
+		<CIN>SBIN6668275717092022</CIN>
+		<paiddate>2022/09/17 17:16:18</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017142964</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682896</GRN>
+		<RemitterName>NATHU</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026555000020</BankRefNo>
+		<CIN>SBIN6668289617092022</CIN>
+		<paiddate>2022/09/17 17:25:19</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226021486100</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682961</GRN>
+		<RemitterName>SAMPURAN SINGH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274990049</BankRefNo>
+		<CIN>SBIN6668296117092022</CIN>
+		<paiddate>2022/09/17 17:28:52</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017171685</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66682964</GRN>
+		<RemitterName>CHIRAG ARORA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274991260</BankRefNo>
+		<CIN>SBIN6668296417092022</CIN>
+		<paiddate>2022/09/17 17:29:09</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154172349</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683004</GRN>
+		<RemitterName>RISHABH RATNU</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4274999024</BankRefNo>
+		<CIN>SBIN6668300417092022</CIN>
+		<paiddate>2022/09/17 17:31:01</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017176660</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683105</GRN>
+		<RemitterName>SHERU MOHAMMAD</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275019380</BankRefNo>
+		<CIN>SBIN6668310517092022</CIN>
+		<paiddate>2022/09/17 17:35:48</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154187967</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683107</GRN>
+		<RemitterName>DHARMENDRA CHABHAIYA</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275018821</BankRefNo>
+		<CIN>SBIN6668310717092022</CIN>
+		<paiddate>2022/09/17 17:35:40</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154187625</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683122</GRN>
+		<RemitterName>GOPESH</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275022726</BankRefNo>
+		<CIN>SBIN6668312217092022</CIN>
+		<paiddate>2022/09/17 17:36:35</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017189832</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683162</GRN>
+		<RemitterName>ROSHAN LAL SAINI</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026555000021</BankRefNo>
+		<CIN>SBIN6668316217092022</CIN>
+		<paiddate>2022/09/17 17:38:23</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226085657727</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683265</GRN>
+		<RemitterName>SUMIT SINGH</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275057619</BankRefNo>
+		<CIN>SBIN6668326517092022</CIN>
+		<paiddate>2022/09/17 17:44:37</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017209012</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683437</GRN>
+		<RemitterName>ASHISH</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275098968</BankRefNo>
+		<CIN>SBIN6668343717092022</CIN>
+		<paiddate>2022/09/17 17:53:55</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017231485</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683455</GRN>
+		<RemitterName>ANITA SHARMA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275102380</BankRefNo>
+		<CIN>SBIN6668345517092022</CIN>
+		<paiddate>2022/09/17 17:54:41</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017233327</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683463</GRN>
+		<RemitterName>DAN SINGH</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275104889</BankRefNo>
+		<CIN>SBIN6668346317092022</CIN>
+		<paiddate>2022/09/17 17:55:15</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154234780</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683522</GRN>
+		<RemitterName>VIJAY</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275121100</BankRefNo>
+		<CIN>SBIN6668352217092022</CIN>
+		<paiddate>2022/09/17 17:58:49</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017243544</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683530</GRN>
+		<RemitterName>RAJESH SONI</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275123720</BankRefNo>
+		<CIN>SBIN6668353017092022</CIN>
+		<paiddate>2022/09/17 17:59:24</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226017244954</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683557</GRN>
+		<RemitterName>MS AUTO AWAY PRIVATE LIMITED</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026555000022</BankRefNo>
+		<CIN>SBIN6668355717092022</CIN>
+		<paiddate>2022/09/17 18:00:46</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226050819055</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683604</GRN>
+		<RemitterName>RAM KUMAR GUPTA</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275144229</BankRefNo>
+		<CIN>SBIN6668360417092022</CIN>
+		<paiddate>2022/09/17 18:03:53</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154255811</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683720</GRN>
+		<RemitterName>KAILASH CHAND SHARMA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275172434</BankRefNo>
+		<CIN>SBIN6668372017092022</CIN>
+		<paiddate>2022/09/17 18:09:57</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154270534</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683771</GRN>
+		<RemitterName>MOHIT SINGH</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025806000042</BankRefNo>
+		<CIN>SBIN6668377117092022</CIN>
+		<paiddate>2022/09/17 18:12:47</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226033385443</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683795</GRN>
+		<RemitterName>JITENDRA SINGH KACHHAWAT</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025799000168</BankRefNo>
+		<CIN>SBIN6668379517092022</CIN>
+		<paiddate>2022/09/17 18:14:23</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226051941950</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683830</GRN>
+		<RemitterName>AKASH SINGH JADOUN</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275204273</BankRefNo>
+		<CIN>SBIN6668383017092022</CIN>
+		<paiddate>2022/09/17 18:16:46</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018287285</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683907</GRN>
+		<RemitterName>JUGAL KISHORE AGARWAL</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026833000021</BankRefNo>
+		<CIN>SBIN6668390717092022</CIN>
+		<paiddate>2022/09/17 18:21:32</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226038151240</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683920</GRN>
+		<RemitterName>DEEPAK KUMAR NEMIWAL</RemitterName>
+		<Amount>1000.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275233734</BankRefNo>
+		<CIN>SBIN6668392017092022</CIN>
+		<paiddate>2022/09/17 18:22:50</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018302372</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683940</GRN>
+		<RemitterName>UGAMA RAM CHOUDHARY</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275240982</BankRefNo>
+		<CIN>SBIN6668394017092022</CIN>
+		<paiddate>2022/09/17 18:24:26</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018305950</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683974</GRN>
+		<RemitterName>MUKESH MALIK</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025830000014</BankRefNo>
+		<CIN>SBIN6668397417092022</CIN>
+		<paiddate>2022/09/17 18:26:35</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226057216915</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66683985</GRN>
+		<RemitterName>DEEPAK CHAUHAN</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275256923</BankRefNo>
+		<CIN>SBIN6668398517092022</CIN>
+		<paiddate>2022/09/17 18:27:42</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018313913</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684023</GRN>
+		<RemitterName>AMITA PANCHAL</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025825000016</BankRefNo>
+		<CIN>SBIN6668402317092022</CIN>
+		<paiddate>2022/09/17 18:29:42</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226053302565</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684066</GRN>
+		<RemitterName>DIVYA BHATIA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275279123</BankRefNo>
+		<CIN>SBIN6668406617092022</CIN>
+		<paiddate>2022/09/17 18:32:16</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226018325195</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684100</GRN>
+		<RemitterName>LOKESH SAHU</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275290905</BankRefNo>
+		<CIN>SBIN6668410017092022</CIN>
+		<paiddate>2022/09/17 18:34:37</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154330903</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684161</GRN>
+		<RemitterName>ANIL SHARMA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13026555000023</BankRefNo>
+		<CIN>SBIN6668416117092022</CIN>
+		<paiddate>2022/09/17 18:38:04</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226096904431</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684230</GRN>
+		<RemitterName>MUKESH</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275335621</BankRefNo>
+		<CIN>SBIN6668423017092022</CIN>
+		<paiddate>2022/09/17 18:43:32</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154352637</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684373</GRN>
+		<RemitterName>RAM SWAMI</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025806000043</BankRefNo>
+		<CIN>SBIN6668437317092022</CIN>
+		<paiddate>2022/09/17 18:53:27</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226075261079</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684428</GRN>
+		<RemitterName>PREM SINGH</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275408265</BankRefNo>
+		<CIN>SBIN6668442817092022</CIN>
+		<paiddate>2022/09/17 18:57:40</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154387400</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684579</GRN>
+		<RemitterName>MANOHAR SHARMA</RemitterName>
+		<Amount>500.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275469316</BankRefNo>
+		<CIN>SBIN6668457917092022</CIN>
+		<paiddate>2022/09/17 19:09:16</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226019415817</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684637</GRN>
+		<RemitterName>DILIP KUMAR BANKE</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275492311</BankRefNo>
+		<CIN>SBIN6668463717092022</CIN>
+		<paiddate>2022/09/17 19:13:30</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226019426065</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684778</GRN>
+		<RemitterName>HEMANT SEN</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275555067</BankRefNo>
+		<CIN>SBIN6668477817092022</CIN>
+		<paiddate>2022/09/17 19:25:03</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154453600</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684817</GRN>
+		<RemitterName>BHANWAR SINGH SHEKHAWAT</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275576033</BankRefNo>
+		<CIN>SBIN6668481717092022</CIN>
+		<paiddate>2022/09/17 19:28:54</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154462680</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684857</GRN>
+		<RemitterName>SOHAN SINGH RATHORE</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275590703</BankRefNo>
+		<CIN>SBIN6668485717092022</CIN>
+		<paiddate>2022/09/17 19:31:36</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154469136</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66684929</GRN>
+		<RemitterName>SACHIN</RemitterName>
+		<Amount>200.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275624927</BankRefNo>
+		<CIN>SBIN6668492917092022</CIN>
+		<paiddate>2022/09/17 19:37:55</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226019483865</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66685094</GRN>
+		<RemitterName>MANISH KUMAR SHALYA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4275728832</BankRefNo>
+		<CIN>SBIN6668509417092022</CIN>
+		<paiddate>2022/09/17 19:57:11</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>004154528453</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>66685105</GRN>
+		<RemitterName>AKASH PAREWA</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13025409000313</BankRefNo>
+		<CIN>SBIN6668510517092022</CIN>
+		<paiddate>2022/09/17 19:58:18</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>226059273419</debitbankref>
+</Detail>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9dFTZ7/bAtGI/xcsQmU9xxHhzwU=</DigestValue></Reference></SignedInfo><SignatureValue>MShYDH8mThQSDCMDP82gnwt5E1zCvxe0j8+VUSGZ2sIMVLIEY8WkfLIcLP8OZ29e+7PgEqi37yOfL5M9khGbZvzsO4cSpA40sENtgDbYiP3wGWlk31tJd6YAfyyVV6HJWOqAxKWGS7xubhySO4A5YWDjpy5Ur5Qnbmw94+sONQmiwltMCc4J7shh5TATC1nC0qTdfE59Wde/gFDV6Q2gwmxCZU7qnqHBk39E1EbfeXaXE3Bj0FUXdJQszncim/HEuiZcX71hy3uUSGhix1vQzbzGV9nfiX+irr/iHeeGWvCe9srhb4oYolMBzemD+pwOi6+AHG4awWI7JYFlIoMRCA==</SignatureValue></Signature></Root>

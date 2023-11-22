@@ -1,0 +1,57 @@
+﻿
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+using System.Data.SqlClient;
+using System.Data.Sql;
+using EgDAL;
+
+/// <summary>
+/// Summary description for AutoComplete
+/// </summary>
+[WebService(Namespace = "http://tempuri.org/")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+[System.Web.Script.Services.ScriptService]
+public class AutoComplete : System.Web.Services.WebService {
+
+    public AutoComplete () {
+
+        //Uncomment the following line if using designed components 
+        //InitializeComponent(); 
+    }
+
+    [WebMethod]
+    public string HelloWorld() {
+        return "Hello World";
+    }    
+
+    [WebMethod]
+    public static List<string> SearchCustomers(string prefixText, int count)
+    {
+        List<string> customers = new List<string>();
+
+        SqlCommand cmd = new SqlCommand();
+        cmd.Parameters.AddWithValue("@searchText", prefixText);
+        DataFunctions df = new DataFunctions();
+        SqlDataReader dr = df.FillReader(cmd, "demo");
+        cmd.Dispose();
+        if (dr.HasRows != false)
+        {
+
+            while (dr.Read())
+            {
+                customers.Add(dr["DeptName"].ToString());
+            }
+        }
+        dr.Close();
+        dr.Dispose();
+
+        return customers;
+    }
+    
+}
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>20305633</GRN>
+		<RemitterName>TEST</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4295147592</BankRefNo>
+		<CIN>992000100004207072021</CIN>
+		<paiddate>2021/07/07 14:26:04</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>000020</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>20305643</GRN>
+		<RemitterName>TEST1</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>12430163000022</BankRefNo>
+		<CIN>992000100004507072021</CIN>
+		<paiddate>2021/07/07 17:01:31</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>06868637212</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>20305644</GRN>
+		<RemitterName>TEST2</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4295147613</BankRefNo>
+		<CIN>992000100004607072021</CIN>
+		<paiddate>2021/07/07 17:04:59</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>000020</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>20305645</GRN>
+		<RemitterName>TEST3</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13003154000117</BankRefNo>
+		<CIN>992000100004707072021</CIN>
+		<paiddate>2021/07/07 17:18:41</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>06868637212</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>20305646</GRN>
+		<RemitterName>TEST4</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>4295147622</BankRefNo>
+		<CIN>992000100004807072021</CIN>
+		<paiddate>2021/07/07 17:22:42</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>000020</debitbankref>
+</Detail>
+<Detail>
+		<HeadAcc>0041</HeadAcc>
+		<GRN>20305651</GRN>
+		<RemitterName>TEST5</RemitterName>
+		<Amount>100.00</Amount>
+		<Bankcode>9920001</Bankcode>
+		<BankRefNo>13003154000119</BankRefNo>
+		<CIN>992000100005207072021</CIN>
+		<paiddate>2021/07/07 17:46:46</paiddate>
+		<debitbank>DC</debitbank>
+		<debitbankref>06868637212</debitbankref>
+</Detail>
+</Root>

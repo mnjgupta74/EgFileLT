@@ -1,0 +1,145 @@
+﻿using System;
+using System.Data;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using EgBL;
+
+// Author : Rachit Sharma
+// Create Date: 28 August 2014
+// Purpose: To show the users (Office only) the successful budgetheads and its amount between given dates(Fromdate and ToDate)
+// No data key to be placed 
+public partial class WebPages_AG_EgRevenueOfficeHeadWiseRpt : System.Web.UI.Page
+{
+    EgOfficeHeadAmountRptBL objEgOfficeHeadAmountRptBL;
+    decimal grdTotal = 0;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if ((Session["UserId"] == null) || Session["UserId"].ToString() == "")
+        {
+            Response.Redirect("~\\logout.aspx");
+        }
+        if (!Page.IsPostBack)
+        {
+            //Do nothing
+        }
+    }
+
+
+     // To show the users the budgethead and its amount on the basis of 
+     //fromdate,todate,userid
+     //Stored proc used: [EgOfficeHeadWiseRpt]
+    protected void btnshow_Click(object sender, EventArgs e)
+    {
+        DataTable dt = new DataTable();
+        objEgOfficeHeadAmountRptBL = new EgOfficeHeadAmountRptBL();
+
+        string[] fromdate = txtFromDate.Text.Trim().Replace("-", "/").Split('/');
+        objEgOfficeHeadAmountRptBL.FromDate = Convert.ToDateTime(fromdate[2].ToString() + "/" + fromdate[1].ToString() + "/" + fromdate[0].ToString());
+        string[] todate = txtToDate.Text.Trim().Replace("-", "/").Split('/');
+        objEgOfficeHeadAmountRptBL.ToDate = Convert.ToDateTime(todate[2].ToString() + "/" + todate[1].ToString() + "/" + todate[0].ToString());
+        objEgOfficeHeadAmountRptBL.UserID = Convert.ToInt32(Session["UserId"].ToString());
+        dt=objEgOfficeHeadAmountRptBL.OfficeTotalAmount();
+        grdBudgetHead.DataSource = dt;
+        grdBudgetHead.DataBind();
+        dt.Dispose();
+        //objTreasuryAndDept.TreasuryTotalAmount(RptTreasury);
+        if (grdBudgetHead.Rows.Count > 0)
+        {
+            trTreasuryList.Visible = true;
+            DivDepartment.Visible = false;
+        }
+        else
+        {
+            trTreasuryList.Visible = false;
+            DivDepartment.Visible = false;
+            ScriptManager.RegisterClientScriptBlock(UpdatePanel1, this.GetType(), "MSG", "alert('No Record Found !!')", true);
+            return;
+        }
+    }
+
+
+    // To show the users the schema name corresponding to the budgethead
+    // Stored proc used: [EgBudgetheadwiseSchemaAmount]
+    //BL used : EgOfficeHeadAmountRptBL
+    protected void grdBudgetHead_RowCommand(Object sender, GridViewCommandEventArgs e)
+    {
+        DataTable dt = new DataTable();
+        if (e.CommandName == "getHead")
+        {
+            GridViewRow row = (GridViewRow)(((LinkButton)e.CommandSource).NamingContainer);
+
+            // row contains current Clicked Gridview Row
+            //Getting deptCode code from the datakey contained in grdBudgetHead
+            //int deptCode = Convert.ToInt32(grdBudgetHead.DataKeys[row.RowIndex].Values["deptcode"].ToString());
+
+            //Getting treasury code from the datakey contained in grdBudgetHead
+            //string location = grdBudgetHead.DataKeys[row.RowIndex].Values["Location"].ToString();
+
+            String Budgethead = e.CommandArgument.ToString(); // got the Budgethead here
+
+            objEgOfficeHeadAmountRptBL = new EgOfficeHeadAmountRptBL();
+
+            string[] fromdate = txtFromDate.Text.Trim().Replace("-", "/").Split('/');
+
+            objEgOfficeHeadAmountRptBL.FromDate = Convert.ToDateTime(fromdate[2].ToString() + "/" + fromdate[1].ToString() + "/" + fromdate[0].ToString());
+
+            string[] todate = txtToDate.Text.Trim().Replace("-", "/").Split('/');
+
+            objEgOfficeHeadAmountRptBL.ToDate = Convert.ToDateTime(todate[2].ToString() + "/" + todate[1].ToString() + "/" + todate[0].ToString());
+
+            //objEgOfficeHeadAmountRptBL.DeptCode = deptCode;
+
+            objEgOfficeHeadAmountRptBL.BudgetHead = Budgethead;
+            objEgOfficeHeadAmountRptBL.UserID = Convert.ToInt32(Session["UserId"]);
+            //objEgOfficeHeadAmountRptBL.Treasurycode = location;
+            dt= objEgOfficeHeadAmountRptBL.shqpSchemaRpt();
+            grdschema.DataSource = dt;
+            grdschema.DataBind();
+            //If grid contains any row
+            if (dt.Rows.Count > 0)
+            {
+                trTreasuryList.Visible = true;// The row in main table containing both the gridview's
+                DivDepartment.Visible = true;//div containing grdschema(Gridview to show the schema name)
+
+            }
+            else
+            {
+                trTreasuryList.Visible = true;
+                DivDepartment.Visible = false;
+                ScriptManager.RegisterClientScriptBlock(UpdatePanel1, this.GetType(), "MSG", "alert('No Record Found !!')", true);
+                return;
+            }
+        }
+        dt.Dispose();
+    }
+    // Getting the total sum of all the amount corresponding to the budgethead
+    //GridView name: grdBudgetHead
+    protected void grdBudgetHead_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if ((e.Row.RowType == DataControlRowType.DataRow) && (e.Row.RowIndex != -1))
+        {
+            grdTotal += Convert.ToDecimal(DataBinder.Eval(e.Row.DataItem, "TotalAmt"));//The boundfield datatext
+        }
+        if (e.Row.RowType == DataControlRowType.Footer)
+        {
+            e.Row.Cells[2].Text = String.Format("{0:n}", grdTotal);//Add the grdTotal to the footer of cell 3rd
+        }
+    }
+
+    //Getting the total sum of the amount corresponding to the budgethead
+    //GridView name: grdschema
+    protected void grdschema_rowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if ((e.Row.RowType == DataControlRowType.DataRow) && (e.Row.RowIndex != -1))
+        {
+
+            grdTotal += Convert.ToDecimal(DataBinder.Eval(e.Row.DataItem, "amount"));//The boundfield datatext
+        }
+        if (e.Row.RowType == DataControlRowType.Footer)
+        {
+
+            e.Row.Cells[2].Text = String.Format("{0:n}", grdTotal);//Add the grdTotal to the footer of cell 3rd
+        }
+    }
+
+}

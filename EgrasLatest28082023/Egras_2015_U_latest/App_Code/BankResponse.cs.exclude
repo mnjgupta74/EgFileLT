@@ -1,0 +1,900 @@
+﻿using System;
+using System.Linq;
+using System.Web;
+using EgBL;
+using System.Xml.Linq;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+
+/// <summary>
+/// Summary description for BankResponse
+/// </summary>
+public class BankResponse : BankResponseUpdate
+{
+    public BankResponse()
+    {
+
+    }
+    
+    public override int Response()
+    {
+       
+            SbiEncryptionDecryption objEncry = new SbiEncryptionDecryption();
+            string plainText = "";
+            if (BankCode.ToString().Length == 7)
+            {
+                try
+                {
+                    Dictionary<string, string> bankCodeList = new Dictionary<string, string>();
+                    XDocument ooo = XDocument.Load(System.Web.HttpContext.Current.Server.MapPath("~/WebPages/BankNames_BSRCode.xml"));
+                    foreach (XElement rootElement in ooo.Descendants().Where(p => p.HasElements == false))
+                    {
+                        string value = rootElement.Value.ToString().Trim();
+                        String KName = value.Split('|').GetValue(0).ToString();
+                        string Kvalue = value.Split('|').GetValue(1).ToString();
+                        bankCodeList.Add(KName, Kvalue);
+                    }
+                    //bankCodeList.Add("0292861", "Union_Bank");
+                    //bankCodeList.Add("0200113", "BOB");
+                    //bankCodeList.Add("0171051", "RAJASTHAN_EGRASS");
+                    //bankCodeList.Add("0006326", "RAJASTHAN_EGRASS");
+                    //bankCodeList.Add("0304017", "PNB");
+                    //bankCodeList.Add("0280429", "CBI");
+                    //bankCodeList.Add("6910213", "IDBI");
+                    //bankCodeList.Add("0361193", "OBC");
+                    //bankCodeList.Add("0220123", "BOI");
+                    //bankCodeList.Add("0240539", "rajgras");
+
+                    if (BankCode == "1000132")
+                    {
+                        ePayEncryptionDecryptionBL objEpay = new ePayEncryptionDecryptionBL();
+                        plainText = objEpay.Decrypt(encData, bankCodeList[BankCode].Trim(), 128);
+                        payMode = "E";//EPay Transaction
+                    }
+                    else
+                    {
+                        plainText = objEncry.Decrypt(encData, System.Web.Configuration.WebConfigurationManager.AppSettings["Securekey"] + bankCodeList[BankCode].Trim() + ".key");
+                        payMode = "N";//Other Bank Transaction
+                    }
+                }
+                catch (NullReferenceException nullex)
+                {
+                    throw new NullReferenceException("Error[1001]M[1]");
+                }
+                catch (SqlException sqlex)
+                {
+                    throw new Exception("Error[1002]M[1]");
+                }
+                catch (IndexOutOfRangeException indexex)
+                {
+                    throw new IndexOutOfRangeException("Error[1004]M[1]");
+                }
+                catch (FormatException formatex)
+                {
+                    throw new FormatException("Error[1003]M[1]");
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message+"M[1]");
+                }
+
+                try
+                {
+                    //plainText = objEncry.Decrypt(encData, System.Web.HttpContext.Current.Server.MapPath("~/WebPages/Key/" + bankCodeList[BankCode].Trim() + ".key"));
+                    if (payMode == "E")
+                    {
+                        payMode = "N";
+                        UpdateEpay(plainText);
+                        System.Threading.Thread.Sleep(5000);
+                        UpdateEpayStatus();
+                    }
+                    else
+                        UpdateStatus(plainText);
+                    return 1;
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+            else
+            {
+                return -1;
+            }
+        
+    }
+    public void UpdateEpay(string PlainText)
+    {
+        int result;
+        List<string> lstPlainText;
+        try
+        {
+            lstPlainText = new List<string>();
+            string[] arrMsgs = PlainText.Split('|');
+            for (int i = 0; i < arrMsgs.Length; i++)
+            {
+                lstPlainText.Add(arrMsgs[i]);
+            }
+            GRN = Convert.ToInt64(lstPlainText[0].ToString());// grn no.
+            Amount = Convert.ToDouble(lstPlainText[3].ToString()); // amount
+            Ref = lstPlainText[1].ToString();  // bankref
+            CIN = lstPlainText[12].ToString();  // cin
+            timeStamp = Convert.ToDateTime(lstPlainText[10].ToString());   // date
+            BankCode = lstPlainText[13].ToString();   // bankcode
+            Status = lstPlainText[2].ToString().Substring(0, 1);  // status
+            epayBSRCode = lstPlainText[8].ToString();
+            bankRefNo = lstPlainText[9].ToString();
+            payMode= lstPlainText[5].ToString();
+        }
+        catch (IndexOutOfRangeException indexex)
+        {
+            throw new IndexOutOfRangeException("Error[1004]M[2]");
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[2]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[2]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[2]");
+        }
+        try
+        {
+            int MerchantCode = checkGRNMerchantCode();
+            BankResponseEpayValidation objBankResponseUpdate = new BankResponseEpayValidation();
+            objBankResponseUpdate.validationString = lstPlainText;
+            if (!objBankResponseUpdate.validationForstatus_F())
+            {
+                if (objBankResponseUpdate.validationForstatus_S() || objBankResponseUpdate.validationForstatus_P())
+                {
+
+                    result = UpdateSuccessStatus();
+                    LoadUserEntries();
+
+                    SetSessionValues(MerchantCode);
+
+                }
+            }
+            else if (objBankResponseUpdate.validationForstatus_F())
+            {
+                if (objBankResponseUpdate.validationForBSRCode())
+                {
+                    result = UpdateStatus();
+                }
+            }
+            ValidationBSRCode = objBankResponseUpdate.ValidationBSRCode;
+            Validation_F = objBankResponseUpdate.Validation_F;
+            Validation_P = objBankResponseUpdate.Validation_P;
+            Validation_S = objBankResponseUpdate.Validation_S;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+    public override void UpdateStatus(string plainText)
+    {
+        List<string> lstPlainText;
+        int result;
+        try
+        {
+            lstPlainText = new List<string>();
+            string[] arrMsgs = plainText.Split('|');
+            string[] arrIndMsg;
+            for (int i = 0; i < arrMsgs.Length; i++)
+            {
+                arrIndMsg = arrMsgs[i].Split('=');
+
+                lstPlainText.Add(arrIndMsg[0]);
+                lstPlainText.Add(arrIndMsg[1]);
+            }
+            GRN = Convert.ToInt64(lstPlainText[1]);
+            Amount = Convert.ToDouble(lstPlainText[11]);
+            Ref = lstPlainText[5].ToString();
+            CIN = lstPlainText[7].ToString();
+            timeStamp = Convert.ToDateTime(lstPlainText[9].ToString());
+            BankCode = lstPlainText[3].ToString();
+            Status = lstPlainText[13].ToString().Substring(0, 1);
+        }
+        catch (IndexOutOfRangeException indexex)
+        {
+            throw new IndexOutOfRangeException("Error[1004]M[3]");
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[3]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[3]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[3]");
+        }
+        try
+        {
+            int MerchantCode = checkGRNMerchantCode();
+            BankResponseUpdate objBankResponseUpdate = new BankResponseValidation();
+            objBankResponseUpdate.validationString = lstPlainText;
+            if (!objBankResponseUpdate.validationForstatus_F())
+            {
+                if (objBankResponseUpdate.validationForstatus_S() || objBankResponseUpdate.validationForstatus_P())
+                {
+
+                    result = UpdateSuccessStatus();
+                    LoadUserEntries();
+
+                    SetSessionValues(MerchantCode);
+
+                }
+            }
+            else if (objBankResponseUpdate.validationForstatus_F())
+            {
+                if (objBankResponseUpdate.validationForBSRCode())
+                {
+                    result = UpdateStatus();
+                }
+            }
+            ValidationBSRCode = objBankResponseUpdate.ValidationBSRCode;
+            Validation_F = objBankResponseUpdate.Validation_F;
+            Validation_P = objBankResponseUpdate.Validation_P;
+            Validation_S = objBankResponseUpdate.Validation_S;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+  
+    }
+
+    private int checkGRNMerchantCode()
+    {
+        try
+        {
+            EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+            objEgEChallanBankBL.GRN = Convert.ToInt32(GRN);
+            MerchantCode = objEgEChallanBankBL.CheckGrnMerchantCode();
+            return MerchantCode;
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[4]");
+        }
+        catch (SqlException sqlex)
+        {
+            throw new Exception("Error[1002]M[4]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[4]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[4]");
+        }
+    }
+   
+
+    private int UpdateSuccessStatus()
+    {
+        try
+        {
+            EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+            objEgEChallanBankBL.Status = Status;
+            objEgEChallanBankBL.GRN = Convert.ToInt32(GRN);
+            objEgEChallanBankBL.CIN = CIN;
+            objEgEChallanBankBL.Ref = Ref;
+            objEgEChallanBankBL.Amount = Amount;
+            objEgEChallanBankBL.timeStamp = timeStamp;
+            objEgEChallanBankBL.BankCode = BankCode;
+            return objEgEChallanBankBL.UpdateSuccessStatus();
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[5]");
+        }
+        catch (SqlException sqlex)
+        {
+            throw new Exception("Error[1002]M[5]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[5]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[5]");
+        }
+    }
+
+    private int UpdateStatus()
+    {
+        try
+        {
+            EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+            objEgEChallanBankBL.Status = Status;
+            objEgEChallanBankBL.GRN = Convert.ToInt32(GRN);
+            objEgEChallanBankBL.Ref = Ref;
+            objEgEChallanBankBL.Amount = Amount;
+            objEgEChallanBankBL.timeStamp = timeStamp;
+            objEgEChallanBankBL.BankCode = BankCode;
+            return objEgEChallanBankBL.UpdateStatus();
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[6]");
+        }
+        catch (SqlException sqlex)
+        {
+            throw new Exception("Error[1002]M[6]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[6]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[6]");
+        }
+    }
+
+    public void UpdateEpayStatus()
+    {
+        try
+        {
+            EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+            objEgEChallanBankBL.GRN = Convert.ToInt32(GRN);
+            objEgEChallanBankBL.epayBSRCode = epayBSRCode;
+            objEgEChallanBankBL.bankRefNo = bankRefNo;
+            objEgEChallanBankBL.payMode = payMode;
+            objEgEChallanBankBL.UpdateEpayStatus();
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[7]");
+        }
+        catch (SqlException sqlex)
+        {
+            throw new Exception("Error[1002]M[7]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[7]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[7]");
+        }
+    }
+
+    private void LoadUserEntries()
+    {
+        try
+        {
+            EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+            objEgEChallanBankBL.GRN = Convert.ToInt32(GRN);
+            objEgEChallanBankBL.LoadUserEntries();
+            UserId = objEgEChallanBankBL.UserId;
+            UserType = objEgEChallanBankBL.UserType;
+            Name = objEgEChallanBankBL.Name;
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[8]");
+        }
+        catch (SqlException sqlex)
+        {
+            throw new Exception("Error[1002]M[8]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[8]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[8]");
+        }
+    }
+
+    private void SetSessionValues(int MerchantCode)
+    {
+        try
+        {
+            if (MerchantCode != 0)
+            {
+                HttpContext.Current.Session["UserID"] = 73;
+                HttpContext.Current.Session["UserType"] = 9;
+                HttpContext.Current.Session["UserName"] = "Guest";
+                HttpContext.Current.Session["MenuDataSet"] = "";
+            }
+            else
+            {
+                HttpContext.Current.Session["UserID"] = UserId;
+                HttpContext.Current.Session["UserType"] = UserType;
+                HttpContext.Current.Session["UserName"] = Name;
+                HttpContext.Current.Session["MenuDataSet"] = "";
+            }
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[9]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[9]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[9]");
+        }
+    }
+}
+
+public class BankResponseUpdate
+{
+    #region property Implementation
+
+    private int merchantCode;
+    public int MerchantCode  // read-write instance property
+    {
+        get
+        {
+            return merchantCode;
+        }
+        set
+        {
+            merchantCode = value;
+        }
+    }
+
+    private bool validationBSRCode;
+    public bool ValidationBSRCode  // read-write instance property
+    {
+        get
+        {
+            return validationBSRCode;
+        }
+        set
+        {
+            validationBSRCode = value;
+        }
+    }
+
+    private bool validation_F;
+    public bool Validation_F  // read-write instance property
+    {
+        get
+        {
+            return validation_F;
+        }
+        set
+        {
+            validation_F = value;
+        }
+    }
+
+    private bool validation_S;
+    public bool Validation_S  // read-write instance property
+    {
+        get
+        {
+            return validation_S;
+        }
+        set
+        {
+            validation_S = value;
+        }
+    }
+
+    private bool validation_P;
+    public bool Validation_P  // read-write instance property
+    {
+        get
+        {
+            return validation_P;
+        }
+        set
+        {
+            validation_P = value;
+        }
+    }
+
+    private string status;
+    public string Status  // read-write instance property
+    {
+        get
+        {
+            return status;
+        }
+        set
+        {
+            status = value;
+        }
+    }
+    private Int64 grn;
+    public Int64 GRN  // read-write instance property
+    {
+        get
+        {
+            return grn;
+        }
+        set
+        {
+            grn = value;
+        }
+    }
+    private string cin;
+    public string CIN  // read-write instance property
+    {
+        get
+        {
+            return cin;
+        }
+        set
+        {
+            cin = value;
+        }
+    }
+    private string refe;
+    public string Ref  // read-write instance property
+    {
+        get
+        {
+            return refe;
+        }
+        set
+        {
+            refe = value;
+        }
+    }
+    private string bankcode;
+    public string BankCode  // read-write instance property
+    {
+        get
+        {
+            return bankcode;
+        }
+        set
+        {
+            bankcode = value;
+        }
+    }
+    private string ebankcode;
+    public string EBankCode  // read-write instance property
+    {
+        get
+        {
+            return ebankcode;
+        }
+        set
+        {
+            ebankcode = value;
+        }
+    }
+    private string encdata;
+    public string encData  // read-write instance property
+    {
+        get
+        {
+            return encdata;
+        }
+        set
+        {
+            encdata = value;
+        }
+    }
+    private string Url;
+    public string url  // read-write instance property
+    {
+        get
+        {
+            return Url;
+        }
+        set
+        {
+            Url = value;
+        }
+    }
+    private string IP;
+    public string ip  // read-write instance property
+    {
+        get
+        {
+            return IP;
+        }
+        set
+        {
+            IP = value;
+        }
+    }
+    private string name;
+    public string Name  // read-write instance property
+    {
+        get
+        {
+            return name;
+        }
+        set
+        {
+            name = value;
+        }
+    }
+    private string epaybsrCode;
+    public string epayBSRCode  // read-write instance property
+    {
+        get
+        {
+            return epaybsrCode;
+        }
+        set
+        {
+            epaybsrCode = value;
+        }
+    }
+    private string BankRefNo;
+    public string bankRefNo  // read-write instance property
+    {
+        get
+        {
+            return BankRefNo;
+        }
+        set
+        {
+            BankRefNo = value;
+        }
+    }
+    private string PayMode;
+    public string payMode  // read-write instance property
+    {
+        get
+        {
+            return PayMode;
+        }
+        set
+        {
+            PayMode = value;
+        }
+    }
+    private double amount;
+    public double Amount  // read-write instance property
+    {
+        get
+        {
+            return amount;
+        }
+        set
+        {
+            amount = value;
+        }
+    }
+    private DateTime timestamp;
+    public DateTime timeStamp  // read-write instance property
+    {
+        get
+        {
+            return timestamp;
+        }
+        set
+        {
+            timestamp = value;
+        }
+    }
+    private int userId;
+    public int UserId
+    {
+        get
+        {
+            return userId;
+        }
+        set
+        {
+            userId = value;
+        }
+    }
+    private int userType;
+    public int UserType
+    {
+        get
+        {
+            return userType;
+        }
+        set
+        {
+            userType = value;
+        }
+    }
+    private int mcode;
+    public int Mcode
+    {
+        get
+        {
+            return mcode;
+        }
+        set
+        {
+            mcode = value;
+        }
+    }
+    #endregion
+
+    public List<string> validationString { get; set; }
+
+    virtual public int Response()
+    {
+        return 0;
+    }
+    virtual public void UpdateStatus(string plainText)
+    {
+    }
+    virtual public int ResponseAudit()
+    {
+        return 0;
+    }
+    virtual internal bool validationForstatus_F()
+    {
+        return false;
+    }
+    virtual internal bool validationForstatus_S()
+    {
+        return false;  
+    }
+    virtual internal bool validationForstatus_P()
+    {
+        return false;   
+    }
+    virtual internal bool validationForBSRCode()
+    {
+        return false;
+    }
+}
+
+class BankResponseValidation : BankResponseUpdate
+{
+    internal override bool validationForstatus_F()
+    {
+        if (validationString[13].ToString().ToUpper() == "F")
+        {
+            Validation_F = true;
+            return true;
+        }
+        else
+        {
+            Validation_F = false;
+            return false;
+        }
+    }
+    internal override bool validationForstatus_S()
+    {
+        if (validationString[7].ToString().Length == 21 && (validationString[5].ToString().Length != 0 || validationString[5].ToString() != null) && validationString[13].ToString().ToUpper() == "S")
+        {
+            Validation_S = true;
+            return true;
+        }
+        else
+        {
+            Validation_S = false;
+            return false;
+        }
+    }
+    internal override bool validationForstatus_P()
+    {
+        if (validationString[7].ToString().Length != 0 && (validationString[5].ToString().Length != 0 || validationString[5].ToString() != null) && validationString[13].ToString().ToUpper() == "P")
+        {
+            Validation_P = true;
+            return true;
+        }
+        else
+        {
+            Validation_P = false;
+            return false;
+        }
+    }
+    internal override bool validationForBSRCode()
+    {
+        if (validationString[3].ToString().Length == 7)
+        {
+            ValidationBSRCode = true;
+            return true;
+        }
+        else
+        {
+            ValidationBSRCode = false;
+            return false;
+        }
+    }
+   
+}
+
+class BankResponseEpayValidation : BankResponseUpdate
+{
+    internal override bool validationForstatus_F()
+    {
+        if (validationString[2].ToString().Substring(0, 1).ToUpper() == "F")
+        {
+            Validation_F = true;
+            return true;
+        }
+        else
+        {
+            Validation_F = false;
+            return false;
+        }
+    }
+    internal override bool validationForstatus_S()
+    {
+        if ((validationString[1].ToString().Length != 0 || validationString[1].ToString() != null) && (validationString[2].ToString().Substring(0, 1).ToUpper() == "S"))
+        {
+            Validation_S = true;
+            return true;
+        }
+        else
+        {
+            Validation_S = false;
+            return false;
+        }
+    }
+    internal override bool validationForstatus_P()
+    {
+        if ((validationString[12].ToString().Length != 0 && (validationString[1].ToString().Length != 0 || validationString[1].ToString() != null) && validationString[2].ToString().Substring(0, 1).ToUpper() == "P"))
+        {
+            Validation_P = true;
+            return true;
+        }
+        else
+        {
+            Validation_P = false;
+            return false;
+        }
+    }
+    internal override bool validationForBSRCode()
+    {
+        if (validationString[13].ToString().Length == 7)
+        {
+            ValidationBSRCode = true;
+            return true;
+        }
+        else
+        {
+            ValidationBSRCode = false;
+            return false;
+        }
+    }
+
+}
+public class BankResponseAudit : BankResponseUpdate
+{
+    public override int ResponseAudit()
+    {
+        try
+        {
+            EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+            objEgEChallanBankBL.BankCode = BankCode;
+            objEgEChallanBankBL.encData = encData;
+            objEgEChallanBankBL.ip = ip;
+            objEgEChallanBankBL.url = url;
+            return objEgEChallanBankBL.BankResponseAudit();
+        }
+        catch (NullReferenceException nullex)
+        {
+            throw new NullReferenceException("Error[1001]M[10]");
+        }
+        catch (SqlException sqlex)
+        {
+            throw new Exception("Error[1002]M[10]");
+        }
+        catch (FormatException formatex)
+        {
+            throw new FormatException("Error[1003]M[10]");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message + "M[10]");
+        }
+    }
+}

@@ -1,0 +1,1543 @@
+/* vBulletin 3 CSS For Style 'Default Style' (styleid: 1) */
+* { vertical-align:middle;}
+.alignTop {vertical-align:top;}
+body
+{
+    background-color: #F2F3EF;
+    color: #000000;
+    font: 10pt verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.gradientBlue {   
+	filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#406b9f', startColorstr='#6ba9f2', gradientType='0'); /* IE6 & IE7 */ 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#6ba9f2', endColorstr='#406b9f')"; /* IE8 */ 
+	background:-moz-linear-gradient(top,  #6ba9f2,  #406b9f); /* for mozila*/
+	background:-webkit-gradient(linear, left top, left bottom, from(#6ba9f2), to(#406b9f)); ; /* for webkit*/
+} 
+.gradientGray {   
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType='0', startColorstr='#555554', endColorstr='#3d3d3c'); /* IE6 & IE7 */ 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#555554', endColorstr='#3d3d3c')"; /* IE8 */ 
+	background:-moz-linear-gradient(top,  #555554,  #3d3d3c); /* for mozila*/
+	background:-webkit-gradient(linear, left top, left bottom, from(#555554), to(#3d3d3c)); ; /* for webkit*/
+}
+
+.borderRadius 
+{
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    
+}
+.inputDesign 
+{
+    background-color:#f2f3ef; border:2px solid #999999; padding:3px;
+}
+.btn  
+{
+    padding:2px 5px;
+    border:2px solid #999999;
+    font-family:Verdana;
+    font-size:1.0em;
+    color:#333333;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#DDDDDD', startColorstr='#EEEEEE', gradientType='0'); /* IE6 & IE7 */ 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#EEEEEE', endColorstr='#DDDDDD')"; /* IE8 */ 
+	background:-moz-linear-gradient(top,  #EEEEEE,  #DDDDDD); /* for mozila*/
+	background:-webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#DDDDDD)); ; /* for webkit*/
+}
+.ChangePassword1
+    {
+        background-color: #ffffff;
+        -moz-box-shadow: 0 0 15px 1px #000000;
+        -webkit-box-shadow: 0 0 15px 1px #000000;
+        font-family: Verdana;
+        font-size: 1.0em;
+        color: #333333;
+        border: 5px solid #DDDDDD;
+    }
+.login
+    {
+        background-color: #ffffff;
+        -moz-box-shadow: 0 0 15px 1px rgba(212, 233, 251, 0.2);
+        -webkit-box-shadow: 0 0 15px 1px rgba(212, 233, 251, 0.2);
+        font-family: Verdana;
+        font-size: 1.0em;
+        color: #333333;
+    }
+  .login table tr td
+    {
+        padding: 5px;
+        
+        
+    }
+img
+{
+    border: 0px;
+    vertical-align:middle;
+}
+a:link
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#lblHead {font-size:16px; text-align:center !important; margin:10px; }
+.closeBtn {cursor:pointer; position:absolute; right:5px; top:5px;}
+#divCreateUser input[type="text"] {width:200px;}
+#divCreateUser select {width:210px;}
+#divCreateUser textarea {width:205px;}
+.ContaintDiv
+        {
+            position:fixed;
+            width: 500px;
+            background-color: White;
+            border: 3px solid #888888;           
+            height: 500px;
+            left:33%;
+            top:10%;
+            overflow:auto;
+            bottom:10%;
+        }
+.ContainerDiv
+        {
+            position: absolute;
+            display:none;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: Black;
+            opacity: 0.6;
+            
+        }
+.page
+{
+    background: white;
+    color: #000000;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    width: 243px;
+    height: 90px;
+    position: relative;
+    font-size: 11px;
+    float: left;
+}
+h1 a
+{
+    display: block;
+    width: 243px;
+    height: 90px;
+    color: #fff;
+}
+h1 a span
+{
+    background: url(../images/logo_code.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 243px;
+    height: 90px;
+    cursor: pointer;
+}
+
+h3
+{
+    font: 16px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 28px;
+}
+
+
+h4
+{
+    font: 14px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: lowercase;
+    padding: 0px;
+}
+
+.reprotLink a { font-weight: bold; padding:2px 5px; color:#444; text-decoration:underline;}
+
+h5
+{
+    font: 14px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: lowercase;
+}
+
+.number
+{
+    font: 14px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+
+#loginbox
+{
+    float: right;
+    width: 258px;
+    height: 90px;
+    background-image: url(../images/loginbg.gif);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+/*#login
+{
+    text-align: right;
+    color: white;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+*/
+#header
+{
+    background-image: url(../images/header-bg.gif);
+    background-repeat: repeat-x;
+    height: 90px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#container
+{
+    background-color: white;
+    border: 20px solid white;
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+td, th, p, li
+{
+    font: 12px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    border:1px;
+}
+.tcat
+{
+    background: url(../images/gradients/tcat.gif) repeat-x bottom left;
+    color: #484847;
+    height: 25px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+.tcat a:link
+{
+    color: #484847;
+    text-decoration: none;
+    font-size: 16px;
+}
+.tcat a:visited
+{
+    color: #484847;
+    text-decoration: none;
+    font-size: 16px;
+}
+.tcat a:hover
+{
+    color: #484847;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.tcat a:active
+{
+    color: #484847;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.thead
+{
+    background: #E6E7E1;
+    color: #484847;
+    font: 11px verdana, tahoma, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+
+.mainnavbar
+{
+    background-image: url(../images/navbg.gif);
+    background-repeat: repeat-x;
+    margin-bottom: 10px;
+}
+
+.mainnavbar a:link
+{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+.mainnavbar a:visited
+{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+.mainnavbar a:hover
+{
+    color: white;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+.navbarleft
+{
+    background-image: url(../images/nav-leftbg.gif);
+    background-repeat: no-repeat;
+    width: 31px;
+}
+
+.navbarright
+{
+    background-image: url(../images/nav-rightbg.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    /*width: 227px;*/
+}
+#headtext a:link { color:#ffffff}
+#headtext a:visited { color:#ffffff }
+#headtext a:hover,#headtext a:active { color:#ffffff; text-decoration:underline; }
+#menutext a:link { color:#ffffff}
+#menutext a:visited { color:#ffffff }
+#menutext a:hover,#menutext a:active { color:#ffffff; text-decoration:underline; }
+#welcomeTxt { color:#ffffff; }
+#loginStatus { padding-right:3px; } 
+.thead a:link
+{
+    color: #484847;
+}
+.thead a:visited
+{
+    color: #484847;
+}
+.thead a:hover, .thead a:active
+{
+    color: #484847;
+}
+.tfoot
+{
+    background-color: #484847;
+    color: #ffffff;
+}
+.tfoot a:link
+{
+    color: #ffffff;
+}
+.tfoot a:visited
+{
+    color: #ffffff;
+}
+.tfoot a:hover, .tfoot a:active
+{
+    color: #ffffff;
+}
+.alt1, .alt1Active
+{
+   /* background: #ffffff;
+    color: #484847;
+    border-bottom: 1px solid #e6e7e1;*/
+}
+.alt2, .alt2Active
+{
+    background: #ffffff;
+    color: #484847;
+    border-bottom: 1px solid #e6e7e1;
+}
+.alt3
+{
+    color: #484847;
+    height: 37px;
+}
+td.inlinemod
+{
+    background: #FFFFCC;
+    color: #000000;
+}
+.wysiwyg
+{
+    background: white;
+    color: #000000;
+    font: 10pt verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+textarea { resize: none; outline:none;}
+textarea, .bginput
+{
+    font: 10pt verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.button
+{
+    font: 12px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+select
+{
+    font: 12px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+    font-size: 12px;
+    font-family: verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    width:105%;
+    margin-top:2px;
+}
+.smallfont
+{
+    font: 12px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.time
+{
+    font-size: 11px;
+}
+.navbar
+{
+    font: 12px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    margin-bottom: 10px;
+    background-color: #e6e7e1;
+}
+
+.barleft
+{
+    background-image: url(../images/bar-left.gif);
+    background-repeat: no-repeat;
+    width: 35px;
+    background-color: white;
+}
+
+.barright
+{
+    background-image: url(../images/bar-right.gif);
+    background-repeat: no-repeat;
+    width: 35px;
+    background-color: white;
+}
+.highlight
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+.fjsel
+{
+    background: #3E5C92;
+    color: #E0E0F6;
+}
+.fjdpth0
+{
+    background: #F7F7F7;
+    color: #000000;
+}
+.panel
+{
+    background: white;
+    color: #000000;
+    padding: 10px;
+    border: 0px outset;
+}
+.panelsurround
+{
+    background: #F9F9F9;
+    color: #000000;
+}
+legend
+{
+    color: #000000;
+    font: 12px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+    background: #ffffff url(../images/gradients/tcat.gif) repeat-x bottom left;
+    color: #000000;
+    font: 11px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    padding: 3px 6px 3px 6px;
+    white-space: nowrap;
+}
+.vbmenu_control a:link
+{
+    color: #000000;
+    text-decoration: none;
+}
+.vbmenu_control a:visited
+{
+    color: #000000;
+    text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active
+{
+    color: #000000;
+    text-decoration: underline;
+}
+.vbmenu_popup
+{
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #4E4E4D;
+}
+.vbmenu_option
+{
+    background: #E6E7E1;
+    color: #000000;
+    font: 11px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.vbmenu_option a:link
+{
+    color: #000000;
+    text-decoration: none;
+}
+.vbmenu_option a:visited
+{
+    color: #000000;
+    text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.vbmenu_hilite
+{
+    background: #444444;
+    color: #FFFFFF;
+    font: 11px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.vbmenu_hilite a:link
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.vbmenu_hilite a:visited
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername
+{
+    font: 14pt arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, div.thead
+{
+    padding: 4px;
+}
+
+
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset
+{
+    margin-bottom: 6px;
+    border: 1px solid #E6E7E1;
+}
+.fieldset, .fieldset td, .fieldset p, .fieldset li
+{
+    font-size: 12px;
+}
+
+/* ***** don't change the following ***** */
+form
+{
+    display: inline;
+}
+label
+{
+    cursor: default;
+}
+.normal
+{
+    font-weight: normal;
+}
+.inlineimg
+{
+    vertical-align: middle;
+}
+
+.sig
+{
+    margin-top: 10px;
+}
+
+#sponsors
+{
+}
+
+.loginput
+{
+    background-color: #808080;
+    border: 1px solid #808080;
+    color: white;
+    font-size: 11px;
+    height: 13px;
+    width: 90px;
+}
+
+.logbutton
+{
+    background-color: #808080;
+    border: 1px solid #808080;
+    color: white;
+    font-size: 11px;
+    height: 17px;
+    margin-left: 5px;
+}
+
+.pagenav
+{
+    font-size: 11px;
+}
+.pagenav a:link
+{
+    color: #484847;
+    text-decoration: none;
+    font-size: 11px;
+    background: transparent;
+}
+.pagenav a:visited
+{
+    color: #484847;
+    text-decoration: none;
+    font-size: 11px;
+    background: transparent;
+}
+.pagenav a:hover
+{
+    color: #484847;
+    text-decoration: underline;
+    font-size: 11px;
+    background: transparent;
+}
+.pagenav a:active
+{
+    color: #484847;
+    text-decoration: underline;
+    font-size: 11px;
+    background: transparent;
+}
+
+.dark
+{
+    font: 11px verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif;
+}
+
+.dark a:link
+{
+    color: #484847;
+    text-decoration: none;
+    font-size: 11px;
+    background: transparent;
+}
+.dark a:visited
+{
+    color: #484847;
+    text-decoration: none;
+    font-size: 11px;
+    background: transparent;
+}
+.dark a:hover
+{
+    color: #484847;
+    text-decoration: underline;
+    font-size: 11px;
+    background: transparent;
+}
+.dark a:active
+{
+    color: #484847;
+    text-decoration: underline;
+    font-size: 11px;
+    background: transparent;
+}
+#left-navigation-place
+{
+    display: block;
+    background-color: #ffffff;
+    width: 225px;
+    min-height: 500px;
+    vertical-align: top;
+}
+
+/*Div To Display Grid*/
+#divDisplay1
+{
+    border: solid 1px black;
+    width: 100%;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+/*For Black Screen Background*/
+#progressBackgroundFilter
+{
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: Black;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 1000;
+}
+
+/*div to display detail-view for inserting*/
+#divShowOption
+{
+    display: none;
+    position: fixed;
+    top: 22%;
+    left: 38%;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    background-image: url('../images/navbg.gif');
+    background-color:White;
+    background-repeat: repeat-x;
+    z-index: 1001;
+    border: 2px solid #161d25;
+}
+
+/*Heading of insert Division*/
+#divShowOption h2
+{
+    height: 35px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 3px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+
+#divShowOption table
+{
+    background-color: #ffffff;
+    clear: both;
+    width:100%;
+}
+#divShowOption td
+{
+   text-align: left;
+    padding: 2px;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: Black;
+}
+#divShowOption input
+{
+    float: left;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+#divShowOption a
+{
+    padding: 0px;
+}
+
+/*class for divInsert*/
+.divInsert
+{
+    display: none;
+    position: fixed;
+    top: 25%;    
+    left:45%;
+    padding: 0px;
+    background-repeat: repeat-x;
+    z-index: 1001;
+    width:300px;
+}
+
+/*Heading of insert Division*/
+.divInsert h2
+{
+    height: 18px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 3px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+
+.divInsert table
+{
+    background-color: #ffffff;
+    clear: both;
+}
+.divInsert td
+{
+    text-align: left;
+    padding: 2px;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    color: Black;
+    width:30%;
+}
+.divInsert input
+{
+    
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+.divInsert a
+{
+    padding: 10px;
+}
+
+.divInsertLeave
+{
+    display: none;
+    position: fixed;
+    top: 25%;    
+    left:45%;
+    padding: 0px;
+    background-repeat: repeat-x;
+    z-index: 1001;
+    width:600px;
+}
+
+/*Heading of insert Division*/
+.divInsertLeave h2
+{
+    height: 18px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 3px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+
+.divInsertLeave table
+{
+    background-color: #ffffff;
+    clear: both;
+}
+.divInsertLeave td
+{
+    text-align: left;
+    padding: 2px;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    color: Black;
+    width:30%;
+}
+.divInsertLeave input
+{
+    
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+.divInsertLeave a
+{
+    padding: 10px;
+}
+/*class for process background filter*/
+.progressBackgroundFilter
+{
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: Black;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 1000;
+}
+/*end class for divInsert*/
+/*===========================================class for calender================================================*/
+/*class for process background calender*/
+.progressBackgroundCalender
+{
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: Black;
+    filter: alpha(opacity=0);
+    opacity: 0.0;
+    z-index: 1000;
+}
+
+.divInsertCalender
+{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    width: auto;
+    height: auto; /*background-image: url('../images/navbg.gif');*/
+    background-color: #E4E4E4;
+    background-repeat: repeat-x;
+    z-index: 1001;
+    border: 2px solid #161d25;
+}
+
+.divInsertCalenderInGrid
+{
+    display: none;
+    float: left;
+    position: absolute;
+    left: 33%;
+    top: 50%;
+    padding: 0px;
+    width: 210px;
+    height: auto; /*background-image: url('../images/navbg.gif');*/
+    background-color: #E4E4E4;
+    background-repeat: repeat-x;
+    z-index: 1001;
+    border: 2px solid #161d25;
+}
+
+
+/*===================================================end class for calender===========================================================*/
+
+
+
+/*Css For Detail View*/
+.detail_view
+{
+}
+
+
+/*Div To Display Grid*/
+#divDisplay2
+{
+    border: solid 1px black;
+    width: 100%;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+/*div to display detail-view for inserting*/
+/*#divInsert2
+{
+    display: none;
+    position: fixed;
+    top: 27%;
+    left: 38%;
+    padding: 0px;
+    width: 300px;
+    z-index: 1001;
+    background-color: #ffffff;
+    border: 2px solid #161d25;
+}
+
+
+#divInsert2 h2
+{
+    width: 280px;
+    background-color: #3E3E3E;
+    height: 18px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 4px 10px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+#divInsert2 table
+{
+    width: 100%;
+    clear: both;
+}
+#divInsert2 td
+{
+    text-align: right;
+    padding-right: 6px;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #BB5E00;
+}
+#divInsert2 input
+{
+    float: left;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+#divInsert2 a
+{
+    padding: 10px;
+}*/
+
+
+/*Required Field Validator*/
+.required
+{
+    background-image: url("../images/icons/warning.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/*Inner Grid CSS*/
+
+.innergrid
+{
+    padding: 5px 5px 5px 5px;
+}
+
+/*Success Label*/
+.successLabel
+{
+    background-image: url("../images/icons/success.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 2px 20px;
+}
+
+/*Failure Label*/
+.failLabel
+{
+    background-image: url("../images/icons/delete.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 2px 20px;
+}
+
+/*Icon Size*/
+.icon
+{
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    cursor:pointer;
+}
+
+/*division class for editing template popup*/
+.divInsertTemplate
+{
+    display: none;
+    position: fixed;
+    top: 27%;
+    left: 38%;
+    padding: 0px;
+    width: 600px;
+    height: auto;
+    z-index: 1001;
+    background-color: #ffffff;
+    border: 2px solid #161d25;
+}
+
+/*Heading of insert Division*/
+.divInsertTemplate h2
+{
+    width: 280px;
+    background-color: #3E3E3E;
+    height: 18px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 4px 10px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+
+.divInsertTemplate table
+{
+    width: 100%;
+    clear: both;
+}
+.divInsertTemplate td
+{
+    text-align: right;
+    padding-right: 6px;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #BB5E00;
+}
+.divInsertTemplate input
+{
+    float: left;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+.divInsertTemplate a
+{
+    padding: 10px;
+}
+
+/*Inventory Transaction Table*/
+.tableTransaction
+{
+    border: solid 1px black;
+}
+.tableTransaction th
+{
+    background-color: #000000;
+    font-family: Verdana;
+    color: #FFFFFF;
+}
+/* START edit by hitesh */
+
+select
+{
+    background-color:#E6E7E1;
+    border: 1px solid #3C5F9F;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    width:150px;
+    height:30px;
+    padding:0px;
+    outline:none;
+    
+}
+input[type="submit"], input[type="reset"], input[type="button"]
+{
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    background: -moz-linear-gradient(center top , #EEEEEE, #DDDDDD) repeat scroll 0 0 transparent;
+    border: 2px double #999999;
+    color: #333333;
+    cursor: pointer;
+    font: 13px Verdana,Arial,Helvetica,sans-serif;
+   /* min-height: 33px;
+    min-width: 80px; */
+    text-align:center;
+    padding:4px 5px; margin:0px 2px;
+    outline:none;
+}
+input[type="checkbox"]
+{
+    margin-left:0px;
+    outline:none;
+    }
+input[type="text"], input[type="password"]
+{
+    height:20px;
+    outline:none;
+    }
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover
+{
+      border: 2px ridge #777777;
+       padding:4px 5px;
+}
+input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active
+{
+      border: 2px ridge #777777;
+      padding:4px 5px;
+}
+
+/* END edit by hitesh */
+
+/*start class for calender control*/
+
+.divCalender
+{
+    position: absolute;
+    background-color: #FFFFFB;
+}
+#divContactPerson
+{
+    background-color: White;
+    width: 500px;
+}
+#divContactPerson table
+{
+    width: 100%;
+}
+
+.headerTemplate
+{
+    background: url("../images/navbg.gif") repeat-x;
+}
+.multiline { }
+.dash_1
+{
+    float: left;
+    width: 40%;
+    background-color: #eae7e7;
+    margin: 20px;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -webkit-border-top-left-radius: 15px;
+}
+.dash_1 h2
+{
+    background-color: #9d2a1f;
+    font-size: 15px;
+    color: White;
+    height: 25px;
+    padding: 5px;
+    margin: 0;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -webkit-border-top-left-radius: 15px;
+}
+
+.readmore
+{
+    float: right;
+    margin: 10px;
+}
+
+#cal-container
+{
+    background: #0071bd url('../images/newbg.jpg') top right repeat-y;
+    height: 0;
+    width: 0;
+    -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	-moz-box-shadow: 8px 8px 4px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 8px 8px 4px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 8px 8px 4px rgba(0,0,0,0.3);
+}
+#job-calendar
+{
+    overflow: auto;
+}
+.date-block
+{
+    
+    font: 12px Verdana, Geneva, sans-serif;
+    color: #06C;
+    font-weight: bold;
+    background: #fff;
+	-moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);	
+	position: relative; 
+	z-index: 90; /* the stack order: displayed under ribbon rectangle (100) */
+}
+.date-block-today
+{
+    background: #F2F2FF url('../images/icons/bg.gif') top right;
+}
+.date-block:hover
+{
+    background: #EAEAFF url('../images/icons/bg.jpg');
+}
+.blockMatter
+{
+    font-weight: normal;
+    margin-top:-20px;
+    height:126px;
+    overflow:hidden;
+}
+
+.date-holder
+{
+    background: #7f9db9;
+	height: 20px;
+	position: relative;
+	left:-15px;
+	top: 10px;
+	float: left;
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	z-index: 100; /* the stack order: foreground */
+}
+.date-holder h2 {
+	font-size: 12px;
+	color: #fff;
+	text-shadow: 5px 1px 2px rgba(0,0,0,0.2);
+	text-align: center;
+	margin:2px;
+}
+.triangle-l {
+	border-color: transparent #7d90a3 transparent transparent;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: -30px;
+	top: 15px;
+	z-index: -1; /* displayed under bubble */
+}
+
+.triangle-r {
+	border-color: transparent transparent transparent #7d90a3;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position: relative;
+	top: -15px;
+	z-index: -1; /* displayed under bubble */
+}
+
+.job-text
+{
+    -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    padding:4px 2px;
+    font-size:12px;
+    font-weight:bold;
+    color:White;
+    background-color:#154561;
+}
+.job-start
+{
+    background-color:#187d66;
+}
+.job-end
+{
+    background-color:#656069;
+}
+.job-contd
+{
+    background-color:#d14567;
+    font-size:10px;
+}
+
+ /*--------------Start Coding By Yogesh For Payroll Dashboard-------------------*/
+.spiffy
+{
+    display:block;
+}
+.spiffy *{
+    display:block;
+    height:1px;
+    overflow:hidden;
+    font-size:.01em;
+    background:#2A96D6;}
+.spiffy1{
+    margin-left:3px;
+    margin-right:3px;
+    padding-left:1px;
+    padding-right:1px;
+    border-left:1px solid #2A96D6;
+    border-right:1px solid #2A96D6;
+    background:#2A96D6;}
+.spiffy2{
+    margin-left:1px;
+    margin-right:1px;
+    padding-right:1px;
+    padding-left:1px;
+    border-left:1px solid #2A96D6;
+    border-right:1px solid #2A96D6;
+    background:#2A96D6;}
+.spiffy3{
+    margin-left:1px;
+    margin-right:1px;
+    border-left:1px solid #2A96D6;
+    border-right:1px solid #2A96D6;}
+.spiffy4{
+    border-left:1px solid #2A96D6;
+    border-right:1px solid #2A96D6;}
+.spiffy5{
+    border-left:1px solid #2A96D6;
+    border-right:1px solid #2A96D6;}
+.spiffyfg{
+    background:#FFFFFF;
+    cursor:pointer;
+}
+    .dashBoard {
+    -moz-box-shadow:8px 8px 4px rgba(0, 0, 0, 0.3);
+    background:#E6E7E1;
+    width:auto;
+    height:150px;
+    border-top:3px solid #FFFFFF;
+    }
+.dashMsg
+{
+    background-image: url("../images/icons/arrow.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding:0 20px;
+}
+.dashBoardMsg
+{
+    padding:15px;
+}
+.dashTb
+{
+    height: auto;
+    color:#000000;
+}
+.dashTb a
+{
+    color:#000000;
+}
+.dashTb .smalla
+{
+    color:#2A96D6;
+    font-size:11px;
+}
+        
+.divInsertPayroll
+{
+    display: none;
+    position: fixed;
+    top: 22%;
+    left: 38%;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    background-image: url('../images/navbg.gif');
+    background-repeat: repeat-x;
+    z-index: 1001;
+    border: 2px solid #161d25;
+}
+.divInsertPayroll h2
+{
+    height: 18px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 3px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+.divInsertPayroll table
+{
+    background-color: #ffffff;
+    clear: both;
+}
+.divInsertPayroll td
+{
+    text-align: left;
+    padding: 2px;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: Black;
+}
+.divInsertPayroll input
+{
+    float: left;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+/*This Class use for Add Month in Manage Months Page*/
+.divInsertAddMonth
+{
+    display: none;
+    position: fixed;
+    top: 22%;    
+    padding: 0px;
+    width: auto;
+    height: auto;
+    background-image: url('../images/navbg.gif');
+    background-repeat: repeat-x;
+    z-index: 1001;
+    border: 2px solid #161d25;
+}
+.divInsertAddMonth h2
+{
+    height: 18px;
+    white-space: nowrap;
+    font: 1.3em Verdana;
+    line-height: 1.2;
+    font-weight: normal;
+    padding: 3px;
+    margin: 0;
+    color: #ffffff;
+    float: left;
+    overflow: hidden;
+}
+
+.divInsertAddMonth table
+{
+    background-color: #ffffff;
+    clear: both;
+}
+.divInsertAddMonth td
+{
+    text-align: left;
+    padding: 2px;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: Black;
+}
+.divInsertAddMonth input
+{
+    float: left;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #BB5E00;
+    padding: 4px;
+}
+
+.divInsertAddMonth a
+{
+    padding: 0px;
+}
+.divInsertAddMonth label
+{
+    margin-left:10px;
+    vertical-align:bottom;
+    line-height:30px;
+}
+/*--------------End Coding By Yogesh For Payroll Dashboard-------------------*/  

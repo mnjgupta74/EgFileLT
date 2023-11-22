@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Root>
+-<Detail>
+
+<HeadAcc>0041-00-102-01-01</HeadAcc>
+
+<GRN>29554148</GRN>
+
+<RemitterName>AMIT KUMAR MANOHAR</RemitterName>
+
+<Amount>1000.00</Amount>
+
+<Bankcode>1000132</Bankcode>
+
+<BankRefNo>3558315451814</BankRefNo>
+
+<CIN>10001322019033001996</CIN>
+
+<paiddate>2019/03/30 20:00:48</paiddate>
+
+<debitbank>sbiepay</debitbank>
+
+<debitbankref>201908971735173</debitbankref>
+
+</Detail>
+</Root>

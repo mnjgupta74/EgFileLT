@@ -1,0 +1,116 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+using System.IO;
+using EgBL;
+
+public partial class WebPages_Reports_Eg45AChallan : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if ((Session["UserId"] == null) || Session["UserId"].ToString() == "")
+        {
+            EgEncryptDecrypt ObjEncryptDecrypt = new EgEncryptDecrypt();
+            //string strURLWithData = ObjEncryptDecrypt.Encrypt(string.Format("RND={0}", Session["RND"].ToString()));
+            Response.Redirect("~\\logout.aspx");
+        }
+
+        if (!IsPostBack)
+        {
+            ViewState["dt"] = null;
+            EgEChallanBL objEChallan = new EgEChallanBL();
+            objEChallan.GetBanks(ddlbankname);
+        }
+        if (ViewState["dt"] != null )
+        {
+            loadreport();
+        }
+    }
+    protected void btnshow_Click(object sender, EventArgs e)
+    {
+        loadreport();
+    }
+    public void loadreport()
+    {
+        CrystalReportViewer1.Visible = true;
+        ReportDocument rpt = new ReportDocument();
+        ReportFactory rf = new ReportFactory();
+        EgReports objEgReports = new EgReports();
+        objEgReports.BsrCode = ddlbankname.SelectedValue;
+
+        string[] fromdate = txtFromDate.Text.Trim().Replace("-", "/").Split('/');
+        objEgReports.Fromdate = Convert.ToDateTime(fromdate[2].ToString() + "/" + fromdate[1].ToString() + "/" + fromdate[0].ToString());
+        string[] todate = txtToDate.Text.Trim().Replace("-", "/").Split ('/');
+        objEgReports.Todate = Convert.ToDateTime(todate[2].ToString() + "/" + todate[1].ToString() + "/" + todate[0].ToString());
+
+        rf.GetReport(rpt.GetType());
+        DataTable dt = new DataTable();
+        dt = objEgReports.E45AChallan();
+        ViewState["dt"] = dt;
+        rpt.Load(Server.MapPath("Eg45AChallan.rpt"));
+        rpt.SetDataSource(dt);
+        CrystalReportViewer1.ReportSource = rpt;
+        CrystalReportViewer1.DataBind();
+        btnPrint.Visible = true;
+
+    }
+
+    protected void btnPrint_Click(object sender, EventArgs e)
+    {
+        loadreport();
+        ReportDocument rpt = new ReportDocument();
+        ExportOptions CrExportOptions;
+        DiskFileDestinationOptions CrDiskFileDestinationOptions = new DiskFileDestinationOptions();
+        PdfRtfWordFormatOptions CrFormatTypeOptions = new PdfRtfWordFormatOptions();
+        CrDiskFileDestinationOptions.DiskFileName = Server.MapPath("EgEChallanViewRpt.pdf");
+        CrExportOptions = rpt.ExportOptions;
+        {
+            CrExportOptions.ExportDestinationType = ExportDestinationType.DiskFile;
+            CrExportOptions.ExportFormatType = ExportFormatType.PortableDocFormat;
+            CrExportOptions.DestinationOptions = CrDiskFileDestinationOptions;
+            CrExportOptions.FormatOptions = CrFormatTypeOptions;
+        }
+        rpt.Export();
+        FileStream fs = null;
+        fs = File.Open(Server.MapPath("EgEChallanViewRpt.pdf"), System.IO.FileMode.Open);
+        if (fs.Length > 0)
+        {
+            byte[] btFile = new byte[fs.Length];
+            fs.Read(btFile, 0, Convert.ToInt32(fs.Length));
+            fs.Close();
+            Response.AddHeader("Content-disposition", "attachment; filename=" + ("EgEChallanViewRpt.pdf"));
+
+            Response.ContentType = "application/pdf";
+
+            if (btFile.Length > 0)
+            {
+                Response.BinaryWrite(btFile);
+                Response.Flush();
+                HttpContext.Current.ApplicationInstance.CompleteRequest();
+
+                fs.Dispose();
+                fs = null;
+
+                File.Delete(Server.MapPath("EgEChallanViewRpt.pdf"));  // delete file which has created
+
+                Response.End();
+
+
+            }
+
+
+        }
+ 
+    }
+}

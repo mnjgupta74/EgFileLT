@@ -1,0 +1,141 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage/MasterPage5.master" AutoEventWireup="true"
+    CodeFile="EgCoveringLetter.aspx.cs" Inherits="WebPages_Reports_EgCoveringLetter"
+    Title="Untitled Page" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolKit" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <script src="../../js/Control.js" language="javascript" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+
+        function NumberOnly(ctrl) {
+            var ch;
+
+            if (window.event) {
+                ch = ctrl.keyCode;
+            }
+            else if (ctrl.which) {
+                ch = ctrl.which;
+            }
+            if ((ch >= 48 && ch <= 57))
+                return true;
+
+            else
+                return false;
+        }     
+    </script>
+
+    <fieldset runat="server" id="fieldamount" style="width: 950px; margin-left: 100px">
+        <legend style="color: #336699; font-weight: bold">Covering Letter</legend>
+        <table id="Table1" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td style="heigth: 45px">
+                    <b><span style="width: 300px; color: #336699; font-family: Arial CE; font-size: 13px;">
+                        From Date : </span></b>&nbsp;
+                </td>
+                <td style="height: 45px">
+                    <asp:TextBox ID="txtFromDate" runat="server" MaxLength="10" Width="100px" onkeypress="Javascript:return NumberOnly(event)"
+                        onchange="javascript:return dateValidation(this,ctl00_ContentPlaceHolder1_txtToDate)" ></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="reqFromd" runat="server" ControlToValidate="txtFromDate"
+                        ErrorMessage="*" SetFocusOnError="true" ValidationGroup="de"></asp:RequiredFieldValidator>
+                    <ajaxToolKit:CalendarExtender ID="calFromd" runat="server" Format="dd/MM/yyyy" TargetControlID="txtFromDate">
+                    </ajaxToolKit:CalendarExtender>
+                </td>
+                <td style="heigth: 45px">
+                    <b><span style="width: 300px; color: #336699; font-family: Arial CE; font-size: 13px;">
+                        To Date : </span></b>&nbsp;
+                </td>
+                <td style="heigth: 45px">
+                    <asp:TextBox ID="txtToDate" runat="server" MaxLength="10" Width="100px" onkeypress="Javascript:return NumberOnly(event)"
+                         onchange="javascript:return dateValidation1(this,ctl00_ContentPlaceHolder1_txtFromDate)"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="reqTod" runat="server" ControlToValidate="txtToDate"
+                        ErrorMessage="*" SetFocusOnError="true" ValidationGroup="de"></asp:RequiredFieldValidator>
+                    <ajaxToolKit:CalendarExtender ID="calToD" runat="server" Format="dd/MM/yyyy" TargetControlID="txtToDate">
+                    </ajaxToolKit:CalendarExtender>
+                </td>
+                <td style="heigth: 45px"> 
+                    <asp:Button ID="btn_show" runat="server" Text="Show" OnClick="btn_show_Click" ValidationGroup="de" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="heigth: 45px" align="center">
+                    <asp:GridView ID="grdHeads" runat="server" AutoGenerateColumns="False" BorderColor="#336699"
+                        BorderStyle="Solid" BorderWidth="1px" CellPadding="3" Font-Names="Verdana" Font-Size="10pt"
+                        ShowFooter="true" FooterStyle-BackColor="#336699" Width="60%" EmptyDataText="No Record Found"
+                        EditRowStyle-Font-Bold="true" EmptyDataRowStyle-ForeColor="#336699" EmptyDataRowStyle-VerticalAlign="Middle">
+                        <Columns>
+                            <asp:TemplateField HeaderText="S.No" ItemStyle-HorizontalAlign="Center">
+                                <ItemTemplate>
+                                    <%# Container.DataItemIndex + 1 %>
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                            <asp:BoundField HeaderText="BudgetHead" DataField="BudgetHead">
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                            <asp:BoundField HeaderText="Amount" DataField="Amount" DataFormatString="{0:n}">
+                                <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                                <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                        </Columns>
+                        <FooterStyle BackColor="#336699" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="#336699" ForeColor="White" />
+                    </asp:GridView>
+                    <asp:Repeater ID="rptHeads" runat="server">
+                        <HeaderTemplate>
+                            <tr style="background-color: #507CD1; color: White; font-weight: bold; text-align: center;
+                                height: 20px">
+                                <td style="color: White; width: 10px">
+                                    Sr.No
+                                </td>
+                                <td style="color: White; text-align: center">
+                                    BudgetHead
+                                </td>
+                                <td style="color: White; text-align: right">
+                                    Amount
+                                </td>
+                            </tr>
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <tr style="background-color: #EFF3FB; height: 20px;">
+                                <td align="center" style="font-size: 15; width: 10px">
+                                    <%# Container.ItemIndex+1 %>
+                                </td>
+                                <td align="center" style="font-size: 15;">
+                                    <%# Eval("BudgetHead") %>
+                                </td>
+                                <td align="center" style="font-size: 15; text-align: right;">
+                                    <%# string.Format("{0:0.00}", Eval("Amount"))%>
+                                </td>
+                            </tr>
+                        </ItemTemplate>
+                        <AlternatingItemTemplate>
+                            <tr style="background-color: #ffffff; height: 20px; font-family: Arial">
+                                <td align="center" style="font-size: 15; width: 10px">
+                                    <%# Container.ItemIndex+1 %>
+                                </td>
+                                <td align="center" style="font-size: 15;">
+                                    <%# Eval("BudgetHead")%>
+                                </td>
+                                <td align="center" style="font-size: 15; text-align: right;">
+                                    <%# string.Format("{0:0.00}", Eval("Amount"))%>
+                                </td>
+                            </tr>
+                        </AlternatingItemTemplate>
+                        <%--<FooterTemplate>
+                            <tr>
+                                <td align="left" colspan="2">
+                                    <b><span style="width: 300px; color: #336699">Total Schema Amount:-</span></b>
+                                </td>
+                                <td align="right" height="40px">
+                                    <asp:Label ID="lblSchemaTotal" runat="server" Font-Bold="true" ForeColor="#336699"></asp:Label>
+                                </td>
+                            </tr>
+                        </FooterTemplate>--%>
+                    </asp:Repeater>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</asp:Content>

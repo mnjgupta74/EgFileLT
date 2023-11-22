@@ -1,0 +1,127 @@
+<%@ Page Title="Egras.Raj.Nic.in" Language="C#" MasterPageFile="~/MasterPage/MasterPage5.master"
+    AutoEventWireup="true" CodeFile="EgIdentityNoWiseRpt.aspx.cs" Inherits="WebPages_Reports_EgIdentityNoWiseRpt" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <script src="../../js/Control.js" language="javascript" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        function NumericOnly(el) {
+            var ex = /^\s*\d+\s*$/;
+            if (ex.test(el.value) == false) {
+                alert('Enter Number Only');
+                el.value = "";
+            }
+        }
+        
+    </script>
+
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1"
+        DisplayAfter="0">
+        <ProgressTemplate>
+            <asp:Panel ID="pnlBackGround" runat="server" CssClass="popup-div-background">
+                <div id="divFeedback" runat="server" class="popup-div-front">
+                    <br />
+                    <br />
+                    <br />
+                    <img src="../../App_Themes/images/progress.gif" />
+                    <br />
+                    <br />
+                    The request is being processed. Please wait...<br />
+                    This window will disappear when the process is finished.
+                </div>
+            </asp:Panel>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <fieldset runat="server" id="lstrecord" style="width: 900px; margin-left: 50px;">
+                <legend style="color: #336699; font-weight: bold">TIN/Lease/Registration-Detail</legend>
+                <table style="width: 100%" align="center" id="MainTable">
+                    <tr style="height: 40px" align="center">
+                        <td align="right">
+                            <b><span style="color: #336699;">From Date:-</span></b> &nbsp;
+                            <asp:TextBox ID="txtFromDate" runat="server" onkeypress="Javascript:return NumberOnly(event)"
+                                onchange="javascript:return dateValidation(this,ctl00_ContentPlaceHolder1_txtToDate)" Width="80px"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="req1" runat="server" ControlToValidate="txtFromDate"
+                                SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                            <ajaxToolkit:CalendarExtender ID="calFromDate" runat="server" PopupButtonID="txtFromDate"
+                                Format="dd/MM/yyyy" TargetControlID="txtFromDate">
+                            </ajaxToolkit:CalendarExtender>
+                        </td>
+                        <td align="left">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><span style="color: #336699">To
+                                Date:-</span></b>&nbsp;
+                            <asp:TextBox ID="txtToDate" runat="server" onkeypress="Javascript:return NumberOnly(event)"
+                                 onchange="javascript:return dateValidation1(this,ctl00_ContentPlaceHolder1_txtFromDate)" Width="80px"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="req2" runat="server" ControlToValidate="txtToDate"
+                                SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                            <ajaxToolkit:CalendarExtender ID="calToDate" runat="server" PopupButtonID="txtToDate"
+                                Format="dd/MM/yyyy" TargetControlID="txtToDate">
+                            </ajaxToolkit:CalendarExtender>
+                            &nbsp;&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <asp:RadioButtonList ID="rblIdentity" runat="server" RepeatDirection="Horizontal"
+                                ForeColor="#336699" Font-Bold="true">
+                                <asp:ListItem Text="TIN" Value="18" Selected="True"></asp:ListItem>
+                                <asp:ListItem Text="Lease" Value="31"></asp:ListItem>
+                                <asp:ListItem Text="Registration" Value="104"></asp:ListItem>
+                            </asp:RadioButtonList>
+                        </td>
+                        <td align="left">
+                            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                            &nbsp;&nbsp; &nbsp;&nbsp;
+                            <asp:TextBox ID="txtIdentity" runat="server" MaxLength="50"></asp:TextBox>
+                            <%-- <ajaxToolkit:TextBoxWatermarkExtender ID="TextBoxWatermarkExtender2" runat="server"
+                                TargetControlID="txtIdentity" WatermarkText="Enter">
+                            </ajaxToolkit:TextBoxWatermarkExtender>--%>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtIdentity"
+                                SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            <asp:Button ID="btnshow" runat="server" Text="Show" ValidationGroup="de" OnClick="btnshow_Click" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <asp:GridView ID="grdGrn" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                                Font-Names="Verdana" Font-Size="10pt" Width="90%" EmptyDataText="No Record Found"
+                                EmptyDataRowStyle-HorizontalAlign="Center" ForeColor="#333333" GridLines="None"
+                                EmptyDataRowStyle-Font-Bold="true" EmptyDataRowStyle-ForeColor="#507CD1" OnRowCommand="grdGrn_RowCommand"
+                                ShowFooter="true" OnRowDataBound="grdGrn_RowDataBound">
+                                <Columns>
+                                    <asp:TemplateField HeaderText="GRN" SortExpression="GRN" ItemStyle-HorizontalAlign="Center">
+                                        <ItemTemplate>
+                                            <asp:LinkButton ID="lnkgrn" CommandName="grnbind" Text='<%#Eval("GRN")%>' CommandArgument='<%#Eval("GRN")%>'
+                                                runat="server"></asp:LinkButton>
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:BoundField DataField="FullName" HeaderText="Remitter Name">
+                                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="BankDate" HeaderText="BankDate">
+                                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="Amount" HeaderText="Total Amount" DataFormatString="{0:n}">
+                                        <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                </Columns>
+                                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" />
+                                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                <HeaderStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+                                <EditRowStyle BackColor="#2461BF" />
+                                <AlternatingRowStyle BackColor="White" />
+                            </asp:GridView>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>

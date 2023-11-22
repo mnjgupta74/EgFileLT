@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20306889</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>2</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>159141266</BankRefNo>
+<CIN>ICIC2030688930042022</CIN>
+<paiddate>2022/04/30 13:39:56</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20306892</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>18</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>159141270</BankRefNo>
+<CIN>ICIC2030689230042022</CIN>
+<paiddate>2022/04/30 14:26:58</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20306896</GRN>
+<RemitterName>Ramdev Singh </RemitterName>
+<Amount>7</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>159141274</BankRefNo>
+<CIN>ICIC2030689630042022</CIN>
+<paiddate>2022/04/30 14:59:13</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20306898</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>20</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>159141277</BankRefNo>
+<CIN>ICIC2030689830042022</CIN>
+<paiddate>2022/04/30 15:44:16</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>20306900</GRN>
+<RemitterName>Ramdev Singh</RemitterName>
+<Amount>100</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>159141279</BankRefNo>
+<CIN>ICIC2030690030042022</CIN>
+<paiddate>2022/04/30 16:48:58</paiddate>
+</Detail>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Py+61wwTOF93+LsctUFxe5mYzfM=</DigestValue></Reference></SignedInfo><SignatureValue>N0aj5vFapBhR+lWXyRaukMhHhZVzcJCg8DkbCsqaZXPP2LPvpXQ8/fBnA1f0pcOB78BwrviaJVdPrzxBdPQst2L14YRbOHPLsOidNkmOXVhmzzg4Xx31PzFhQExuBlRSaUMLcFFYdIqaKpQsYxjJhHMMyMVd+JciDnbryOHXfQqOBVIzo44fF2BtxQuYh3HrU5ioWDpnWbJlhzkXWHH+PqUcUhUSVuLRGmAC/6iUGBsFWw8nWE7FHUOqVoEbBmmfgQo9kENxYLZ6cBWC+AZxke5wm8RUlQr+EFzv25lNueQkfjGcI+a3RYMPE7WVK6M2jVOJ3/o2XnkCBOrTpPOcKQ==</SignatureValue></Signature></Root>

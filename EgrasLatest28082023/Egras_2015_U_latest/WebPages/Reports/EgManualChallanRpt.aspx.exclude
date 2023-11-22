@@ -1,0 +1,66 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage/MasterPage5.master" AutoEventWireup="true"
+    CodeFile="EgManualChallanRpt.aspx.cs" Inherits="WebPages_Reports_EgManualChallanRpt"
+    Title="Untitled Page" %>
+
+<%@ Register Assembly="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304"
+    Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <script src="../../js/Control.js" language="javascript" type="text/javascript"></script>
+
+    <center>
+        <fieldset style="width: 75%; border-top-left-radius: 0.5em 0.5em; border-top-right-radius: 0.5em 0.5em;
+            border-bottom-left-radius: 0.5em 0.5em; border-bottom-right-radius: 0.5em 0.5em;
+            z-index: 0.1px; box-shadow: 10px 10px 5px #888888; behavior: url(../PIE.htc);">
+            <legend style="color: #336699;">
+                <h4>
+                    Manual Challan Report
+                </h4>
+            </legend>
+            <table style="width: 100%" cellpadding="0" cellspacing="0" border="1" align="center">
+                <tr>
+                    <td align="center" colspan="3">
+                        <asp:Label ID="lblhead" runat="server" Text="Manual Challan Report" ForeColor="#336699"
+                            Font-Bold="True"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="width: 300px; color: #336699; font-family: Arial CE; font-size: 13px;">
+                            <b>From Date:</b> </span>
+                        <asp:TextBox ID="txtFdate" runat="server" MaxLength="10" onchange="javascript:return dateValidation(this,ctl00_ContentPlaceHolder1_txtToDate)"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="reqFdate" runat="server" ControlToValidate="txtFdate"
+                            ErrorMessage="*" SetFocusOnError="true" ValidationGroup="a"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <span style="width: 300px; color: #336699; font-family: Arial CE; font-size: 13px;">
+                            <b>To Date :</b></span>
+                        <asp:TextBox ID="txtToDate" runat="server" MaxLength="10" onchange="javascript:return dateValidation1(this,ctl00_ContentPlaceHolder1_txtFdate)"></asp:TextBox><asp:RequiredFieldValidator
+                            ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtToDate" ErrorMessage="*"
+                            SetFocusOnError="true" ValidationGroup="a"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <span style="width: 300px; color: #336699; font-family: Arial CE; font-size: 13px;">
+                            <b>Treasury :</b></span>
+                        <asp:DropDownList ID="ddltreasury" runat="server" Width="150 px">
+                        </asp:DropDownList>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="ddltreasury"
+                            ErrorMessage="*" SetFocusOnError="true" ValidationGroup="a" InitialValue="0"></asp:RequiredFieldValidator>
+                        <asp:Button ID="btnshow" runat="server" Text="Show" OnClick="btnshow_Click" ValidationGroup="a" />
+                        <asp:Button ID="btnPDF" runat="server" Text="PDF" ValidationGroup="a" OnClick="btnPDF_Click" />
+                    </td>
+                </tr>
+                <tr id="trreport" runat="server" visible="false">
+                    <td colspan="3">
+                        <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true"
+                            DisplayGroupTree="False" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </center>
+    <ajaxToolkit:CalendarExtender ID="calFromd" runat="server" Format="dd/MM/yyyy" TargetControlID="txtFdate">
+    </ajaxToolkit:CalendarExtender>
+    <ajaxToolkit:CalendarExtender ID="calToD" runat="server" Format="dd/MM/yyyy" TargetControlID="txtToDate">
+    </ajaxToolkit:CalendarExtender>
+</asp:Content>

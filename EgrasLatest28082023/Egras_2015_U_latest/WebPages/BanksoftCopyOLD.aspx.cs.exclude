@@ -1,0 +1,394 @@
+﻿using System;
+using System.Data;
+using System.Web.UI;
+using System.IO;
+using EgBL;
+using System.Xml;
+using System.Xml.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System.Linq;
+using System.Text;
+using System.Xml.Schema;
+
+public partial class BanksoftCopy : System.Web.UI.Page
+{
+    string filename;
+    string tempfile = "";
+    int SubNodesCount;
+    string Mode;
+    EgBankSoftCopyBL objBankSoftCopyBL;
+    string ScrollType;
+    DataColumn PaymentType;
+    DataColumn BranchCode;
+    DataColumn debitbank;
+    DataColumn debitbankref;
+
+  //  public int line = 0;
+  //  private int nErrors = 0;
+   // private string strErrorMsg = string.Empty;
+    //public string Errors { get { return strErrorMsg; } }
+   // FileInfo file;
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            FileUpload1.Attributes.Add("onchange", "return checkFileExtension(this);");
+        }
+
+        if ((Session["UserID"] == null) || Session["UserID"].ToString() == "")
+        {
+            Response.Redirect("~\\logout.aspx");
+        }
+    }
+
+  
+
+    protected void btnUpload_Click(object sender, EventArgs e)
+    {
+        //loadFile();
+
+        filename = Path.GetFileName(FileUpload1.FileName);  //Get FileName
+        filename = Server.MapPath(filename);
+
+        //string[] Cdate = hdnFileName.Value.Split('_');
+
+        string[] Cdate = FileUpload1.FileName.Split('_');
+        string Challandate = (Cdate[1].ToString().Substring(4, 4) + "/" + Cdate[1].ToString().Substring(2, 2) + "/" + Cdate[1].ToString().Substring(0, 2));
+
+
+        if (FileUpload1.HasFile && FileUpload1.PostedFile != null && FileUpload1.PostedFile.FileName != "")
+        {
+            if (FileUpload1.PostedFile.ContentLength > 0 && FileUpload1.PostedFile.ContentType.Equals("text/xml") && Path.GetExtension(FileUpload1.PostedFile.FileName).ToLower().Equals(".xml"))
+            {
+                FileInfo file = new FileInfo(filename);
+                FileUpload1.SaveAs(filename);  // save the file in folder 
+
+                #region xml and validate items
+
+                //For Loading XML Document and Replacing special Characters
+                XmlDocument xmlDocument = new XmlDocument();
+                string filepath = Path.GetFileName(FileUpload1.PostedFile.FileName);
+                xmlDocument = LoadXMLDocNew(Server.MapPath(filepath));
+                if (tempfile != "")
+                {
+                    string path = tempfile;
+                    FileInfo myfileinf = new FileInfo(path);
+                    myfileinf.Delete();
+                }
+                //end
+
+
+                //Setting BSRcode and XML nodes
+                XElement xdoc = XElement.Load(Server.MapPath(filepath));
+                IEnumerable<XElement> childList = from el in xdoc.Elements()
+                                                  select el;
+
+                objBankSoftCopyBL = new EgBankSoftCopyBL();
+                objBankSoftCopyBL.UserId = Convert.ToInt32(Session["UserId"]);
+                string BankBSRcode = objBankSoftCopyBL.GetBSRCode();
+                //End
+
+                // Read and Validate XML Items using class
+                BankScrollValidations objBankScrollValidations = new BankScrollValidations();
+                SubNodesCount = childList.ElementAt(0).Descendants().Count();
+
+
+                //for Identifying Manual or E-Pay in case of 10 Nodes
+                if (SubNodesCount == 10 || SubNodesCount==11)
+                {
+                    if (childList.ElementAt(0).Descendants().ElementAt(8).Name == "PaymentType")
+                    {
+                        Mode = "M";
+                    }
+                    else
+                    {
+                        Mode = "E";
+                    }
+                }
+                //else // for 8 nodes in online
+                //{
+                //    Mode = "O";
+                //}
+
+                int ValidStatus = objBankScrollValidations.CheckScrollValidation(childList, BankBSRcode, SubNodesCount, Mode); // x=0 for all Valid entries and x=1 for Wrong entries
+                //end
+
+                // return in case of Wrong entries
+                if (ValidStatus == 1)
+                {
+                    return;
+                }
+                //end
+
+                #endregion
+
+                #region Assign XML into DataTable
+                DataSet ds = new DataSet();
+                ds.ReadXml(filename);
+                DataTable dtxml = new DataTable();
+                dtxml = ds.Tables[0];
+
+                if (SubNodesCount == 9)
+                {
+                    dtxml.Columns.Remove("Head");
+                    dtxml.AcceptChanges();
+                    SubNodesCount = 8;
+                }
+                else if (SubNodesCount == 11)
+                {
+                    dtxml.Columns.Remove("Head");
+                    dtxml.AcceptChanges();
+                    SubNodesCount = 10;
+                
+                }
+
+                switch (SubNodesCount)
+                {
+                    case 8:
+                        ScrollType = "O";
+                        PaymentType = new DataColumn("PaymentType", Type.GetType("System.String"));
+                        PaymentType.AllowDBNull = true;
+                        dtxml.Columns.Add(PaymentType);
+                        BranchCode = new DataColumn("BranchCode", Type.GetType("System.String"));
+                        BranchCode.AllowDBNull = true;
+                        dtxml.Columns.Add(BranchCode);
+                        debitbank = new DataColumn("debitbank", Type.GetType("System.String"));
+                        debitbank.AllowDBNull = true;
+                        dtxml.Columns.Add(debitbank);
+                        debitbankref = new DataColumn("debitbankref", Type.GetType("System.String"));
+                        debitbankref.AllowDBNull = true;
+                        dtxml.Columns.Add(debitbankref);
+                        break;
+                    case 10: if (Mode == "M")
+                        {
+                            ScrollType = "M";
+                            debitbank = new DataColumn("debitbank", Type.GetType("System.String"));
+                            debitbank.AllowDBNull = true;
+                            dtxml.Columns.Add(debitbank);
+                            debitbankref = new DataColumn("debitbankref", Type.GetType("System.String"));
+                            debitbankref.AllowDBNull = true;
+                            dtxml.Columns.Add(debitbankref);
+                        }
+
+                        if (Mode == "E")
+                        {
+                            ScrollType = "E";
+                            PaymentType = new DataColumn("PaymentType", Type.GetType("System.String"));
+                            PaymentType.AllowDBNull = true;
+                            dtxml.Columns.Add(PaymentType);
+                            PaymentType.SetOrdinal(8); // for setting Payment Type at specific position to match TVP order of columns
+                            BranchCode = new DataColumn("BranchCode", Type.GetType("System.String"));
+                            BranchCode.AllowDBNull = true;
+                            dtxml.Columns.Add(BranchCode);
+                            BranchCode.SetOrdinal(9);// for setting BranchCode at specific position to match TVP order of columns
+                        }
+                        break;
+                    default:
+                        break;
+                }
+
+                DataColumn BankChallanDate = new DataColumn("BankChallanDate", Type.GetType("System.DateTime"));
+                BankChallanDate.DefaultValue = Challandate;
+                dtxml.Columns.Add(BankChallanDate);
+
+                dtxml.AcceptChanges();
+
+                #endregion
+
+                #region Checking Duplicacy and Sending TVP into database
+
+                objBankSoftCopyBL.BSRCode = BankBSRcode.ToString().Trim();
+                objBankSoftCopyBL.Date = Convert.ToDateTime(Challandate);
+                string result = objBankSoftCopyBL.CheckExistScroll();
+
+                if (result == "2")
+                {
+                    Message("Scroll Already Exists.!");
+                    return;
+                }
+                else
+                {
+                    GenralFunction BLobj = new GenralFunction();
+                    System.Data.SqlClient.SqlTransaction Trans = BLobj.Begintrans();
+
+                    try
+                    {
+
+                        #region insert Scroll
+
+                        var dtXmlAmount = (from row in dtxml.AsEnumerable()
+                                           select row).Sum(row => Convert.ToDouble(row.Field<string>("Amount")));
+
+                        double sumObject;
+                        sumObject = Convert.ToDouble(dtXmlAmount);
+                        objBankSoftCopyBL.ScrollType = ScrollType;
+                        objBankSoftCopyBL.UpdateAndInsertBankStatus(dtxml, Trans);
+                        lblTotalRecord.Text = "Total Number Of Record :- " + " " + dtxml.Rows.Count.ToString();
+                        lblsum.Text = "Total Amount:- " + " " + sumObject.ToString("0.00");
+
+                        #endregion
+
+                        #region Save File in Bank Folder
+
+                        switch (BankBSRcode)
+                        {
+                            case "0006326":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/SBI/" + filepath));
+                                break;
+                            case "0171051":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/SBBJ/" + filepath));
+                                break;
+                            case "0200113":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/BOB/" + filepath));
+                                break;
+                            case "0304017":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/PNB/" + filepath));
+                                break;
+                            case "0292861":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/UBI/" + filepath));
+                                break;
+                            case "0001234":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/HDFC/" + filepath));
+                                break;
+                            case "6910213":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/IDBI/" + filepath));
+                                break;
+                            case "0280429":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/CBI/" + filepath));
+                                break;
+                            case "0361193":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/OBC/" + filepath));
+                                break;
+                            case "1000132":
+                                FileUpload1.SaveAs(Server.MapPath("~/BankUploadInfo/Epay/" + filepath));
+                                break;
+                        }
+                       
+                        #endregion
+
+                        #region Check for Mismatch
+
+                        objBankSoftCopyBL.BSRCode = BankBSRcode.ToString();
+                        objBankSoftCopyBL.Date = Convert.ToDateTime(Challandate);
+                        DataTable dtMismatch = objBankSoftCopyBL.GetBankScroll();
+                        grdVerify.DataSource = dtMismatch;
+                        grdVerify.DataBind();
+
+                        #endregion
+
+                        Message("File Upload SuccessFully.");
+                        FsetMismatch.Visible = true;
+
+                        BLobj.Endtrans();
+                    }
+                    catch (Exception ex)
+                    {
+                        Message(ex.Message);
+                        Trans.Rollback();
+                    }
+
+                }
+
+                #endregion
+
+                if (file.Exists)
+                {
+                    file.Delete();
+                }
+            }
+            else
+            {
+                Message("File is Invalid or not in .xml Formate");
+            }
+        }
+        else
+        {
+            Message("Plz select any .xml file");
+        }
+
+        FileUpload1.Enabled = true;
+    }
+
+    #region old record
+
+   
+
+    #endregion
+
+    private void Message(string str)
+    {
+        ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "PopupScript", "alert('" + str + "');", true);
+    }
+
+    public XmlDocument LoadXMLDocNew(string filepath)
+    {
+        XmlDocument xdoc;
+        long lnum;
+        try
+        {
+            xdoc = new XmlDocument();
+            xdoc.Load(filepath);
+        }
+        catch (XmlException ex)
+        {
+            // Message(ex.Message);
+            lnum = ex.LineNumber;
+            ReplaceSpecialChars(lnum, filepath);
+            xdoc = LoadXMLDocNew(filepath);
+        }
+        return (xdoc);
+    }
+
+    private void ReplaceSpecialChars(long linenumber, string filepath)
+    {
+        try
+        {
+            System.IO.StreamReader strm;
+            //string strline;
+            //string strreplace = " ";
+
+            tempfile = Server.MapPath("Temp_" + DateTime.Now.Hour + DateTime.Now.Minute + DateTime.Now.Second + ".xml"); //"C:\\Temp.xml";  filepath
+
+            XmlDocument XD = new XmlDocument();
+            XmlNode Root = XD.AppendChild(XD.CreateElement("Root"));
+            XmlNode Child = Root.AppendChild(XD.CreateElement("Child"));
+            XmlAttribute ChildAtt = Child.Attributes.Append(XD.CreateAttribute("Attribute"));
+            ChildAtt.InnerText = "My innertext";
+
+
+            Child.InnerText = "Node Innertext";
+            XD.Save(tempfile);
+            try
+            {
+                System.IO.File.Copy(filepath, tempfile, true);
+            }
+            catch (Exception ex)
+            {
+                // MessageBox.Show(ex.Message);
+            }
+
+            StreamWriter strmwriter = new StreamWriter(filepath);
+            strmwriter.AutoFlush = true;
+            strm = new StreamReader(tempfile);
+            strmwriter.WriteLine(strm.ReadToEnd().Replace("&", " and "));
+            strm.Close();
+            strm = null;
+
+            strmwriter.Flush();
+            strmwriter.Close();
+            strmwriter = null;
+        }
+        catch (Exception ex)
+        {
+            Message(ex.Message);
+        }
+    }
+
+  
+
+
+
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+
+<Detail>
+<HeadAcc>0041-00-102-01-01</HeadAcc>
+<GRN>0021503024</GRN>
+<RemitterName>Egras TestUser</RemitterName>
+<Amount>11.00</Amount>
+<Bankcode>0006326</Bankcode>
+<BankRefNo>CK33832318</BankRefNo>
+<CIN>000632623910471092013</CIN>
+<paiddate>2018/04/01 19:13:56</paiddate>
+<PaymentType>M</PaymentType>
+<BranchCode>0006326</BranchCode>
+</Detail>
+
+<Detail>
+<HeadAcc>0041-00-102-01-01</HeadAcc>
+<GRN>0021503025</GRN>
+<RemitterName>Egras TestUser</RemitterName>
+<Amount>311.00</Amount>
+<Bankcode>0006326</Bankcode>
+<BankRefNo>CK33832318</BankRefNo>
+<CIN>000632623910471092013</CIN>
+<paiddate>2018/04/01 01:13:56</paiddate>
+<PaymentType>M</PaymentType>
+<BranchCode>0006326</BranchCode>
+</Detail>
+
+<Detail>
+<HeadAcc>0041-00-102-01-01</HeadAcc>
+<GRN>0021503026</GRN>
+<RemitterName>Egras TestUser</RemitterName>
+<Amount>511.00</Amount>
+<Bankcode>0006326</Bankcode>
+<BankRefNo>CK33832318</BankRefNo>
+<CIN>000632623910471092013</CIN>
+<paiddate>2018/04/01 02:13:56</paiddate>
+<PaymentType>M</PaymentType>
+<BranchCode>0006326</BranchCode>
+</Detail>
+</Root>

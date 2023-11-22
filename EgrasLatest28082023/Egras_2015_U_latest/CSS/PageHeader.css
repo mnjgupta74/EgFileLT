@@ -1,0 +1,56 @@
+﻿
+body {
+    font-size: 9pt;
+    font-family: Verdana;
+    color: #000333 !important;
+    
+}   
+input[type=submit] {
+    width: 100px;
+    height: 28px;
+}
+input[type=text],input[type=password] {
+   
+    height: 22px;
+}
+   
+.tooltip-inner {
+      max-width:600px;
+      min-width:400px;
+      background-color:lightskyblue;
+      color:#000000;
+      border:1px solid gray;
+      }
+ 
+        .tnHead[_ngcontent-c6] {
+    border-top: 5px solid #337ab7;
+    margin-bottom: 5px;
+}
+        .bollsechead, .bshead, .mcHead, .rtnLhsHead, .rtnRhsHead, .sportHead, .tnHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+        .tnHead[_ngcontent-c6] h2[_ngcontent-c6] {
+    background: #337ab7;
+}
+        .bollsechead h2, .bshead h2, .mcHead h2, .rtnLhsHead h2, .rtnRhsHead h2, .sportHead h2, .tnHead h2 {
+    padding: 5px 20px;
+    font: 20px/24px Bhaskar_Web_Head_Test_exp,Verdana,Arial,Helvetica,sans-serif;
+    position: relative;
+    top: -5px;
+    margin: 0;
+}
+        .bollsechead h2:after, .bshead h2:after, .mcHead h2:after, .rtnLhsHead h2:after, .rtnRhsHead h2:after, .sportHead h2:after, .tnHead h2:after {
+    position: absolute;
+    right: -34px;
+    top: 0;
+    content: '';
+    border-style: solid;
+    border-width: 34px 34px 0 0;
+}
+        .tnHead[_ngcontent-c6] h2[_ngcontent-c6]:after {
+    border-color: #337ab7 transparent transparent;
+}
+   

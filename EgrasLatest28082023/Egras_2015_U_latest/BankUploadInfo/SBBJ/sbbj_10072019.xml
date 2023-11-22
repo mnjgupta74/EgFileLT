@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>	
+	<Detail> 
+		<HeadAcc>0070-60-800-20-00</HeadAcc> 
+		<GRN>7171015</GRN>
+		<RemitterName>IDv</RemitterName>
+		<Amount>33.00</Amount>
+		<Bankcode>0171051</Bankcode>
+		<BankRefNo>IK22139661</BankRefNo>
+		<CIN>017105109928101122012</CIN>
+		<paiddate>2019-07-09 13:27:15</paiddate>
+	</Detail>
+<Detail> 
+		<HeadAcc>0070-60-800-20-00</HeadAcc> 
+		<GRN>7171014</GRN>
+		<RemitterName>IDv</RemitterName>
+		<Amount>24.00</Amount>
+		<Bankcode>0171051</Bankcode>
+		<BankRefNo>IK22139661</BankRefNo>
+		<CIN>017105109928101122012</CIN>
+				<paiddate>2019-07-09 13:29:41</paiddate>
+	</Detail>	
+<Detail> 
+		<HeadAcc>0070-60-800-20-01</HeadAcc> 
+		<GRN>7171016</GRN>
+		<RemitterName>IDv</RemitterName>
+		<Amount>157.00</Amount>
+		<Bankcode>0171051</Bankcode>
+		<BankRefNo>IK22139661</BankRefNo>
+		<CIN>017105109928101122012</CIN>
+			<paiddate>2019-07-09 13:28:41</paiddate>
+	</Detail>
+
+<Detail> 
+		<HeadAcc>0070-60-800-20-00</HeadAcc> 
+		<GRN>7171018</GRN>
+		<RemitterName>IDv</RemitterName>
+		<Amount>52.00</Amount>
+		<Bankcode>0171051</Bankcode>
+		<BankRefNo>IK22139661</BankRefNo>
+		<CIN>017105109928101122012</CIN>
+		<paiddate>2019-07-09 16:17:24</paiddate>
+	</Detail>
+	
+</Root>
+

@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>68115660</GRN>
+<RemitterName>Egras TestUser</RemitterName>
+<Amount>1</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90051136</BankRefNo>
+<CIN>ICIC6811566004112022</CIN>
+<paiddate>2022/11/04 10:21:47</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>68123981</GRN>
+<RemitterName>Egras TestUser</RemitterName>
+<Amount>2</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90058210</BankRefNo>
+<CIN>ICIC6812398104112022</CIN>
+<paiddate>2022/11/04 12:18:13</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0030</HeadAcc>
+<GRN>68132641</GRN>
+<RemitterName>harish chand omprakash kuldeep</RemitterName>
+<Amount>5337</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90067712</BankRefNo>
+<CIN>ICIC6813264104112022</CIN>
+<paiddate>2022/11/04 14:14:28</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>68132697</GRN>
+<RemitterName>Egras TestUser</RemitterName>
+<Amount>1</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90067771</BankRefNo>
+<CIN>ICIC6813269704112022</CIN>
+<paiddate>2022/11/04 14:17:28</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0039</HeadAcc>
+<GRN>68134835</GRN>
+<RemitterName>SANDEEP KUMAR SARI</RemitterName>
+<Amount>31100</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90070105</BankRefNo>
+<CIN>ICIC6813483504112022</CIN>
+<paiddate>2022/11/04 14:48:30</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68135726</GRN>
+<RemitterName>STEEL CRAFT</RemitterName>
+<Amount>100</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90071312</BankRefNo>
+<CIN>ICIC6813572604112022</CIN>
+<paiddate>2022/11/04 15:03:10</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68135974</GRN>
+<RemitterName>SHAILESH MEHTA</RemitterName>
+<Amount>100</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90071557</BankRefNo>
+<CIN>ICIC6813597404112022</CIN>
+<paiddate>2022/11/04 15:06:59</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68136925</GRN>
+<RemitterName>TARUN KUMAR</RemitterName>
+<Amount>100</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90072938</BankRefNo>
+<CIN>ICIC6813692504112022</CIN>
+<paiddate>2022/11/04 15:24:00</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68137703</GRN>
+<RemitterName>SALMAN KHAN</RemitterName>
+<Amount>638</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90073886</BankRefNo>
+<CIN>ICIC6813770304112022</CIN>
+<paiddate>2022/11/04 15:34:09</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68137656</GRN>
+<RemitterName>KUMDESHWAR SHARMA</RemitterName>
+<Amount>1000</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90073951</BankRefNo>
+<CIN>ICIC6813765604112022</CIN>
+<paiddate>2022/11/04 15:35:13</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68137689</GRN>
+<RemitterName>TINKU DUA</RemitterName>
+<Amount>170</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90073890</BankRefNo>
+<CIN>ICIC6813768904112022</CIN>
+<paiddate>2022/11/04 15:37:10</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68139576</GRN>
+<RemitterName>LOVEPREET SINGH</RemitterName>
+<Amount>425</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90076636</BankRefNo>
+<CIN>ICIC6813957604112022</CIN>
+<paiddate>2022/11/04 16:02:22</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68139753</GRN>
+<RemitterName>DEVESH KUMAR MEENA</RemitterName>
+<Amount>146515</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90076858</BankRefNo>
+<CIN>ICIC6813975304112022</CIN>
+<paiddate>2022/11/04 16:03:33</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68140554</GRN>
+<RemitterName>PHOOL CHAND</RemitterName>
+<Amount>329850</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90078388</BankRefNo>
+<CIN>ICIC6814055404112022</CIN>
+<paiddate>2022/11/04 16:18:28</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68140596</GRN>
+<RemitterName>AISHWARYA GUPTA</RemitterName>
+<Amount>50</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90078489</BankRefNo>
+<CIN>ICIC6814059604112022</CIN>
+<paiddate>2022/11/04 16:18:56</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0030</HeadAcc>
+<GRN>68141518</GRN>
+<RemitterName>PADAM CHAND BAIRATHI</RemitterName>
+<Amount>50</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90080222</BankRefNo>
+<CIN>ICIC6814151804112022</CIN>
+<paiddate>2022/11/04 16:36:34</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68141555</GRN>
+<RemitterName>RISHIKESH SAINI</RemitterName>
+<Amount>166900</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90080334</BankRefNo>
+<CIN>ICIC6814155504112022</CIN>
+<paiddate>2022/11/04 16:37:50</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68142079</GRN>
+<RemitterName>AMIT SARIN</RemitterName>
+<Amount>38483</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90081523</BankRefNo>
+<CIN>ICIC6814207904112022</CIN>
+<paiddate>2022/11/04 16:48:11</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68142616</GRN>
+<RemitterName>AGC LOGISTICS SERVICE INDIA PVTLTD</RemitterName>
+<Amount>100</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90082884</BankRefNo>
+<CIN>ICIC6814261604112022</CIN>
+<paiddate>2022/11/04 17:00:11</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68143011</GRN>
+<RemitterName>AMAR PAL MEENA</RemitterName>
+<Amount>104188</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90083856</BankRefNo>
+<CIN>ICIC6814301104112022</CIN>
+<paiddate>2022/11/04 17:08:38</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0040</HeadAcc>
+<GRN>68143262</GRN>
+<RemitterName>HOTEL HILLTOP PALACE</RemitterName>
+<Amount>1000</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90084398</BankRefNo>
+<CIN>ICIC6814326204112022</CIN>
+<paiddate>2022/11/04 17:17:14</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68143631</GRN>
+<RemitterName>BHARATCARRIERSLTD</RemitterName>
+<Amount>5000</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90085246</BankRefNo>
+<CIN>ICIC6814363104112022</CIN>
+<paiddate>2022/11/04 17:23:47</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68143981</GRN>
+<RemitterName>MUKESH NIHALWANI</RemitterName>
+<Amount>50098</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90086326</BankRefNo>
+<CIN>ICIC6814398104112022</CIN>
+<paiddate>2022/11/04 17:34:02</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68144190</GRN>
+<RemitterName>BHARATCARRIERSLTD</RemitterName>
+<Amount>5500</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90086887</BankRefNo>
+<CIN>ICIC6814419004112022</CIN>
+<paiddate>2022/11/04 17:40:29</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68144340</GRN>
+<RemitterName>BABLOO LAL</RemitterName>
+<Amount>340</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90087352</BankRefNo>
+<CIN>ICIC6814434004112022</CIN>
+<paiddate>2022/11/04 17:47:35</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68144982</GRN>
+<RemitterName>VANDANA CHAICHAI</RemitterName>
+<Amount>400</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90089002</BankRefNo>
+<CIN>ICIC6814498204112022</CIN>
+<paiddate>2022/11/04 18:07:12</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68145204</GRN>
+<RemitterName>SHANKAR LAL MEENA</RemitterName>
+<Amount>219015</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90089666</BankRefNo>
+<CIN>ICIC6814520404112022</CIN>
+<paiddate>2022/11/04 18:13:50</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>8443</HeadAcc>
+<GRN>68145230</GRN>
+<RemitterName>STELMEC LIMITED</RemitterName>
+<Amount>13500</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90089725</BankRefNo>
+<CIN>ICIC6814523004112022</CIN>
+<paiddate>2022/11/04 18:17:05</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68145439</GRN>
+<RemitterName>SUPREMEAUTOCARRIERSPVTLTD</RemitterName>
+<Amount>5000</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90090599</BankRefNo>
+<CIN>ICIC6814543904112022</CIN>
+<paiddate>2022/11/04 18:23:11</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0853</HeadAcc>
+<GRN>68145505</GRN>
+<RemitterName>NATHU RAM</RemitterName>
+<Amount>8600</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90090869</BankRefNo>
+<CIN>ICIC6814550504112022</CIN>
+<paiddate>2022/11/04 18:26:40</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>8443</HeadAcc>
+<GRN>68145594</GRN>
+<RemitterName>NATHURAM</RemitterName>
+<Amount>1000</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90091186</BankRefNo>
+<CIN>ICIC6814559404112022</CIN>
+<paiddate>2022/11/04 18:30:22</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>8342</HeadAcc>
+<GRN>68145622</GRN>
+<RemitterName>NATHURAM</RemitterName>
+<Amount>200</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90091354</BankRefNo>
+<CIN>ICIC6814562204112022</CIN>
+<paiddate>2022/11/04 18:33:01</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68145726</GRN>
+<RemitterName>V R SIYOL CONSTRUCTION COMPANY</RemitterName>
+<Amount>218486</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90091716</BankRefNo>
+<CIN>ICIC6814572604112022</CIN>
+<paiddate>2022/11/04 18:38:10</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0070</HeadAcc>
+<GRN>68146010</GRN>
+<RemitterName>SANDEEP CHOUDHARY</RemitterName>
+<Amount>500</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90092695</BankRefNo>
+<CIN>ICIC6814601004112022</CIN>
+<paiddate>2022/11/04 18:53:14</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68146216</GRN>
+<RemitterName>BHANU KUMAR JAIN</RemitterName>
+<Amount>350</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90093532</BankRefNo>
+<CIN>ICIC6814621604112022</CIN>
+<paiddate>2022/11/04 19:05:32</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68146320</GRN>
+<RemitterName>SONU</RemitterName>
+<Amount>638</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90093932</BankRefNo>
+<CIN>ICIC6814632004112022</CIN>
+<paiddate>2022/11/04 19:11:10</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68146382</GRN>
+<RemitterName>POOJA JAIN</RemitterName>
+<Amount>254115</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90094220</BankRefNo>
+<CIN>ICIC6814638204112022</CIN>
+<paiddate>2022/11/04 19:14:16</paiddate>
+</Detail>
+<Detail>
+<HeadAcc>0041</HeadAcc>
+<GRN>68146511</GRN>
+<RemitterName>SELVAMANIAND</RemitterName>
+<Amount>2500</Amount>
+<Bankcode>6390013</Bankcode>
+<BankRefNo>90094921</BankRefNo>
+<CIN>ICIC6814651104112022</CIN>
+<paiddate>2022/11/04 19:24:14</paiddate>
+</Detail>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>B+cNsBUbNBs1AbiIyEDodHBcPGo=</DigestValue></Reference></SignedInfo><SignatureValue>U9i3no79Tqc3p6toRcoQ+x4YPq689BmtswM9PYs34Qybil4sGM0ekW23RauLooURJ2bH6VoWlpKi5AgJsRxXWbjyize/zjooz4/AVr9BZ9vaHdyQk2U3tFHaf98/tclXwDsxs2tYW4/2BsO2DLcvIoXCpGcp4n4Y8kyhtaNg2MA1uOiC4fZM2188fJeXCvrdZrmg+5b2qkSWEsVn8UORhdY+Qjlk6y+aiD0GAuYTVF4paMTPlLDMOFG17jY9PTlcqPyNCyCr6NFaZmTlHlWXsKmOGR1gMftpOYSP0goMkI/GlMB/aCEClOg7bBozSJp96tMttelcz+SR/wGAzrVK0w==</SignatureValue></Signature></Root>

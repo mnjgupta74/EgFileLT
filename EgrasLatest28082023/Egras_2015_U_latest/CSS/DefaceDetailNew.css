@@ -1,0 +1,162 @@
+﻿/*
+Author :Rachit Sharma
+Create Date: 29/10/2014
+*/
+
+/* Css to have common font */
+#lblReceiptMsg, #nameofbanklbl, #TextBox1, #TextBox2
+{
+	font-family: Arial;
+}
+.arial
+{
+	font-family: Arial;
+}
+#lblRef
+{
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.font
+{
+	font-family: Arial;
+	font-size: 14px;
+}
+#lbltransdate, #lblCIN, #NetAmountlbl, #formdatelbl
+{
+	font-size: 15px;
+	font-family: Arial;
+}
+.td
+{
+	width: 35%;
+}
+.td1
+{
+	width: 15%;
+}
+#lblChallan
+{
+	font-size: 15px;
+	font-family: Arial;
+	padding-left: 30 em;
+}
+#TABLE5
+{
+	width: 100%;
+	text-align: left;
+}
+#divBankDetails
+{
+	margin-top: 125px;
+	position: relative;
+}
+.image   
+{
+	position: relative;
+	margin-top: -100px;
+	height: 200px;
+	z-index: -1;
+}
+#TextBox1, #TextBox2
+{
+	font-size: 14px;
+	height: 99px;
+}
+#Tinlbl
+{
+	font-size: 16px;
+	font-family: Arial;
+}
+.position
+{
+	position: absolute;
+}
+.fontMargin
+{
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: 80px;
+}
+.CssGrid
+{
+	margin-top: 8px;
+}
+#Locationlbl
+{
+	padding-right: 33em;
+	font-family: Arial;
+}
+.fontPaymentDate
+{
+	font-family: Arial;
+	margin-left: 150px;
+}
+#Gennolbl
+{
+	text-align: left;
+	font-family: Arial;
+	font-size: 16 px;
+}
+.fontGRN
+{
+	font-family: Arial;
+	margin-left: -1px;
+	text-align: left;
+}
+.lblDepartment
+{
+	font-size: larger;
+	font-family: Arial;
+}
+.imageGreyShadeBehindDept /* to display the grey shade behind the department label */
+{
+	height: 20px;
+	width: 100%;
+}
+.cssSpan
+{
+	position: absolute;
+	right: 275px;
+	top: 2px;
+}
+.divUpperPayeeDetails
+{
+	position: relative;
+	border: solid 1px black;
+	margin-top: 15px;
+}
+
+/* To display the deface detail block */
+.Div
+{
+	border: 1px solid green;
+	background-color: Transparent;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(SizingMethod=' auto expand ', M11=0.71, M12=-0.71, M21=0.71, M22=0.71)';
+	position: absolute;
+	top: 380px;
+	left: 460px;
+	z-index: 1001;
+}
+#divChallanView1
+{
+	width: 78%;
+	border: dotted 1px black;
+}
+#literal1
+{
+	font-size: 11;
+	border: 1px solid green;
+	color: #660000;
+	background-color: Transparent;
+}
+#txtamountwords
+{
+	text-align: left;
+	overflow: hidden;
+	font-family: Arial;
+}
+

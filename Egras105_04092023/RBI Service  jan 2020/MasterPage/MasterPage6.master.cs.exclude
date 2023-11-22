@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Xml.Linq;
+
+public partial class masterpage_MasterPage6 : System.Web.UI.MasterPage
+{
+    protected void Page_Init(object Sender, EventArgs e)
+    {
+        //Response.Cache.SetCacheability(HttpCacheability.NoCache);
+        //Response.Cache.SetExpires(DateTime.Now.AddDays(-1));
+        //Response.CacheControl = "no-cache";
+      
+        //Response.AddHeader("Pragma", "no-cache");
+
+        //Response.AddHeader("cache-control", "private, no-cache, must-revalidate");
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        //Response.Cache.SetCacheability(HttpCacheability.NoCache);
+        //Response.CacheControl = "no-cache";
+      
+        //Response.AddHeader("Pragma", "no-cache");
+
+        //Response.AddHeader("cache-control", "private, no-cache, must-revalidate");
+
+        //if (Request.Cookies["appcookie"] != null)
+        //{
+        //    if (Request.Cookies["appCookie"].Value != Session["RND"].ToString())
+        //    {
+        //        Session.Abandon();
+        //        Server.Transfer("../default.aspx");
+        //    }
+        //}
+        //else
+        //{
+        //    Session.Abandon();
+        //    Server.Transfer("../default.aspx");
+        //}
+
+        //if ((Session["UserID"] == null) || Session["userid"].ToString() == "")
+        //{
+        //    Response.Write("<Script>alert('Session Expired')</Script>");
+        //    Server.Transfer("~\\logout.aspx");
+        //}
+
+
+        //if (!IsPostBack)
+        //{
+        //    Response.Cache.SetCacheability(HttpCacheability.NoCache);
+
+        //}
+    }
+}

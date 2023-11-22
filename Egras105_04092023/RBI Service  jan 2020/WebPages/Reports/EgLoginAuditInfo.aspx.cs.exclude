@@ -1,0 +1,72 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using EgBL;
+
+public partial class WebPages_Reports_EgLoginAuditInfo : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if ((Session["UserID"] == null) || Session["userid"].ToString() == "")
+        {
+            EgEncryptDecrypt ObjEncryptDecrypt = new EgEncryptDecrypt();
+            //string strURLWithData = ObjEncryptDecrypt.Encrypt(string.Format("RND={0}", Session["RND"].ToString()));
+            Response.Redirect("~\\logout.aspx");
+        }
+
+    }
+    protected void btnclick_Click(object sender, EventArgs e)
+    {
+        
+        BindScrollData();
+        lstrecord.Visible = true;
+    }
+
+
+    public void BindScrollData()
+    {
+        EgLoginAuditBL objEgLoginAuditBL = new EgLoginAuditBL();
+        string[] fromdate = txtfromdate.Text.Trim().Replace("-", "/").Split('/');
+        objEgLoginAuditBL.FromDate = Convert.ToDateTime(fromdate[2].ToString() + "/" + fromdate[1].ToString() + "/" + fromdate[0].ToString());
+        string[] todate = txttodate.Text.Trim().Replace("-", "/").Split('/');
+        objEgLoginAuditBL.ToDate = Convert.ToDateTime(todate[2].ToString() + "/" + todate[1].ToString() + "/" + todate[0].ToString());
+        objEgLoginAuditBL.FillLoginauditGrid(grdLogindetail);
+        lblrecord.Text = "Total Record :-" + " " + objEgLoginAuditBL.TotalRecord();
+    }
+    protected void grdLogindetail_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            string Flag = grdLogindetail.DataKeys[e.Row.RowIndex][0].ToString();
+            ImageButton img = (ImageButton)e.Row.FindControl("imgbtn");
+            if (Flag == "N")
+            {
+
+                img.ImageUrl = "~/Image/delete.png";
+                img.ToolTip = "User is not Successful Login";
+            }
+            else
+            {
+                img.ImageUrl = "~/Image/success.png";
+                img.ToolTip = "User is Successful Login";
+            }
+        }
+
+    }
+    protected void grdLogindetail_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        BindScrollData();
+
+        grdLogindetail.PageIndex = e.NewPageIndex;
+        grdLogindetail.DataBind();
+    }
+}

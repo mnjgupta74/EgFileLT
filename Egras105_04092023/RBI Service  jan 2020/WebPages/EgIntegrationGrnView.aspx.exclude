@@ -1,0 +1,736 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EgIntegrationGrnView.aspx.cs"
+    Inherits="WebPages_EgIntegrationGrnView" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../CSS/testegras.css" rel="Stylesheet" type="text/css" />
+    <title>Egras.Raj.nic.in</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <script language="javascript" type="text/javascript">
+        function openPopup() {
+            var argObj = window;
+            var id = document.getElementById("<%= Gennolbl.ClientID %>").innerHTML;
+            $.ajax({
+                type: 'POST',
+                url: '<%= ResolveUrl("~/EgEChallanView.aspx/EncryptData") %>',
+                data: '{"id":"' + id + '"}',
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                success: function (msg) {
+                    window.open("EgAddExtraDetail.aspx?id=" + escape(msg.d), argObj, "dialogWidth:800px; dialogHeight:500px; dialogLeft:252px; dialogTop:120px; center:yes");
+                }
+            });
+        }
+
+
+        function checkamounttotal() {
+
+
+            var junkVal = document.getElementById("<%= NetAmountlbl.ClientID %>").innerHTML;
+
+            var x = new Array();
+            x = junkVal.split(".");
+            var value1 = x[0];
+            var value2 = x[1];
+
+
+            var obStr = new String(value1);
+
+            var numberReversed = value1.split("");
+
+            actnumber = numberReversed.reverse();
+
+
+
+            if (Number(value1) >= 0) {
+
+                //do nothing  
+
+            }
+
+            else {
+
+                alert('Invalid Amount');
+
+                return false;
+
+            }
+
+            if (Number(value1) == 0) {
+
+
+                document.getElementById("<%= txtamountwords.ClientID %>").value = 'Rupees Zero Only';
+
+                //                return false;
+
+            }
+
+            if (actnumber.length > 14) {
+
+                alert('Oops!!!! the Number is too big to convert');
+
+                return false;
+
+            }
+
+
+
+            var iWords = ["Zero", " One", " Two", " Three", " Four", " Five", " Six", " Seven", " Eight", " Nine"];
+
+            var ePlace = ['Ten', ' Eleven', ' Twelve', ' Thirteen', ' Fourteen', ' Fifteen', ' Sixteen', ' Seventeen', ' Eighteen', ' Nineteen'];
+
+            var tensPlace = ['dummy', ' Ten', ' Twenty', ' Thirty', ' Forty', ' Fifty', ' Sixty', ' Seventy', ' Eighty', ' Ninety'];
+
+
+
+            var iWordsLength = numberReversed.length;
+
+            var totalWords = "";
+
+            var inWords = new Array();
+
+            var finalWord = "";
+
+            j = 0;
+
+            for (i = 0; i < iWordsLength; i++) {
+
+                switch (i) {
+
+                    case 0:
+
+                        if (actnumber[i] == 0 || actnumber[i + 1] == 1) {
+
+                            inWords[j] = '';
+
+                        }
+
+                        else {
+
+                            inWords[j] = iWords[actnumber[i]];
+
+                        }
+
+                        inWords[j] = inWords[j] + ' Rupees  ';
+
+                        break;
+
+                    case 1:
+
+                        tens_complication();
+
+                        break;
+
+                    case 2:
+
+                        if (actnumber[i] == 0) {
+
+                            inWords[j] = '';
+
+                        }
+
+                        else if (actnumber[i - 1] != 0 && actnumber[i - 2] != 0) {
+
+                            inWords[j] = iWords[actnumber[i]] + ' Hundred and';
+
+                        }
+
+                        else {
+
+                            inWords[j] = iWords[actnumber[i]] + ' Hundred';
+
+                        }
+
+                        break;
+
+                    case 3:
+
+                        if (actnumber[i] == 0 || actnumber[i + 1] == 1) {
+
+                            inWords[j] = '';
+
+                        }
+
+                        else {
+
+                            inWords[j] = iWords[actnumber[i]];
+
+                        }
+
+                        if (actnumber[i + 1] != 0 || actnumber[i] > 0) {
+
+                            inWords[j] = inWords[j] + " Thousand";
+
+                        }
+
+                        break;
+
+                    case 4:
+
+                        tens_complication();
+
+                        break;
+
+                    case 5:
+
+                        if (actnumber[i] == 0 || actnumber[i + 1] == 1) {
+
+                            inWords[j] = '';
+
+                        }
+
+                        else {
+
+                            inWords[j] = iWords[actnumber[i]];
+
+                        }
+
+                        if (actnumber[i + 1] != 0 || actnumber[i] > 0) {
+
+                            inWords[j] = inWords[j] + " Lakh";
+
+                        }
+
+                        break;
+
+                    case 6:
+
+                        tens_complication();
+
+                        break;
+
+                    case 7:
+
+                        if (actnumber[i] == 0 || actnumber[i + 1] == 1) {
+
+                            inWords[j] = '';
+
+                        }
+
+                        else {
+
+                            inWords[j] = iWords[actnumber[i]];
+
+                        }
+
+                        if (actnumber[i + 1] != 0 || actnumber[i] > 0) {
+
+                            inWords[j] = inWords[j] + " Crore";
+
+                        }
+
+                        break;
+
+                    case 8:
+
+                        tens_complication();
+
+                        break;
+                    case 9:
+
+                        if (actnumber[i] == 0 || actnumber[i + 1] == 1) {
+
+                            inWords[j] = '';
+
+                        }
+
+                        else {
+
+                            inWords[j] = iWords[actnumber[i]];
+
+                        }
+
+                        inWords[j] = inWords[j] + " Arab";
+
+                        break;
+                    case 10:
+
+                        tens_complication();
+
+                        break;
+                    default:
+
+                        break;
+
+                }
+
+                j++;
+
+
+            };
+
+
+
+            function tens_complication() {
+
+                if (actnumber[i] == 0) {
+
+                    inWords[j] = '';
+
+                }
+
+                else if (actnumber[i] == 1) {
+
+                    inWords[j] = ePlace[actnumber[i - 1]];
+
+                }
+
+                else {
+
+                    inWords[j] = tensPlace[actnumber[i]];
+
+                }
+
+            }
+
+            inWords.reverse();
+
+            for (i = 0; i < inWords.length; i++) {
+
+                finalWord += inWords[i];
+
+            }
+
+            if (value2 == undefined) {
+                document.getElementById("<%= txtamountwords.ClientID %>").value = finalWord;
+            }
+            else {
+
+
+
+                var obStr = new String(value2);
+
+                var numberReversed = value2.split("");
+
+                actnumber = numberReversed.reverse();
+                var finalWord1 = "";
+
+
+                if (Number(value2) >= 0) {
+
+                    //do nothing  
+
+                }
+
+                else {
+
+                    alert('Invalid Amount');
+
+                    return false;
+
+                }
+
+
+
+                if (actnumber.length > 14) {
+
+                    alert('Oops!!!! the Number is too big to converte');
+
+                    return false;
+
+                }
+
+                if (Number(value2) != 0) {
+
+                    var iWordsLength = numberReversed.length;
+
+                    var totalWords = "";
+
+                    var inWords = new Array();
+
+                    var finalWord1 = "";
+
+                    j = 0;
+
+                    for (i = 0; i < iWordsLength; i++) {
+
+                        switch (i) {
+
+                            case 0:
+
+                                if (actnumber[i] == 0 || actnumber[i + 1] == 1) {
+
+                                    inWords[j] = '';
+
+                                }
+
+                                else {
+
+                                    inWords[j] = iWords[actnumber[i]];
+
+                                }
+
+                                inWords[j] = inWords[j] + ' Paisa Only ';
+
+                                break;
+
+                            case 1:
+
+                                tens_complication();
+
+                                break;
+
+
+                            default:
+
+                                break;
+
+                        }
+
+                        j++;
+
+                    }
+
+
+                    inWords.reverse();
+
+                    for (i = 0; i < inWords.length; i++) {
+
+                        finalWord1 += inWords[i];
+
+                    }
+                }
+                else {
+                    finalWord1 = " Zero Paisa Only"
+                }
+
+                document.getElementById("<%= txtamountwords.ClientID %>").value = finalWord + 'and' + finalWord1;
+
+
+
+            }
+
+        }
+
+        function ClickToPrint() {
+
+
+            var divToPrint = document.getElementById('divChallanView1');
+            var popupWin = window.open('', '_blank', 'width=1000,height=1000');
+            popupWin.document.open();
+            popupWin.document.write('<html><body onload="window.print();">' + divToPrint.innerHTML + '</html>');
+            alert(divToPrint.innerHTML);
+            popupWin.document.close();
+
+        }
+          
+        
+    </script>
+
+    <div>
+        <asp:Label ID="literal1" runat="server" Style="font-size: 11; border: 1px solid green;
+            color: #660000; background-color: Transparent" Visible="false"></asp:Label>
+        <table runat="server" id="TABLE3" cellpadding="0" border="0" cellspacing="0" class="table"
+            align="center">
+            <tr>
+                <td class="headertd " align="center" >
+                    E-CHALLAN
+                    <%--<asp:Label ID="Label1" runat="server" Text="E-CHALLAN" Font-Bold="True" ForeColor="#009900"></asp:Label>--%>
+                </td>
+            </tr>
+            <tr>
+                <td class="headertd ">
+                    Government of Rajasthan
+                    <%--  <asp:Label ID="Label2" runat="server" Text="Government of Rajasthan" Font-Bold="True"
+                        ForeColor="#009900"></asp:Label>--%>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="divshadow">
+                        <table runat="server" id="TABLE2" cellpadding="0" border="1" cellspacing="0" class="table1">
+                            <tr>
+                                <td style="height: 36px;" colspan="3">
+                                    <asp:Label ID="lblGenNo" runat="server" Text="GRN" Font-Bold="true" CssClass="label1"></asp:Label>
+                                    &nbsp;:-&nbsp;&nbsp;&nbsp;
+                                    <asp:Label ID="Gennolbl" runat="server" Text="Label"></asp:Label>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:Label ID="lblform" runat="server" Text="BARCODE" Font-Bold="true" CssClass="label1"></asp:Label>
+                                    &nbsp;:-&nbsp;&nbsp;
+                                    <asp:Image ID="Image2" runat="server" Height="21px" Width="150px" />
+                                </td>
+                                <td style="width: 160px; height: 36px;">
+                                    <asp:Label ID="lbldformdate" runat="server" Text="Date" CssClass="label"></asp:Label>
+                                    :&nbsp;
+                                    <asp:Label ID="formdatelbl" runat="server" Text="Label"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 37px; width: 134px;">
+                                    <asp:Label ID="lblDepartment" runat="server" Text="Profile Name" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 37px; width: 345px; margin-left: 40px;">
+                                    &nbsp;
+                                    <asp:Label ID="Departmentlbl" runat="server" Text="Label"></asp:Label>
+                                </td>
+                                <td style="height: 37px; text-align: center" colspan="2">
+                                    <asp:Label ID="lblpaydetail" runat="server" Text="Payee Details" Font-Bold="true"
+                                        CssClass="label"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 37px; width: 134px;">
+                                    <asp:Label ID="lblTypeOfPayment" runat="server" Text="Type Of Payment" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 37px; width: 345px;">
+                                    &nbsp;<asp:Label ID="TypeOfPaymentlbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                                <td style="height: 37px; width: 134px;">
+                                    <asp:Label ID="lblTin" runat="server" Text="TIN/Actt.No./VehicleNo./Taxid(If Any)"
+                                        CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 37px" colspan="2">
+                                    &nbsp;<asp:Label ID="Tinlbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 36px; width: 134px;">
+                                    <asp:Label ID="lblOfficeName" runat="server" Text="Office Name" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 36px; width: 345px;">
+                                    &nbsp;
+                                    <asp:Label ID="OfficeNamelbl" runat="server" Text="Label"></asp:Label>
+                                </td>
+                                <td style="height: 36px; width: 134px;">
+                                    <asp:Label ID="lblPanNo" runat="server" Text="PAN No.(If Applicable)" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 36px" colspan="2">
+                                    &nbsp;<asp:Label ID="PanNolbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 25px; width: 134px;">
+                                    <%-- <asp:Label ID="lblDept" runat="server" Text="Department"></asp:Label>--%>
+                                    <asp:Label ID="lblLocation" runat="server" Text="Location" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 25px; width: 345px;">
+                                    <%--  &nbsp;<asp:Label ID="Deptlbl" runat="server" ></asp:Label>&nbsp;--%>
+                                    &nbsp;<asp:Label ID="Locationlbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                                <td style="height: 25px; width: 134px;">
+                                    <asp:Label ID="lblfullname" runat="server" Text="Full Name" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 25px" colspan="2">
+                                    &nbsp;<asp:Label ID="fullnamelbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 25px; width: 134px;">
+                                    <asp:Label ID="lblyear" runat="server" Text="Year" CssClass="label"></asp:Label>
+                                    &nbsp;&nbsp;&nbsp;(Period)&nbsp;
+                                </td>
+                                <td style="height: 25px; width: 345px;">
+                                    &nbsp;<asp:Label ID="frommonthlbl" runat="server" Text="Label"></asp:Label>&nbsp;-To-
+                                    <asp:Label ID="tomonthlbl" runat="server" Text="Label"></asp:Label>
+                                </td>
+                                <td style="height: 25px">
+                                    <%--<asp:Label ID="lbladdress" runat="server" Text="Address"></asp:Label>--%>
+                                    <asp:Label ID="lblTown" runat="server" Text="Town/City/District" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 25px" colspan="2">
+                                    <%--&nbsp;<asp:TextBox ID="addresslbl" runat="server" Text="Label" wrap="true" Enabled="false" TextMode="MultiLine" style="border:none;" Height="100" Width="300"></asp:TextBox>&nbsp;--%>
+                                    &nbsp;<asp:Label ID="Townlbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="3" valign="top">
+                                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="GridView "
+                                        Style="margin-top: 8px">
+                                        <Columns>
+                                            <asp:TemplateField HeaderText="SNo.">
+                                                <ItemTemplate>
+                                                    <%#Container.DataItemIndex + 1 %>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                            <asp:BoundField DataField="Schemaname" HeaderText="Budget Head/Purpose">
+                                                <HeaderStyle CssClass="row" Wrap="true" Font-Bold="true" />
+                                                <ItemStyle CssClass="row" Wrap="true" Font-Bold="true" />
+                                            </asp:BoundField>
+                                            <asp:BoundField DataField="Amount" HeaderText="Amount in Rs." DataFormatString="{0:n}">
+                                                <FooterStyle CssClass="grdfooter " />
+                                                <HeaderStyle CssClass="row" Wrap="true" Font-Bold="true" />
+                                                <ItemStyle CssClass="row" Wrap="true" Font-Bold="true" />
+                                            </asp:BoundField>
+                                        </Columns>
+                                    </asp:GridView>
+                                </td>
+                                <td style="height: 25px">
+                                    <%--<asp:Label ID="lblTown" runat="server" Text="Town/City/District"></asp:Label>--%>
+                                    <asp:Label ID="addresslbl" runat="server" Text="Address" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 25px" colspan="2">
+                                    <%--&nbsp;<asp:Label ID="Townlbl" runat="server" Text="Label"></asp:Label>&nbsp;--%>
+                                    <asp:TextBox ID="TextBox1" runat="server" Text="Label" Wrap="true" Enabled="false"
+                                        TextMode="MultiLine" CssClass="txtbox2"></asp:TextBox>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 25px">
+                                    <asp:Label ID="lblRemarks" runat="server" Text="Remarks(If Any)" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 25px" colspan="3">
+                                    <%-- &nbsp;<asp:Label ID="Pinlbl" runat="server" Text="Label"></asp:Label>&nbsp;--%>
+                                    <asp:TextBox ID="TextBox2" runat="server" Text="Label" Wrap="true" Enabled="false"
+                                        TextMode="MultiLine" CssClass="txtbox2"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 25px" rowspan="2">
+                                    <asp:Label ID="Lable1" runat="server" Text="PIN" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 25px" colspan="3" rowspan="2">
+                                    &nbsp;<asp:Label ID="Pinlbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 37px; width: 134px;">
+                                    <asp:Label ID="lbldeductcommission" runat="server" Text="Deduct:Commission" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 37px; width: 345px;" align="right">
+                                    <asp:Label ID="deductcommisiionlbl" runat="server" Text="Label"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 35px; width: 140px;">
+                                    <asp:Label ID="lblNetAmount" runat="server" Text="Total/NetAmount" CssClass="label"></asp:Label>
+                                </td>
+                                <td style="height: 35px; width: 345px;" align="right">
+                                    <asp:Image ID="Image3" runat="server" ImageUrl="~/Image/rupees.jpg" />
+                                    <asp:Label ID="NetAmountlbl" runat="server" Text="Label"></asp:Label>
+                                </td>
+                                <td style="height: 35px" colspan="2">
+                                    <asp:Label ID="Amountwordslbl" runat="server" Text="Label"></asp:Label>
+                                    <asp:TextBox ID="txtamountwords" runat="server" BorderWidth="0" TextMode="MultiLine"
+                                        Font-Bold="true" ReadOnly="True" CssClass="txtbox2"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <div id="divpaymentDetail" runat="server">
+                                        <table runat="server" class="table1" id="TABLE5" cellpadding="0" border="1" cellspacing="0">
+                                            <tr>
+                                                <td style="height: 37px;" valign="middle">
+                                                    <asp:Label ID="lblPayment" runat="server" Text="Payment Details" Font-Bold="true"
+                                                        CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 38px" align="center">
+                                                    <asp:Label ID="lblChallan" runat="server" Text="Challan No." Visible="false"></asp:Label>
+                                                </td>
+                                                <td style="height: 37px; text-align: center" colspan="2">
+                                                    <asp:Label ID="lblBank" runat="server" Text="FOR USE IN RECEIVING BANK" Font-Bold="true"
+                                                        CssClass="label"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 38px" colspan="2">
+                                                    <asp:Label ID="lblCheque" runat="server" Text="Cheque-DD Detail" Font-Bold="true"
+                                                        CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 38px">
+                                                    <asp:Label ID="lblBankCINdetail" runat="server" Text="Bank CIN NO." CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 38px">
+                                                    &nbsp;&nbsp;
+                                                    <asp:Label ID="lblCIN" runat="server" Text="Label" Visible="false"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 37px; width: 134px;">
+                                                    <asp:Label ID="lblChequeNo" runat="server" Text="Cheque-DD No." MaxLength="15" CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 37px; width: 328px;">
+                                                    &nbsp;<asp:Label ID="ChequeNolbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                                </td>
+                                                <td style="height: 37px; width: 134px;">
+                                                    <asp:Label ID="lblDate" runat="server" Text="Date" CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 37px; width: 345px;">
+                                                    &nbsp;&nbsp;
+                                                    <asp:Label ID="lbltransdate" runat="server" Text="Label"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 37px; width: 134px;">
+                                                    <asp:Label ID="lblnameofbank" runat="server" Text="Name of Bank" CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 37px; width: 328px;">
+                                                    &nbsp;<asp:Label ID="nameofbanklbl" runat="server" Text="Label"></asp:Label>&nbsp;
+                                                </td>
+                                                <td style="height: 37px">
+                                                    <asp:Label ID="lblBankBranch" runat="server" Text="Reference No." CssClass="label"></asp:Label>
+                                                </td>
+                                                <td style="height: 37px">
+                                                    &nbsp;&nbsp;
+                                                    <asp:Label ID="lblRef" runat="server" Text="Label" Visible="true"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <%-- <tr>
+                                <td style="height: 36px; width: 134px;">
+                                    <asp:Label ID="lblnameofbranch" runat="server" Text="Name of Branch"></asp:Label>
+                                </td>
+                                <td style="height: 36px; width: 328px;">
+                                    &nbsp;<asp:Label ID="nameofbranchlbl" runat="server" Text=""></asp:Label>&nbsp;
+                                </td>
+                                <td style="height: 36px">
+                                    <asp:Label ID="lblScroll" runat="server" Text="Scroll No."></asp:Label>
+                                </td>
+                                <td style="height: 36px">
+                                    &nbsp;&nbsp;
+                                </td>
+                            </tr>--%>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <div id="divBankTransfer" runat="server">
+                                        <table id="Table4" runat="server" class="table1" cellpadding="0" cddellspacing="0"
+                                            cellspacing="0">
+                                            <tr>
+                                                <%--<td>
+                                </td>--%>
+                                                <td colspan="3" align="right">
+                                                    <asp:ImageButton ID="ImageButton1" ImageUrl="~/Image/printer.jpg" runat="server"
+                                                        OnClientClick="javascript:ClickToPrint();" />
+                                                </td>
+                                                <%--<td align="right">
+                                    <asp:DropDownList ID="ddlBank" runat="server" AutoPostBack="true">
+                                    </asp:DropDownList>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Select Bank"
+                                        ControlToValidate="ddlBank" ForeColor="Red" InitialValue="0" ValidationGroup="a"
+                                        Display="Static"></asp:RequiredFieldValidator>
+                                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebPages/EgGuestProfile.aspx"
+                                        Text="Back" Visible="false"></asp:HyperLink>
+                                </td>--%>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <asp:LinkButton ID="lnkExtraDetails" runat="server" Text="View Extra Details" Visible="false"
+                                        OnClientClick="openPopup();"></asp:LinkButton>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <input type="hidden" name="UBI_ER" value="N">
+                                    <input type="hidden" name="MD" value="P">
+                                    <input type="hidden" name="PRODUCT_ID" value="RJGOVT">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

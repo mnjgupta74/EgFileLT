@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head runat="server">
+    <title>Enable JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="EJscript/style.css" />
+</head>
+<body>
+    <div id="omot">
+        <div id="head">
+            <h1>
+                Instructions to enable JavaScript in browser</h1>
+        </div>
+        <div class="torso">
+
+            <script type="text/javascript">
+                document.write('<div class="enabled"><img src="EJscript/yes.gif" width="16" height="16" alt="javascript enabled" /> JavaScript is enabled in your web browser. If you disable JavaScript, this text will change.<\/div>');
+            </script>
+
+            <noscript>
+                <div class="disabled">
+                    <img src="EJscript/no.gif" width="16" height="16" alt="javascript disabled" />
+                    Javascript is disabled in your web browser. If you enable JavaScript, this text
+                    will change.</div>
+            </noscript>
+            <div id="pnlcurrentBrowser">
+                <div id="pnlChromeNew">
+                    <h3 id="chrome">
+                        <img src="EJscript/chrome10-32.png" id="Img1" width="32" height="32" alt="Chrome"
+                            class="browimgmiddle" />
+                        Google Chrome</h3>
+                    <ol>
+                        <li>On the web browser menu click on the &quot;Customize and control Google Chrome&quot;
+                            and select &quot;Settings&quot;.</li>
+                        <li>In the &quot;Settings&quot; section click on the &quot;Show advanced settings...&quot;</li>
+                        <li>Under the the &quot;Privacy&quot; click on the &quot;Content settings...&quot;.</li>
+                        <li>When the dialog window opens, look for the &quot;JavaScript&quot; section and select
+                            &quot;Allow all sites to run JavaScript (recommended)&quot;.</li>
+                        <li>Click on the &quot;OK&quot; button to close it.</li>
+                        <li>Close the &quot;Settings&quot; tab.</li>
+                        <li>Click on the &quot;Reload this page&quot; button of the web browser to refresh the
+                            page.</li>
+                    </ol>
+                </div>
+            </div>
+            <div id="pnlotherBrowsers">
+                <div id="pnlIE">
+                    <h3 id="ie">
+                        <img src="EJscript/ie932.png" width="32" height="32" alt="Internet Explorer" class="browimgmiddle" />
+                        Internet Explorer</h3>
+                    <ol>
+                        <li>On web browser menu click &quot;Tools&quot; menu and select &quot;Internet Options&quot;.</li>
+                        <li>In the &quot;Internet Options&quot; window select the &quot;Security&quot; tab.</li>
+                        <li>On the &quot;Security&quot; tab click on the &quot;Custom level...&quot; button.</li>
+                        <li>When the &quot;Security Settings - Internet Zone&quot; dialog window opens, look
+                            for the &quot;Scripting&quot; section.</li>
+                        <li>In the &quot;Active Scripting&quot; item select &quot;Enable&quot;.</li>
+                        <li>When the &quot;Warning!&quot; window pops out asking &quot;Are you sure you want
+                            to change the settings for this zone?&quot; select &quot;Yes&quot;.</li>
+                        <li>In the &quot;Internet Options&quot; window click on the &quot;OK&quot; button to
+                            close it.</li>
+                        <li>Click on the &quot;Refresh&quot; button of the web browser to refresh the page.</li>
+                    </ol>
+                </div>
+                <div id="pnlIElte8">
+                    <h5 id="ielte8">
+                        <img src="EJscript/ie16.gif" width="16" height="16" alt="Internet Explorer &#60; 9"
+                            class="browimgmiddle" />
+                        Internet Explorer &#60; 9</h5>
+                    <ol>
+                        <li>On web browser menu click &quot;Tools&quot; and select &quot;Internet Options&quot;.</li>
+                        <li>In the &quot;Internet Options&quot; window select the &quot;Security&quot; tab.</li>
+                        <li>On the &quot;Security&quot; tab click on the &quot;Custom level...&quot; button.</li>
+                        <li>When the &quot;Security Settings - Internet Zone&quot; dialog window opens, look
+                            for the &quot;Scripting&quot; section.</li>
+                        <li>In the &quot;Active Scripting&quot; item select &quot;Enable&quot;.</li>
+                        <li>When the &quot;Warning!&quot; window pops out asking &quot;Are you sure you want
+                            to change the settings for this zone?&quot; select &quot;Yes&quot;.</li>
+                        <li>In the &quot;Internet Options&quot; window click on the&quot;OK&quot; button to
+                            close it.</li>
+                        <li>Click on the &quot;Refresh&quot; button of the web browser to refresh the page.</li>
+                    </ol>
+                </div>
+                <div id="pnlFirefox">
+                    <h3 id="firefox">
+                        <img src="EJscript/firefox32.gif" width="32" height="32" alt="Firefox" class="browimgmiddle" />
+                        Mozilla Firefox</h3>
+                    <ol>
+                        <li>On the web browser click &quot;Firefox&quot; menu and then select &quot;Options&quot;.</li>
+                        <li>In the &quot;Options&quot; window select the &quot;Content&quot; tab.</li>
+                        <li>Mark the &quot;Enable JavaScript&quot; checkbox.</li>
+                        <li>In the opened &quot;Options&quot; window click on the &quot;OK&quot; button to close
+                            it.</li>
+                        <li>Click on the &quot;Reload current page&quot; button of the web browser to refresh
+                            the page.</li>
+                    </ol>
+                </div>
+                <div id="pnlFirefoxlte3">
+                    <h5 id="firefox3">
+                        <img src="EJscript/firefox16.gif" width="16" height="16" alt="Firefox &#60; 4" class="browimgmiddle" />
+                        Mozilla Firefox &#60; 4</h5>
+                    <ol>
+                        <li>On the web browser menu click &quot;Tools&quot; and select &quot;Options&quot;.</li>
+                        <li>In the &quot;Options&quot; window select the &quot;Content&quot; tab.</li>
+                        <li>Mark the &quot;Enable JavaScript&quot; checkbox.</li>
+                        <li>In the opened &quot;Options&quot; window click on the &quot;OK&quot; button to close
+                            it.</li>
+                        <li>Click on the &quot;Reload current page&quot; button of the web browser to refresh
+                            the page.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage/MasterPage5.master" AutoEventWireup="true"
+    CodeFile="EgGrnRemitterWise.aspx.cs" Inherits="WebPages_Reports_EgGrnRemitterWise"
+    Title="" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <link href="../../CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../js/Control.js" type="text/javascript"></script>
+    <link href="../../CSS/PageHeader.css" rel="stylesheet" />
+
+    <script src="../../js/Control.js" language="javascript" type="text/javascript"></script>
+
+    <style>
+        .btn-default {
+            color: #f4f4f4;
+            background-color: #428bca;
+        }
+    </style>
+
+    <script language="javascript" type="text/javascript">
+        function NumericOnly(el) {
+            var ex = /^\s*\d+\s*$/;
+            if (ex.test(el.value) == false) {
+                alert('Enter Number Only');
+                el.value = "";
+            }
+        }
+
+        function ClickToPrint() {
+            docPrint = window.open("", "mywindow", "location=1,status=1,scrollbars=1,width=1000,height=500");
+            docPrint.document.open();
+            docPrint.document.write('<html><head><title>ChallanPage</title>');
+            docPrint.document.write('</head><body onLoad="self.print()"><left>');
+            docPrint.document.write('</Center><br/><table width="1030px" height="50%" top="0"  border=0 font Size="8"><tr><td width="150%"><left><font face="Small Fonts">');
+            docPrint.document.write(document.getElementById("divRemitterDetails").innerHTML);
+            docPrint.document.write('</td></tr></table></left></font></body></html>');
+            docPrint.document.close();
+
+        }
+    </script>
+
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1"
+        DisplayAfter="0">
+        <ProgressTemplate>
+            <asp:Panel ID="pnlBackGround" runat="server" CssClass="popup-div-background">
+                <div id="divFeedback" runat="server" class="popup-div-front">
+                    <br />
+                    <br />
+                    <br />
+                    <img src="../../App_Themes/images/progress.gif" />
+                    <br />
+                    <br />
+                    The request is being processed. Please wait...<br />
+                    This window will disappear when the process is finished.
+                </div>
+            </asp:Panel>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <%--<fieldset runat="server" id="lstrecord" style="width: 900px; margin-left: 100px;">
+                <legend style="color: #336699; font-weight: bold">RemitterWise-Detail</legend>--%>
+
+            <div _ngcontent-c6="" class="tnHead minus2point5per">
+                <h2 _ngcontent-c6="" title="Challan Detail" class="pull-left">
+                    <span _ngcontent-c6="" style="color: #FFF">RemitterWise-Detail</span></h2>
+                <img src="../../Image/help1.png" class="pull-right" style="height: 44px; width: 34px;" title="Bank Scroll Report (45-A)" />
+            </div>
+
+            <div style="margin-left: 700px">
+                <asp:ImageButton ID="ImageButton1" ImageUrl="~/Image/printer.jpg" runat="server"
+                    OnClientClick="javascript:ClickToPrint();" Visible="false" />
+            </div>
+
+            <%--<div id="divRemitterDetails">--%>
+                <table style="width: 100%" border="1" align="center" id="MainTable">
+                    <tr >
+                        <td align="left">
+                            <b><span style="color: #336699;">From Date : </span></b>
+                                <asp:TextBox ID="txtFromDate" runat="server" onkeypress="Javascript:return NumberOnly(event)"
+                                    Height="100%" Style="display: initial !important" CssClass="form-control" Width="120px"
+                                    onchange="javascript:return dateValidation(this,ctl00_ContentPlaceHolder1_txtToDate)"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="req1" runat="server" ControlToValidate="txtFromDate"
+                                SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                            <ajaxToolkit:CalendarExtender ID="calFromDate" runat="server" PopupButtonID="txtFromDate"
+                                Format="dd/MM/yyyy" TargetControlID="txtFromDate">
+                            </ajaxToolkit:CalendarExtender>
+                        </td>
+                        <td align="left">
+                            <b><span style="color: #336699">To Date : </span></b>
+                                <asp:TextBox ID="txtToDate" runat="server" onkeypress="Javascript:return NumberOnly(event)"
+                                    Height="100%" Style="display: initial !important" CssClass="form-control" Width="120px"
+                                    onchange="javascript:return dateValidation1(this,ctl00_ContentPlaceHolder1_txtFromDate)"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="req2" runat="server" ControlToValidate="txtToDate"
+                                SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                            <ajaxToolkit:CalendarExtender ID="calToDate" runat="server" PopupButtonID="txtToDate"
+                                Format="dd/MM/yyyy" TargetControlID="txtToDate">
+                            </ajaxToolkit:CalendarExtender>
+                        </td>
+                        <td>
+                            <b><span style="color: #336699;">Remitter Name : </span></b>
+                                <asp:TextBox ID="txtremitter" Height="100%" Style="display: initial !important" CssClass="form-control" Width="120px"
+                                             runat="server"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="req3" runat="server" ControlToValidate="txtremitter"
+                                SetFocusOnError="true" ErrorMessage="*" ValidationGroup="de"></asp:RequiredFieldValidator>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center">
+                            <asp:Button ID="btnshow" runat="server" Height="33" CssClass="btn btn-default" 
+                                         Text="Show" ValidationGroup="de" OnClick="btnshow_Click" />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3" align="right" style="height: 30px">
+                            <div id="divTotalAmount" runat="server" visible="false">
+                                <asp:Label ID="lblTotalAmount" runat="server" ForeColor="Green" Text="LabelAmount"
+                                    Font-Bold="true"></asp:Label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <asp:GridView ID="GrdRemitter" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                                Font-Names="Verdana" Font-Size="10pt" Width="100%" EmptyDataText="No Record Found"
+                                EmptyDataRowStyle-HorizontalAlign="Center" ForeColor="#333333" GridLines="None"
+                                EmptyDataRowStyle-Font-Bold="true" EmptyDataRowStyle-ForeColor="#507CD1" AllowPaging="true"
+                                PageSize="25" OnPageIndexChanging="grdGrn_PageIndexChanging" OnRowCommand="grdGrn_RowCommand">
+                                <RowStyle BackColor="#EFF3FB" />
+                                <Columns>
+                                    <asp:TemplateField HeaderText="GRN">
+                                        <ItemTemplate>
+                                            <asp:LinkButton ID="lnkgrn" CommandName="grnbind" Text='<%#Eval("GRN")%>' CommandArgument='<%#Eval("GRN")%>'
+                                                runat="server"></asp:LinkButton>
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:BoundField DataField="FullName" HeaderText="Remitter Name">
+                                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="MobileNo" HeaderText="Contact Number">
+                                        <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="ChallanDate" HeaderText="Challan Date">
+                                        <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="Amount" HeaderText="Total Amount" DataFormatString="{0:n}">
+                                        <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                                        <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                                    </asp:BoundField>
+                                </Columns>
+                                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                <HeaderStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+                                <EditRowStyle BackColor="#2461BF" />
+                                <AlternatingRowStyle BackColor="White" />
+                            </asp:GridView>
+                        </td>
+                    </tr>
+                </table>
+            <%--</div>--%>
+            <%--</fieldset>--%>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>

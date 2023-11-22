@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: #f9f9f9;
+}
+/*background-image:url(../../body-bg.jpg) }*/
+.div1{ width:400px; height:250px; position:relative; background-color:#fff; overflow:hidden; }		/* used in div1 */
+.brd{  border:7px solid #BBBBBB; -moz-border-radius: 6px 6px 6px 6px; -webkit-border-radius: 6px 6px 6px 6px;}			/* used in div1 */
+.h1 { font-size:9px; color:#f45044; text-align:center }			/* used in td1 */
+.h2 { font-size:12px; color:#f9f9f9; text-align:center; font-weight:bold }
+.h3 { font-size:10px; margin:0px; padding-left:0px }
+.themeButton{border:2px solid #aaa;background:#63a4f4;cursor:pointer;padding:3px 10px; color:#dddddd; }
+.themeButton:hover{ background-color:#709f26; color:#ffffff }
+.themeButton:active{ background-color:#495f25; color:#ffffff}
+.table1{ width:100%; height:100%; vertical-align:top;}			/* used in table1 */
+.div2{ width:70px; height:20px; border:1px solid #999; }
+.div3{ width:64px; height:15px; border:1px solid #999; margin:2px; background: -moz-linear-gradient(bottom, #437ec8, #82b2ed); }
+.div3:active{ margin:3px; width:60px; height:13px; font-size:9px;}
+.div3:hover{ background: -moz-linear-gradient(top, #437ec8, #82b2ed);  }
+
+.shadow /* used in div1 */
+{ -webkit-box-shadow: #666 0px 2px 15px;
+    -moz-box-shadow: #666 0px 2px 8px;
+    box-shadow: #666 0px 2px 20px;
+	behavior: url(../PIE.htc);
+	border-collapse: separate;
+  }	
+	
+
+/*.txtboxshadow{ border: 2px solid #ddd; }*/		/* used in input tag of td5 and td3 */
+
+.usericon {width:200px; height:25px; border:2px solid #BBBBBB; padding:2px; text-shadow: 1px 1px 2px black, 0 0 1em #b0cef3, 0 0 0.2em blue; position:relative; margin:5px;}
+.usericon input { border:0px; color: #666666;  font-size: 14px; font-weight: bold;} 
+.login-label { color: #666666; font-size: 12px; font-weight: bold; width: 100px; }
+#slog { margin:0px auto; width:350px; height:50px; position:relative; }
+td#txtErr { color:Red;}
+#td7 a { font-size: 9px; font-weight: bold; margin-top:0px; float:left; color:#406B9F }
+#td8 a { font-size: 9px; font-weight: bold; margin-top:0px; float:right; color:#406B9F }
+.loginInput { margin-left:25px; width:220px; }
+
+.watermarkCss
+        {
+            text-align: center;
+        }
+        
+        
+        #Panel1
+        {
+			margin-top:50px;	
+       }

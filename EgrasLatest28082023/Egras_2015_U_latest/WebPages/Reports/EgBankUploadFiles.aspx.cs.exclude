@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using EgBL;
+using System.Data.SqlClient;
+
+
+public partial class WebPages_Reports_EgBankUploadFiles : System.Web.UI.Page
+{
+ 
+    protected void Page_Load(object sender, EventArgs e)
+    {
+     
+    }
+
+
+    #region Repeter
+
+    protected void btnsearch_Click(object sender, EventArgs e)
+    { 
+        BindRpt();
+    }
+
+    private void BindRpt()
+    {
+
+            EgBankUploadFilesBL objEgBankUploadFilesBL = new EgBankUploadFilesBL();
+            string[] fromDate = txtFromDate.Text.Split('/');
+            objEgBankUploadFilesBL.FromDate = Convert.ToDateTime(fromDate[1].ToString() + '/' + fromDate[0].ToString() + '/' + fromDate[2].ToString());
+            objEgBankUploadFilesBL.UserID = int.Parse(Session["UserId"].ToString());
+            objEgBankUploadFilesBL.Fillrpt(rptBankUpload);
+
+
+            DataTable dt = objEgBankUploadFilesBL.LabelRecord();
+            if (dt.Rows[0]["GRNCount"].ToString() == "0" && dt.Rows[0]["TotalRecords"].ToString() == "0" && dt.Rows[0]["TotalAmount"].ToString() == "0.0000")
+            {
+                lblEmptyData.Visible = true;
+                rptBankUpload.Visible = false;
+                LabelGRN.Visible = false;
+                Labelrecords.Visible = false;
+                LabelAmount.Visible = false;
+                lblEmptyData.Text = "No Record Found";
+            }
+            else
+            {
+                LabelGRN.Visible = true;
+                Labelrecords.Visible = true;
+                LabelAmount.Visible = true;
+                rptBankUpload.Visible = true; 
+                lblEmptyData.Visible = false;
+
+                LabelGRN.Text = "No of GRN :-" + " " + dt.Rows[0]["GRNCount"].ToString();
+                Labelrecords.Text = "Total Records :-" + " " + dt.Rows[0]["TotalRecords"].ToString();
+                LabelAmount.Text = "Total Amount :-" + " " + System.Decimal.Round(Convert.ToDecimal(dt.Rows[0]["TotalAmount"].ToString()), 2).ToString();
+            }
+            dt.Clear();
+            dt.Dispose();
+    }
+
+    #endregion
+
+
+  
+
+}

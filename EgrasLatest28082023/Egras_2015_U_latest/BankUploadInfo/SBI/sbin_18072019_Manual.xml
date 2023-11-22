@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+<Detail>
+<HeadAcc>0040-00-102-01-00</HeadAcc>
+<GRN>41011</GRN>
+<RemitterName>PRAKASH</RemitterName>
+<Amount>14.00</Amount>
+<Bankcode>0006326</Bankcode>
+<BankRefNo>CK33832318</BankRefNo>
+<CIN>000632623910471092013</CIN>
+<paiddate>2019/07/18 17:46:50</paiddate>
+<PaymentType>M</PaymentType>
+<BranchCode>0000659</BranchCode>
+</Detail>
+</Root>

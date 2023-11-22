@@ -1,0 +1,140 @@
+﻿using System;
+using System.Data;
+using System.Web;
+using System.Web.UI;
+using EgBL;
+public partial class SampleMerchantpreLogin1 : System.Web.UI.Page
+{
+    public int Mcode;
+    public string EncData;
+    public string AUIN;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        string Site1address = "";
+        if (!Page.IsPostBack)
+        {
+            #region check Address
+            try
+            {
+                Site1address = Request.UrlReferrer.AbsoluteUri.Split('?').GetValue(0).ToString();
+            }
+            catch (Exception ex)
+            {
+                if (ex is HttpException && ex.InnerException is ViewStateException)
+                {
+                    Site1address = "Address has Error :-" + ex.ToString();
+                }
+            }
+            #endregion
+
+            #region check Encdata
+            try
+            {
+                EncData = Request.Form["Encdata"].ToString();
+                //EncData = "yhwNPTZcXmDU0yn80JETRTQ01GGGGy1YmD/h4FszyKMIrMsvyP2jG7iYh7TO6onzYPXkIZOYO80fjyKDv3CsQvtTV+JLANbhhVsiE2gZDd0tmJi1p7NlMNtRCvd24RNmH2mPAB3lbcbv/16puL+kqnB3ND1kL5sEtTubfXtR/1sNFPZYff9LQB65vA2/ttYSZYxC+oX6rIYfJV7Xkbesl7ivUSFxLli61PsUvsqcvDYwYH4YQgBwRWsGmxEJr0ABnkbv0tLmGgxF7esbYW8CqXStDQ+0I17YgYKFgNJfL1LwMpPkGS7kYjT59DTrFgW9AKrFY6BEl/uPt+ZLPuly+34JTkFb60ZLoyeRsZv088o1Gnvkc/yBGMSyxoTOjVqJxwpc7k5G14bY4u/7mWtadcJTQVWFOK0nlPugzQj608kLU6uX29+izJtahbnkabGDmeOm5w+c2Zf/rvw2xJOxXRgogx2XPHLriJK2e4STlfJKt6+urAwi47b7SbffaLndzvXlA7NWLuZq0m0hi4XLleLy3pyM0+EWl6to9zE+gKhztoGMhWRDSoyXNM1abH4xT71FAlC5ERw8CyAaiKWxlAyT0ajc7nwNRE9gEyjhbXdx4bpGsY4HwkTMUZDSfuOy2VOqKXkpqd6Ix6NpE6L7zaYmYrxn6IestgABPJRhRqUxCRiW+VQtQ8yj7B/y4VM2O9KktWjPAFWu/FFLuWBi7Jnq2qOOP52c2t4cuKXiL14VS/kHVZIsss+ohMRFAjIK/6SkKkqFcCd46vJUi3BQAU78v6nA0nXWDp6fp0co4ynnTGbwc7FHnLWjefw8dL36wErrW6jsO6rMQbURhuJSlg==";
+
+            }
+            catch (NullReferenceException ex)
+            {
+                EncData = "EncData Blank or NULL";
+            }
+            #endregion
+            #region check MerchantCode
+            try
+            {
+                Mcode = Convert.ToInt32(Request.Form["Merchant_code"]);
+                //Mcode = 5006;
+            }
+            catch (NullReferenceException ex)
+            {
+                Mcode = 0;
+            }
+            #endregion
+            #region check AUIN
+
+            try
+            {
+                AUIN = Request.Form["AUIN"].ToString().Trim();
+                //AUIN = "106764";
+            }
+            catch (NullReferenceException ex)
+            {
+                AUIN = null;
+            }
+            #endregion
+
+            EgCheckBudgetHead objEgCheckBudgetHead = new EgCheckBudgetHead();
+            objEgCheckBudgetHead.Mcode = Mcode;
+            objEgCheckBudgetHead.Address = Site1address.ToString().Trim();
+            objEgCheckBudgetHead.AUIN = AUIN;
+            objEgCheckBudgetHead.EncData = EncData;
+            if (objEgCheckBudgetHead.GetMerchantinfo() == 1)
+                //if (objEgCheckBudgetHead.GetMerchantinfo() != 1)
+            {
+                //  Due to lost property
+                ViewState["Mcode"] = Mcode;
+                ViewState["EncData"] = EncData;
+                ViewState["AUIN"] = AUIN;
+                field1.Visible = true;
+            }
+            else
+            {
+                Response.Redirect("IntegrationErrorPage.htm");
+            }
+
+        }
+    }
+
+    protected void txtGo_Click(object sender, EventArgs e)
+    {
+        Session["UserId"] = "73";
+        Session["UserType"] = "9";
+        Session["userName"] = "Guest";
+        SetSessionValue();
+    }
+    public void SetSessionValue()
+    {
+        try
+        {
+        DataTable dt = new DataTable();
+        EgDeptIntegrationController EgController = new EgDeptIntegrationController();
+        dt = EgController.GetIntegrationData(new EgDoitIntegrationBL(ViewState["EncData"].ToString().Trim(), ViewState["Mcode"].ToString().Trim(), ViewState["AUIN"].ToString().Trim()));
+        if (dt.Rows.Count > 0)
+        {
+            Session["EgEchallanData"] = dt;
+            dt.Dispose();
+            Session["MenuDataSet"] = "";
+            Random randomclass = new Random();
+            Session.Add("Rnd1", randomclass.Next().ToString());
+            Session["RND"] = Session["RND1"].ToString();
+            HttpCookie appcookie = new HttpCookie("Appcookie");
+            appcookie.Value = Session["RND"].ToString();
+            appcookie.Expires = DateTime.Now.AddDays(1);
+            Response.Cookies.Add(appcookie);
+            Response.Redirect("~/WebPages/EgBankIntegration.aspx", false);
+        }
+        else
+        {
+            DisposeSessionValue();
+            EgErrorHandller obj = new EgErrorHandller();
+            obj.InsertError("DataTable found blank.!");
+            EgDoitIntegrationBL.errorName = "DataTable found blank.!";
+            Response.Redirect("IntegrationErrorPage.aspx");
+        }
+        }
+        catch (Exception ex)
+        {
+            EgErrorHandller obj = new EgErrorHandller();
+            obj.InsertError(ex.Message.ToString());
+            DisposeSessionValue();
+            Response.Redirect("IntegrationErrorPage.aspx");
+        }
+    }
+    private void DisposeSessionValue()
+    {
+        Session["UserId"] = "";
+        Session["UserType"] = "";
+        Session["userName"] = "";
+    }
+}

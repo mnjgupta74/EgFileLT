@@ -1,0 +1,158 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web.UI;
+using EgBL;
+
+public partial class WebPages_EgIntegrationBankResponse : System.Web.UI.Page
+{
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            try
+            {
+                string requestString = Request.Url.ToString();
+                if (Request.QueryString.Count > 0)
+                {
+                    requestString = requestString.Substring(requestString.IndexOf('?') + 1);
+                    EgEncryptDecrypt ObjEncrytDecrypt = new EgEncryptDecrypt();
+                    List<string> lstPlainText = ObjEncrytDecrypt.Decrypt(requestString);
+                    if (lstPlainText != null && lstPlainText.Count > 0)
+                    {
+                        grnlbl.Text = lstPlainText[1].ToString();
+                        netamountlbl.Text = lstPlainText[3].ToString();
+                        lblbankref.Text = lstPlainText[5].ToString();
+                        lblcin.Text = lstPlainText[7].ToString();
+                        lblBankdate.Text = lstPlainText[9].ToString();
+                        lblbankcode.Text = lstPlainText[11].ToString();
+                        lblstatus.Text = (lstPlainText[13].ToString().ToLower() == "s" ? "Success" : lstPlainText[13].ToString().ToLower() == "p" ? "Pending" : "Fail");
+                        EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+                        objEgEChallanBankBL.GRN = Convert.ToInt32(grnlbl.Text);
+                        objEgEChallanBankBL.LoadUserEntries();
+                        lblUser.Text = objEgEChallanBankBL.Name;
+                        lblDate.Text = DateTime.Now.ToString("dd-MM-yyyy");
+                        string BankResponse = CallIntegrationService(Convert.ToInt32(lstPlainText[15].ToString()));
+                    }
+                }
+                else
+                {
+                    TABLE1.Visible = false;
+
+                }
+            }
+            catch
+            {
+                TABLE1.Visible = false;
+
+            }
+
+        }
+    }
+    protected void lnkprint_Click(object sender, EventArgs e)
+    {
+        Random randomclass = new Random();
+        Session.Add("RND", randomclass.Next().ToString());
+        EgEncryptDecrypt objEncrypt = new EgEncryptDecrypt();
+        string strURLWithData = objEncrypt.Encrypt(string.Format("GRN={0}&Mcode={1}", grnlbl.Text, "1"));
+        //string strURLWithData = string.Format("GRN={0}&Mcode={1}", grnlbl.Text, "1");
+        strURLWithData = "EgIntegrationGrnView.aspx?" + strURLWithData;
+        // Response.Redirect(strURLWithData);
+
+
+        string script = "window.open('" + strURLWithData + "','window','Height=600px,width=1020px,left=152,top=120,resizable=no,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=No');";
+        ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "PopupScript", script, true);
+
+    }
+    protected void lnkLogout_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~\\logout.aspx?");
+    }
+
+    protected void LinkIntegration_Click(object sender, EventArgs e)
+    {
+        Redirect();
+    }
+
+    protected void AjaxTimerControl_Tick(object sender, EventArgs e)
+    {
+        Redirect();
+    }
+    public void Redirect()
+    {
+
+        string plainText = "";
+        string CheckSum = "";
+        string cipherText = "";
+        string address = "https://egras.raj.nic.in/WebPages/EgIntergrationRedirect.aspx";
+        SbiEncryptionDecryption objSbiEncryptionDecryption = new SbiEncryptionDecryption();
+        EgEncryptDecrypt objEnc = new EgEncryptDecrypt();
+        EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+        objEgEChallanBankBL.GRN = Convert.ToInt32(grnlbl.Text);
+        objEgEChallanBankBL.GetGrnMerchantDetails();
+
+if (objEgEChallanBankBL.url.Trim() != "" && objEgEChallanBankBL.url != null)
+        {
+            CheckSum = objEnc.GetMD5Hash(objEgEChallanBankBL.encData);
+            plainText = objEgEChallanBankBL.encData + "|checkSum=" + CheckSum;
+            cipherText = CipherText(plainText, objEgEChallanBankBL.Mcode);
+            RemoteClass myremotepost = new RemoteClass();
+            myremotepost.Add("encdata", cipherText);
+            myremotepost.Add("merchant_code", Convert.ToString(objEgEChallanBankBL.Mcode));
+            myremotepost.Add("URL", objEgEChallanBankBL.url);
+            myremotepost.Url = address;
+            myremotepost.Post();
+        }
+
+    }
+    public string CipherText(string plainText, int MCode)
+    {
+        string returnstring = "";
+        SbiEncryptionDecryption objSbiEncryptionDecryption = new SbiEncryptionDecryption();
+        returnstring = objSbiEncryptionDecryption.Encrypt(plainText, Server.MapPath("../WebPages/Key/" + MCode + ".key"));
+        
+        return returnstring;
+    }
+       
+
+    
+    public string CallIntegrationService(int Mcode)
+    {
+        string result = "";
+        string plainText = "";
+        string CheckSum = "";
+        string cipherText = "";
+        SbiEncryptionDecryption objSbiEncryptionDecryption = new SbiEncryptionDecryption();
+        EgEncryptDecrypt objEnc = new EgEncryptDecrypt();
+        EgEChallanBankBL objEgEChallanBankBL = new EgEChallanBankBL();
+        objEgEChallanBankBL.GRN = Convert.ToInt32(grnlbl.Text);
+        switch (Mcode)
+        {
+            case 86:
+                //StampServ.WSStampUpd obj = new StampServ.WSStampUpd();
+                //plainText = string.Format("Site1={0}|ScrollDate={1}|GRNO={2}|VendorSaleId={3}", "eGras", Label3.Text, grnlbl.Text, objEgEChallanBankBL.GetGrnMerchantCodeRef().Trim());
+                //CheckSum = objEnc.GetMD5Hash(plainText);
+                //plainText = plainText + "|checkSum=" + CheckSum;
+                //cipherText = objSbiEncryptionDecryption.Encrypt(plainText, Server.MapPath("../WebPages/Key/StampsKey.key"));
+                //result = obj.ePaymentACK(cipherText);
+                break;
+            case 195:
+                plainText = string.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}", objEgEChallanBankBL.GetGrnMerchantCodeRef().Trim(), lblcin.Text.ToString(), grnlbl.Text.ToString(), netamountlbl.Text.ToString(), lblbankcode.Text.ToString(), lblstatus.Text.ToString(), lblDate.Text.ToString());
+                CheckSum = objEnc.GetMD5Hash(plainText);
+                plainText = plainText + "|checkSum=" + CheckSum;
+                cipherText = objSbiEncryptionDecryption.Encrypt(plainText, Server.MapPath("../WebPages/Key/DOIT.key"));
+
+                DOITserv.EgrasResponseWS objWS = new DOITserv.EgrasResponseWS();
+                DOITserv.setAEgrasRespose objset = new DOITserv.setAEgrasRespose();
+                objset.aesstring = cipherText.ToString();
+                DOITserv.setAEgrasResposeResponse objsetset;
+                objsetset = objWS.setAEgrasRespose(objset);
+                string result1 = objsetset.@return.ToString();
+                break;
+            default:
+                result = "Service Not Found";//Service Not Match
+                break;
+        }
+        return result;
+    }
+}

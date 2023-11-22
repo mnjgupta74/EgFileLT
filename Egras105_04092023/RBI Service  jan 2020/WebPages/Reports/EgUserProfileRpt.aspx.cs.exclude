@@ -1,0 +1,149 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Collections.Generic;
+using EgBL;
+using AjaxControlToolkit;
+using System.Text;
+
+public partial class WebPages_Reports_EgUserProfileRpt : System.Web.UI.Page
+{
+    int i = 1;
+    EgUserProfileRptBL objEgUserProfileRptBL = new EgUserProfileRptBL();
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        if ((Session["UserID"] == null) || Session["userid"].ToString() == "")
+        {
+           EgEncryptDecrypt ObjEncryptDecrypt = new EgEncryptDecrypt();
+           Response.Redirect("~\\logout.aspx");
+        }
+
+        if (!IsPostBack)   // fill DropDownList on PageLoad
+        {
+            BindGrid();
+        }
+
+    }
+    public void BindGrid()
+    {
+        DataTable dt = new DataTable();
+        objEgUserProfileRptBL.UserId = Convert.ToInt32(Session["userid"].ToString());
+        dt = objEgUserProfileRptBL.FillProgileGrid();
+        if (dt.Rows.Count > 0)
+        { 
+            grdprofile.DataSource = dt;
+            grdprofile.DataBind();
+        }
+        dt.Dispose();
+    }
+    protected void grdprofile_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+    }
+    protected void grdprofile_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+
+    }
+    protected void grdprofile_RowCreated(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            PopupControlExtender pce = e.Row.FindControl("PopupControlExtender1") as PopupControlExtender;
+
+            string behaviorID = "pce_" + e.Row.RowIndex;
+            pce.BehaviorID = behaviorID;
+
+            Image img = (Image)e.Row.FindControl("Image1");
+
+            string OnMouseOverScript = string.Format("$find('{0}').showPopup();", behaviorID);
+            string OnMouseOutScript = string.Format("$find('{0}').hidePopup();", behaviorID);
+
+            img.Attributes.Add("onmouseover", OnMouseOverScript);
+            img.Attributes.Add("onmouseout", OnMouseOutScript);
+        }
+    }
+    [System.Web.Services.WebMethodAttribute(),
+   System.Web.Script.Services.ScriptMethodAttribute()]
+    public static string GetDynamicContent(string contextKey)
+    {
+
+        EgUserProfileRptBL objEgUserProfileRptBL = new EgUserProfileRptBL();
+
+        DataTable dt = new DataTable();
+
+
+        objEgUserProfileRptBL.UserPro = Convert.ToInt32(contextKey.Substring(0, contextKey.IndexOf("*")));
+        objEgUserProfileRptBL.UserId = Convert.ToInt32(contextKey.Substring(contextKey.IndexOf("*") + 1));
+
+        //.Text.Trim().Replace("-", "/").Split('/');
+
+        dt = objEgUserProfileRptBL.fillProfileSchema();
+        StringBuilder b = new StringBuilder();
+        if (dt.Rows.Count > 0)
+        {
+
+
+            b.Append("<table style='background-color:#f3f3f3; border: #336699 3px solid; ");
+            b.Append("width:350px; font-size:10pt; font-family:Verdana;' cellspacing='0' cellpadding='3'>");
+
+            b.Append("<tr><td colspan='3' style='background-color:#336699; color:white;'>");
+            b.Append("<b>Schema Details</b>"); b.Append("</td></tr>");
+            b.Append("<tr><td style='width:80px;'><b>SchemaName</b></td>");
+
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                b.Append("<tr>");
+                b.Append("<td>" + dt.Rows[i]["SchemaName"].ToString() + "</td>");
+                b.Append("</tr>");
+            }
+
+
+            b.Append("</table>");
+
+            return b.ToString();
+        }
+        else
+        {
+            b.Append("<table style='background-color:#f3f3f3; border: #336699 3px solid; ");
+            b.Append("width:350px; font-size:10pt; font-family:Verdana;' cellspacing='0' cellpadding='3'>");
+
+            b.Append("<tr><td  style='background-color:#336699; color:white;'>");
+            b.Append("<b>Schema Details</b>"); b.Append("</td></tr>");
+            b.Append("<tr align='center'><td style='width:80px;'><b>No Reocrd Found</b></td>");
+
+
+            b.Append("</table>");
+
+            return b.ToString();
+
+
+        }
+    }
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+        DataTable dt = new DataTable();
+        ImageButton btndetails = sender as ImageButton;
+        objEgUserProfileRptBL.UserId = Convert.ToInt32(Session["userid"].ToString());
+        GridViewRow gvrow = (GridViewRow)btndetails.NamingContainer;
+        objEgUserProfileRptBL.UserPro = Convert.ToInt32(grdprofile.DataKeys[gvrow.RowIndex].Value.ToString());
+
+        dt= objEgUserProfileRptBL.GetTransactionList();
+        if (dt.Rows.Count > 0)
+        {
+            grdtransaction.DataSource = dt;
+            grdtransaction.DataBind();
+        }
+        ModalPopupExtender1.Show();
+        dt.Dispose();
+    }
+
+
+}

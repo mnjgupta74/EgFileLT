@@ -1,0 +1,194 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/MasterPage5.master" AutoEventWireup="true" CodeFile="EgAddDivisionMaster.aspx.cs" Inherits="WebPages_Admin_EgAddDivisionMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolKit" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <style type="text/css">
+        .ddlchklst {
+            width: 170px;
+            border: solid 1px silver;
+        }
+
+            .ddlchklst ul {
+                margin: 0;
+                padding: 0;
+                border-top: solid 1px silver;
+            }
+
+            .ddlchklst li {
+                list-style: none;
+            }
+    </style>
+    <style type="text/css">
+        .PnlDesign {
+            border: solid 1px #000000;
+            height: 100px;
+            width: 450px;
+            overflow-y: scroll;
+            background-color: aliceblue;
+            font-size: 15px;
+            font-family: Arial;
+        }
+
+        .txtbox {
+            background: url("../../Image/dropdown.png");
+            background-position: right top;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        $('input.chksel').click(function () {
+        //$('#chksel').on('click', function () {
+            
+            if ($(this).is(':checked')) {
+                // handle checkbox check
+                alert($(this).val());
+            } else {
+                // checkbox is unchecked
+                alert('unchecked')
+            }
+        });
+        $('#chkRemove').on('click', function () {
+            if ($(this).is(':checked')) {
+                // handle checkbox check
+                alert($(this).val());
+            } else {
+                // checkbox is unchecked
+                alert('unchecked')
+            }
+        });
+        //$('#txtoffice').click(function () {
+        //    
+        //});
+    </script>
+    <script type="text/javascript">
+       
+    </script>
+
+
+    <div id="divPDDivisionMaster" style="width: 1127px">
+        <fieldset runat="server" id="Division" style="width: 1000px; margin-left: 100px">
+            <span id="spanPD" runat="server"><legend style="color: #336699; font-weight: bold">Add New Division-Master</legend>
+            </span><span id="spanDiv" runat="server"></span>
+            <div style="width: 100%; max-height: 350px; margin-top: 15px" align="center">
+                <table style="width: 995px">
+                    <tr>
+
+                        <td>Treasury:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <asp:DropDownList ID="drpTreasury" runat="server" Width="200px"></asp:DropDownList>
+                        </td>
+                        <td>Department:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <asp:DropDownList ID="drpDepartment" runat="server" Width="322px" OnSelectedIndexChanged="drpDepartment_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Division Code:-&nbsp;
+                            <asp:DropDownList ID="drpdivision" runat="server" Width="200px"></asp:DropDownList>
+                        </td>
+                       <%-- <td>
+                            <asp:CheckBoxList ID="chk" runat="server" Visible="false"></asp:CheckBoxList>
+                                 
+                        </td>--%>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b><asp:label ID="lblofc" runat="server" Visible="false" >Office Items:</asp:label></b>
+                        </td>
+                        <td>
+                            <b><asp:label ID="lbldivis" runat="server" Visible="false">Division Items:</asp:label></b>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td align="left">
+                            
+                            <asp:Panel ID="PanelSelected" runat="server" CssClass="PnlDesign" Visible="false">
+                                <asp:CheckBoxList ID="chksel" runat="server"  Visible="false" AutoPostBack="true" OnSelectedIndexChanged="chksel_SelectedIndexChanged"></asp:CheckBoxList>
+                            </asp:Panel>
+                        </td>
+                        <td colspan="4">
+                            <asp:Panel ID="PanelRemove" runat="server" CssClass="PnlDesign" Visible="false">
+                                <asp:CheckBoxList ID="chkRemove" runat="server" Visible="false" AutoPostBack="true" OnSelectedIndexChanged="chkRemove_SelectedIndexChanged"></asp:CheckBoxList>
+                            </asp:Panel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b><asp:label ID="lblrem" runat="server" Visible="false">Removed Items:</asp:label></b>
+                        </td>
+                        <td>
+                            <b><asp:label ID="lblsel" runat="server" Visible="false">Selected Items:</asp:label></b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                             
+                            <asp:ListBox ID="lstSelected" runat="server" style="width:450px; background-color:antiquewhite" Visible="false"></asp:ListBox>
+                                 
+                        </td>
+                        <td  colspan="4">
+                             
+                             <asp:ListBox ID="lstRemove" runat="server" style="width:450px; background-color:darkseagreen" Visible="false"></asp:ListBox>
+                                 
+                        </td>
+                    </tr>
+                    <tr >
+                        <td align="right" >
+                            <asp:Button ID="btnSubmit" Text="Submit" runat="server" Width="100px" OnClick="btnSubmit_Click" />
+                        </td>
+                    </tr>
+
+                   
+
+                </table>
+                
+               
+            </div>
+            <%--    <div >
+                        <table>
+                         <tr>--%>
+            <%--      <td colspan="2" align="center">
+                        <asp:GridView ID="GrdDivisionMaster" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                            ForeColor="#333333" GridLines="None" Width="220%">
+                            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                            <Columns>
+                                <asp:TemplateField HeaderText="SNo">
+                                    <ItemTemplate>
+                                        <%# ((GridViewRow)Container).RowIndex + 1%>
+                                    </ItemTemplate>
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:TemplateField>
+                                <%-- <asp:BoundField DataField="DeptName" HeaderText="DepartmentName" Visible="false" />--%>
+            <%-- <asp:BoundField DataField="TreasuryCode" HeaderText="TreasuryCode">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="DivisionCode" HeaderText="DivisionCode">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="DivisionName" HeaderText="DivisionName">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                 <asp:BoundField DataField="SubdivisionOfficeCode" HeaderText="OfficeCode" >
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                               
+                            </Columns>
+                            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <EditRowStyle BackColor="#999999" />
+                            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                        </asp:GridView>
+                    </td>
+               </tr></table>
+                    </div>--%>
+        </fieldset>
+    </div>
+
+</asp:Content>

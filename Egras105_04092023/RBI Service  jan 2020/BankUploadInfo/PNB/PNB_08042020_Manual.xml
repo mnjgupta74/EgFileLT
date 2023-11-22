@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<BANK_Reconciliation>
+  <TRAN_Det>
+    <HeadAcc>2235-02-196-21-04</HeadAcc>
+    <GRN>0034364601</GRN>
+    <RemitterName>v sharma </RemitterName>
+    <Amount>120.00</Amount>
+    <Bankcode>0300539</Bankcode>
+    <BankRefNo>13033266</BankRefNo>
+    <CIN>030401700003826112012</CIN>
+    <paiddate>2020/04/08 11:52:33</paiddate>
+    <PaymentType>M</PaymentType>
+    <BranchCode>0300539</BranchCode>
+  </TRAN_Det>
+</BANK_Reconciliation>

@@ -1,0 +1,175 @@
+﻿using System;
+using System.Data;
+using System.Web;
+using System.Web.UI;
+using EgBL;
+using System.IO;
+using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+
+
+public partial class WebPages_Reports_EgManualChallanRpt : System.Web.UI.Page
+{
+    EgManualChallanReport objManualChallan;
+    EgEChallanBL objEChallan;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Request.QueryString["Page"] != null && (Request.QueryString["Page"] == "" || Request.QueryString["Page"] != ""))
+        {
+            GeneralClass.ShowMessageBox("You are not authorized to access the page");
+        }
+
+        if (Session["UserId"] == null || Session["UserId"].ToString() == "")
+        {
+
+            Response.Redirect("~\\logout.aspx");
+        }
+        if (!IsPostBack)
+        {
+            objEChallan = new EgEChallanBL();
+            objEChallan.FillTreasury(ddltreasury);
+        }
+    }
+    protected void btnshow_Click(object sender, EventArgs e)
+    {
+        if (Page.IsValid)
+        {
+            try
+            {
+                loadreport();
+            }
+            catch (Exception ex)
+            {
+                trreport.Visible = false;
+                ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "PopupScript", "alert('" + ex.Message.ToString() + "')", true);
+
+            }
+        }
+    }
+    public void loadreport()
+    {
+        objManualChallan = new EgManualChallanReport();
+        DataTable dt = new DataTable();
+        DateTime Fromdate = Convert.ToDateTime(DateTime.ParseExact(txtFdate.Text, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture));
+        objManualChallan.FromDate = Fromdate;
+
+        DateTime Todate = Convert.ToDateTime(DateTime.ParseExact(txtToDate.Text, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture));
+        objManualChallan.ToDate = Todate;
+        objManualChallan.TreasuryCode = ddltreasury.SelectedValue;
+        objManualChallan.FillManualChallanReport(dt);
+
+        ReportDocument rpt = new ReportDocument();
+        ReportFactory rf = new ReportFactory();
+
+
+        btnPDF.Visible = true;
+        rf.GetReport(rpt.GetType());
+
+
+        if (dt.Rows.Count > 0)
+        {
+            trreport.Visible = true;
+            rf.GetReport(rpt.GetType());
+            ViewState["dt"] = dt;
+            rpt.Load(Server.MapPath("EgManualchallan.rpt"));
+            rpt.SetDataSource(dt);
+            CrystalReportViewer1.ReportSource = rpt;
+            CrystalReportViewer1.DataBind();
+            dt.Dispose();
+        }
+        else
+        {
+            trreport.Visible = false;
+            ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "PopupScript", "alert('No Data Found')", true);
+        }
+
+    }
+
+    protected void btnPDF_Click(object sender, EventArgs e)
+    {
+        if (Page.IsValid)
+        {
+            try
+            {
+                objManualChallan = new EgManualChallanReport();
+                DataTable table = new DataTable();
+                DateTime Fromdate = Convert.ToDateTime(DateTime.ParseExact(txtFdate.Text, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture));
+                objManualChallan.FromDate = Fromdate;
+
+                DateTime Todate = Convert.ToDateTime(DateTime.ParseExact(txtToDate.Text, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture));
+                objManualChallan.ToDate = Todate;
+                objManualChallan.TreasuryCode = ddltreasury.SelectedValue;
+                objManualChallan.FillManualChallanReport(table);
+
+                ReportDocument rpt = new ReportDocument();
+                ReportFactory rf = new ReportFactory();
+
+                if (table.Rows.Count > 0)
+                {
+                    trreport.Visible = true;
+                    rf.GetReport(rpt.GetType());
+                    ViewState["dt"] = table;
+                    rpt.Load(Server.MapPath("EgManualchallan.rpt"));
+                    rpt.SetDataSource(table);
+                    CrystalReportViewer1.ReportSource = rpt;
+                    CrystalReportViewer1.DataBind();
+                    ExportOptions CrExportOptions;
+                    DiskFileDestinationOptions CrDiskFileDestinationOptions = new DiskFileDestinationOptions();
+                    PdfRtfWordFormatOptions CrFormatTypeOptions = new PdfRtfWordFormatOptions();
+                    string cDateTime = DateTime.Now.ToString("ddMMyyyyhhmmssff");
+                    string FileName = Server.MapPath("EgManualchallan" + cDateTime + ".pdf");
+                    CrDiskFileDestinationOptions.DiskFileName = FileName;
+                    CrExportOptions = rpt.ExportOptions;
+                    {
+                        CrExportOptions.ExportDestinationType = ExportDestinationType.DiskFile;
+                        CrExportOptions.ExportFormatType = ExportFormatType.PortableDocFormat;
+                        CrExportOptions.DestinationOptions = CrDiskFileDestinationOptions;
+                        CrExportOptions.FormatOptions = CrFormatTypeOptions;
+                    }
+                    rpt.Export();
+                    FileStream fs = null;
+
+                    fs = File.Open(FileName, System.IO.FileMode.Open);
+                    if (fs.Length > 0)
+                    {
+                        byte[] btFile = new byte[fs.Length];
+                        fs.Read(btFile, 0, Convert.ToInt32(fs.Length));
+                        fs.Flush();
+                        fs.Close();
+                        Response.ClearContent();
+                        Response.ClearHeaders();
+                        Response.AddHeader("cache-control", "max-age=1");
+                        Response.ContentType = "application/pdf";
+                        Response.AddHeader("Content-disposition", "attachment; filename=" + ("EgManualchallan" + cDateTime + ".pdf"));
+                        Response.AppendHeader("Accept-Ranges", "none");
+
+                        if (btFile.Length > 0)
+                        {
+                            Response.BinaryWrite(btFile);
+                            Response.Flush();
+                            HttpContext.Current.ApplicationInstance.CompleteRequest();
+
+                            fs.Dispose();
+                            fs = null;
+
+                            File.Delete(FileName);  // delete file which has created
+                            GC.Collect();
+                            GC.WaitForPendingFinalizers();
+                            Response.End();
+                            Response.Clear();
+                        }
+                    }
+                }
+                else
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "Message", "alert('Record not found.');", true);
+                }
+            }
+            catch (Exception ex)
+            {
+                trreport.Visible = false;
+                ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "PopupScript", "alert('" + ex.Message.ToString() + "')", true);
+            }
+        }
+    }
+}

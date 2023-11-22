@@ -1,0 +1,197 @@
+﻿nte<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EgIntegrationBankResponse.aspx.cs"
+    Inherits="WebPages_EgIntegrationBankResponse" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolKit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="../CSS/testegras.css" rel="Stylesheet" type="text/css" />
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <style type="text/css">
+        .style1
+        {
+            height: 19px;
+        }
+        .style3
+        {
+            height: 117px;
+        }
+        </style>
+
+    <script type="text/javascript">
+        var i = 0;
+        
+        function ShowCurrentTime() {
+            var dt = new Date();
+            document.getElementById("lblTime").innerHTML = 60 - i + " Seconds";
+            i++;
+
+            window.setTimeout("ShowCurrentTime()", 1000); // Here 1000(milliseconds) means 1 sec
+
+        }
+    </script>
+
+</head>
+<body onload="ShowCurrentTime()">
+    <form id="form1" runat="server">
+    <div>
+        <ajaxToolKit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </ajaxToolKit:ToolkitScriptManager>
+        <table align="center" width="70%" style="height: 358px">
+            <tbody>
+                <tr valign="middle">
+                    <td colspan="2">
+                        <img name="Grass" src="../App_Themes/images/HeaderNewColor.gif" alt="Grass" align="left"
+                            width="1024px" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td valign="top">
+                        <asp:Label ID="lblWelcome" runat="server" Text="Welcome :" CssClass="HmenuText" Font-Size="Small"
+                            ForeColor="Black" />
+                        <asp:Label ID="lblUser" runat="server" CssClass="HmenuText" Font-Size="Small" ForeColor="Black" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="lblDate1" runat="server" Text="Date :" CssClass="HmenuText" Font-Bold="true"
+                            Font-Size="Small" ForeColor="Black" />
+                        <asp:Label ID="lblDate" runat="server" CssClass="HmenuText" Font-Bold="true" Font-Size="Small"
+                            ForeColor="Black" />
+                    </td>
+                    <td valign="top" style="margin-right: 50px;">
+                        <asp:LinkButton ID="lnkLogout" runat="server" Text="Logout" OnClick="lnkLogout_Click"
+                            BackColor="white" ForeColor="Black" Font-Bold="true"></asp:LinkButton>
+                    </td>
+                </tr>
+                <tr style="height: 50px">
+                    <td colspan="2" valign="top">
+                        <div id="main_menu" style="border-top: #cb3e00 2px solid;
+                            padding-left: 10px; width: 1013px;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="style3">
+                        <table runat="server" id="TABLE1" cellpadding="0" border="1" cellspacing="0" align="center"
+                            width="100%">
+                            <tr align="center">
+                                <td colspan="2" style="height: 16px; background-color: #B2D1F0" valign="top">
+                                    <div style="width: 100%; margin-left: 0px">
+                                        <asp:Label ID="lblheading" runat="server" Text="Challan Status" Font-Bold="True"
+                                            ForeColor="#009900"></asp:Label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="right">
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;&nbsp;GRN
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;<asp:Label ID="grnlbl" runat="server" Text="" Font-Bold="true" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Calibri; font-size: 16px; color: #008000">
+                                    &nbsp;&nbsp;Amount
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;
+                                    <asp:Label ID="netamountlbl" runat="server" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Calibri; font-size: 16px; color: #008000">
+                                    &nbsp;&nbsp;Bank Reference
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;
+                                    <asp:Label ID="lblbankref" runat="server" Text="" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Calibri; font-size: 16px; color: #008000">
+                                    &nbsp;&nbsp;CIN
+                                </td>
+                                <td >
+                                    &nbsp;&nbsp;
+                                    <asp:Label ID="lblcin" runat="server" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td style="font-family: Calibri; font-size: 16px; color: #008000">
+                                    &nbsp;&nbsp;Bank
+                                </td>
+                               <td >
+                                    &nbsp;&nbsp;
+                                    <asp:Label ID="lblbankcode" runat="server" Text="" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label> </td> 
+                            </tr>
+                            <tr>
+                               <td style="font-family: Calibri; font-size: 16px; color: #008000">
+                                    &nbsp;&nbsp;Payment Date
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp; 
+                                    <asp:Label ID="lblBankdate" runat="server" Text="" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td style="font-family: Calibri; font-size: 16px; color: #008000">
+                                    &nbsp;&nbsp;Status
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;
+                                    <asp:Label ID="lblstatus" runat="server" Text="Label" Font-Bold="True" Font-Names="Calibri" 
+                                        Font-Size="16pt"></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table runat="server" id="TABLE2" class="table1" cellpadding="0" cellspacing="0"
+                            align="center" width="100%">
+                            <tr>
+                                <td class="style1" colspan="2" style="text-align: Left; margin-left: 50px;">
+                                    <div>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                        <span style="color: Blue; font-family: Arial; font-size: 10pt">You willl redirect
+                                            back in:</span>&nbsp;
+                                        <label id="lblTime" style="font-weight: bold; font-size: x-large">
+                                        </label>
+                                        &nbsp;
+                                       
+                                        <asp:Timer ID="AjaxTimerControl" runat="server" Interval="60000" OnTick="AjaxTimerControl_Tick">
+                                        </asp:Timer>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                             <asp:LinkButton ID="LinkIntegration" runat="server" Text="Back to Department web site"
+                                            OnClick="LinkIntegration_Click" Font-Names="Calibri" Font-Size="10pt"></asp:LinkButton>
+                                            </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

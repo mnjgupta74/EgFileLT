@@ -1,0 +1,156 @@
+﻿
+.boxshadow
+{
+	-webkit-box-shadow: #666 0px 2px 8px;
+	-moz-box-shadow: #666 0px 2px 8px;
+	box-shadow: #666 0px 2px 8px;
+	width: 80%;
+	margin-left: 100px;
+	behavior: url(../PIE.htc);
+	border-collapse: separate;
+}
+
+#divshadow
+{
+	-webkit-box-shadow: #666 0px 2px 8px;
+	-moz-box-shadow: #666 0px 2px 8px;
+	box-shadow: #666 0px 2px 8px;
+	margin-left: 16px;
+	behavior: url(../PIE.htc);
+	border-collapse: separate;
+	width: 97%;
+}
+
+.tablestyle
+{
+	text-align: left;
+	background-color: White;
+}
+
+.ui-datepicker
+{
+	background: #1C92D3;
+	border: 1px solid #555;
+	color: #EEE;
+}
+.borderRadius
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.style1
+{
+	height: 28px;
+	width: auto;
+}
+.style2
+{
+	height: 470px;
+}
+.style3
+{
+	width: 100px;
+}
+.style4
+{
+	height: 28px;
+	width: 146px;
+}
+.tdstyleDeduct
+{
+	text-align: right;
+}
+.style5
+{
+	height: 128px;
+}
+.style6
+{
+	text-align: right;
+	height: 28px;
+}
+.style7
+{
+	height: 35px;
+}
+.style8
+{
+	height: 35px;
+	width: 146px;
+}
+.style9
+{
+	text-align: right;
+	height: 35px;
+}
+.grid
+{
+	height: 448px;
+}
+.style10
+{
+	width: 146px;
+	height: 34px;
+}
+.style11
+{
+	height: 34px;
+	width: auto;
+}
+
+#progressBackgroundFilter
+{
+	display: none;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: Black;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index: 1000;
+}
+.gradientBlue
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(endColorstr='#406b9f', startColorstr='#6ba9f2', gradientType='0'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#6ba9f2', endColorstr='#406b9f')"; /* IE8 */
+	background: -moz-linear-gradient(top,  #6ba9f2,  #406b9f); /* for mozila*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#6ba9f2), to(#406b9f)); ;/* for webkit*/}
+.borderRadius
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.divInsert
+{
+	display: none;
+	position: fixed;
+	top: 20%;
+	left: 30%;
+	padding: 0px;
+	background-repeat: repeat-x;
+	z-index: 1001;
+	width: 700px;
+}
+.progressBackgroundFilter
+{
+	display: none;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: Black;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index: 1000;
+}

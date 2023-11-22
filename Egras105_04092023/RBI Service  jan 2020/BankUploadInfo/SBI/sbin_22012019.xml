@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Root>
+<Detail><HeadAcc>0040-00-102-01-00</HeadAcc><GRN>0007139844</GRN><RemitterName>NEO PETCON INDIA PVT. LTD.</RemitterName><Amount>111.00</Amount><Bankcode>0006326</Bankcode><BankRefNo>Rk123456789</BankRefNo><CIN>213654789612365478951</CIN><paiddate>2019-01-23 15:34:34.480</paiddate><Head>1</Head></Detail><Detail><HeadAcc>0040-00-102-01-00</HeadAcc><GRN>0000453457</GRN><RemitterName>NEO PETCON INDIA PVT.LTD.</RemitterName><Amount>800.00</Amount><Bankcode>0006326</Bankcode><BankRefNo>Rk123456789</BankRefNo><CIN>213654789612365478951</CIN><paiddate>2019-01-10 15:34:34.480</paiddate><Head>1</Head></Detail>
+
+</Root>

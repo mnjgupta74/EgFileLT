@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+<Detail>
+<Bankcode>6390013</Bankcode>
+<Amount>147</Amount>
+<paiddate>20220430</paiddate>
+</Detail>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UYef43Z68pEXEf+0BNhQDU+9Zr0=</DigestValue></Reference></SignedInfo><SignatureValue>1Qat9yJRMr+Hkd3JfAsVAiFwZ5Ko/z+1WA9k5L+MtsrQX3qDHTDbPTxppTd0CFwbiC8F4WSK0ngxpg19BKmdV2m9GG5tG/KXmtXVOr5/CjFgfloFdT/bcDgfMNRfKCfjLg3Gpla4EDEPUPjHr4mXZ24z/THyjwiCRVHOb76WaoIwQ2AGnVAZniuqKjTfAb3zpp9ZsyG8eO5WvIkdeOowsyKVY+QtJmXZ+/PIq9wbWBj3SX6vzZ2sisjBMFfB8P58OenH8Ec4XoqirnAOWOg6fGqgM0bQM1M4Y/Gqyhz5Rjj+BLOPxsTcU14gxIyEiOujWcHaIPt5/MdomPIO7T/rnA==</SignatureValue></Signature></Root>

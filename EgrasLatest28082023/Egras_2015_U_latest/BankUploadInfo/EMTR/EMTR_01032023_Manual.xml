@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+	<Detail>
+		<HeadAcc>0215-01-102-02-17</HeadAcc>
+		<GRN>72661070</GRN>
+		<RemitterName>parag kachahwa</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533131792</BankRefNo>
+		<CIN>EMTR7266107001032023</CIN>
+		<paiddate>2023/03/01 14:50:13</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0029-00-800-12-00</HeadAcc>
+		<GRN>72680106</GRN>
+		<RemitterName>VINOD</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533225922</BankRefNo>
+		<CIN>EMTR7268010601032023</CIN>
+		<paiddate>2023/03/01 20:57:47</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0215-01-102-02-17</HeadAcc>
+		<GRN>72668681</GRN>
+		<RemitterName>parag kachahwa</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533153628</BankRefNo>
+		<CIN>EMTR7266868101032023</CIN>
+		<paiddate>2023/03/01 16:15:09</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0039-00-101-02-00</HeadAcc>
+		<GRN>72680440</GRN>
+		<RemitterName>SURENDRA KUMAR MAURYA</RemitterName>
+		<Amount>18750</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533228167</BankRefNo>
+		<CIN>EMTR7268044001032023</CIN>
+		<paiddate>2023/03/01 21:19:19</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0039-00-101-02-00</HeadAcc>
+		<GRN>72675929</GRN>
+		<RemitterName>UDAY SINGH  (BHAINSAWAT KHURD)</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533190561</BankRefNo>
+		<CIN>EMTR7267592901032023</CIN>
+		<paiddate>2023/03/01 18:11:25</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-104-01-00</HeadAcc>
+		<GRN>72678094</GRN>
+		<RemitterName>SHYAM SINGH S/o GYAN SINGH</RemitterName>
+		<Amount>500</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533221241</BankRefNo>
+		<CIN>EMTR7267809401032023</CIN>
+		<paiddate>2023/03/01 20:11:38</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-800-01-00</HeadAcc>
+		<GRN>72678085</GRN>
+		<RemitterName>PURANMAL S/O CHATRARAM CAST KUMAWAT</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533208750</BankRefNo>
+		<CIN>EMTR7267808501032023</CIN>
+		<paiddate>2023/03/01 19:11:52</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0070-01-102-02-00</HeadAcc>
+		<GRN>72680343</GRN>
+		<RemitterName>Luckyyyy</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533227577</BankRefNo>
+		<CIN>EMTR7268034301032023</CIN>
+		<paiddate>2023/03/01 21:13:32</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0029-00-800-12-00</HeadAcc>
+		<GRN>72674101</GRN>
+		<RemitterName>tdr revenue sbnr</RemitterName>
+		<Amount>1080</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533178951</BankRefNo>
+		<CIN>EMTR7267410101032023</CIN>
+		<paiddate>2023/03/01 17:34:59</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0029-00-800-12-00</HeadAcc>
+		<GRN>72680618</GRN>
+		<RemitterName>PANKAJ MAIDA</RemitterName>
+		<Amount>2850</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533229297</BankRefNo>
+		<CIN>EMTR7268061801032023</CIN>
+		<paiddate>2023/03/01 21:33:29</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0215-01-102-02-17</HeadAcc>
+		<GRN>72645351</GRN>
+		<RemitterName>parag kachahwa</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533099446</BankRefNo>
+		<CIN>EMTR7264535101032023</CIN>
+		<paiddate>2023/03/01 13:17:46</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0215-01-102-02-17</HeadAcc>
+		<GRN>72665893</GRN>
+		<RemitterName>parag kachahwa</RemitterName>
+		<Amount>5</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533144569</BankRefNo>
+		<CIN>EMTR7266589301032023</CIN>
+		<paiddate>2023/03/01 15:40:35</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-800-01-00</HeadAcc>
+		<GRN>72679234</GRN>
+		<RemitterName>KAMLESH SHARMA</RemitterName>
+		<Amount>100</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533219138</BankRefNo>
+		<CIN>EMTR7267923401032023</CIN>
+		<paiddate>2023/03/01 19:59:40</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-02-800-01-00</HeadAcc>
+		<GRN>72678196</GRN>
+		<RemitterName>REVA W/O PURAKHA RAM</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533208976</BankRefNo>
+		<CIN>EMTR7267819601032023</CIN>
+		<paiddate>2023/03/01 19:12:52</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-800-01-00</HeadAcc>
+		<GRN>72677829</GRN>
+		<RemitterName>Nandkishore Sharma Advocate</RemitterName>
+		<Amount>650</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533209804</BankRefNo>
+		<CIN>EMTR7267782901032023</CIN>
+		<paiddate>2023/03/01 19:16:22</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-800-01-00</HeadAcc>
+		<GRN>72677563</GRN>
+		<RemitterName>CHAMPA LAL S/O RUPA RAM CASTE BAWARI</RemitterName>
+		<Amount>5</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533203483</BankRefNo>
+		<CIN>EMTR7267756301032023</CIN>
+		<paiddate>2023/03/01 18:52:39</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-800-01-00</HeadAcc>
+		<GRN>72675468</GRN>
+		<RemitterName>MOHAN LAL GUPTA</RemitterName>
+		<Amount>200</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533186290</BankRefNo>
+		<CIN>EMTR7267546801032023</CIN>
+		<paiddate>2023/03/01 17:58:27</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0039-00-101-02-00</HeadAcc>
+		<GRN>72680711</GRN>
+		<RemitterName>DHARMENDRA CHOUDHARY TULSI RAM-DEVLA ROAD BHARKUND</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533230029</BankRefNo>
+		<CIN>EMTR7268071101032023</CIN>
+		<paiddate>2023/03/01 21:42:49</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-02-800-01-00</HeadAcc>
+		<GRN>72658028</GRN>
+		<RemitterName>S R DHARIYAWAD NITESH KUMAR</RemitterName>
+		<Amount>300</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533162105</BankRefNo>
+		<CIN>EMTR7265802801032023</CIN>
+		<paiddate>2023/03/01 16:41:18</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-02-103-01-00</HeadAcc>
+		<GRN>72677290</GRN>
+		<RemitterName>PAWAN KUMAR SHARMA AND DEEPAK KUMAR SHARMA</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533220299</BankRefNo>
+		<CIN>EMTR7267729001032023</CIN>
+		<paiddate>2023/03/01 20:05:54</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0049-04-801-01-07</HeadAcc>
+		<GRN>72676660</GRN>
+		<RemitterName>AKASH AGARWAL</RemitterName>
+		<Amount>10</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533195872</BankRefNo>
+		<CIN>EMTR7267666001032023</CIN>
+		<paiddate>2023/03/01 18:28:26</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-104-01-00</HeadAcc>
+		<GRN>72673278</GRN>
+		<RemitterName>f</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533175380</BankRefNo>
+		<CIN>EMTR7267327801032023</CIN>
+		<paiddate>2023/03/01 17:23:17</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0030-03-800-01-00</HeadAcc>
+		<GRN>72673343</GRN>
+		<RemitterName>MAHENDRA KABRA ADVOCATE</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533174448</BankRefNo>
+		<CIN>EMTR7267334301032023</CIN>
+		<paiddate>2023/03/01 17:20:14</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0041-00-102-11-02</HeadAcc>
+		<GRN>72678146</GRN>
+		<RemitterName>RAJENDRA PRASAD</RemitterName>
+		<Amount>1000</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533208578</BankRefNo>
+		<CIN>EMTR7267814601032023</CIN>
+		<paiddate>2023/03/01 19:11:17</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+	<Detail>
+		<HeadAcc>0041-00-102-11-02</HeadAcc>
+		<GRN>72670706</GRN>
+		<RemitterName>AJAY</RemitterName>
+		<Amount>1</Amount>
+		<Bankcode>9970001</Bankcode>
+		<BankRefNo>230533163105</BankRefNo>
+		<CIN>EMTR7267070601032023</CIN>
+		<paiddate>2023/03/01 16:44:30</paiddate>
+		<PaymentType>M</PaymentType>
+		<BranchCode>0006326</BranchCode>
+	</Detail>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3NEIEI5i1r/6H6SapMvxetU5RFA=</DigestValue></Reference></SignedInfo><SignatureValue>q05IyQUQRghal0SJpYVE0Xh+0gYBxyz+47f5lA3MkkCMHfk3bfKPuG28SGwobE6WNYQYLQbdB9qrZIxtvlH18o1AC+c5nAZnnQ+BFHIasZXDjiIWlivT1aip1NeXLlEKxdX+gOfQT+y68sCNxepLbjwT3IQPPO64gne87gZRSdkKGP/SBaWtnm5dIHMZa6O0J17iMw2I7fhs3JRd+mz+0j5SgO5nHZjoqq1g6utk3QS8m+AS+nvXoN7XUV1B0uU7xKKUFp25ZETpuuwYseD6KV9THFqR+ZNWVC+jOPp9lv8GVTC38Xl0ugNM5o70RZCwDL8jUjr6MZZPyuH0nK1bHg==</SignatureValue></Signature></Root>

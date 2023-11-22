@@ -1,0 +1,23 @@
+﻿using System.Web;
+
+/// <summary>
+/// Summary description for Browserinfo
+/// </summary>
+public class Browserinfo
+{
+    public string  Browserinformaion()
+    {
+        System.Web.HttpBrowserCapabilities browser = HttpContext.Current.Request.Browser;
+        string s = "Browser Capabilities\n"
+            + "Type = " + browser.Type + "\n"
+            + "Name = " + browser.Browser + "\n"
+            + "Version = " + browser.Version + "\n"
+            + "Major Version = " + browser.MajorVersion + "\n"
+            + "Minor Version = " + browser.MinorVersion + "\n"
+            + "Platform = " + browser.Platform + "\n"
+            + "Supports Cookies = " + browser.Cookies + "\n"
+            + "Supports JavaScript = " +
+                browser.EcmaScriptVersion.ToString() + "\n";
+        return s;
+    }
+}

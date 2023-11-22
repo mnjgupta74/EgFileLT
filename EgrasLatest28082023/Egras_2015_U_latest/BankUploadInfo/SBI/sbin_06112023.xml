@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Root>
+<Detail>
+	<HeadAcc>0030-02-800-02-00</HeadAcc>
+	<GRN>34837537</GRN>
+	<RemitterName>egras TestUser1</RemitterName>
+	<Amount>7.00</Amount>
+	<Bankcode>0006326</Bankcode>
+	<BankRefNo>Ea457348</BankRefNo>
+	<CIN>036005714654654000785</CIN>
+	<paiddate>2023-11-06 10:31:50.860</paiddate>
+</Detail>
+</Root>

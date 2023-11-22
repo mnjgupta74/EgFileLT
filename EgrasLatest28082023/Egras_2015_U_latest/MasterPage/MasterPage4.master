@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage4.master.cs"
+    Inherits="masterpage_MasterPage4" %>
+
+<%@ Register Assembly="WebControlCaptcha" Namespace="WebControlCaptcha" TagPrefix="cc1" %>
+<%@ Register Src= "~/UserControls/CustomTextBox.ascx" TagName="CustomTextBox" TagPrefix="ucl" %>
+<%@ Register Src="~/UserControls/HorizontalMenu.ascx" TagName="HMenu" TagPrefix="ucl" %>
+<%--<%@ Register Src="~/UserControls/VerticalMenu.ascx" TagName="VMenu" TagPrefix="ucl" %>--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="../App_Themes/Theme1/ifms.css" rel="stylesheet" type="text/css" />
+    <link href="../App_Themes/Theme1/ControlsUI.css" rel="stylesheet" type="text/css" />
+<%--   
+    <script language="javascript" type="text/javascript" src="../../../../webpages/treasury/OldAgePension/resources/tab/tabber.js"> 
+    </script>--%>
+
+    <%--<script type="text/javascript" src="../demo.js">
+   </script>--%>
+
+   
+    <script type="text/javascript" language="javascript">
+        javascript: window.history.forward(1); //for disable back button
+    </script>
+
+   <%-- <script type="text/javascript" language="javascript">
+        function checkKeyCode(evt)// for F5 disable
+        {
+
+            var evt = (evt) ? evt : ((event) ? event : null);
+            var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+            if (event.keyCode == 116)//disable F5
+            {
+                evt.keyCode = 0;
+                return false
+            }
+            if (event.keyCode == 123) {
+                evt.keyCode = 0;
+                return false
+            }
+            if (event.keyCode == 93) {
+                evt.keyCode = 0;
+                return false
+            }
+            if (event.altKey == true && event.keyCode == 115) //disable alt-F4
+            {
+                evt.keyCode = 0;
+                return false
+            }
+
+
+
+            //alert(event.keyCode);
+        }
+
+        document.onkeydown = checkKeyCode;
+
+    </script>
+--%>
+    <script type="text/javascript" language="javascript">
+        function rightClickCheck(keyp) {
+            var message = "Function Disable";
+            if (navigator.appName == "Netscape" && keyp.which == 3) {
+                alert(message); return false;
+            }
+            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+
+        document.onmousedown = rightClickCheck;
+    </script>
+
+ 
+
+   
+
+    <%-- <script type="text/javascript" language="javascript">
+        this.onunload = function() {
+            OnCloseWindows(this);
+            return 0;
+        };
+
+        function OnCloseWindows(win) {
+            //alert("hw r u");
+            //window.location = "http://www.google.com";
+            //window.location = "Logout.aspx";
+        }
+    </script>--%>
+    <title>Egras.Rajasthan.gov.in</title>
+</head>
+<body id="body" runat="server" style="margin: 0px; font-size: 9pt; font-family: Verdana;
+    background-color: #C9C9C9; margin-top: 0px;">
+    <form id="form1" runat="server" novalidate>
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </ajaxToolkit:ToolkitScriptManager>
+    <div>
+        <table align="center" id="MasterTable" cellspacing="0" cellpadding="0" width="1024">
+            <tr>
+                <td align="right" valign="top">
+                    <ucl:HMenu ID="hmenu1" runat="server" />
+                </td>
+            </tr>
+        </table>
+        <table align="center" cellspacing="0" cellpadding="0" width="1024" height="650px" style="vertical-align: top; background-color:White;">
+            <tr width="1024">
+                <td valign="TOP">
+                    <asp:Table ID="Table2" runat="server" CellPadding="0" CellSpacing="0" Style="width: 100%;"
+                        Height="100%">
+                        <asp:TableRow ID="TableRow1" runat="server">
+                            <asp:TableCell ID="TableCell1" VerticalAlign="Top" runat="server">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Root>
+ <Detail>
+    <HeadAcc>0049-04-190-26-00</HeadAcc>
+    <GRN>34374626</GRN>
+    <RemitterName>DEO Udaipur DEO Udaipur </RemitterName>
+    <Amount>10.00</Amount>
+    <Bankcode>0304017</Bankcode>
+    <BankRefNo>5005022914                    </BankRefNo>
+    <CIN>030401700047615032017</CIN>
+    <paiddate>2018-06-02 00:00:00.000</paiddate>
+ <PaymentType>M</PaymentType>
+    <BranchCode>0300539</BranchCode>
+  </Detail>
+</Root>

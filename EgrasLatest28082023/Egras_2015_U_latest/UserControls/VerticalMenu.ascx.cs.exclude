@@ -1,0 +1,103 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Data.SqlClient;
+using System.Xml;
+using IfmsBL;
+using NIC.Utilities;
+
+
+public partial class UserControls_VerticalMenu : System.Web.UI.UserControl
+{
+
+    MstMenuBL objMstMenuBL = new MstMenuBL();
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["UserId"]== null)
+        {
+            Server.Transfer("~/Default.aspx");
+        }
+        if (!IsPostBack)
+        {
+            popMenu();
+        }
+
+    }
+    private void popMenu()
+    {
+        DataSet ds1 = new DataSet();
+        //SqlDataAdapter da = new SqlDataAdapter();
+       // SqlCommand cmd = new SqlCommand();       
+        //Get Menu List
+        objMstMenuBL.UserId = 1;
+        ds1 = objMstMenuBL.GetMenuByUserId();
+        //code for the user which does not have permission on that page
+        string url = HttpContext.Current.Request.Url.ToString().ToUpper();
+        int indLast = url.LastIndexOf(".ASPX");
+        int ind = url.LastIndexOf("WEBPAGES");
+        int lenght = indLast - ind;
+        string pg = url.Substring(ind,lenght).ToString();
+        if (ds1.Tables.Count > 0)
+        {
+            if (ds1.Tables[0].Rows.Count > 0)
+            {
+                DataRow[] filteredRows = ds1.Tables[0].Select("Navigateurl like '%" + pg + "%'");
+                if (filteredRows.Length == 0)
+                {
+                    //GeneralClass.ShowMessageBox("Access Denied");
+                    //Response.Redirect("~/Default.aspx");
+                }
+            }
+        }
+        //Menu Print according to user 
+        ds1 = MenuVisible(ds1);
+        if (ds1.Tables.Count > 0)
+        {
+            if (ds1.Tables[0].Rows.Count > 0)
+            {
+                
+                ds1.DataSetName = "Menus";
+                ds1.Tables[0].TableName = "Menu";
+                DataRelation relation = new DataRelation("ParentChild",
+                ds1.Tables["Menu"].Columns["MenuId"],
+                ds1.Tables["Menu"].Columns["MenuParentId"], false);
+                relation.Nested = true;
+                ds1.Relations.Add(relation);
+                xmlDataSource.Data = ds1.GetXml();
+            }
+        }
+       
+
+        ds1.Dispose();
+        //da.Dispose();
+        //cmd.Dispose();
+    }
+    private DataSet MenuVisible(DataSet ds)
+    {
+        
+        if (ds.Tables.Count > 0)
+        {
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                for (int i = 0; i < ds.Tables[0].Rows.Count; ++i)
+                {
+                    if (ds.Tables[0].Rows[i]["MenuVisible"].ToString () == "N")
+                    {
+                        ds.Tables[0].Rows[i].Delete();
+                    }
+                }
+            }
+        }
+        return ds;
+    }
+   
+
+}

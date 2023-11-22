@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?><Root>
+<Detail>
+ 
+    <HeadAcc>2235-02-196-21-04</HeadAcc>
+    <GRN>3583</GRN>
+    <RemitterName>v sharma </RemitterName>
+    <Amount>30291.00</Amount>
+    <Bankcode>0006326</Bankcode>
+    <BankRefNo>13033266</BankRefNo>
+    <CIN>030401700003826112012</CIN>
+    <paiddate>2020/04/08 11:52:33</paiddate>
+    <PaymentType>M</PaymentType>
+    <BranchCode>0006326</BranchCode>
+  </Detail>
+
+</Root>

@@ -1,0 +1,357 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage5.master.cs"
+    Inherits="masterpage_MasterPage5" %>
+
+<%@ Register Src="~/UserControls/HorizontalMenu.ascx" TagName="HMenu" TagPrefix="ucl" %>
+<%@ Register Src="~/UserControls/VerticalMenu.ascx" TagName="VMenu" TagPrefix="ucl" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+      <link rel="icon" href="data:;base64,=">
+    <%--<script type="text/javascript" src="https://egras.rajasthan.gov.in/js/jquery-3.6.0.min.js"></script>--%>
+    <script type="text/javascript" src="https://egras.rajasthan.gov.in/js/jquery-3.6.0.min.js"></script>
+    <%--<script type="text/javascript" src=" http://localhost:56933/js/jquery-3.6.0.min.js"></script>--%>
+    <script type="text/javascript" src="https://egras.rajasthan.gov.in/js/chosen.jquery.min.js"></script>
+   
+    <link href="../App_Themes/Theme1/progress.css" rel="Stylesheet" />
+    <link href="../App_Themes/Theme1/ifms.css" rel="stylesheet" type="text/css" />
+    <link href="../App_Themes/Theme1/ControlsUI.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/CssEgras.css" rel="Stylesheet" type="text/css" />
+    <link href="https://egras.rajasthan.gov.in/CSS/chosen.min.css" rel="stylesheet" />
+      <script type="text/javascript">
+     window.history.pushState(null, null, window.location.href);
+     window.onpopstate = function () {
+         window.history.go(1);
+     };
+
+</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".chzn-select").chosen();
+            $(".chzn-select-deselect").chosen({ allow_single_deselect: true });
+        });
+    </script>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            try {
+                $("input[type='text']").each(function () {
+                    $(this).attr("autocomplete", "NoAutocomplete");
+                    $(this).attr("autocomplete", "off");
+                });
+                $("input[type='number']").each(function () {
+                    $(this).attr("autocomplete", "NoAutocomplete");
+                    $(this).attr("autocomplete", "off");
+                });
+            }
+            catch (e)
+            { }
+        });
+
+    </script>
+    <style type="text/css">
+        select {
+            height: 25px;
+        }
+
+        .chzn-container {
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .chzn-container-single .chzn-single {
+            border-radius: 0px;
+            -webkit-border-radius: 0px;
+            background-image: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+
+    <script type="text/javascript" language="javascript">
+
+
+        function checkKeyCode(evt)// for F5 disable
+        {
+
+            var evt = (evt) ? evt : ((event) ? event : null);
+            var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+            if (event.keyCode == 116)//disable F5
+            {
+                evt.keyCode = 0;
+                return false
+            }
+            if (event.keyCode == 123) {
+                evt.keyCode = 0;
+                return false
+            }
+            if (event.keyCode == 93) {
+                evt.keyCode = 0;
+                return false
+            }
+            if (event.altKey == true && event.keyCode == 115) //disable alt-F4
+            {
+                evt.keyCode = 0;
+                return false
+            }
+
+
+
+            //alert(event.keyCode);
+        }
+
+        document.onkeydown = checkKeyCode;
+
+    </script>
+
+    <script type="text/javascript" language="javascript">
+        function rightClickCheck(keyp) {
+            var message = "Function Disable";
+            if (navigator.appName == "Netscape" && keyp.which == 3) {
+                alert(message); return false;
+            }
+            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+
+        document.onmousedown = rightClickCheck;
+        function setFrame() {
+            contentFrame.location.href = "http://www.microsoft.com/downloads/en/details.aspx?familyid=9AE91EBE-3385-447C-8A30-081805B2F90B&amp;displaylang=en";
+        }
+
+    </script>
+
+
+
+
+
+    <title>Egras.Rajasthan.gov.in</title>
+</head>
+<body id="body" runat="server" style="font-size: 9pt; font-family: Verdana; background-color: #ffffff; margin-top: 0px;">
+    <form id="form1" runat="server">
+        <%--  50B9CC--75956A--71BCCA--7BC1BF--%>
+        <%-- <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>--%>
+        <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnablePageMethods="true">
+        </ajaxToolkit:ToolkitScriptManager>
+        <div>
+            <table align="center" id="MasterTable" cellspacing="0" cellpadding="0" width="1024px">
+                <tr>
+                    <td align="right" valign="top" colspan="2">
+                        <ucl:HMenu ID="hmenu1" runat="server" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td valign="top" style="padding-top: 5px; margin-left: 40px; background-color: white;" align="left">
+                        <asp:Label ID="lblWelcome" runat="server" Text="Welcome :" CssClass="HmenuText" Font-Size="Small"
+                            ForeColor="Black" />
+                        <asp:Label ID="lblUser" runat="server" CssClass="HmenuText" Font-Size="Small" ForeColor="Black" />
+                        <asp:Label ID="lblDeptOrOfficeName" runat="server" CssClass="HmenuText" Font-Size="Small"
+                            ForeColor="Black" Visible="false" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="lblDate1" runat="server" Text="Date :" CssClass="HmenuText" Font-Bold="true"
+                        Font-Size="Small" ForeColor="Black" />
+                        <asp:Label ID="lblDate" runat="server" CssClass="HmenuText" Font-Bold="true" Font-Size="Small"
+                            ForeColor="Black" />
+
+                    </td>
+                    <td valign="top" style="padding-top: 5px; margin-right: 40px; background-color: white;" align="right">
+                        <asp:LinkButton ID="lnkLogout" runat="server" Text="Logout" OnClick="lnkLogout_Click"
+                            BackColor="white" ForeColor="Black" Font-Bold="true"></asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top" style="margin-left: 40px; padding-top: 5px;">
+                        <div id="main_menu" style="border-top: #cb3e00 2px solid; padding-left: 10px;">
+                        </div>
+                        <ucl:VMenu ID="vmenu1" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <%-- <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div id="main_menu" style="border-top: #cb3e00 2px solid; background-image: url(/Images/menu_bg1.gif);
+                                        padding-left: 10px;">
+                                        <ul id="menu" class="menu">
+                                            <li><a title="Home" href="../WebPages/EgHome.aspx">Home</a></li>
+                                            <li>
+                                                <div class="sp">
+                                                </div>
+                                            </li>
+                                            <li><a title="Profile" href="../WebPages/EgHome.aspx">Profile</a>
+                                                <ul style="position: absolute; display: block; left: 248px; top: 92px; visibility: hidden;"
+                                                    class="sub_menu">
+                                                    <li><a class="top_item has_sub_menu" title="Live Demos for EO.Web" href="../WebPages/EgUserProfile.aspx">
+                                                        Create Profile</a>
+                                                        <%-- <div class="sub_menu" style="visibility: hidden; position: absolute; display: block;">
+                                                        <table border="0" cellpadding="0" cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="border-right: #e0e0e0 1px solid;" valign="top">
+                                                                        <ul style="margin: 0px; padding: 0px;">
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/ListBox/Demo.aspx">ListBox</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/ComboBox/Demo.aspx">ComboBox</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Captcha/Demo.aspx">Captcha</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/ASPX To PDF/Demo.aspx">ASPX To PDF</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Slide/Demo.aspx">Slide</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Flyout/Demo.aspx">Flyout</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Editable Label/Demo.aspx">Editable
+                                                                                Label</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Grid/Demo.aspx">Grid</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/MaskedEdit/Demo.aspx">MaskedEdit</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Splitter/Demo.aspx">Splitter</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Menu/Demo.aspx">Menu</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Slide Menu/Demo.aspx">Slide Menu</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/TabStrip and MultiPage/Demo.aspx">
+                                                                                TabStrip &amp; MultiPage</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/TreeView/Demo.aspx">TreeView</a></li>
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td valign="top">
+                                                                        <ul style="margin: 0px; padding: 0px; display: inline;">
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Calendar/Demo.aspx">Calendar</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Callback/Demo.aspx">Callback</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Progress Bar/Demo.aspx">Progress
+                                                                                Bar</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/AJAX Uploader/Demo.aspx">AJAX Uploader</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Dialog/Demo.aspx">Dialog</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/MsgBox/Demo.aspx">MsgBox</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Tool Bar/Demo.aspx">Tool Bar</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Color Picker/Demo.aspx">Color Picker</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Editor/Demo.aspx">Editor</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Spell Checker/Demo.aspx">Spell Checker</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/File Explorer/Demo.aspx">File Explorer</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/ImageZoom/Demo.aspx">ImageZoom</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Floater/Demo.aspx">Floater</a></li>
+                                                                            <li><a href="http://demo.essentialobjects.com/Demos/Downloader/Demo.aspx">Downloader</a></li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>--%>
+                        <%-- </li>
+                                                     <li><a class="bottom_item has_sub_menu" title="Live Demos for EO.Pdf" href="javascript:void(0);">
+                                                    EO.Pdf for .NET</a>
+                                                    <ul class="sub_menu" style="visibility: hidden; position: absolute; display: block;">
+                                                        <li><a href="/Products/EOPdf/UrlToPdf.aspx">HTML to PDF (Url)</a></li>
+                                                        <li><a href="/Products/EOPdf/FileToPdf.aspx">HTML to PDF (HTML File)</a></li>
+                                                        <li><a href="/Products/EOPdf/HtmlToPdf.aspx">HTML to PDF (HTML Markup)</a></li>
+                                                        <li><a href="/Products/EOPdf/ASPXToPdf.aspx">ASPX To PDF</a></li>
+                                                        <li><a href="/Products/EOPdf/Default.aspx">More Features...</a></li>
+                                                    </ul>
+                                                </li>--%>
+                        <%--</ul>
+                                            </li>
+                                            <li>
+                                                <div class="sp">
+                                                </div>
+                                            </li>
+                                            <li><a href="../WebPages/EgHome.aspx">System Admin</a>
+                                                <ul class="sub_menu" style="position: absolute; display: block; left: 349px; top: 92px;
+                                                    visibility: hidden;">
+                                                    <li><a class="top_item has_sub_menu" title="Live Demos for EO.Web" href="../EgHome.aspx">
+                                                        Master</a>
+                                                        <div class="sub_menu" style="visibility: hidden; position: absolute; display: block;">
+                                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="border-right: #e0e0e0 1px solid;" valign="top">
+                                                                            <ul style="margin: 0px; padding: 0px;">
+                                                                                <li><a href="../Admin/EgMasterSchema.aspx">Create Schema</a></li>
+                                                                            </ul>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </li>--%>
+                        <%-- <li><a href="Download.aspx?p=EO.Web">EO.Web for ASP.NET</a></li>
+                                                <li><a href="Download.aspx?p=EO.Pdf">EO.Pdf for .NET</a></li>--%>
+                        <%--   </ul>
+                                            </li>
+                                            <li>
+                                                <div class="sp">
+                                                </div>
+                                            </li>
+                                            <li><a href="../EgHome.aspx">Account</a>
+                                                <ul class="sub_menu" style="position: absolute; display: block; left: 439px; top: 92px;
+                                                    visibility: hidden;">
+                                                    <li><a href="../Account/EgUserRegistration.aspx">Create User</a></li>
+                                                    <li><a href="../Account/EgChangePassword.aspx">Change Password</a></li>--%>
+                        <%-- <li>
+                                                        <div class="hsp">
+                                                        </div>
+                                                    </li>
+                                                    <li><a href="javascript:void(0);" class="has_sub_menu">License Agreement</a>
+                                                        <ul class="sub_menu" style="visibility: hidden; position: absolute; display: block;">
+                                                            <li><a href="EULA.aspx">EO.Web for ASP.NET</a></li>
+                                                            <li><a href="Products/EOPdf/EULA.aspx">EO.Pdf for .NET</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="PurchaseFAQ.aspx">Purchase FAQs</a></li>
+                                                </ul>
+                                            </li>
+                                            <%--  <li>
+                                                <div class="sp">
+                                                </div>
+                                            </li>
+                                            <li><a href="javascript:void(0);">Company</a>
+                                                <ul class="sub_menu" style="position: absolute; display: block; left: 526px; top: 92px;
+                                                    visibility: hidden;">
+                                                    <li><a href="AboutUs.aspx">About Us</a></li>
+                                                    <li><a href="Testimonials.aspx">Testimonials</a></li>
+                                                    <li><a href="Customers.aspx">Our Customers</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="sp">
+                                                </div>
+                                            </li>
+                                            <li><a href="javascript:void(0);">Support</a>
+                                                <ul class="sub_menu" style="visibility: hidden; position: absolute; display: block;">
+                                                    <li><a href="/Forum/Default.aspx">Support Forum</a></li>
+                                                    <li><a href="/ViewDoc.aspx">Online Documentation</a></li>
+                                                    <li><a href="/ContactUs.aspx">Contact Us</a></li>
+                                                </ul>
+                                            </li>
+                                            <li style="float: none">
+                                                <div style="height: 27px; width: 50px;">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>--%>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <table align="center" cellspacing="0" cellpadding="0" width="1024" style="vertical-align: top;">
+                <tr>
+                    <td valign="TOP">
+                        <asp:Table ID="Table2" runat="server" CellPadding="0" CellSpacing="0" Style="width: 100%;"
+                            Height="100%">
+                            <asp:TableRow ID="TableRow1" runat="server">
+                                <asp:TableCell ID="TableCell1" VerticalAlign="Top" runat="server">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </asp:TableCell>
+                            </asp:TableRow>
+                        </asp:Table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

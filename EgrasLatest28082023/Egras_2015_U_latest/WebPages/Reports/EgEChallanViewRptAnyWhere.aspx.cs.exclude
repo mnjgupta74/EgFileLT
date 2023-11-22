@@ -1,0 +1,215 @@
+﻿using System;
+using System.Data;
+using EgBL;
+using System.Collections.Generic;
+using Microsoft.Reporting.WebForms;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading;
+
+public partial class WebPages_Reports_EgEChallanViewRptAnyWhere : System.Web.UI.Page
+{
+    EgEChallanBL objEgEChallan;
+
+    // StringBuilder sb = new StringBuilder();
+    //DataTable dt;
+    DataTable dt1;
+    string GRN;
+    /// <summary>
+    /// load the masterpage dynamicly
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    void Page_PreInit(Object sender, EventArgs e)
+    {
+        if (Session["UserId"].ToString() == "0")
+        {
+            this.MasterPageFile = "~/masterpage/MasterPage4.master";
+        }
+        else
+        {
+            this.MasterPageFile = "~/masterpage/MasterPage5.master";
+        }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        objEgEChallan = new EgEChallanBL();
+        if ((Session["UserId"] == null) || Session["UserId"].ToString() == "")
+        {
+            EgEncryptDecrypt ObjEncryptDecrypt = new EgEncryptDecrypt();
+            Response.Redirect("~\\logout.aspx");
+        }
+        if (Request.QueryString.Count == 0)
+        {
+            EgEncryptDecrypt ObjEncryptDecrypt = new EgEncryptDecrypt();
+            Response.Redirect("~\\logout.aspx");
+        }
+        else
+        {
+            string strReq = Request.Url.ToString();
+            strReq = strReq.Substring(strReq.IndexOf('?') + 1);
+            EgEncryptDecrypt ObjEncrcryptDecrypt = new EgEncryptDecrypt();
+            List<string> strList = ObjEncrcryptDecrypt.Decrypt(strReq);
+            if (strList.Count > 0)
+            {
+                GRN = strList[1].ToString().Trim();
+                objEgEChallan.GRNNumber = Convert.ToInt32(GRN);
+                int valueGRN = objEgEChallan.CheckExistGrnExtraDetails();
+                if (valueGRN == 1)
+                {
+                    lnkExtraDetails.Visible = true;
+                    Session["GrnNumber"] = GRN;
+                }
+            }
+            else
+            {
+                Server.Transfer("~\\logout.aspx");
+
+            }
+        }
+        if (!IsPostBack)
+        {
+            //Thread FirstThread = null;
+           // Thread SecondThread = null;
+            try
+            {
+
+                new Thread(new ThreadStart(delegate
+                {
+                    CallManualBankService(Convert.ToInt64(GRN));
+                })).Start();
+                LoadSSRS();
+            }
+            catch (Exception ex)
+            {
+               
+            }
+
+            finally
+            {
+               // FirstThread.Abort();
+               // SecondThread.Abort();
+            }
+
+
+        }
+    }
+
+    public void LoadSSRS()
+    {
+        dt1 = new DataTable();
+        objEgEChallan.GRNNumber = Convert.ToInt32(GRN.ToString());
+        dt1 = objEgEChallan.EChallanViewSubRptPDF();
+
+        string UName = System.Configuration.ConfigurationManager.AppSettings["UName"];
+        string PWD = System.Configuration.ConfigurationManager.AppSettings["PWD"];
+        string DOM = System.Configuration.ConfigurationManager.AppSettings["DOM"];
+        string ReportServerUrl = System.Configuration.ConfigurationManager.AppSettings["ReportServerUrl"];
+        string ReportPath = System.Configuration.ConfigurationManager.AppSettings["ReportPath"];
+        string ReportName = "EgEChallanViewRptAnyWhere";
+
+        SSRSreport.ShowCredentialPrompts = false;
+        SSRSreport.ServerReport.ReportServerCredentials = new ReportCredentials(UName, PWD, DOM);
+        SSRSreport.ProcessingMode = ProcessingMode.Remote;
+        SSRSreport.ServerReport.ReportServerUrl = new System.Uri(ReportServerUrl);
+        SSRSreport.ServerReport.ReportPath = ReportPath + ReportName;
+
+        ReportParameter[] Param = new ReportParameter[4];
+        Param[0] = new ReportParameter("GRN", GRN);
+
+        Param[1] = new ReportParameter("DeptName", dt1.Rows[0]["DeptNameEnglish"].ToString());
+        Param[2] = new ReportParameter("MajorHead", dt1.Rows[0]["SchemaName"].ToString().Substring(0, 17));
+
+        if (Session["UserId"].ToString() == "73" || Session["UserType"].ToString() == "4")
+        {
+            Param[3] = new ReportParameter("Mode", "2");
+        }
+        else
+        {
+            Param[3] = new ReportParameter("Mode", "1");
+        }
+        SSRSreport.ShowParameterPrompts = false;
+        SSRSreport.ServerReport.SetParameters(Param);
+        SSRSreport.ServerReport.Refresh();
+        //CallManualBankService(Convert.ToInt32(GRN.ToString()));
+    }
+    public void loadPDF()
+    {
+        //output as PDF
+        byte[] returnValue = null;
+        string format = "PDF";
+        string deviceinfo = "";
+        string mimeType = "";
+        string encoding = "";
+        string extension = "pdf";
+        string[] streams = null;
+        Microsoft.Reporting.WebForms.Warning[] warnings = null;
+
+        returnValue = SSRSreport.ServerReport.Render(format, deviceinfo, out mimeType, out encoding, out extension, out streams, out warnings);
+        Response.Buffer = true;
+        Response.Clear();
+
+        Response.ContentType = mimeType;
+
+        Response.AddHeader("content-disposition", "attachment; filename=EgEChallanViewRpt.pdf");
+
+        Response.BinaryWrite(returnValue);
+        Response.Flush();
+        Response.End();
+    }
+
+    protected void btnPDF_Click(object sender, EventArgs e)
+    {
+        loadPDF();
+    }
+
+    private void CallManualBankService(Int64 GRN)
+    {
+        try
+        {
+            //string Result = "";
+            EgManualBankServiceBL objEgManualBankServiceBL = new EgManualBankServiceBL();
+            objEgManualBankServiceBL.GRNNumber = GRN;
+            objEgManualBankServiceBL.BankCode = objEgManualBankServiceBL.GetGRNBsrCode();
+            string ChallanDetails = objEgManualBankServiceBL.GetGrnManualDetails();
+            if (objEgManualBankServiceBL.GetGRNBsrCode().Substring(0, 3).ToString() == "030")
+            {
+                SbiEncryptionDecryption objEncry = new SbiEncryptionDecryption();
+                PNBManualWebServ.ReceiveData objpnbPush = new PNBManualWebServ.ReceiveData();
+                string CipherText = objEncry.Encrypt(ChallanDetails, Server.MapPath("../Key/PNB.key"));
+                objpnbPush.UploadData(CipherText);// PUSH Service PNB Manual Challan anywhere
+            }
+            if (objEgManualBankServiceBL.GetGRNBsrCode().Substring(0, 3).ToString() == "000")
+            {
+                SbiEncryptionDecryption objEncry = new SbiEncryptionDecryption();
+                SBIManualServ.RAJASTHANWS objsbiPush = new SBIManualServ.RAJASTHANWS();
+                EncryptDecryptionBL objEncryption = new EncryptDecryptionBL();
+                string checkSum = objEncryption.GetMD5Hash(ChallanDetails);
+                string CipherText = objEncry.Encrypt(ChallanDetails, Server.MapPath("../Key/RAJASTHAN_EGRASS.key"));
+                objsbiPush.challanposting(CipherText);// PUSH Service SBI Manual Challan anywhere
+            }
+        }
+        catch (Exception ex)
+        {
+            EgManualBankServiceBL objEgManualBankServiceBL = new EgManualBankServiceBL(); //sandeep 
+            objEgManualBankServiceBL.Errorname = ex.Message;
+           // String Url = Request.UrlReferrer.AbsoluteUri.ToString();
+            objEgManualBankServiceBL.PageName = "EgEchallanViewRptAnyWhere" + GRN.ToString();
+            objEgManualBankServiceBL.insertErrorLog();
+        }
+
+    }
+}
+
+public class TrustAllCertificatePolicy : System.Net.ICertificatePolicy
+{
+    public TrustAllCertificatePolicy() { }
+    public bool CheckValidationResult(ServicePoint sp,
+        X509Certificate cert,
+        WebRequest req,
+        int problem)
+    {
+        return true;
+    }
+}

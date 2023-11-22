@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Egras" Class="EgrasDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=Egras;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Egras" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MstDeptSchema" Member="MstDeptSchemas">
+    <Type Name="MstDeptSchema">
+      <Column Name="DeptCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BudgetHead" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="SchemaName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SchemaCode" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="ScheCode" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="TransDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mstDepartments" Member="mstDepartments">
+    <Type Name="mstDepartment">
+      <Column Name="DeptCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeptNameHindi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DeptNameEnglish" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.EgDeptSchema" Method="EgDeptSchema">
+    <Parameter Name="DeptCode" Parameter="deptCode" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BudgetHead" Parameter="budgetHead" Type="System.String" DbType="Char(13)" />
+    <Parameter Name="SchemaName" Parameter="schemaName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="SchemaCode" Parameter="schemaCode" Type="System.String" DbType="Char(2)" />
+    <Parameter Name="ScheCode" Parameter="scheCode" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="type" Type="System.Int32" DbType="Int" />
+    <ElementType Name="EgDeptSchemaResult">
+      <Column Name="BudgetHead" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="SchemaName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DeptName" Type="System.String" DbType="NVarChar(131)" CanBeNull="true" />
+      <Column Name="ScheCode" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.EgGetDeptSchema" Method="EgGetDeptSchema">
+    <Parameter Name="BudgetHead" Parameter="budgetHead" Type="System.String" DbType="Char(13)" />
+    <ElementType Name="EgGetDeptSchemaResult">
+      <Column Name="BudgetHead" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="SchemaName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DeptName" Type="System.String" DbType="NVarChar(131)" CanBeNull="true" />
+      <Column Name="ScheCode" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.TrgLinqDept" Method="TrgLinqDept">
+    <Parameter Name="DeptCode" Parameter="deptCode" Type="System.Int32" DbType="Int" />
+    <ElementType Name="TrgLinqDeptResult">
+      <Column Name="BudgetHead" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.EgGetDepartmentList" Method="EgGetDepartmentList">
+    <ElementType Name="EgGetDepartmentListResult">
+      <Column Name="deptnameEnglish" Type="System.String" DbType="VarChar(131)" CanBeNull="true" />
+      <Column Name="DeptCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

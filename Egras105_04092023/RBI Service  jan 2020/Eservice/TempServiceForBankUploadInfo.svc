@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TempServiceForBankUploadInfo" CodeBehind="~/App_Code/TempServiceForBankUploadInfo.cs" %>
